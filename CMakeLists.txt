@@ -15,15 +15,20 @@ option(OPENCLAW_BUILD_TESTS "Build test suite" ON)
 option(OPENCLAW_ENABLE_SANITIZERS "Enable address/UB sanitizers" OFF)
 
 # Compiler warnings
-add_compile_options(
-    -Wall -Wextra -Wpedantic
-    -Wno-unused-parameter
-    $<$<CONFIG:Debug>:-g>
-    $<$<CONFIG:Debug>:-O0>
-    $<$<CONFIG:Release>:-O2>
-)
+if(MSVC)
+    add_compile_options(/W4 /wd4100 /EHsc)
+    add_compile_options($<$<CONFIG:Debug>:/Od> $<$<CONFIG:Release>:/O2>)
+else()
+    add_compile_options(
+        -Wall -Wextra -Wpedantic
+        -Wno-unused-parameter
+        $<$<CONFIG:Debug>:-g>
+        $<$<CONFIG:Debug>:-O0>
+        $<$<CONFIG:Release>:-O2>
+    )
+endif()
 
-if(OPENCLAW_ENABLE_SANITIZERS)
+if(OPENCLAW_ENABLE_SANITIZERS AND NOT MSVC)
     add_compile_options(-fsanitize=address,undefined)
     add_link_options(-fsanitize=address,undefined)
 endif()
