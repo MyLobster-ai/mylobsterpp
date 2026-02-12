@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.25)
-project(openclaw
+project(mylobsterpp
     VERSION 0.1.0
-    DESCRIPTION "OpenClaw C++23 AI Assistant Platform"
+    DESCRIPTION "MyLobster++ C++23 AI Assistant Platform"
     LANGUAGES CXX
 )
 
@@ -70,8 +70,8 @@ target_link_libraries(openclaw_lib PUBLIC
 )
 
 # Main executable
-add_executable(openclaw src/main.cpp)
-target_link_libraries(openclaw PRIVATE openclaw_lib)
+add_executable(mylobsterpp src/main.cpp)
+target_link_libraries(mylobsterpp PRIVATE openclaw_lib)
 
 # Tests
 if(OPENCLAW_BUILD_TESTS)
@@ -80,5 +80,5 @@ if(OPENCLAW_BUILD_TESTS)
 endif()
 
 # Install
-install(TARGETS openclaw RUNTIME DESTINATION bin)
+install(TARGETS mylobsterpp RUNTIME DESTINATION bin)
 install(DIRECTORY include/openclaw DESTINATION include)
