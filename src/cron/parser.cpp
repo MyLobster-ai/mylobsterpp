@@ -198,13 +198,21 @@ auto split_whitespace(std::string_view s) -> std::vector<std::string_view> {
 auto to_tm(Timestamp ts) -> std::tm {
     auto time_t_val = Clock::to_time_t(ts);
     std::tm tm_val{};
+#ifdef _WIN32
+    gmtime_s(&tm_val, &time_t_val);
+#else
     gmtime_r(&time_t_val, &tm_val);
+#endif
     return tm_val;
 }
 
 /// Convert a std::tm in UTC to a Timestamp.
 auto from_tm(std::tm& tm_val) -> Timestamp {
+#ifdef _WIN32
+    auto time_t_val = _mkgmtime(&tm_val);
+#else
     auto time_t_val = timegm(&tm_val);
+#endif
     return Clock::from_time_t(time_t_val);
 }
 
@@ -273,7 +281,11 @@ auto next_occurrence(const CronExpression& expr, Timestamp from) -> Timestamp {
     // Truncate to the start of the current minute and advance by one minute.
     auto time_t_val = Clock::to_time_t(from);
     std::tm tm{};
+#ifdef _WIN32
+    gmtime_s(&tm, &time_t_val);
+#else
     gmtime_r(&time_t_val, &tm);
+#endif
     tm.tm_sec = 0;
 
     // Start from the next minute.

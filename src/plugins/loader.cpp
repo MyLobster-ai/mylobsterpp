@@ -6,8 +6,10 @@
 
 #if defined(__unix__) || defined(__APPLE__)
 #include <dlfcn.h>
+#elif defined(_WIN32)
+#include <windows.h>
 #else
-#error "PluginLoader currently only supports Unix-like systems (dlopen/dlsym)."
+#error "PluginLoader: unsupported platform."
 #endif
 
 namespace openclaw::plugins {
@@ -21,6 +23,8 @@ auto is_shared_library(const fs::path& path) -> bool {
 #if defined(__APPLE__)
     auto ext = path.extension().string();
     return ext == ".dylib" || ext == ".so";
+#elif defined(_WIN32)
+    return path.extension() == ".dll";
 #else
     return path.extension() == ".so";
 #endif
@@ -49,6 +53,27 @@ auto PluginLoader::load(const fs::path& path) -> Result<Plugin*> {
 
     LOG_INFO("Loading plugin from: {}", path.string());
 
+#ifdef _WIN32
+    // Load the DLL.
+    HMODULE handle = ::LoadLibraryA(path.string().c_str());
+    if (!handle) {
+        return std::unexpected(make_error(
+            ErrorCode::PluginError,
+            "LoadLibrary failed",
+            "GetLastError=" + std::to_string(::GetLastError())));
+    }
+
+    // Look up the factory function.
+    void* sym = reinterpret_cast<void*>(::GetProcAddress(handle, kPluginFactorySymbol));
+    if (!sym) {
+        ::FreeLibrary(handle);
+        return std::unexpected(make_error(
+            ErrorCode::PluginError,
+            "Factory symbol not found",
+            std::string("Expected symbol '") + kPluginFactorySymbol + "' in " +
+                path.filename().string()));
+    }
+#else
     // Open the shared library.
     // RTLD_NOW: resolve all symbols immediately (fail fast on missing deps).
     // RTLD_LOCAL: do not export symbols to other loaded libraries.
@@ -76,12 +101,17 @@ auto PluginLoader::load(const fs::path& path) -> Result<Plugin*> {
                 path.filename().string() +
                 (sym_err ? std::string(": ") + sym_err : "")));
     }
+#endif
 
     // Cast to the factory function pointer and invoke it.
     auto factory = reinterpret_cast<PluginFactory>(sym);
     std::unique_ptr<Plugin> plugin = factory();
     if (!plugin) {
+#ifdef _WIN32
+        ::FreeLibrary(static_cast<HMODULE>(handle));
+#else
         dlclose(handle);
+#endif
         return std::unexpected(make_error(
             ErrorCode::PluginError,
             "Plugin factory returned nullptr",
@@ -98,7 +128,11 @@ auto PluginLoader::load(const fs::path& path) -> Result<Plugin*> {
         auto& existing = loaded_[name];
         existing.plugin.reset();  // destroy plugin before closing handle
         if (existing.handle) {
+#ifdef _WIN32
+            ::FreeLibrary(static_cast<HMODULE>(existing.handle));
+#else
             dlclose(existing.handle);
+#endif
         }
         loaded_.erase(name);
     }
@@ -164,16 +198,20 @@ auto PluginLoader::unload(std::string_view name) -> Result<void> {
 
     auto& entry = it->second;
 
-    // Destroy the plugin instance first (calls ~Plugin before dlclose).
+    // Destroy the plugin instance first (calls ~Plugin before closing handle).
     entry.plugin.reset();
 
     // Close the shared library handle.
     if (entry.handle) {
+#ifdef _WIN32
+        ::FreeLibrary(static_cast<HMODULE>(entry.handle));
+#else
         if (dlclose(entry.handle) != 0) {
             const char* err = dlerror();
             LOG_WARN("dlclose warning for '{}': {}", name,
                      err ? err : "unknown");
         }
+#endif
     }
 
     loaded_.erase(it);

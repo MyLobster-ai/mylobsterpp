@@ -139,7 +139,11 @@ void load(const std::filesystem::path& path, bool overwrite) {
             continue;
         }
 
+#ifdef _WIN32
+        if (::_putenv_s(key.c_str(), value.c_str()) != 0) {
+#else
         if (::setenv(key.c_str(), value.c_str(), overwrite ? 1 : 0) != 0) {
+#endif
             LOG_WARN("Failed to set env var: {}", key);
         }
     }

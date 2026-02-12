@@ -12,8 +12,8 @@ jobs:
         include:
           - os: ubuntu-24.04
             compiler: gcc
-            cc: gcc-14
-            cxx: g++-14
+            cc: gcc-13
+            cxx: g++-13
             cmake_extra: ""
           - os: ubuntu-24.04
             compiler: clang
@@ -36,7 +36,7 @@ jobs:
         if: runner.os == 'Linux' && matrix.compiler == 'gcc'
         run: |
           sudo apt-get update
-          sudo apt-get install -y libssl-dev libcurl4-openssl-dev libstdc++-14-dev
+          sudo apt-get install -y libssl-dev libcurl4-openssl-dev gcc-13 g++-13
 
       - name: Install dependencies (Ubuntu Clang)
         if: runner.os == 'Linux' && matrix.compiler == 'clang'

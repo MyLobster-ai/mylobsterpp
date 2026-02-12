@@ -1,0 +1,31 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+find_dependency(OpenSSL REQUIRED)
+find_dependency(CURL REQUIRED)
+find_dependency(Threads REQUIRED)
+
+if(NOT TARGET mylobster::mylobster)
+    find_library(MYLOBSTER_LIBRARY
+        NAMES mylobster_lib
+        PATHS "${PACKAGE_PREFIX_DIR}/@CMAKE_INSTALL_LIBDIR@"
+        NO_DEFAULT_PATH
+    )
+
+    if(NOT MYLOBSTER_LIBRARY)
+        set(${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE
+            "mylobster library not found in ${PACKAGE_PREFIX_DIR}/@CMAKE_INSTALL_LIBDIR@")
+        set(${CMAKE_FIND_PACKAGE_NAME}_FOUND FALSE)
+        return()
+    endif()
+
+    add_library(mylobster::mylobster UNKNOWN IMPORTED)
+    set_target_properties(mylobster::mylobster PROPERTIES
+        IMPORTED_LOCATION "${MYLOBSTER_LIBRARY}"
+        INTERFACE_INCLUDE_DIRECTORIES "${PACKAGE_PREFIX_DIR}/@CMAKE_INSTALL_INCLUDEDIR@"
+        INTERFACE_LINK_LIBRARIES "OpenSSL::SSL;OpenSSL::Crypto;CURL::libcurl"
+    )
+endif()
+
+check_required_components(mylobster)

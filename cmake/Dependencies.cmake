@@ -89,7 +89,7 @@ set(UUID_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(stduuid)
 
 # Catch2 (test framework, only if building tests)
-if(OPENCLAW_BUILD_TESTS)
+if(MYLOBSTER_BUILD_TESTS)
     FetchContent_Declare(
         Catch2
         GIT_REPOSITORY https://github.com/catchorg/Catch2.git

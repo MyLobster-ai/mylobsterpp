@@ -35,7 +35,11 @@ auto get_amz_date() -> std::pair<std::string, std::string> {
     auto now = std::chrono::system_clock::now();
     auto time_t = std::chrono::system_clock::to_time_t(now);
     std::tm tm_buf{};
+#ifdef _WIN32
+    gmtime_s(&tm_buf, &time_t);
+#else
     gmtime_r(&time_t, &tm_buf);
+#endif
 
     char amz_date[17];  // YYYYMMDDTHHMMSSZ
     std::strftime(amz_date, sizeof(amz_date), "%Y%m%dT%H%M%SZ", &tm_buf);
