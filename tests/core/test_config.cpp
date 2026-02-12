@@ -90,10 +90,18 @@ TEST_CASE("load_config returns defaults for missing file", "[config]") {
 TEST_CASE("load_config_from_env reads environment variables", "[config]") {
     // Save and set env vars
     auto save_and_set = [](const char* name, const char* value) {
+#ifdef _WIN32
+        ::_putenv_s(name, value);
+#else
         ::setenv(name, value, 1);
+#endif
     };
     auto unset = [](const char* name) {
+#ifdef _WIN32
+        ::_putenv_s(name, "");
+#else
         ::unsetenv(name);
+#endif
     };
 
     save_and_set("OPENCLAW_PORT", "12345");
