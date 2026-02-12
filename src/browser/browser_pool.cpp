@@ -7,17 +7,18 @@
 #include <nlohmann/json.hpp>
 
 #include <algorithm>
-#include <csignal>
+#include <chrono>
 #include <cstdlib>
 #include <filesystem>
 #include <mutex>
+#include <thread>
 #include <vector>
 
-#ifdef __APPLE__
-#include <sys/wait.h>
-#include <unistd.h>
-#endif
-#ifdef __linux__
+#ifdef _WIN32
+#include <windows.h>
+#include <process.h>
+#else
+#include <csignal>
 #include <sys/wait.h>
 #include <unistd.h>
 #endif
@@ -27,6 +28,31 @@ namespace openclaw::browser {
 namespace fs = std::filesystem;
 namespace net = boost::asio;
 using json = nlohmann::json;
+
+// ---------------------------------------------------------------------------
+// Platform helpers
+// ---------------------------------------------------------------------------
+
+static void platform_sleep_ms(int ms) {
+    std::this_thread::sleep_for(std::chrono::milliseconds(ms));
+}
+
+static void kill_browser_process(BrowserInstance& inst) {
+#ifdef _WIN32
+    if (inst.process_handle) {
+        ::TerminateProcess(inst.process_handle, 1);
+        ::WaitForSingleObject(inst.process_handle, 3000);
+        ::CloseHandle(inst.process_handle);
+        inst.process_handle = nullptr;
+    }
+#else
+    if (inst.pid > 0) {
+        ::kill(inst.pid, SIGTERM);
+        int status = 0;
+        ::waitpid(inst.pid, &status, WNOHANG);
+    }
+#endif
+}
 
 // ---------------------------------------------------------------------------
 // BrowserPool::Impl
@@ -59,11 +85,7 @@ BrowserPool::~BrowserPool() {
     // Kill all browser processes on destruction
     std::lock_guard lock(impl_->pool_mutex);
     for (auto& inst : impl_->instances) {
-        if (inst->pid > 0) {
-            ::kill(inst->pid, SIGTERM);
-            int status = 0;
-            ::waitpid(inst->pid, &status, WNOHANG);
-        }
+        kill_browser_process(*inst);
     }
     impl_->instances.clear();
 }
@@ -104,9 +126,7 @@ auto BrowserPool::acquire() -> awaitable<Result<BrowserInstance*>> {
     auto connect_result = co_await ptr->cdp->connect(ptr->ws_endpoint);
     if (!connect_result) {
         // Kill the process since we can't connect
-        if (ptr->pid > 0) {
-            ::kill(ptr->pid, SIGTERM);
-        }
+        kill_browser_process(*ptr);
         co_return std::unexpected(connect_result.error());
     }
 
@@ -167,11 +187,7 @@ auto BrowserPool::close(std::string_view instance_id) -> awaitable<Result<void>>
     }
 
     // Kill the process
-    if (inst->pid > 0) {
-        ::kill(inst->pid, SIGTERM);
-        int status = 0;
-        ::waitpid(inst->pid, &status, WNOHANG);
-    }
+    kill_browser_process(*inst);
 
     impl_->instances.erase(it);
     LOG_INFO("Closed browser instance: {}", std::string(instance_id));
@@ -185,11 +201,7 @@ auto BrowserPool::close_all() -> awaitable<void> {
         if (inst->cdp && inst->cdp->is_connected()) {
             co_await inst->cdp->disconnect();
         }
-        if (inst->pid > 0) {
-            ::kill(inst->pid, SIGTERM);
-            int status = 0;
-            ::waitpid(inst->pid, &status, WNOHANG);
-        }
+        kill_browser_process(*inst);
     }
 
     auto count = impl_->instances.size();
@@ -228,7 +240,60 @@ auto BrowserPool::launch_browser() -> Result<std::unique_ptr<BrowserInstance>> {
     auto user_data_dir = fs::temp_directory_path() / ("openclaw-chrome-" + instance_id);
     fs::create_directories(user_data_dir);
 
-    // Fork and exec Chrome with remote debugging
+#ifdef _WIN32
+    // Windows: use CreateProcessA
+    auto port_str = std::to_string(debug_port);
+    auto cmd_line = "\"" + chrome_path + "\""
+                    " --headless=new"
+                    " --no-first-run"
+                    " --no-default-browser-check"
+                    " --disable-gpu"
+                    " --disable-extensions"
+                    " --disable-background-networking"
+                    " --disable-sync"
+                    " --disable-translate"
+                    " --mute-audio"
+                    " --no-sandbox"
+                    " --remote-debugging-port=" + port_str +
+                    " --user-data-dir=" + user_data_dir.string() +
+                    " about:blank";
+
+    STARTUPINFOA si = {};
+    si.cb = sizeof(si);
+    PROCESS_INFORMATION pi = {};
+
+    if (!::CreateProcessA(nullptr, cmd_line.data(), nullptr, nullptr, FALSE,
+                          CREATE_NO_WINDOW, nullptr, nullptr, &si, &pi)) {
+        return std::unexpected(
+            make_error(ErrorCode::BrowserError,
+                       "Failed to launch Chrome process",
+                       "GetLastError=" + std::to_string(::GetLastError())));
+    }
+
+    ::CloseHandle(pi.hThread);
+
+    // Wait for Chrome to start
+    platform_sleep_ms(500);
+
+    auto ws_endpoint = get_ws_endpoint(debug_port);
+    if (!ws_endpoint) {
+        ::TerminateProcess(pi.hProcess, 1);
+        ::CloseHandle(pi.hProcess);
+        return std::unexpected(ws_endpoint.error());
+    }
+
+    auto instance = std::make_unique<BrowserInstance>();
+    instance->id = instance_id;
+    instance->cdp = std::make_unique<CdpClient>(impl_->ioc);
+    instance->ws_endpoint = std::move(*ws_endpoint);
+    instance->pid = pi.dwProcessId;
+    instance->process_handle = pi.hProcess;
+
+    LOG_DEBUG("Chrome launched (pid={}, port={}, id={})", pi.dwProcessId,
+              debug_port, instance_id);
+    return instance;
+#else
+    // POSIX: fork and exec Chrome with remote debugging
     pid_t pid = ::fork();
     if (pid < 0) {
         return std::unexpected(
@@ -263,9 +328,8 @@ auto BrowserPool::launch_browser() -> Result<std::unique_ptr<BrowserInstance>> {
         ::_exit(127);
     }
 
-    // Parent process: wait a bit for Chrome to start, then get the WS endpoint
-    // Give Chrome a moment to start up
-    ::usleep(500000);  // 500ms
+    // Parent process: wait a bit for Chrome to start
+    platform_sleep_ms(500);
 
     auto ws_endpoint = get_ws_endpoint(debug_port);
     if (!ws_endpoint) {
@@ -284,6 +348,7 @@ auto BrowserPool::launch_browser() -> Result<std::unique_ptr<BrowserInstance>> {
     LOG_DEBUG("Chrome launched (pid={}, port={}, id={})", pid, debug_port,
               instance_id);
     return instance;
+#endif
 }
 
 auto BrowserPool::find_chrome() const -> std::string {
@@ -296,13 +361,17 @@ auto BrowserPool::find_chrome() const -> std::string {
 
     // Well-known Chrome/Chromium paths
     static const std::vector<std::string> paths = {
-#ifdef __APPLE__
+#ifdef _WIN32
+        "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+        "C:\\Program Files\\Chromium\\Application\\chrome.exe",
+        "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+#elif defined(__APPLE__)
         "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
         "/Applications/Chromium.app/Contents/MacOS/Chromium",
         "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary",
         "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
-#endif
-#ifdef __linux__
+#elif defined(__linux__)
         "/usr/bin/google-chrome",
         "/usr/bin/google-chrome-stable",
         "/usr/bin/chromium",
@@ -319,9 +388,15 @@ auto BrowserPool::find_chrome() const -> std::string {
 
     // Try PATH
     if (const auto* path_env = std::getenv("PATH")) {
+#ifdef _WIN32
+        auto dirs = utils::split(path_env, ';');
+        const std::vector<const char*> names = {"chrome.exe", "chromium.exe"};
+#else
         auto dirs = utils::split(path_env, ':');
+        const std::vector<const char*> names = {"google-chrome", "chromium", "chromium-browser"};
+#endif
         for (const auto& dir : dirs) {
-            for (const auto& name : {"google-chrome", "chromium", "chromium-browser"}) {
+            for (const auto& name : names) {
                 auto full = fs::path(dir) / name;
                 if (fs::exists(full)) {
                     return full.string();
@@ -336,21 +411,9 @@ auto BrowserPool::find_chrome() const -> std::string {
 auto BrowserPool::get_ws_endpoint(int debug_port) -> Result<std::string> {
     // Chrome exposes /json/version at the debug port to get the WS URL
     try {
-        // We use a simple synchronous HTTP request here since we need
-        // the result before we can proceed. The Chrome /json/version
-        // endpoint returns the DevTools WebSocket URL.
-        //
-        // In production, this could be made async, but since it's only
-        // called during browser launch (which already has latency), the
-        // synchronous approach is acceptable.
-
         // Try multiple times since Chrome might still be starting
         for (int attempt = 0; attempt < 10; ++attempt) {
             try {
-                // Use httplib for a simple synchronous GET
-                // We read from http://127.0.0.1:{debug_port}/json/version
-                auto url = "http://127.0.0.1:" + std::to_string(debug_port);
-
                 // Simple TCP connect + HTTP request
                 net::io_context tmp_ioc;
                 net::ip::tcp::socket sock(tmp_ioc);
@@ -376,7 +439,7 @@ auto BrowserPool::get_ws_endpoint(int debug_port) -> Result<std::string> {
                 // Extract the JSON body (after the HTTP headers)
                 auto body_pos = response.find("\r\n\r\n");
                 if (body_pos == std::string::npos) {
-                    ::usleep(200000);
+                    platform_sleep_ms(200);
                     continue;
                 }
 
@@ -387,9 +450,9 @@ auto BrowserPool::get_ws_endpoint(int debug_port) -> Result<std::string> {
                     return j["webSocketDebuggerUrl"].get<std::string>();
                 }
 
-                ::usleep(200000);
+                platform_sleep_ms(200);
             } catch (...) {
-                ::usleep(200000);
+                platform_sleep_ms(200);
             }
         }
 

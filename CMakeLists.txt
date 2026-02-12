@@ -72,6 +72,7 @@ target_link_libraries(openclaw_lib PUBLIC
     OpenSSL::SSL
     OpenSSL::Crypto
     CURL::libcurl
+    $<$<PLATFORM_ID:Windows>:ws2_32>
 )
 
 # Main executable

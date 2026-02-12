@@ -3,13 +3,10 @@
 
 #include <cstdlib>
 
-#ifdef __APPLE__
-#include <sys/types.h>
-#include <pwd.h>
-#include <unistd.h>
-#endif
-
-#ifdef __linux__
+#ifdef _WIN32
+#include <windows.h>
+#include <shlobj.h>
+#elif defined(__APPLE__) || defined(__linux__)
 #include <sys/types.h>
 #include <pwd.h>
 #include <unistd.h>
@@ -20,6 +17,19 @@ namespace openclaw::infra {
 namespace fs = std::filesystem;
 
 auto home_dir() -> fs::path {
+#ifdef _WIN32
+    // Try USERPROFILE first (standard on Windows)
+    if (const auto* home = std::getenv("USERPROFILE"); home && *home) {
+        return fs::path(home);
+    }
+    // Fall back to HOMEDRIVE + HOMEPATH
+    const auto* drive = std::getenv("HOMEDRIVE");
+    const auto* hpath = std::getenv("HOMEPATH");
+    if (drive && hpath) {
+        return fs::path(std::string(drive) + hpath);
+    }
+    return fs::path("C:\\Users\\Default");
+#else
     // Try HOME environment variable first
     if (const auto* home = std::getenv("HOME"); home && *home) {
         return fs::path(home);
@@ -34,10 +44,16 @@ auto home_dir() -> fs::path {
 
     // Last resort
     return fs::path("/tmp");
+#endif
 }
 
 auto data_dir() -> fs::path {
-#ifdef __APPLE__
+#ifdef _WIN32
+    if (const auto* appdata = std::getenv("LOCALAPPDATA"); appdata && *appdata) {
+        return fs::path(appdata) / "openclaw" / "data";
+    }
+    return home_dir() / "AppData" / "Local" / "openclaw" / "data";
+#elif defined(__APPLE__)
     return home_dir() / "Library" / "Application Support" / "openclaw";
 #else
     // Linux / other Unix: XDG_DATA_HOME or ~/.local/share
@@ -49,7 +65,12 @@ auto data_dir() -> fs::path {
 }
 
 auto config_dir() -> fs::path {
-#ifdef __APPLE__
+#ifdef _WIN32
+    if (const auto* appdata = std::getenv("LOCALAPPDATA"); appdata && *appdata) {
+        return fs::path(appdata) / "openclaw" / "config";
+    }
+    return home_dir() / "AppData" / "Local" / "openclaw" / "config";
+#elif defined(__APPLE__)
     return home_dir() / "Library" / "Application Support" / "openclaw";
 #else
     // Linux / other Unix: XDG_CONFIG_HOME or ~/.config
@@ -61,7 +82,12 @@ auto config_dir() -> fs::path {
 }
 
 auto cache_dir() -> fs::path {
-#ifdef __APPLE__
+#ifdef _WIN32
+    if (const auto* appdata = std::getenv("LOCALAPPDATA"); appdata && *appdata) {
+        return fs::path(appdata) / "openclaw" / "cache";
+    }
+    return home_dir() / "AppData" / "Local" / "openclaw" / "cache";
+#elif defined(__APPLE__)
     return home_dir() / "Library" / "Caches" / "openclaw";
 #else
     // Linux / other Unix: XDG_CACHE_HOME or ~/.cache
@@ -73,7 +99,12 @@ auto cache_dir() -> fs::path {
 }
 
 auto logs_dir() -> fs::path {
-#ifdef __APPLE__
+#ifdef _WIN32
+    if (const auto* appdata = std::getenv("LOCALAPPDATA"); appdata && *appdata) {
+        return fs::path(appdata) / "openclaw" / "logs";
+    }
+    return home_dir() / "AppData" / "Local" / "openclaw" / "logs";
+#elif defined(__APPLE__)
     return home_dir() / "Library" / "Logs" / "openclaw";
 #else
     // Linux / other Unix: XDG_STATE_HOME or ~/.local/state
@@ -85,7 +116,10 @@ auto logs_dir() -> fs::path {
 }
 
 auto runtime_dir() -> fs::path {
-#ifdef __APPLE__
+#ifdef _WIN32
+    // Windows has no runtime dir concept; use temp + PID
+    return fs::temp_directory_path() / ("openclaw-" + std::to_string(::GetCurrentProcessId()));
+#elif defined(__APPLE__)
     return cache_dir() / "run";
 #else
     // Linux / other Unix: XDG_RUNTIME_DIR or /tmp/openclaw-<uid>

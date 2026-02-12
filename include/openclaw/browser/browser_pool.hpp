@@ -6,6 +6,10 @@
 #include <string>
 #include <vector>
 
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
 #include <boost/asio/awaitable.hpp>
 #include <boost/asio/io_context.hpp>
 #include <boost/asio/use_awaitable.hpp>
@@ -23,7 +27,12 @@ struct BrowserInstance {
     std::string id;
     std::unique_ptr<CdpClient> cdp;
     std::string ws_endpoint;
+#ifdef _WIN32
+    DWORD pid = 0;
+    HANDLE process_handle = nullptr;
+#else
     pid_t pid = 0;
+#endif
     bool in_use = false;
     int64_t last_used = 0;
 };
