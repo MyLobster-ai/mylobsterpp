@@ -1,0 +1,82 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeUserPresets.json
+
+# Compiled objects
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared libraries
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE and editor files
+.cache
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+
+# Conan
+conanbuildinfo.*
+conaninfo.txt
+conan.lock
+graph_info.json
+
+# vcpkg
+vcpkg_installed/
+
+# compile_commands.json (often generated, sometimes kept)
+compile_commands.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+Testing/
+CTestTestfile.cmake
+
+# Package artifacts
+*.tar.gz
+*.zip
+
+# Coverage
+*.gcno
+*.gcda
+*.gcov
