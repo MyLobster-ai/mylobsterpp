@@ -2,6 +2,7 @@
 #include "openclaw/core/logger.hpp"
 
 #include <fstream>
+#include <regex>
 
 namespace openclaw {
 
@@ -56,6 +57,32 @@ auto load_config_from_env() -> Config {
         openai.api_key = val;
         config.providers.push_back(std::move(openai));
     }
+    if (auto* val = std::getenv("HUGGINGFACE_API_KEY")) {
+        ProviderConfig hf;
+        hf.name = "huggingface";
+        hf.api_key = val;
+        config.providers.push_back(std::move(hf));
+    }
+    if (auto* val = std::getenv("OLLAMA_BASE_URL")) {
+        ProviderConfig ollama;
+        ollama.name = "ollama";
+        ollama.base_url = val;
+        config.providers.push_back(std::move(ollama));
+    } else {
+        // Auto-detect Ollama if OLLAMA_API_KEY is set (even though it doesn't need one)
+        if (std::getenv("OLLAMA_API_KEY")) {
+            ProviderConfig ollama;
+            ollama.name = "ollama";
+            ollama.api_key = std::getenv("OLLAMA_API_KEY");
+            config.providers.push_back(std::move(ollama));
+        }
+    }
+    if (auto* val = std::getenv("SYNTHETIC_API_KEY")) {
+        ProviderConfig synthetic;
+        synthetic.name = "synthetic";
+        synthetic.api_key = val;
+        config.providers.push_back(std::move(synthetic));
+    }
 
     return config;
 }
@@ -70,6 +97,46 @@ auto default_data_dir() -> std::filesystem::path {
     }
     auto home = std::filesystem::path(std::getenv("HOME") ? std::getenv("HOME") : "/tmp");
     return home / ".openclaw";
+}
+
+auto resolve_env_refs(std::string_view input) -> std::string {
+    std::string result;
+    result.reserve(input.size());
+
+    size_t i = 0;
+    while (i < input.size()) {
+        // Check for $$ escape
+        if (i + 1 < input.size() && input[i] == '$' && input[i + 1] == '$') {
+            // Escaped: $${VAR} -> literal ${VAR}
+            result += '$';
+            i += 2;
+            continue;
+        }
+
+        // Check for ${VAR} pattern
+        if (i + 2 < input.size() && input[i] == '$' && input[i + 1] == '{') {
+            auto close = input.find('}', i + 2);
+            if (close != std::string_view::npos) {
+                auto var_name = input.substr(i + 2, close - i - 2);
+                std::string var_name_str(var_name);
+
+                if (auto* val = std::getenv(var_name_str.c_str())) {
+                    result += val;
+                } else {
+                    // Preserve unresolved refs
+                    result += input.substr(i, close - i + 1);
+                    LOG_DEBUG("Config: unresolved env ref ${{{}}}", var_name);
+                }
+                i = close + 1;
+                continue;
+            }
+        }
+
+        result += input[i];
+        ++i;
+    }
+
+    return result;
 }
 
 } // namespace openclaw

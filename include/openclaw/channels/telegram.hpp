@@ -71,8 +71,26 @@ private:
                     std::optional<std::string_view> caption = std::nullopt)
         -> boost::asio::awaitable<openclaw::Result<json>>;
 
+    /// Sends a voice message via sendVoice (for inline audio playback).
+    auto send_voice(std::string_view chat_id,
+                    std::string_view url,
+                    std::optional<std::string_view> caption = std::nullopt)
+        -> boost::asio::awaitable<openclaw::Result<json>>;
+
     /// Calls the Telegram Bot API getMe to verify credentials.
     auto fetch_bot_info() -> boost::asio::awaitable<openclaw::Result<void>>;
+
+    /// Sets bot commands via setMyCommands, capped at 100 (Telegram limit).
+    auto set_bot_commands(const std::vector<std::pair<std::string, std::string>>& commands)
+        -> boost::asio::awaitable<openclaw::Result<void>>;
+
+    /// Checks if an audio file is voice-compatible for sendVoice routing.
+    static auto is_voice_compatible(std::string_view filename) -> bool;
+
+    /// Builds a command list capped at 100, filtering invalid commands.
+    static auto build_capped_menu_commands(
+        const std::vector<std::pair<std::string, std::string>>& commands)
+        -> std::vector<std::pair<std::string, std::string>>;
 
     TelegramConfig config_;
     boost::asio::io_context& ioc_;

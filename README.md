@@ -177,7 +177,7 @@ src/
 ├── core/        # Error types (std::expected), config, logging, utilities
 ├── gateway/     # HTTP + WebSocket server (Boost.Beast/Asio coroutines)
 ├── agent/       # Tool registry, thinking engine, runtime
-├── providers/   # LLM providers (Anthropic, OpenAI, Gemini, Bedrock)
+├── providers/   # LLM providers (Anthropic, OpenAI, Gemini, Bedrock, HuggingFace, Ollama, Synthetic)
 ├── channels/    # Messaging (Telegram, Discord, Slack, WhatsApp, Signal, LINE)
 ├── memory/      # Embeddings, vector store (SQLite-vec), semantic search
 ├── browser/     # CDP client, browser pool, page actions, snapshots
@@ -185,7 +185,7 @@ src/
 ├── plugins/     # Plugin SDK and dynamic loader
 ├── routing/     # Request routing rules
 ├── cron/        # Cron expression parser and scheduler
-├── infra/       # JWT, HTTP client, dotenv, device info, paths
+├── infra/       # JWT, HTTP client, dotenv, device info, paths, delivery queue, SSRF guard
 └── cli/         # CLI entry point and subcommands (CLI11)
 ```
 
@@ -218,9 +218,9 @@ MyLobster++ is a native port of the [OpenClaw](https://github.com/openclaw/openc
 | **Async model** | Node.js event loop (libuv) | Boost.Asio io_context + C++20 coroutines |
 | **HTTP/WS server** | Express + ws | Boost.Beast |
 | **CLI framework** | Custom subcli system (30+ subcommands) | CLI11 (4 subcommands) |
-| **LLM providers** | Anthropic, OpenAI, Google, GitHub Copilot, Qwen | Anthropic, OpenAI, Gemini, Bedrock |
+| **LLM providers** | Anthropic, OpenAI, Google, GitHub Copilot, Qwen | Anthropic, OpenAI, Gemini, Bedrock, Hugging Face, Ollama, Synthetic |
 | **Channels** | 12+ (Telegram, Discord, Slack, WhatsApp, Signal, LINE, iMessage, Teams, Matrix, WebChat, etc.) | 6 (Telegram, Discord, Slack, WhatsApp, Signal, LINE) |
-| **Memory/RAG** | SQLite-vec, multiple embedding providers | SQLite-vec, embeddings |
+| **Memory/RAG** | SQLite-vec, multiple embedding providers | SQLite-vec, embedding provider chain |
 | **Browser** | Playwright-based | CDP (Chrome DevTools Protocol) direct |
 | **Plugin system** | JS/TS plugins, hot-reload | Dynamic shared library loading |
 | **UI** | Web UI, TUI (Ink/React), macOS menu bar app | CLI only |
@@ -286,17 +286,32 @@ cd build && ctest --output-on-failure
 
 Test modules:
 
-- `core/` — config parsing, error types, utilities
-- `gateway/` — protocol handling, frame encoding, auth
-- `channels/` — message types, channel registry
-- `agent/` — tool registry
-- `providers/` — provider interface
-- `sessions/` — session lifecycle, store
-- `routing/` — router rules
-- `cron/` — cron expression parsing
-- `infra/` — dotenv, JWT, paths
-- `memory/` — embeddings, semantic search
+- `core/` — config parsing, `${VAR}` env ref resolution, error types, utilities
+- `gateway/` — protocol handling, frame encoding, auth, tool policy
+- `channels/` — Discord voice/presence/autothread, Telegram voice/menu, channel registry
+- `agent/` — tool registry, pre-prompt diagnostics
+- `providers/` — HuggingFace catalog, Ollama NDJSON, Synthetic catalog, provider interface
+- `sessions/` — session lifecycle, agentId support, store
+- `routing/` — binding-scope rules (peer, guild, team, global)
+- `cron/` — cron expression parsing, deleteAfterRun
+- `infra/` — delivery queue, SSRF guard, dotenv, JWT, paths
+- `memory/` — embedding provider chain, semantic search
+
+## Documentation
+
+Detailed architecture documentation is available in the [`docs/`](docs/) directory:
+
+- [**Providers**](docs/providers.md) — All 7 LLM providers: configuration, streaming formats, model catalogs
+- [**Channels**](docs/channels.md) — Channel features: Discord voice/presence, Telegram voice/menu, Slack gating
+- [**Delivery Queue**](docs/delivery-queue.md) — Write-ahead queue: persistence, retry, crash recovery, hooks
+- [**Security**](docs/security.md) — Tool policy, SSRF protection, header sanitization, restart cleanup
+- [**Routing**](docs/routing.md) — Binding scopes, scope rules, session keys with agentId
+- [**Configuration**](docs/configuration.md) — Config file format, `${VAR}` env refs, escaping, history limit
+- [**Cron**](docs/cron.md) — Cron expressions, scheduler, one-shot tasks with deleteAfterRun
+- [**Sessions**](docs/sessions.md) — Session management, agentId, SQLite store
+
+See [CHANGELOG.md](CHANGELOG.md) for the full list of changes in the latest release.
 
 ## License
 
-This project is licensed under the [GNU General Public License v3.0](LICENSE).
+This project is licensed under the [MIT License](LICENSE).

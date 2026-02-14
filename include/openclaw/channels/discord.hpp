@@ -24,6 +24,16 @@ struct DiscordConfig {
     int intents = 33281;  // GUILDS | GUILD_MESSAGES | DIRECT_MESSAGES | MESSAGE_CONTENT
     int heartbeat_interval_ms = 41250;
     std::optional<std::string> application_id;
+
+    // Presence configuration
+    std::optional<std::string> presence_status;   // "online", "dnd", "idle", "invisible"
+    std::optional<std::string> activity_name;      // Activity display name
+    std::optional<int> activity_type;             // 0=Game, 1=Streaming, 2=Listening, 3=Watching, 5=Competing
+    std::optional<std::string> activity_url;       // Streaming URL (only for type 1)
+
+    // AutoThread configuration
+    bool auto_thread = false;                      // Auto-create threads for replies
+    int auto_thread_ttl_minutes = 5;              // Thread starter cache TTL
 };
 
 /// Discord channel implementation.
@@ -81,6 +91,21 @@ private:
                            std::string_view url,
                            std::optional<std::string_view> caption = std::nullopt)
         -> boost::asio::awaitable<openclaw::Result<json>>;
+
+    /// Sends a voice message via 3-step CDN upload.
+    auto send_voice_message(std::string_view channel_id,
+                            std::string_view audio_data,
+                            std::string_view waveform_b64)
+        -> boost::asio::awaitable<openclaw::Result<json>>;
+
+    /// Creates a thread from a message.
+    auto create_thread(std::string_view channel_id,
+                       std::string_view message_id,
+                       std::string_view name)
+        -> boost::asio::awaitable<openclaw::Result<json>>;
+
+    /// Generates a waveform from PCM audio data (256 amplitude samples, base64).
+    static auto generate_waveform(const std::vector<uint8_t>& pcm_data) -> std::string;
 
     DiscordConfig config_;
     boost::asio::io_context& ioc_;

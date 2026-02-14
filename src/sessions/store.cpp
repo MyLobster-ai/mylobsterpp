@@ -21,6 +21,7 @@ void SqliteSessionStore::init_schema() {
             user_id TEXT NOT NULL,
             device_id TEXT NOT NULL,
             channel TEXT,
+            agent_id TEXT,
             state TEXT NOT NULL DEFAULT 'active',
             metadata TEXT NOT NULL DEFAULT '{}',
             created_at INTEGER NOT NULL,
@@ -28,12 +29,23 @@ void SqliteSessionStore::init_schema() {
         )
     )SQL");
 
+    // Add agent_id column if migrating from older schema
+    try {
+        db_->exec("ALTER TABLE sessions ADD COLUMN agent_id TEXT");
+    } catch (const SQLite::Exception&) {
+        // Column already exists - expected for existing databases
+    }
+
     db_->exec(R"SQL(
         CREATE INDEX IF NOT EXISTS idx_sessions_user_id ON sessions(user_id)
     )SQL");
 
     db_->exec(R"SQL(
         CREATE INDEX IF NOT EXISTS idx_sessions_last_active ON sessions(last_active)
+    )SQL");
+
+    db_->exec(R"SQL(
+        CREATE INDEX IF NOT EXISTS idx_sessions_agent_id ON sessions(agent_id)
     )SQL");
 }
 
@@ -65,8 +77,8 @@ auto SqliteSessionStore::ms_to_timestamp(int64_t ms) const -> Timestamp {
 auto SqliteSessionStore::create(const SessionData& data) -> awaitable<Result<void>> {
     try {
         SQLite::Statement stmt(*db_,
-            "INSERT INTO sessions (id, user_id, device_id, channel, state, metadata, "
-            "created_at, last_active) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+            "INSERT INTO sessions (id, user_id, device_id, channel, agent_id, state, metadata, "
+            "created_at, last_active) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
         stmt.bind(1, data.session.id);
         stmt.bind(2, data.session.user_id);
@@ -78,10 +90,16 @@ auto SqliteSessionStore::create(const SessionData& data) -> awaitable<Result<voi
             stmt.bind(4);  // bind NULL
         }
 
-        stmt.bind(5, state_to_string(data.state));
-        stmt.bind(6, data.metadata.dump());
-        stmt.bind(7, timestamp_to_ms(data.session.created_at));
-        stmt.bind(8, timestamp_to_ms(data.session.last_active));
+        if (data.session.agent_id) {
+            stmt.bind(5, *data.session.agent_id);
+        } else {
+            stmt.bind(5);  // bind NULL
+        }
+
+        stmt.bind(6, state_to_string(data.state));
+        stmt.bind(7, data.metadata.dump());
+        stmt.bind(8, timestamp_to_ms(data.session.created_at));
+        stmt.bind(9, timestamp_to_ms(data.session.last_active));
 
         stmt.exec();
 
@@ -97,7 +115,7 @@ auto SqliteSessionStore::create(const SessionData& data) -> awaitable<Result<voi
 auto SqliteSessionStore::get(std::string_view id) -> awaitable<Result<SessionData>> {
     try {
         SQLite::Statement stmt(*db_,
-            "SELECT id, user_id, device_id, channel, state, metadata, "
+            "SELECT id, user_id, device_id, channel, agent_id, state, metadata, "
             "created_at, last_active FROM sessions WHERE id = ?");
 
         stmt.bind(1, std::string(id));
@@ -116,11 +134,14 @@ auto SqliteSessionStore::get(std::string_view id) -> awaitable<Result<SessionDat
         if (!stmt.getColumn(3).isNull()) {
             data.session.channel = stmt.getColumn(3).getString();
         }
+        if (!stmt.getColumn(4).isNull()) {
+            data.session.agent_id = stmt.getColumn(4).getString();
+        }
 
-        data.state = string_to_state(stmt.getColumn(4).getString());
-        data.metadata = json::parse(stmt.getColumn(5).getString());
-        data.session.created_at = ms_to_timestamp(stmt.getColumn(6).getInt64());
-        data.session.last_active = ms_to_timestamp(stmt.getColumn(7).getInt64());
+        data.state = string_to_state(stmt.getColumn(5).getString());
+        data.metadata = json::parse(stmt.getColumn(6).getString());
+        data.session.created_at = ms_to_timestamp(stmt.getColumn(7).getInt64());
+        data.session.last_active = ms_to_timestamp(stmt.getColumn(8).getInt64());
 
         co_return data;
     } catch (const SQLite::Exception& e) {
@@ -189,7 +210,7 @@ auto SqliteSessionStore::list(std::string_view user_id)
     -> awaitable<Result<std::vector<SessionData>>> {
     try {
         SQLite::Statement stmt(*db_,
-            "SELECT id, user_id, device_id, channel, state, metadata, "
+            "SELECT id, user_id, device_id, channel, agent_id, state, metadata, "
             "created_at, last_active FROM sessions WHERE user_id = ? "
             "ORDER BY last_active DESC");
 
@@ -205,11 +226,14 @@ auto SqliteSessionStore::list(std::string_view user_id)
             if (!stmt.getColumn(3).isNull()) {
                 data.session.channel = stmt.getColumn(3).getString();
             }
+            if (!stmt.getColumn(4).isNull()) {
+                data.session.agent_id = stmt.getColumn(4).getString();
+            }
 
-            data.state = string_to_state(stmt.getColumn(4).getString());
-            data.metadata = json::parse(stmt.getColumn(5).getString());
-            data.session.created_at = ms_to_timestamp(stmt.getColumn(6).getInt64());
-            data.session.last_active = ms_to_timestamp(stmt.getColumn(7).getInt64());
+            data.state = string_to_state(stmt.getColumn(5).getString());
+            data.metadata = json::parse(stmt.getColumn(6).getString());
+            data.session.created_at = ms_to_timestamp(stmt.getColumn(7).getInt64());
+            data.session.last_active = ms_to_timestamp(stmt.getColumn(8).getInt64());
 
             results.push_back(std::move(data));
         }

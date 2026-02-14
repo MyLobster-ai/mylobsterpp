@@ -1,5 +1,6 @@
-#include "openclaw/providers/openai.hpp"
+#include "openclaw/providers/huggingface.hpp"
 
+#include <regex>
 #include <sstream>
 #include <string>
 
@@ -11,11 +12,10 @@ namespace openclaw::providers {
 
 namespace {
 
-constexpr auto kDefaultBaseUrl = "https://api.openai.com";
-constexpr auto kDefaultModel = "gpt-4o";
+constexpr auto kDefaultBaseUrl = "https://router.huggingface.co";
+constexpr auto kDefaultModel = "meta-llama/Llama-3.3-70B-Instruct";
 constexpr auto kCompletionsPath = "/v1/chat/completions";
 
-/// Convert a unified Role to the OpenAI role string.
 auto role_to_string(Role role) -> std::string {
     switch (role) {
         case Role::User: return "user";
@@ -26,7 +26,6 @@ auto role_to_string(Role role) -> std::string {
     }
 }
 
-/// Parse SSE lines from response body.
 auto parse_sse_lines(const std::string& body) -> std::vector<std::string> {
     std::vector<std::string> lines;
     std::istringstream stream(body);
@@ -45,41 +44,75 @@ auto parse_sse_lines(const std::string& body) -> std::vector<std::string> {
 
 } // anonymous namespace
 
-OpenAIProvider::OpenAIProvider(boost::asio::io_context& ioc,
-                               const ProviderConfig& config)
+auto HuggingFaceProvider::static_catalog() -> const std::vector<HFModelInfo>& {
+    static const std::vector<HFModelInfo> catalog = {
+        {"meta-llama/Llama-3.3-70B-Instruct", 131072, 8192, false},
+        {"meta-llama/Llama-4-Scout-17B-16E-Instruct", 131072, 8192, false},
+        {"meta-llama/Llama-4-Maverick-17B-128E-Instruct", 131072, 8192, false},
+        {"Qwen/Qwen3-235B-A22B", 131072, 8192, false},
+        {"Qwen/Qwen3-32B", 131072, 8192, false},
+        {"Qwen/QwQ-32B", 131072, 8192, true},
+        {"deepseek-ai/DeepSeek-R1-0528", 131072, 8192, true},
+        {"deepseek-ai/DeepSeek-R1", 131072, 8192, true},
+        {"deepseek-ai/DeepSeek-V3-0324", 131072, 8192, false},
+        {"google/gemma-3-27b-it", 131072, 8192, false},
+        {"mistralai/Mistral-Small-24B-Instruct-2501", 131072, 8192, false},
+        {"mistralai/Mistral-Nemo-Instruct-2407", 131072, 8192, false},
+        {"NousResearch/Hermes-3-Llama-3.1-8B", 131072, 8192, false},
+        {"microsoft/Phi-3.5-mini-instruct", 131072, 8192, false},
+        {"microsoft/phi-4", 131072, 8192, false},
+        {"01-ai/Yi-1.5-34B-Chat", 65536, 8192, false},
+        {"CohereForAI/c4ai-command-r-plus-08-2024", 131072, 8192, false},
+        {"nvidia/Llama-3.1-Nemotron-70B-Instruct-HF", 131072, 8192, false},
+        {"HuggingFaceH4/starchat2-15b-v0.1", 16384, 4096, false},
+        {"bigcode/starcoder2-15b-instruct-v0.1", 16384, 4096, false},
+    };
+    return catalog;
+}
+
+auto HuggingFaceProvider::is_reasoning_model(const std::string& model_id) -> bool {
+    static const std::regex reasoning_pattern(
+        "r1|reasoning|thinking|reason|qwq", std::regex::icase);
+    return std::regex_search(model_id, reasoning_pattern);
+}
+
+auto HuggingFaceProvider::strip_route_policy(const std::string& model)
+    -> std::pair<std::string, std::string> {
+    for (const auto& suffix : {":cheapest", ":fastest"}) {
+        if (model.ends_with(suffix)) {
+            return {model.substr(0, model.size() - std::string(suffix).size()),
+                    std::string(suffix).substr(1)};
+        }
+    }
+    return {model, ""};
+}
+
+HuggingFaceProvider::HuggingFaceProvider(boost::asio::io_context& ioc,
+                                          const ProviderConfig& config)
     : api_key_(config.api_key)
     , default_model_(config.model.value_or(kDefaultModel))
-    , organization_(config.organization)
     , http_(ioc, infra::HttpClientConfig{
           .base_url = config.base_url.value_or(kDefaultBaseUrl),
           .timeout_seconds = 120,
           .verify_ssl = true,
-          .default_headers = [&]() {
-              std::map<std::string, std::string> headers = {
-                  {"Authorization", "Bearer " + config.api_key},
-                  {"Content-Type", "application/json"},
-              };
-              if (config.organization.has_value()) {
-                  headers["OpenAI-Organization"] = *config.organization;
-              }
-              return headers;
-          }(),
+          .default_headers = {
+              {"Authorization", "Bearer " + config.api_key},
+              {"Content-Type", "application/json"},
+          },
       })
 {
-    LOG_INFO("OpenAI provider initialized (model: {}, base: {})",
+    LOG_INFO("HuggingFace provider initialized (model: {}, base: {})",
              default_model_,
              config.base_url.value_or(kDefaultBaseUrl));
 }
 
-OpenAIProvider::~OpenAIProvider() = default;
+HuggingFaceProvider::~HuggingFaceProvider() = default;
 
-auto OpenAIProvider::convert_message(const Message& msg) const -> json {
+auto HuggingFaceProvider::convert_message(const Message& msg) const -> json {
     json j;
     j["role"] = role_to_string(msg.role);
 
-    // For tool results, use the OpenAI tool message format
     if (msg.role == Role::Tool) {
-        // Find the tool_result content block
         for (const auto& block : msg.content) {
             if (block.type == "tool_result") {
                 j["tool_call_id"] = block.tool_use_id.value_or("");
@@ -91,7 +124,6 @@ auto OpenAIProvider::convert_message(const Message& msg) const -> json {
                 return j;
             }
         }
-        // Fallback: concatenate all text
         std::string text;
         for (const auto& block : msg.content) {
             text += block.text;
@@ -100,7 +132,6 @@ auto OpenAIProvider::convert_message(const Message& msg) const -> json {
         return j;
     }
 
-    // For assistant messages with tool calls
     if (msg.role == Role::Assistant) {
         bool has_tool_use = false;
         for (const auto& block : msg.content) {
@@ -111,7 +142,6 @@ auto OpenAIProvider::convert_message(const Message& msg) const -> json {
         }
 
         if (has_tool_use) {
-            // Build content and tool_calls
             std::string text_content;
             json tool_calls = json::array();
 
@@ -139,11 +169,9 @@ auto OpenAIProvider::convert_message(const Message& msg) const -> json {
         }
     }
 
-    // Simple text content
     if (msg.content.size() == 1 && msg.content[0].type == "text") {
         j["content"] = msg.content[0].text;
     } else {
-        // Multi-part content
         json parts = json::array();
         for (const auto& block : msg.content) {
             if (block.type == "text") {
@@ -164,15 +192,15 @@ auto OpenAIProvider::convert_message(const Message& msg) const -> json {
     return j;
 }
 
-auto OpenAIProvider::build_request_body(const CompletionRequest& req,
-                                         bool streaming) const -> json {
+auto HuggingFaceProvider::build_request_body(const CompletionRequest& req,
+                                               bool streaming) const -> json {
     json body;
 
-    body["model"] = req.model.empty() ? default_model_ : req.model;
+    auto model_name = req.model.empty() ? default_model_ : req.model;
+    auto [clean_model, policy] = strip_route_policy(model_name);
+    body["model"] = clean_model;
 
     json messages = json::array();
-
-    // Add system prompt as the first system message
     if (req.system_prompt.has_value() && !req.system_prompt->empty()) {
         json sys_msg;
         sys_msg["role"] = "system";
@@ -181,7 +209,6 @@ auto OpenAIProvider::build_request_body(const CompletionRequest& req,
     }
 
     for (const auto& msg : req.messages) {
-        // System messages were already handled above
         if (msg.role == Role::System) continue;
         messages.push_back(convert_message(msg));
     }
@@ -190,7 +217,6 @@ auto OpenAIProvider::build_request_body(const CompletionRequest& req,
     if (req.max_tokens.has_value()) {
         body["max_tokens"] = *req.max_tokens;
     }
-
     if (req.temperature.has_value()) {
         body["temperature"] = *req.temperature;
     }
@@ -198,11 +224,9 @@ auto OpenAIProvider::build_request_body(const CompletionRequest& req,
     if (!req.tools.empty()) {
         json tools = json::array();
         for (const auto& tool : req.tools) {
-            // If the tool is already in OpenAI format, use it directly
             if (tool.contains("type") && tool["type"] == "function") {
                 tools.push_back(tool);
             } else {
-                // Convert from Anthropic-style tool to OpenAI function format
                 json oai_tool;
                 oai_tool["type"] = "function";
                 json func;
@@ -225,7 +249,6 @@ auto OpenAIProvider::build_request_body(const CompletionRequest& req,
         body["stream_options"]["include_usage"] = true;
     }
 
-    // Apply thinking if requested
     if (req.thinking != ThinkingMode::None) {
         auto thinking_config = agent::thinking_config_from_mode(req.thinking);
         agent::apply_thinking_openai(body, thinking_config);
@@ -234,7 +257,7 @@ auto OpenAIProvider::build_request_body(const CompletionRequest& req,
     return body;
 }
 
-auto OpenAIProvider::parse_response(const std::string& body) const
+auto HuggingFaceProvider::parse_response(const std::string& body) const
     -> Result<CompletionResponse> {
     json j;
     try {
@@ -242,41 +265,36 @@ auto OpenAIProvider::parse_response(const std::string& body) const
     } catch (const json::parse_error& e) {
         return std::unexpected(make_error(
             ErrorCode::SerializationError,
-            "Failed to parse OpenAI response",
+            "Failed to parse HuggingFace response",
             e.what()));
     }
 
     if (j.contains("error")) {
-        auto err_msg = j["error"].value("message", "Unknown error");
-        auto err_type = j["error"].value("type", "api_error");
+        auto err_msg = j["error"].value("message", j.value("error", "Unknown error"));
         return std::unexpected(make_error(
             ErrorCode::ProviderError,
-            "OpenAI API error: " + err_type,
+            "HuggingFace API error",
             err_msg));
     }
 
     CompletionResponse response;
     response.model = j.value("model", "");
 
-    // Parse usage
     if (j.contains("usage")) {
         response.input_tokens = j["usage"].value("prompt_tokens", 0);
         response.output_tokens = j["usage"].value("completion_tokens", 0);
     }
 
-    // Parse the first choice
     if (j.contains("choices") && !j["choices"].empty()) {
         const auto& choice = j["choices"][0];
         response.stop_reason = choice.value("finish_reason", "");
 
         if (choice.contains("message")) {
             const auto& msg = choice["message"];
-
             response.message.id = j.value("id", "");
             response.message.role = Role::Assistant;
             response.message.created_at = Clock::now();
 
-            // Parse text content
             if (msg.contains("content") && !msg["content"].is_null()) {
                 ContentBlock text_block;
                 text_block.type = "text";
@@ -284,13 +302,11 @@ auto OpenAIProvider::parse_response(const std::string& body) const
                 response.message.content.push_back(std::move(text_block));
             }
 
-            // Parse tool calls
             if (msg.contains("tool_calls") && msg["tool_calls"].is_array()) {
                 for (const auto& tc : msg["tool_calls"]) {
                     ContentBlock tool_block;
                     tool_block.type = "tool_use";
                     tool_block.tool_use_id = tc.value("id", "");
-
                     if (tc.contains("function")) {
                         tool_block.tool_name = tc["function"].value("name", "");
                         auto args_str = tc["function"].value("arguments", "{}");
@@ -300,7 +316,6 @@ auto OpenAIProvider::parse_response(const std::string& body) const
                             tool_block.tool_input = json::object();
                         }
                     }
-
                     response.message.content.push_back(std::move(tool_block));
                 }
             }
@@ -310,10 +325,9 @@ auto OpenAIProvider::parse_response(const std::string& body) const
     return response;
 }
 
-auto OpenAIProvider::parse_sse_chunk(const json& chunk,
-                                      CompletionResponse& response,
-                                      StreamCallback& cb) const -> void {
-    // Parse usage from stream (when stream_options.include_usage is true)
+auto HuggingFaceProvider::parse_sse_chunk(const json& chunk,
+                                            CompletionResponse& response,
+                                            StreamCallback& cb) const -> void {
     if (chunk.contains("usage") && !chunk["usage"].is_null()) {
         response.input_tokens = chunk["usage"].value("prompt_tokens", 0);
         response.output_tokens = chunk["usage"].value("completion_tokens", 0);
@@ -323,10 +337,8 @@ auto OpenAIProvider::parse_sse_chunk(const json& chunk,
 
     const auto& choice = chunk["choices"][0];
 
-    // Capture the finish reason
     if (choice.contains("finish_reason") && !choice["finish_reason"].is_null()) {
         response.stop_reason = choice["finish_reason"].get<std::string>();
-
         CompletionChunk cc;
         cc.type = "stop";
         cb(cc);
@@ -336,7 +348,6 @@ auto OpenAIProvider::parse_sse_chunk(const json& chunk,
     if (!choice.contains("delta")) return;
     const auto& delta = choice["delta"];
 
-    // Set message ID from the first chunk
     if (response.message.id.empty() && chunk.contains("id")) {
         response.message.id = chunk["id"].get<std::string>();
         response.message.role = Role::Assistant;
@@ -344,11 +355,9 @@ auto OpenAIProvider::parse_sse_chunk(const json& chunk,
         response.model = chunk.value("model", "");
     }
 
-    // Text content delta
     if (delta.contains("content") && !delta["content"].is_null()) {
         auto text = delta["content"].get<std::string>();
 
-        // Append to or create a text content block
         bool found_text = false;
         for (auto& block : response.message.content) {
             if (block.type == "text") {
@@ -370,13 +379,10 @@ auto OpenAIProvider::parse_sse_chunk(const json& chunk,
         cb(cc);
     }
 
-    // Tool calls delta
     if (delta.contains("tool_calls") && delta["tool_calls"].is_array()) {
         for (const auto& tc_delta : delta["tool_calls"]) {
             auto index = tc_delta.value("index", 0);
 
-            // Ensure we have enough content blocks
-            // Tool call blocks come after any text block
             while (response.message.content.size() <= static_cast<size_t>(index) + 1) {
                 ContentBlock block;
                 block.type = "tool_use";
@@ -384,7 +390,6 @@ auto OpenAIProvider::parse_sse_chunk(const json& chunk,
                 response.message.content.push_back(std::move(block));
             }
 
-            // Find the tool_use block for this index
             size_t tool_idx = 0;
             size_t block_idx = 0;
             for (size_t i = 0; i < response.message.content.size(); ++i) {
@@ -402,19 +407,16 @@ auto OpenAIProvider::parse_sse_chunk(const json& chunk,
             if (tc_delta.contains("id")) {
                 block.tool_use_id = tc_delta["id"].get<std::string>();
             }
-
             if (tc_delta.contains("function")) {
                 const auto& func = tc_delta["function"];
                 if (func.contains("name")) {
                     block.tool_name = func["name"].get<std::string>();
-
                     CompletionChunk cc;
                     cc.type = "tool_use";
                     cc.tool_name = block.tool_name;
                     cb(cc);
                 }
                 if (func.contains("arguments")) {
-                    // Accumulate arguments string
                     block.text += func["arguments"].get<std::string>();
                 }
             }
@@ -422,18 +424,28 @@ auto OpenAIProvider::parse_sse_chunk(const json& chunk,
     }
 }
 
-auto OpenAIProvider::complete(CompletionRequest req)
+auto HuggingFaceProvider::complete(CompletionRequest req)
     -> boost::asio::awaitable<Result<CompletionResponse>> {
     auto body = build_request_body(req, false);
 
-    LOG_DEBUG("OpenAI complete request: model={}", body.value("model", ""));
+    // Apply route policy as header hint
+    auto model_name = req.model.empty() ? default_model_ : req.model;
+    auto [_, policy] = strip_route_policy(model_name);
 
-    auto result = co_await http_.post(kCompletionsPath, body.dump());
+    std::map<std::string, std::string> extra_headers;
+    if (!policy.empty()) {
+        extra_headers["X-HF-Route-Policy"] = policy;
+    }
+
+    LOG_DEBUG("HuggingFace complete request: model={}", body.value("model", ""));
+
+    auto result = co_await http_.post(kCompletionsPath, body.dump(),
+                                       "application/json", extra_headers);
 
     if (!result.has_value()) {
         co_return std::unexpected(make_error(
             ErrorCode::ConnectionFailed,
-            "OpenAI API request failed",
+            "HuggingFace API request failed",
             result.error().what()));
     }
 
@@ -445,32 +457,43 @@ auto OpenAIProvider::complete(CompletionRequest req)
             if (err_json.contains("error")) {
                 co_return std::unexpected(make_error(
                     ErrorCode::ProviderError,
-                    "OpenAI API error (HTTP " + std::to_string(http_resp.status) + ")",
-                    err_json["error"].value("message", http_resp.body)));
+                    "HuggingFace API error (HTTP " + std::to_string(http_resp.status) + ")",
+                    err_json["error"].is_string()
+                        ? err_json["error"].get<std::string>()
+                        : err_json["error"].value("message", http_resp.body)));
             }
         } catch (...) {}
 
         co_return std::unexpected(make_error(
             ErrorCode::ProviderError,
-            "OpenAI API error",
+            "HuggingFace API error",
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));
     }
 
     co_return parse_response(http_resp.body);
 }
 
-auto OpenAIProvider::stream(CompletionRequest req, StreamCallback cb)
+auto HuggingFaceProvider::stream(CompletionRequest req, StreamCallback cb)
     -> boost::asio::awaitable<Result<CompletionResponse>> {
     auto body = build_request_body(req, true);
 
-    LOG_DEBUG("OpenAI stream request: model={}", body.value("model", ""));
+    auto model_name = req.model.empty() ? default_model_ : req.model;
+    auto [_, policy] = strip_route_policy(model_name);
 
-    auto result = co_await http_.post(kCompletionsPath, body.dump());
+    std::map<std::string, std::string> extra_headers;
+    if (!policy.empty()) {
+        extra_headers["X-HF-Route-Policy"] = policy;
+    }
+
+    LOG_DEBUG("HuggingFace stream request: model={}", body.value("model", ""));
+
+    auto result = co_await http_.post(kCompletionsPath, body.dump(),
+                                       "application/json", extra_headers);
 
     if (!result.has_value()) {
         co_return std::unexpected(make_error(
             ErrorCode::ConnectionFailed,
-            "OpenAI API streaming request failed",
+            "HuggingFace API streaming request failed",
             result.error().what()));
     }
 
@@ -482,14 +505,16 @@ auto OpenAIProvider::stream(CompletionRequest req, StreamCallback cb)
             if (err_json.contains("error")) {
                 co_return std::unexpected(make_error(
                     ErrorCode::ProviderError,
-                    "OpenAI API stream error (HTTP " + std::to_string(http_resp.status) + ")",
-                    err_json["error"].value("message", http_resp.body)));
+                    "HuggingFace API stream error (HTTP " + std::to_string(http_resp.status) + ")",
+                    err_json["error"].is_string()
+                        ? err_json["error"].get<std::string>()
+                        : err_json["error"].value("message", http_resp.body)));
             }
         } catch (...) {}
 
         co_return std::unexpected(make_error(
             ErrorCode::ProviderError,
-            "OpenAI API stream error",
+            "HuggingFace API stream error",
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));
     }
 
@@ -503,12 +528,12 @@ auto OpenAIProvider::stream(CompletionRequest req, StreamCallback cb)
             auto chunk = json::parse(line);
             parse_sse_chunk(chunk, response, cb);
         } catch (const json::parse_error& e) {
-            LOG_WARN("Failed to parse OpenAI SSE chunk: {}", e.what());
+            LOG_WARN("Failed to parse HuggingFace SSE chunk: {}", e.what());
             continue;
         }
     }
 
-    // Finalize tool_use blocks: parse accumulated argument strings
+    // Finalize tool_use blocks
     for (auto& block : response.message.content) {
         if (block.type == "tool_use" && !block.text.empty()) {
             try {
@@ -523,23 +548,73 @@ auto OpenAIProvider::stream(CompletionRequest req, StreamCallback cb)
     co_return response;
 }
 
-auto OpenAIProvider::name() const -> std::string_view {
-    return "openai";
+auto HuggingFaceProvider::discover_models()
+    -> boost::asio::awaitable<Result<std::vector<HFModelInfo>>> {
+    auto result = co_await http_.get("/v1/models");
+
+    if (!result.has_value()) {
+        LOG_WARN("HuggingFace model discovery failed: {}", result.error().what());
+        co_return std::unexpected(result.error());
+    }
+
+    if (!result->is_success()) {
+        co_return std::unexpected(make_error(
+            ErrorCode::ProviderError,
+            "HuggingFace model discovery failed",
+            "HTTP " + std::to_string(result->status)));
+    }
+
+    try {
+        auto body = json::parse(result->body);
+        std::vector<HFModelInfo> models;
+
+        if (body.contains("data") && body["data"].is_array()) {
+            for (const auto& m : body["data"]) {
+                HFModelInfo info;
+                info.id = m.value("id", "");
+                if (info.id.empty()) continue;
+
+                if (m.contains("context_length")) {
+                    info.context_length = m.value("context_length", 131072);
+                }
+                info.supports_reasoning = is_reasoning_model(info.id);
+                models.push_back(std::move(info));
+            }
+        }
+
+        discovered_models_ = models;
+        LOG_INFO("Discovered {} HuggingFace models", models.size());
+        co_return models;
+    } catch (const json::exception& e) {
+        co_return std::unexpected(make_error(
+            ErrorCode::SerializationError,
+            "Failed to parse model list",
+            e.what()));
+    }
 }
 
-auto OpenAIProvider::models() const -> std::vector<std::string> {
-    return {
-        "gpt-4o",
-        "gpt-4o-mini",
-        "gpt-4-turbo",
-        "gpt-4",
-        "gpt-3.5-turbo",
-        "gpt-5.3-codex-spark",
-        "o1",
-        "o1-mini",
-        "o1-preview",
-        "o3-mini",
-    };
+auto HuggingFaceProvider::name() const -> std::string_view {
+    return "huggingface";
+}
+
+auto HuggingFaceProvider::models() const -> std::vector<std::string> {
+    // Return discovered models if available, otherwise static catalog
+    if (!discovered_models_.empty()) {
+        std::vector<std::string> result;
+        result.reserve(discovered_models_.size());
+        for (const auto& m : discovered_models_) {
+            result.push_back(m.id);
+        }
+        return result;
+    }
+
+    const auto& catalog = static_catalog();
+    std::vector<std::string> result;
+    result.reserve(catalog.size());
+    for (const auto& m : catalog) {
+        result.push_back(m.id);
+    }
+    return result;
 }
 
 } // namespace openclaw::providers

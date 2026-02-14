@@ -24,7 +24,7 @@ CronScheduler::~CronScheduler() {
 }
 
 auto CronScheduler::schedule(std::string_view name, std::string_view cron_expr,
-                              Task task) -> Result<void>
+                              Task task, bool delete_after_run) -> Result<void>
 {
     if (name.empty()) {
         return std::unexpected(make_error(
@@ -56,6 +56,7 @@ auto CronScheduler::schedule(std::string_view name, std::string_view cron_expr,
         .name = key,
         .expression = std::move(*parsed),
         .task = std::move(task),
+        .delete_after_run = delete_after_run,
     });
 
     LOG_INFO("Scheduled cron task '{}' with expression '{}'", name, cron_expr);
@@ -129,10 +130,12 @@ auto CronScheduler::start() -> awaitable<void> {
         }
 
         // Spawn each matching task as an independent coroutine.
+        std::vector<std::string> to_delete;
         for (auto& entry : matching) {
             LOG_DEBUG("Firing cron task '{}'", entry.name);
             auto task_copy = entry.task;
             auto task_name = entry.name;
+            bool one_shot = entry.delete_after_run;
 
             boost::asio::co_spawn(
                 ioc_,
@@ -145,6 +148,19 @@ auto CronScheduler::start() -> awaitable<void> {
                     }
                 },
                 boost::asio::detached);
+
+            if (one_shot) {
+                to_delete.push_back(entry.name);
+            }
+        }
+
+        // Auto-remove one-shot tasks after successful firing
+        if (!to_delete.empty()) {
+            std::lock_guard lock(mutex_);
+            for (const auto& name : to_delete) {
+                tasks_.erase(name);
+                LOG_INFO("Auto-deleted one-shot cron task '{}' after execution", name);
+            }
         }
     }
 

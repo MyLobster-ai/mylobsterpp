@@ -2,6 +2,9 @@
 #include "openclaw/core/logger.hpp"
 #include "openclaw/core/utils.hpp"
 
+#include <algorithm>
+#include <regex>
+#include <set>
 #include <boost/asio/steady_timer.hpp>
 
 namespace openclaw::channels {
@@ -68,7 +71,7 @@ auto TelegramChannel::send(OutgoingMessage msg)
         }
     }
 
-    // Send each attachment
+    // Send each attachment with voice-compatible routing
     for (const auto& attachment : msg.attachments) {
         if (attachment.type == "image") {
             auto result = co_await send_photo(msg.recipient_id, attachment.url,
@@ -76,6 +79,15 @@ auto TelegramChannel::send(OutgoingMessage msg)
                                    : std::nullopt);
             if (!result) {
                 LOG_WARN("[telegram] Failed to send photo: {}", result.error().what());
+            }
+        } else if (attachment.type == "audio" && is_voice_compatible(
+                attachment.filename ? *attachment.filename : "")) {
+            // Route MP3/M4A/OGG audio through sendVoice for inline playback
+            auto result = co_await send_voice(msg.recipient_id, attachment.url,
+                attachment.filename ? std::optional<std::string_view>{*attachment.filename}
+                                   : std::nullopt);
+            if (!result) {
+                LOG_WARN("[telegram] Failed to send voice: {}", result.error().what());
             }
         } else {
             auto result = co_await send_document(msg.recipient_id, attachment.url,
@@ -407,6 +419,127 @@ auto TelegramChannel::fetch_bot_info() -> boost::asio::awaitable<openclaw::Resul
         co_return std::unexpected(
             make_error(ErrorCode::SerializationError, "Failed to parse getMe response", e.what()));
     }
+}
+
+// ---------------------------------------------------------------------------
+// Voice routing
+// ---------------------------------------------------------------------------
+
+auto TelegramChannel::is_voice_compatible(std::string_view filename) -> bool {
+    // Check if the file is an audio format Telegram can play inline as voice
+    std::string lower(filename);
+    std::transform(lower.begin(), lower.end(), lower.begin(),
+                   [](unsigned char c) { return std::tolower(c); });
+
+    return lower.ends_with(".mp3") ||
+           lower.ends_with(".m4a") ||
+           lower.ends_with(".ogg") ||
+           lower.ends_with(".oga") ||
+           lower.ends_with(".opus");
+}
+
+auto TelegramChannel::send_voice(std::string_view chat_id,
+                                  std::string_view url,
+                                  std::optional<std::string_view> caption)
+    -> boost::asio::awaitable<openclaw::Result<json>>
+{
+    json payload = {
+        {"chat_id", std::string(chat_id)},
+        {"voice", std::string(url)},
+    };
+    if (caption) {
+        payload["caption"] = std::string(*caption);
+    }
+
+    auto response = co_await http_.post("/sendVoice", payload.dump());
+    if (!response) {
+        co_return std::unexpected(response.error());
+    }
+    if (!response->is_success()) {
+        co_return std::unexpected(
+            make_error(ErrorCode::ChannelError,
+                       "sendVoice failed",
+                       "status=" + std::to_string(response->status)));
+    }
+
+    try {
+        co_return json::parse(response->body);
+    } catch (const json::exception& e) {
+        co_return std::unexpected(
+            make_error(ErrorCode::SerializationError, "Failed to parse sendVoice response", e.what()));
+    }
+}
+
+// ---------------------------------------------------------------------------
+// Bot command menu (100-command cap)
+// ---------------------------------------------------------------------------
+
+auto TelegramChannel::build_capped_menu_commands(
+    const std::vector<std::pair<std::string, std::string>>& commands)
+    -> std::vector<std::pair<std::string, std::string>>
+{
+    static constexpr size_t kMaxCommands = 100;
+    static const std::regex kValidCommand("^[a-z0-9_]{1,32}$");
+
+    std::vector<std::pair<std::string, std::string>> valid;
+    std::set<std::string> seen;
+
+    for (const auto& [cmd, desc] : commands) {
+        // Validate command format
+        if (!std::regex_match(cmd, kValidCommand)) {
+            LOG_WARN("[telegram] Skipping invalid command '{}' (must match [a-z0-9_]{{1,32}})", cmd);
+            continue;
+        }
+
+        // Deduplicate
+        if (seen.contains(cmd)) {
+            continue;
+        }
+        seen.insert(cmd);
+
+        valid.emplace_back(cmd, desc);
+
+        if (valid.size() >= kMaxCommands) {
+            break;
+        }
+    }
+
+    if (commands.size() > kMaxCommands) {
+        LOG_WARN("[telegram] Registered {} of {} commands (Telegram limit: {})",
+                 valid.size(), commands.size(), kMaxCommands);
+    }
+
+    return valid;
+}
+
+auto TelegramChannel::set_bot_commands(
+    const std::vector<std::pair<std::string, std::string>>& commands)
+    -> boost::asio::awaitable<openclaw::Result<void>>
+{
+    auto capped = build_capped_menu_commands(commands);
+
+    json cmd_array = json::array();
+    for (const auto& [cmd, desc] : capped) {
+        cmd_array.push_back({
+            {"command", cmd},
+            {"description", desc},
+        });
+    }
+
+    json payload = {{"commands", cmd_array}};
+    auto response = co_await http_.post("/setMyCommands", payload.dump());
+    if (!response) {
+        co_return std::unexpected(response.error());
+    }
+    if (!response->is_success()) {
+        co_return std::unexpected(
+            make_error(ErrorCode::ChannelError,
+                       "setMyCommands failed",
+                       "status=" + std::to_string(response->status)));
+    }
+
+    LOG_INFO("[telegram] Set {} bot commands", capped.size());
+    co_return openclaw::Result<void>{};
 }
 
 // ---------------------------------------------------------------------------

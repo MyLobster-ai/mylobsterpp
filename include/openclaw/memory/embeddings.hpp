@@ -62,4 +62,27 @@ private:
     std::unique_ptr<Impl> impl_;
 };
 
+/// Embedding provider chain that tries multiple providers in order.
+/// Falls back to the next provider if the current one fails.
+class EmbeddingProviderChain : public EmbeddingProvider {
+public:
+    EmbeddingProviderChain() = default;
+
+    /// Add a provider to the chain (tried in order of addition).
+    void add(std::unique_ptr<EmbeddingProvider> provider);
+
+    auto embed(std::string_view text)
+        -> awaitable<Result<std::vector<float>>> override;
+
+    auto embed_batch(std::vector<std::string> texts)
+        -> awaitable<Result<std::vector<std::vector<float>>>> override;
+
+    [[nodiscard]] auto dimensions() const -> size_t override;
+
+    [[nodiscard]] auto size() const -> size_t { return providers_.size(); }
+
+private:
+    std::vector<std::unique_ptr<EmbeddingProvider>> providers_;
+};
+
 } // namespace openclaw::memory

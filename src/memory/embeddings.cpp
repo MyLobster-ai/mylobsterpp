@@ -186,4 +186,47 @@ auto OpenAIEmbeddings::dimensions() const -> size_t {
     return impl_->dims;
 }
 
+// ---------------------------------------------------------------------------
+// EmbeddingProviderChain
+// ---------------------------------------------------------------------------
+
+void EmbeddingProviderChain::add(std::unique_ptr<EmbeddingProvider> provider) {
+    providers_.push_back(std::move(provider));
+}
+
+auto EmbeddingProviderChain::embed(std::string_view text)
+    -> awaitable<Result<std::vector<float>>> {
+    for (auto& provider : providers_) {
+        auto result = co_await provider->embed(text);
+        if (result) {
+            co_return *result;
+        }
+        LOG_DEBUG("EmbeddingProviderChain: provider failed, trying next");
+    }
+    co_return std::unexpected(
+        make_error(ErrorCode::ProviderError,
+                   "All embedding providers failed"));
+}
+
+auto EmbeddingProviderChain::embed_batch(std::vector<std::string> texts)
+    -> awaitable<Result<std::vector<std::vector<float>>>> {
+    for (auto& provider : providers_) {
+        auto result = co_await provider->embed_batch(texts);
+        if (result) {
+            co_return *result;
+        }
+        LOG_DEBUG("EmbeddingProviderChain: batch provider failed, trying next");
+    }
+    co_return std::unexpected(
+        make_error(ErrorCode::ProviderError,
+                   "All embedding providers failed for batch"));
+}
+
+auto EmbeddingProviderChain::dimensions() const -> size_t {
+    if (!providers_.empty()) {
+        return providers_.front()->dimensions();
+    }
+    return 0;
+}
+
 } // namespace openclaw::memory

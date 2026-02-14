@@ -3,8 +3,10 @@
 #include "openclaw/core/logger.hpp"
 #include "openclaw/core/utils.hpp"
 
+#include <boost/asio/as_tuple.hpp>
 #include <boost/asio/co_spawn.hpp>
 #include <boost/asio/detached.hpp>
+#include <boost/asio/signal_set.hpp>
 #include <boost/asio/steady_timer.hpp>
 #include <boost/asio/use_awaitable.hpp>
 #include <boost/beast/core/buffers_to_string.hpp>
@@ -188,6 +190,24 @@ auto GatewayServer::start(const GatewayConfig& config) -> awaitable<void> {
     running_ = true;
     LOG_INFO("Gateway server listening on {}:{}", address.to_string(), config.port);
 
+    // Register SIGUSR1 for graceful state cleanup (restart)
+#ifndef _WIN32
+    boost::asio::co_spawn(ioc_, [this]() -> awaitable<void> {
+        boost::asio::signal_set signals(ioc_, SIGUSR1);
+        while (running_) {
+            auto [ec, sig] = co_await signals.async_wait(
+                boost::asio::as_tuple(net::use_awaitable));
+            if (ec) break;
+            LOG_INFO("SIGUSR1 received: clearing gateway state for restart");
+            for (auto& [id, conn] : connections_) {
+                co_await conn->close();
+            }
+            connections_.clear();
+            LOG_INFO("Gateway state cleared ({} connections dropped)", 0);
+        }
+    }, boost::asio::detached);
+#endif
+
     co_await accept_loop(acceptor);
 }
 
@@ -271,8 +291,19 @@ auto GatewayServer::accept_loop(tcp::acceptor& acceptor) -> awaitable<void> {
 auto GatewayServer::handle_connection(tcp::socket socket) -> awaitable<void> {
     auto conn_id = utils::generate_id(12);
     auto remote_ep = socket.remote_endpoint();
+
+    // Sanitize: truncate and clean remote endpoint for logging
+    auto remote_addr = remote_ep.address().to_string();
+    if (remote_addr.size() > 200) {
+        remote_addr = remote_addr.substr(0, 200);
+    }
+    // Strip control characters from address
+    std::erase_if(remote_addr, [](char c) {
+        return (c < 32 && c != '\t') || c == 127;
+    });
+
     LOG_INFO("New connection {} from {}:{}",
-             conn_id, remote_ep.address().to_string(), remote_ep.port());
+             conn_id, remote_addr, remote_ep.port());
 
     // Upgrade to WebSocket.
     Connection::WsStream ws(std::move(socket));

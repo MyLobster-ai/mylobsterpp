@@ -87,4 +87,50 @@ auto ChannelRule::name() const -> std::string_view {
     return name_;
 }
 
+// -- ScopeRule --
+
+ScopeRule::ScopeRule(BindingScope scope, std::string target_id, int priority)
+    : scope_(scope)
+    , target_id_(std::move(target_id))
+    , priority_(priority) {
+    switch (scope_) {
+        case BindingScope::Peer:   name_ = "scope:peer:" + target_id_; break;
+        case BindingScope::Guild:  name_ = "scope:guild:" + target_id_; break;
+        case BindingScope::Team:   name_ = "scope:team:" + target_id_; break;
+        case BindingScope::Global: name_ = "scope:global"; break;
+    }
+}
+
+auto ScopeRule::matches(const IncomingMessage& msg) const -> bool {
+    if (scope_ == BindingScope::Global) {
+        return true;
+    }
+
+    if (!msg.binding) {
+        // No binding context; only Global scope matches
+        return false;
+    }
+
+    const auto& ctx = *msg.binding;
+    switch (scope_) {
+        case BindingScope::Peer:
+            return ctx.peer_id == target_id_;
+        case BindingScope::Guild:
+            return ctx.guild_id && *ctx.guild_id == target_id_;
+        case BindingScope::Team:
+            return ctx.team_id && *ctx.team_id == target_id_;
+        case BindingScope::Global:
+            return true;
+    }
+    return false;
+}
+
+auto ScopeRule::priority() const -> int {
+    return priority_;
+}
+
+auto ScopeRule::name() const -> std::string_view {
+    return name_;
+}
+
 } // namespace openclaw::routing

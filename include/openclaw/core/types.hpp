@@ -65,8 +65,20 @@ struct Session {
     std::string user_id;
     std::string device_id;
     std::optional<std::string> channel;
+    std::optional<std::string> agent_id;  // Multi-agent support
     Timestamp created_at;
     Timestamp last_active;
+
+    /// Builds a session key in the format "{agent_id}:{channel}:{peer_id}".
+    /// Falls back to "{channel}:{peer_id}" if no agent_id.
+    [[nodiscard]] auto session_key(std::string_view peer_id) const -> std::string {
+        std::string key;
+        if (agent_id) {
+            key += *agent_id + ":";
+        }
+        key += channel.value_or("default") + ":" + std::string(peer_id);
+        return key;
+    }
 };
 
 struct DeviceIdentity {

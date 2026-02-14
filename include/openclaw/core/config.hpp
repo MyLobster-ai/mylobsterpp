@@ -71,8 +71,9 @@ struct ChannelConfig {
     std::string type;
     bool enabled = false;
     json settings;
+    std::optional<int> history_limit;  // Per-channel DM history compaction limit
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ChannelConfig, type, enabled, settings)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ChannelConfig, type, enabled, settings, history_limit)
 
 struct MemoryConfig {
     bool enabled = true;
@@ -129,5 +130,9 @@ auto load_config(const std::filesystem::path& path) -> Config;
 auto load_config_from_env() -> Config;
 auto default_config() -> Config;
 auto default_data_dir() -> std::filesystem::path;
+
+/// Resolves `${VAR}` environment variable references in a string.
+/// Supports `$${VAR}` escape (literal `${VAR}`).
+auto resolve_env_refs(std::string_view input) -> std::string;
 
 } // namespace openclaw

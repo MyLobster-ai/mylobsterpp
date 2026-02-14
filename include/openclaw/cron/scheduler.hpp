@@ -41,11 +41,13 @@ public:
 
     /// Schedule a new recurring task.
     ///
-    /// @param name       Unique name for the task (used for cancel/replace).
-    /// @param cron_expr  Standard 5-field cron expression.
-    /// @param task       Coroutine to invoke on each match.
-    /// @returns          Error if the cron expression is invalid or the name is empty.
-    auto schedule(std::string_view name, std::string_view cron_expr, Task task)
+    /// @param name              Unique name for the task (used for cancel/replace).
+    /// @param cron_expr         Standard 5-field cron expression.
+    /// @param task              Coroutine to invoke on each match.
+    /// @param delete_after_run  If true, auto-cancel after first successful execution.
+    /// @returns                 Error if the cron expression is invalid or the name is empty.
+    auto schedule(std::string_view name, std::string_view cron_expr, Task task,
+                  bool delete_after_run = false)
         -> Result<void>;
 
     /// Cancel a previously scheduled task by name.
@@ -76,6 +78,7 @@ private:
         std::string name;
         CronExpression expression;
         Task task;
+        bool delete_after_run = false;  // Auto-cancel after successful execution
     };
 
     boost::asio::io_context& ioc_;

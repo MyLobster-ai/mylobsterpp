@@ -209,18 +209,42 @@ auto DiscordChannel::gateway_loop() -> boost::asio::awaitable<void> {
                             LOG_DEBUG("[discord] Received HELLO, heartbeat_interval={}ms",
                                       heartbeat_interval);
 
-                            // Send IDENTIFY
+                            // Send IDENTIFY with optional presence
+                            json identify_d = {
+                                {"token", config_.bot_token},
+                                {"intents", config_.intents},
+                                {"properties", {
+                                    {"os", "linux"},
+                                    {"browser", "openclaw"},
+                                    {"device", "openclaw"},
+                                }},
+                            };
+
+                            // Add presence if configured
+                            if (config_.presence_status || config_.activity_name) {
+                                json presence;
+                                presence["status"] = config_.presence_status.value_or("online");
+                                presence["since"] = 0;
+                                presence["afk"] = false;
+
+                                if (config_.activity_name) {
+                                    json activity;
+                                    activity["name"] = *config_.activity_name;
+                                    activity["type"] = config_.activity_type.value_or(0);
+                                    if (config_.activity_url) {
+                                        activity["url"] = *config_.activity_url;
+                                    }
+                                    presence["activities"] = json::array({activity});
+                                } else {
+                                    presence["activities"] = json::array();
+                                }
+
+                                identify_d["presence"] = presence;
+                            }
+
                             json identify = {
                                 {"op", opcode::IDENTIFY},
-                                {"d", {
-                                    {"token", config_.bot_token},
-                                    {"intents", config_.intents},
-                                    {"properties", {
-                                        {"os", "linux"},
-                                        {"browser", "openclaw"},
-                                        {"device", "openclaw"},
-                                    }},
-                                }},
+                                {"d", identify_d},
                             };
                             std::string id_str = identify.dump();
                             co_await ws.async_write(
@@ -458,6 +482,169 @@ auto DiscordChannel::send_channel_file(std::string_view channel_id,
 }
 
 // ---------------------------------------------------------------------------
+// Voice messages
+// ---------------------------------------------------------------------------
+
+// Discord message flags
+static constexpr int kVoiceMessageFlag = 1 << 13;
+static constexpr int kSuppressNotificationsFlag = 1 << 12;
+
+auto DiscordChannel::send_voice_message(std::string_view channel_id,
+                                         std::string_view audio_data,
+                                         std::string_view waveform_b64)
+    -> boost::asio::awaitable<openclaw::Result<json>>
+{
+    // Step 1: Request an upload URL from Discord
+    json attach_req = {
+        {"files", json::array({{
+            {"filename", "voice-message.ogg"},
+            {"file_size", audio_data.size()},
+            {"id", "0"},
+        }})},
+    };
+
+    std::string attach_path = "/channels/" + std::string(channel_id) + "/attachments";
+    auto attach_resp = co_await http_.post(attach_path, attach_req.dump());
+    if (!attach_resp || !attach_resp->is_success()) {
+        co_return std::unexpected(
+            make_error(ErrorCode::ChannelError,
+                       "Failed to request voice upload URL",
+                       attach_resp ? attach_resp->body : "no response"));
+    }
+
+    json attach_body;
+    try {
+        attach_body = json::parse(attach_resp->body);
+    } catch (const json::exception& e) {
+        co_return std::unexpected(
+            make_error(ErrorCode::SerializationError, "Failed to parse attachment response", e.what()));
+    }
+
+    if (!attach_body.contains("attachments") || attach_body["attachments"].empty()) {
+        co_return std::unexpected(
+            make_error(ErrorCode::ChannelError, "No upload URL in attachment response"));
+    }
+
+    std::string upload_url = attach_body["attachments"][0].value("upload_url", "");
+    std::string uploaded_filename = attach_body["attachments"][0].value("upload_filename", "");
+
+    if (upload_url.empty()) {
+        co_return std::unexpected(
+            make_error(ErrorCode::ChannelError, "Empty upload URL from Discord"));
+    }
+
+    // Step 2: PUT the audio data to the CDN upload URL
+    auto put_resp = co_await http_.put(upload_url, std::string(audio_data),
+                                        "audio/ogg", {});
+    if (!put_resp || !put_resp->is_success()) {
+        co_return std::unexpected(
+            make_error(ErrorCode::ChannelError,
+                       "Failed to upload voice data to CDN",
+                       put_resp ? put_resp->body : "no response"));
+    }
+
+    // Step 3: POST the message with the uploaded attachment and voice flags
+    json msg_payload = {
+        {"flags", kVoiceMessageFlag | kSuppressNotificationsFlag},
+        {"attachments", json::array({{
+            {"id", "0"},
+            {"filename", "voice-message.ogg"},
+            {"uploaded_filename", uploaded_filename},
+            {"waveform", std::string(waveform_b64)},
+            {"duration_secs", 0},  // Discord calculates from file
+        }})},
+    };
+
+    std::string msg_path = "/channels/" + std::string(channel_id) + "/messages";
+    auto msg_resp = co_await http_.post(msg_path, msg_payload.dump());
+    if (!msg_resp || !msg_resp->is_success()) {
+        co_return std::unexpected(
+            make_error(ErrorCode::ChannelError,
+                       "Failed to send voice message",
+                       msg_resp ? msg_resp->body : "no response"));
+    }
+
+    try {
+        co_return json::parse(msg_resp->body);
+    } catch (const json::exception& e) {
+        co_return std::unexpected(
+            make_error(ErrorCode::SerializationError, "Failed to parse voice message response", e.what()));
+    }
+}
+
+auto DiscordChannel::generate_waveform(const std::vector<uint8_t>& pcm_data) -> std::string {
+    constexpr size_t kSamples = 256;
+    std::vector<uint8_t> waveform(kSamples, 0);
+
+    if (pcm_data.empty()) {
+        return utils::base64_encode(waveform.data(), waveform.size());
+    }
+
+    // PCM 16-bit signed little-endian, divide into kSamples buckets
+    size_t total_samples = pcm_data.size() / 2;  // 16-bit = 2 bytes per sample
+    size_t bucket_size = std::max(total_samples / kSamples, size_t{1});
+
+    for (size_t i = 0; i < kSamples; ++i) {
+        size_t start = i * bucket_size;
+        size_t end = std::min(start + bucket_size, total_samples);
+
+        uint32_t max_amplitude = 0;
+        for (size_t s = start; s < end; ++s) {
+            size_t byte_offset = s * 2;
+            if (byte_offset + 1 >= pcm_data.size()) break;
+            int16_t sample = static_cast<int16_t>(
+                pcm_data[byte_offset] | (pcm_data[byte_offset + 1] << 8));
+            auto amplitude = static_cast<uint32_t>(std::abs(sample));
+            if (amplitude > max_amplitude) {
+                max_amplitude = amplitude;
+            }
+        }
+
+        // Normalize to 0-255
+        waveform[i] = static_cast<uint8_t>(
+            std::min(static_cast<uint32_t>(255),
+                     (max_amplitude * 255) / 32768));
+    }
+
+    return utils::base64_encode(waveform.data(), waveform.size());
+}
+
+// ---------------------------------------------------------------------------
+// Thread creation
+// ---------------------------------------------------------------------------
+
+auto DiscordChannel::create_thread(std::string_view channel_id,
+                                    std::string_view message_id,
+                                    std::string_view name)
+    -> boost::asio::awaitable<openclaw::Result<json>>
+{
+    // Truncate name to 100 characters (Discord limit)
+    std::string thread_name(name.substr(0, 100));
+
+    json payload = {
+        {"name", thread_name},
+        {"auto_archive_duration", 60},  // auto-archive after 1 hour
+    };
+
+    std::string path = "/channels/" + std::string(channel_id) +
+                       "/messages/" + std::string(message_id) + "/threads";
+    auto response = co_await http_.post(path, payload.dump());
+    if (!response || !response->is_success()) {
+        co_return std::unexpected(
+            make_error(ErrorCode::ChannelError,
+                       "Failed to create thread",
+                       response ? response->body : "no response"));
+    }
+
+    try {
+        co_return json::parse(response->body);
+    } catch (const json::exception& e) {
+        co_return std::unexpected(
+            make_error(ErrorCode::SerializationError, "Failed to parse thread response", e.what()));
+    }
+}
+
+// ---------------------------------------------------------------------------
 // Stubs for unused coroutine methods declared in header
 // ---------------------------------------------------------------------------
 
@@ -480,6 +667,24 @@ auto make_discord_channel(const json& settings, boost::asio::io_context& ioc)
     if (settings.contains("application_id")) {
         config.application_id = settings.at("application_id").get<std::string>();
     }
+
+    // Presence configuration
+    if (settings.contains("presence_status")) {
+        config.presence_status = settings.at("presence_status").get<std::string>();
+    }
+    if (settings.contains("activity_name")) {
+        config.activity_name = settings.at("activity_name").get<std::string>();
+    }
+    if (settings.contains("activity_type")) {
+        config.activity_type = settings.at("activity_type").get<int>();
+    }
+    if (settings.contains("activity_url")) {
+        config.activity_url = settings.at("activity_url").get<std::string>();
+    }
+
+    // AutoThread configuration
+    config.auto_thread = settings.value("auto_thread", false);
+    config.auto_thread_ttl_minutes = settings.value("auto_thread_ttl_minutes", 5);
 
     if (config.bot_token.empty()) {
         LOG_ERROR("[discord] bot_token is required in channel settings");

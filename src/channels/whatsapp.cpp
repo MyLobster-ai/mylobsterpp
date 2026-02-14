@@ -63,7 +63,7 @@ auto WhatsAppChannel::send(OutgoingMessage msg)
         }
     }
 
-    // Send attachments
+    // Send attachments with filename preservation
     for (const auto& attachment : msg.attachments) {
         std::string media_type;
         if (attachment.type == "image") {
@@ -76,10 +76,13 @@ auto WhatsAppChannel::send(OutgoingMessage msg)
             media_type = "document";
         }
 
+        // For documents, pass the filename as caption so it's preserved
+        auto caption_or_filename = attachment.filename
+            ? std::optional<std::string_view>{*attachment.filename}
+            : std::nullopt;
+
         auto result = co_await send_media_message(msg.recipient_id,
-            media_type, attachment.url,
-            attachment.filename ? std::optional<std::string_view>{*attachment.filename}
-                               : std::nullopt);
+            media_type, attachment.url, caption_or_filename);
         if (!result) {
             LOG_WARN("[whatsapp] Failed to send media: {}", result.error().what());
         }
@@ -326,6 +329,10 @@ auto WhatsAppChannel::send_media_message(std::string_view to,
     };
     if (caption) {
         media_object["caption"] = std::string(*caption);
+    }
+    // Preserve document filename if provided
+    if (media_type == "document" && caption) {
+        media_object["filename"] = std::string(*caption);
     }
 
     json payload = {

@@ -22,7 +22,21 @@ auto AgentRuntime::process(CompletionRequest req)
             "No provider configured"));
     }
 
-    LOG_DEBUG("Processing completion request (model: {})", req.model);
+    // Pre-prompt context diagnostics
+    size_t total_chars = 0;
+    size_t system_chars = 0;
+    for (const auto& msg : req.messages) {
+        for (const auto& block : msg.content) {
+            total_chars += block.text.size();
+            if (msg.role == Role::System) {
+                system_chars += block.text.size();
+            }
+        }
+    }
+    LOG_INFO("Completion request: messages={}, system_chars={}, prompt_chars={}, "
+             "provider={}, model={}",
+             req.messages.size(), system_chars, total_chars - system_chars,
+             provider_->name(), req.model);
 
     // Inject tool definitions if tools are registered and none were provided
     if (req.tools.empty() && tools_.size() > 0) {
@@ -45,7 +59,16 @@ auto AgentRuntime::process_stream(CompletionRequest req, StreamCallback cb)
             "No provider configured"));
     }
 
-    LOG_DEBUG("Processing streaming request (model: {})", req.model);
+    // Pre-prompt context diagnostics
+    size_t stream_total_chars = 0;
+    for (const auto& msg : req.messages) {
+        for (const auto& block : msg.content) {
+            stream_total_chars += block.text.size();
+        }
+    }
+    LOG_INFO("Stream request: messages={}, chars={}, provider={}, model={}",
+             req.messages.size(), stream_total_chars,
+             provider_->name(), req.model);
 
     if (req.tools.empty() && tools_.size() > 0) {
         if (provider_->name() == "openai") {

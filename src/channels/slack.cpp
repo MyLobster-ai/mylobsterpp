@@ -80,6 +80,17 @@ auto SlackChannel::send(OutgoingMessage msg)
             make_error(ErrorCode::ChannelError, "Slack channel is not running"));
     }
 
+    // Thread-ownership outbound gating:
+    // If sending to a thread we didn't start, check for @-mention bypass
+    // or allow the hooks layer (DeliveredChannel) to cancel/modify.
+    // Skip gating if text contains @BOT_USER_ID mention
+    bool has_mention = !bot_user_id_.empty() &&
+        msg.text.find("<@" + bot_user_id_ + ">") != std::string::npos;
+    if (!has_mention && msg.thread_id) {
+        LOG_TRACE("[slack] Outbound to thread {} (gating deferred to hooks layer)",
+                  *msg.thread_id);
+    }
+
     // Send text message
     if (!msg.text.empty()) {
         auto result = co_await post_message(msg.recipient_id, msg.text,

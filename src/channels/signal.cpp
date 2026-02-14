@@ -31,10 +31,21 @@ auto SignalChannel::start() -> boost::asio::awaitable<void> {
     LOG_INFO("[signal] Starting channel '{}' (phone={})",
              config_.channel_name, config_.phone_number);
 
+    // Check architecture for arm64 Linux - signal-cli may need manual install
+#if defined(__aarch64__) && defined(__linux__)
+    LOG_WARN("[signal] Running on arm64 Linux. If signal-cli is not installed, "
+             "install via Homebrew: brew install signal-cli");
+#endif
+
     auto check = co_await verify_connection();
     if (!check) {
         LOG_ERROR("[signal] Failed to verify signal-cli connection: {}",
                   check.error().what());
+#if defined(__aarch64__) && defined(__linux__)
+        LOG_ERROR("[signal] On arm64 Linux, signal-cli may require manual installation. "
+                  "Try: brew install signal-cli  OR  "
+                  "download from https://github.com/AsamK/signal-cli/releases");
+#endif
         co_return;
     }
 
