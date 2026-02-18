@@ -136,12 +136,20 @@ auto CronScheduler::start() -> awaitable<void> {
             auto task_copy = entry.task;
             auto task_name = entry.name;
             bool one_shot = entry.delete_after_run;
+            int stagger = entry.stagger_ms;
 
             boost::asio::co_spawn(
                 ioc_,
-                [task_copy = std::move(task_copy), task_name = std::move(task_name)]()
+                [&ioc = ioc_, task_copy = std::move(task_copy),
+                 task_name = std::move(task_name), stagger]()
                     -> awaitable<void> {
                     try {
+                        // Apply stagger delay before execution
+                        if (stagger > 0) {
+                            boost::asio::steady_timer delay_timer(ioc,
+                                std::chrono::milliseconds(stagger));
+                            co_await delay_timer.async_wait(use_awaitable);
+                        }
                         co_await task_copy();
                     } catch (const std::exception& e) {
                         LOG_ERROR("Cron task '{}' failed: {}", task_name, e.what());

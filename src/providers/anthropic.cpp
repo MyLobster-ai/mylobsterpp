@@ -12,7 +12,7 @@ namespace openclaw::providers {
 namespace {
 
 constexpr auto kDefaultBaseUrl = "https://api.anthropic.com";
-constexpr auto kDefaultModel = "claude-sonnet-4-20250514";
+constexpr auto kDefaultModel = "claude-sonnet-4-6-20250514";
 constexpr auto kApiVersion = "2023-06-01";
 constexpr auto kMessagesPath = "/v1/messages";
 
@@ -24,6 +24,11 @@ auto role_to_string(Role role) -> std::string {
         case Role::Tool: return "user";  // Tool results sent as user messages
         default: return "user";
     }
+}
+
+/// Check if a model supports the 1M context beta.
+auto is_1m_eligible_model(const std::string& model) -> bool {
+    return model.starts_with("claude-opus-4") || model.starts_with("claude-sonnet-4");
 }
 
 /// Convert a unified ContentBlock to the Anthropic content block format.
@@ -327,7 +332,16 @@ auto AnthropicProvider::complete(CompletionRequest req)
 
     LOG_DEBUG("Anthropic complete request: model={}", body.value("model", ""));
 
-    auto result = co_await http_.post(kMessagesPath, body.dump());
+    // Add 1M context beta header for eligible models
+    std::map<std::string, std::string> extra_headers;
+    auto model_str = body.value("model", "");
+    if (is_1m_eligible_model(model_str)) {
+        extra_headers["anthropic-beta"] = "context-1m-2025-08-07";
+    }
+
+    auto result = extra_headers.empty()
+        ? co_await http_.post(kMessagesPath, body.dump())
+        : co_await http_.post(kMessagesPath, body.dump(), "application/json", extra_headers);
 
     if (!result.has_value()) {
         co_return std::unexpected(make_error(
@@ -366,7 +380,16 @@ auto AnthropicProvider::stream(CompletionRequest req, StreamCallback cb)
 
     LOG_DEBUG("Anthropic stream request: model={}", body.value("model", ""));
 
-    auto result = co_await http_.post(kMessagesPath, body.dump());
+    // Add 1M context beta header for eligible models
+    std::map<std::string, std::string> extra_headers;
+    auto model_str = body.value("model", "");
+    if (is_1m_eligible_model(model_str)) {
+        extra_headers["anthropic-beta"] = "context-1m-2025-08-07";
+    }
+
+    auto result = extra_headers.empty()
+        ? co_await http_.post(kMessagesPath, body.dump())
+        : co_await http_.post(kMessagesPath, body.dump(), "application/json", extra_headers);
 
     if (!result.has_value()) {
         co_return std::unexpected(make_error(
@@ -419,6 +442,8 @@ auto AnthropicProvider::name() const -> std::string_view {
 
 auto AnthropicProvider::models() const -> std::vector<std::string> {
     return {
+        "claude-opus-4-6-20250514",
+        "claude-sonnet-4-6-20250514",
         "claude-opus-4-20250514",
         "claude-sonnet-4-20250514",
         "claude-haiku-3-5-20241022",

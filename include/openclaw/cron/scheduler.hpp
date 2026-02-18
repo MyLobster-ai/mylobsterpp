@@ -79,6 +79,7 @@ private:
         CronExpression expression;
         Task task;
         bool delete_after_run = false;  // Auto-cancel after successful execution
+        int stagger_ms = 0;             // Delay before execution (jitter)
     };
 
     boost::asio::io_context& ioc_;

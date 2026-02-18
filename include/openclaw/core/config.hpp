@@ -109,8 +109,21 @@ NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(PluginConfig, name, path, enable
 
 struct CronConfig {
     bool enabled = false;
+    std::optional<int> default_stagger_ms;
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(CronConfig, enabled)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(CronConfig, enabled, default_stagger_ms)
+
+struct SubagentConfig {
+    std::optional<int> max_spawn_depth;        // 1-5, default 1
+    std::optional<int> max_children_per_agent;  // 1-20, default 5
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(SubagentConfig, max_spawn_depth, max_children_per_agent)
+
+struct ImageConfig {
+    std::optional<int> max_dimension_px;  // default 1200
+    std::optional<int> max_bytes;         // default 5MB
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ImageConfig, max_dimension_px, max_bytes)
 
 struct Config {
     GatewayConfig gateway;
@@ -123,8 +136,10 @@ struct Config {
     CronConfig cron;
     std::string log_level = "info";
     std::optional<std::string> data_dir;
+    std::optional<SubagentConfig> subagents;
+    std::optional<ImageConfig> image;
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image)
 
 auto load_config(const std::filesystem::path& path) -> Config;
 auto load_config_from_env() -> Config;

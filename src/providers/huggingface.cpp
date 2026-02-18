@@ -46,9 +46,9 @@ auto parse_sse_lines(const std::string& body) -> std::vector<std::string> {
 
 auto HuggingFaceProvider::static_catalog() -> const std::vector<HFModelInfo>& {
     static const std::vector<HFModelInfo> catalog = {
-        {"meta-llama/Llama-3.3-70B-Instruct", 131072, 8192, false},
         {"meta-llama/Llama-4-Scout-17B-16E-Instruct", 131072, 8192, false},
         {"meta-llama/Llama-4-Maverick-17B-128E-Instruct", 131072, 8192, false},
+        {"meta-llama/Llama-3.3-70B-Instruct", 131072, 8192, false},
         {"Qwen/Qwen3-235B-A22B", 131072, 8192, false},
         {"Qwen/Qwen3-32B", 131072, 8192, false},
         {"Qwen/QwQ-32B", 131072, 8192, true},

@@ -2,6 +2,26 @@
 
 All notable changes to MyLobster++ are documented in this file.
 
+## v2026.2.17
+
+Port of [OpenClaw v2026.2.17](https://github.com/openclaw/openclaw) changes to C++23.
+
+### Model Updates
+
+- **Claude Sonnet 4.6** — Default model updated to `claude-sonnet-4-6-20250514`. Added `claude-opus-4-6-20250514` and `claude-sonnet-4-6-20250514` to Anthropic model catalog.
+- **1M Context Beta** — `anthropic-beta: context-1m-2025-08-07` header sent for eligible Claude 4+ models. Enables 1M token context window.
+- **HuggingFace catalog reorder** — Llama 4 variants moved to top of static catalog.
+
+### Configuration
+
+- **Subagent limits** — New `SubagentConfig` with `max_spawn_depth` (1-5) and `max_children_per_agent` (1-20) fields.
+- **Image config** — New `ImageConfig` with `max_dimension_px` (default 1200) and `max_bytes` (default 5MB) fields.
+- **Cron stagger** — `CronConfig::default_stagger_ms` for jitter on cron job execution.
+
+### Cron
+
+- **Stagger delay** — `ScheduledTask::stagger_ms` field. Applies a `steady_timer` delay before task execution to reduce thundering herd on shared-minute schedules.
+
 ## v2026.2.13
 
 Port of [OpenClaw v2026.2.13](https://github.com/openclaw/openclaw) changes to C++23.
