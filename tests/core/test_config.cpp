@@ -134,3 +134,85 @@ TEST_CASE("Config round-trips through JSON", "[config]") {
     // Other fields keep defaults
     CHECK(restored.sessions.ttl_seconds == 86400);
 }
+
+// ============================================================================
+// v2026.2.17 feature tests: SubagentConfig, ImageConfig, CronConfig stagger
+// ============================================================================
+
+TEST_CASE("default_config has no subagents, image, or cron stagger", "[config]") {
+    auto cfg = openclaw::default_config();
+
+    SECTION("cron defaults include stagger") {
+        CHECK_FALSE(cfg.cron.default_stagger_ms.has_value());
+    }
+
+    SECTION("subagent defaults") {
+        CHECK_FALSE(cfg.subagents.has_value());
+    }
+
+    SECTION("image defaults") {
+        CHECK_FALSE(cfg.image.has_value());
+    }
+}
+
+TEST_CASE("SubagentConfig round-trips through JSON", "[config]") {
+    openclaw::SubagentConfig sc;
+    sc.max_spawn_depth = 3;
+    sc.max_children_per_agent = 10;
+
+    nlohmann::json j = sc;
+    auto restored = j.get<openclaw::SubagentConfig>();
+
+    CHECK(restored.max_spawn_depth.value() == 3);
+    CHECK(restored.max_children_per_agent.value() == 10);
+}
+
+TEST_CASE("ImageConfig round-trips through JSON", "[config]") {
+    openclaw::ImageConfig ic;
+    ic.max_dimension_px = 1200;
+    ic.max_bytes = 5 * 1024 * 1024;
+
+    nlohmann::json j = ic;
+    auto restored = j.get<openclaw::ImageConfig>();
+
+    CHECK(restored.max_dimension_px.value() == 1200);
+    CHECK(restored.max_bytes.value() == 5 * 1024 * 1024);
+}
+
+TEST_CASE("CronConfig with stagger round-trips through JSON", "[config]") {
+    openclaw::CronConfig cc;
+    cc.enabled = true;
+    cc.default_stagger_ms = 5000;
+
+    nlohmann::json j = cc;
+    auto restored = j.get<openclaw::CronConfig>();
+
+    CHECK(restored.enabled == true);
+    CHECK(restored.default_stagger_ms.value() == 5000);
+}
+
+TEST_CASE("Config with subagents and image parses from JSON", "[config]") {
+    namespace fs = std::filesystem;
+
+    auto tmp = fs::temp_directory_path() / "openclaw_test_v2026217.json";
+    {
+        std::ofstream out(tmp);
+        out << R"({
+            "subagents": { "max_spawn_depth": 2, "max_children_per_agent": 8 },
+            "image": { "max_dimension_px": 800, "max_bytes": 2097152 },
+            "cron": { "enabled": true, "default_stagger_ms": 3000 }
+        })";
+    }
+
+    auto cfg = openclaw::load_config(tmp);
+
+    REQUIRE(cfg.subagents.has_value());
+    CHECK(cfg.subagents->max_spawn_depth.value() == 2);
+    CHECK(cfg.subagents->max_children_per_agent.value() == 8);
+    REQUIRE(cfg.image.has_value());
+    CHECK(cfg.image->max_dimension_px.value() == 800);
+    CHECK(cfg.image->max_bytes.value() == 2097152);
+    CHECK(cfg.cron.default_stagger_ms.value() == 3000);
+
+    fs::remove(tmp);
+}

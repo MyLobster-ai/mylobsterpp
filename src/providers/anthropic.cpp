@@ -9,6 +9,11 @@
 
 namespace openclaw::providers {
 
+/// Check if a model supports the 1M context beta.
+auto is_1m_eligible_model(const std::string& model) -> bool {
+    return model.starts_with("claude-opus-4") || model.starts_with("claude-sonnet-4");
+}
+
 namespace {
 
 constexpr auto kDefaultBaseUrl = "https://api.anthropic.com";
@@ -24,11 +29,6 @@ auto role_to_string(Role role) -> std::string {
         case Role::Tool: return "user";  // Tool results sent as user messages
         default: return "user";
     }
-}
-
-/// Check if a model supports the 1M context beta.
-auto is_1m_eligible_model(const std::string& model) -> bool {
-    return model.starts_with("claude-opus-4") || model.starts_with("claude-sonnet-4");
 }
 
 /// Convert a unified ContentBlock to the Anthropic content block format.

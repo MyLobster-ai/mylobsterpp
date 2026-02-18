@@ -13,6 +13,9 @@
 
 namespace openclaw::providers {
 
+/// Check if a model supports the 1M context beta.
+auto is_1m_eligible_model(const std::string& model) -> bool;
+
 /// Anthropic Claude provider.
 ///
 /// Communicates with the Anthropic Messages API at
