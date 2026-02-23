@@ -6,6 +6,8 @@
 #include <SQLiteCpp/SQLiteCpp.h>
 
 #include <filesystem>
+#include <functional>
+#include <unordered_map>
 
 namespace openclaw::memory {
 
@@ -53,6 +55,7 @@ struct MemoryManager::Impl {
     std::unique_ptr<HybridSearch> hybrid_search;
     std::unique_ptr<SQLite::Database> meta_db;
     bool ready = false;
+    std::unordered_map<std::string, std::string> source_hashes;  // id -> content hash
 };
 
 // ---------------------------------------------------------------------------
@@ -368,6 +371,57 @@ auto MemoryManager::clear() -> awaitable<Result<void>> {
     }
 
     LOG_INFO("Cleared all memories");
+    co_return Result<void>{};
+}
+
+auto MemoryManager::reindex(std::string_view id, std::string_view new_content)
+    -> awaitable<Result<void>> {
+    if (!impl_->ready) {
+        co_return std::unexpected(
+            make_error(ErrorCode::MemoryError, "Memory system not initialized"));
+    }
+
+    // Compute simple hash (use std::hash for content)
+    std::string content_hash = std::to_string(
+        std::hash<std::string_view>{}(new_content));
+
+    auto it = impl_->source_hashes.find(std::string(id));
+    if (it != impl_->source_hashes.end() && it->second == content_hash) {
+        LOG_DEBUG("Content unchanged for {}, skipping reindex", std::string(id));
+        co_return Result<void>{};
+    }
+
+    // Re-embed and store
+    auto embed_result = co_await impl_->embeddings->embed(new_content);
+    if (!embed_result) {
+        co_return std::unexpected(embed_result.error());
+    }
+
+    // Update in hybrid search
+    auto remove_result = co_await impl_->hybrid_search->remove(id);
+    (void)remove_result;  // OK if not found
+
+    json metadata;
+    auto index_result = co_await impl_->hybrid_search->index(id, new_content, metadata);
+    if (!index_result) {
+        co_return std::unexpected(index_result.error());
+    }
+
+    // Update metadata DB
+    try {
+        SQLite::Statement stmt(*impl_->meta_db,
+            "UPDATE memories SET content = ?, updated_at = ? WHERE id = ?");
+        stmt.bind(1, std::string(new_content));
+        stmt.bind(2, utils::timestamp_ms());
+        stmt.bind(3, std::string(id));
+        stmt.exec();
+    } catch (const SQLite::Exception& e) {
+        co_return std::unexpected(
+            make_error(ErrorCode::DatabaseError, "Failed to update memory", e.what()));
+    }
+
+    impl_->source_hashes[std::string(id)] = content_hash;
+    LOG_DEBUG("Reindexed memory: {}", std::string(id));
     co_return Result<void>{};
 }
 

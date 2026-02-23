@@ -83,6 +83,18 @@ auto load_config_from_env() -> Config {
         synthetic.api_key = val;
         config.providers.push_back(std::move(synthetic));
     }
+    if (auto* val = std::getenv("MISTRAL_API_KEY")) {
+        ProviderConfig mistral;
+        mistral.name = "mistral";
+        mistral.api_key = val;
+        config.providers.push_back(std::move(mistral));
+    }
+    if (auto* val = std::getenv("VOLCENGINE_API_KEY")) {
+        ProviderConfig volcengine;
+        volcengine.name = "volcengine";
+        volcengine.api_key = val;
+        config.providers.push_back(std::move(volcengine));
+    }
 
     return config;
 }

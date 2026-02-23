@@ -1,4 +1,5 @@
 #include "openclaw/channels/whatsapp.hpp"
+#include "openclaw/channels/message.hpp"
 #include "openclaw/core/logger.hpp"
 #include "openclaw/core/utils.hpp"
 
@@ -53,6 +54,25 @@ auto WhatsAppChannel::send(OutgoingMessage msg)
     if (!running_.load()) {
         co_return std::unexpected(
             make_error(ErrorCode::ChannelError, "WhatsApp channel is not running"));
+    }
+
+    // Enforce allowFrom list for outbound messages
+    if (config_.allow_from && !config_.allow_from->empty()) {
+        bool allowed = false;
+        for (const auto& number : *config_.allow_from) {
+            if (msg.recipient_id == number) {
+                allowed = true;
+                break;
+            }
+        }
+        if (!allowed) {
+            LOG_WARN("[whatsapp] Recipient {} not in allowFrom list, blocking send",
+                     msg.recipient_id);
+            co_return std::unexpected(
+                make_error(ErrorCode::Forbidden,
+                           "Recipient not in allowFrom list",
+                           msg.recipient_id));
+        }
     }
 
     // Send text message
@@ -222,30 +242,65 @@ auto WhatsAppChannel::parse_message(const json& message, const json& metadata)
         if (message["image"].contains("mime_type")) {
             att.filename = "image." + message["image"].value("mime_type", "jpeg");
         }
-        incoming.attachments.push_back(std::move(att));
+        if (message["image"].contains("file_size")) {
+            att.size = message["image"].value("file_size", size_t{0});
+        }
+        if (!att.size || *att.size <= kMaxMediaDownloadBytes) {
+            incoming.attachments.push_back(std::move(att));
+        } else {
+            LOG_WARN("[whatsapp] Skipping oversized {} ({} bytes)", att.type, *att.size);
+        }
     } else if (msg_type == "document") {
         incoming.text = message["document"].value("caption", "");
         Attachment att;
         att.type = "file";
         att.url = message["document"].value("id", "");
         att.filename = message["document"].value("filename", "document");
-        incoming.attachments.push_back(std::move(att));
+        if (message["document"].contains("file_size")) {
+            att.size = message["document"].value("file_size", size_t{0});
+        }
+        if (!att.size || *att.size <= kMaxMediaDownloadBytes) {
+            incoming.attachments.push_back(std::move(att));
+        } else {
+            LOG_WARN("[whatsapp] Skipping oversized {} ({} bytes)", att.type, *att.size);
+        }
     } else if (msg_type == "audio") {
         Attachment att;
         att.type = "audio";
         att.url = message["audio"].value("id", "");
-        incoming.attachments.push_back(std::move(att));
+        if (message["audio"].contains("file_size")) {
+            att.size = message["audio"].value("file_size", size_t{0});
+        }
+        if (!att.size || *att.size <= kMaxMediaDownloadBytes) {
+            incoming.attachments.push_back(std::move(att));
+        } else {
+            LOG_WARN("[whatsapp] Skipping oversized {} ({} bytes)", att.type, *att.size);
+        }
     } else if (msg_type == "video") {
         incoming.text = message["video"].value("caption", "");
         Attachment att;
         att.type = "video";
         att.url = message["video"].value("id", "");
-        incoming.attachments.push_back(std::move(att));
+        if (message["video"].contains("file_size")) {
+            att.size = message["video"].value("file_size", size_t{0});
+        }
+        if (!att.size || *att.size <= kMaxMediaDownloadBytes) {
+            incoming.attachments.push_back(std::move(att));
+        } else {
+            LOG_WARN("[whatsapp] Skipping oversized {} ({} bytes)", att.type, *att.size);
+        }
     } else if (msg_type == "sticker") {
         Attachment att;
         att.type = "image";
         att.url = message["sticker"].value("id", "");
-        incoming.attachments.push_back(std::move(att));
+        if (message["sticker"].contains("file_size")) {
+            att.size = message["sticker"].value("file_size", size_t{0});
+        }
+        if (!att.size || *att.size <= kMaxMediaDownloadBytes) {
+            incoming.attachments.push_back(std::move(att));
+        } else {
+            LOG_WARN("[whatsapp] Skipping oversized {} ({} bytes)", att.type, *att.size);
+        }
     } else if (msg_type == "location") {
         double lat = message["location"].value("latitude", 0.0);
         double lon = message["location"].value("longitude", 0.0);
@@ -433,6 +488,9 @@ auto make_whatsapp_channel(const json& settings, boost::asio::io_context& ioc)
         config.business_account_id = settings.at("business_account_id").get<std::string>();
     }
     config.webhook_port = settings.value("webhook_port", static_cast<uint16_t>(0));
+    if (settings.contains("allow_from") && settings["allow_from"].is_array()) {
+        config.allow_from = settings["allow_from"].get<std::vector<std::string>>();
+    }
 
     if (config.access_token.empty()) {
         LOG_ERROR("[whatsapp] access_token is required in channel settings");

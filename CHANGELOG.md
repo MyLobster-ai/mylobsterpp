@@ -2,6 +2,59 @@
 
 All notable changes to MyLobster++ are documented in this file.
 
+## v2026.2.22
+
+Port of [OpenClaw v2026.2.22](https://github.com/openclaw/openclaw) changes to C++23.
+
+### Security Fixes
+
+- **Cross-origin header stripping** — `FetchGuard::strip_cross_origin_headers()` removes `Authorization`, `Cookie`, and `Proxy-Authorization` when redirects cross origin boundaries.
+- **HTML content sanitization** — `FetchGuard::sanitize_html_content()` strips hidden elements (`display:none`, `visibility:hidden`, `sr-only`, `aria-hidden`, `opacity:0`, `font-size:0`) to prevent indirect prompt injection.
+- **Credential redaction** — `redact_credentials()` masks API keys, Bearer tokens, and `sk-`/`pk-` prefixed secrets in session histories. `strip_inbound_metadata()` removes `<!-- metadata:...-->` blocks.
+- **Avatar security** — `GatewayServer::validate_avatar_path()` enforces canonical containment, rejects symlinks outside root, and enforces 2MB size limit.
+- **Media download limits** — `kMaxMediaDownloadBytes` (50MB) enforced across Telegram, Discord, Slack, and WhatsApp channels. Oversized attachments are skipped with a warning.
+- **WhatsApp allowFrom** — Outbound messages checked against configurable allowlist before delivery.
+- **CLI config redaction** — `redact_config_json()` recursively masks `api_key`, `bot_token`, `access_token`, `token`, `secret`, `signing_secret` values in config output.
+- **Telegram webhook secret** — `TelegramConfig::webhook_secret` field for `X-Telegram-Bot-Api-Secret-Token` validation.
+- **Gateway markup sanitization** — Outbound WebSocket text frames stripped of `<script>` tags, event handlers, and `javascript:` URIs.
+
+### New Providers
+
+- **Mistral** — OpenAI-compatible API at `https://api.mistral.ai`. Models: `mistral-large-latest`, `mistral-medium-latest`, `mistral-small-latest`, `codestral-latest`, `open-mistral-nemo`, `mistral-embed`. Tool call ID sanitized to strict9 format.
+- **Volcano Engine (Doubao/BytePlus)** — OpenAI-compatible at `https://ark.cn-beijing.volces.com/api/v3`. Uses endpoint IDs as model names.
+- **Mistral Embeddings** — `MistralEmbeddings` class with `mistral-embed` model (1024 dimensions).
+- **Gemini 3.1** — Added `gemini-3.1-pro-preview`, `gemini-3.1-pro-preview-antigravity-high`, `gemini-3.1-pro-preview-antigravity-low` to model catalog.
+
+### Cron Fixes
+
+- **Manual run** — `CronScheduler::manual_run()` triggers immediate execution with run-log tracking.
+- **Abort support** — `abort_current()` sets atomic flag checked before each task execution.
+- **Job ID sanitization** — Strips `..`, `/`, `\` from task names to prevent path traversal.
+- **Run log cleanup** — `clean_run_log()` prunes completed entries.
+
+### Compaction & Token Handling
+
+- **Compaction counter** — `SessionData::auto_compaction_count` tracks completed compactions.
+- **Compaction floor** — `SessionConfig::compaction_floor_tokens` enforces minimum token retention.
+
+### Memory Improvements
+
+- **Embedding hard-cap** — Input texts truncated to 32,000 chars (~8,000 tokens) before embedding API call.
+- **Reindex on change** — `MemoryManager::reindex()` re-embeds content when source hash changes.
+- **Multi-language stop-words** — BM25 preprocessing filters stop words for English, Spanish, Portuguese, Japanese, Korean, and Arabic.
+
+### Channel Improvements
+
+- **Discord DM scoping** — `_is_dm` flag tracks DM vs server channels for done-reply scoping.
+- **Slack thread context** — `SlackConfig::reply_to_mode` ("thread"/"channel"/"auto") controls thread reply behavior. Thread session tracking via `thread_sessions_` map.
+- **Telegram channel_post** — `channel_post` and `edited_channel_post` update types handled. Media group ID propagated via `_media_group_id`.
+- **Per-channel model overrides** — `Config::model_by_channel` maps channel names to model IDs.
+
+### Gateway & CLI
+
+- **Auth unification** — `CredentialResolver` with defined precedence: Authorization header > ?token= > cookie > Tailscale.
+- **OSC 8 hyperlinks** — CLI wraps detected URLs with terminal hyperlink escape sequences.
+
 ## v2026.2.17
 
 Port of [OpenClaw v2026.2.17](https://github.com/openclaw/openclaw) changes to C++23.

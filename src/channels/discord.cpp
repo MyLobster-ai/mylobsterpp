@@ -368,6 +368,11 @@ auto DiscordChannel::handle_message_create(const json& data) -> void {
     }
 
     auto incoming = parse_message(data);
+
+    // Track DM vs server channel for done-reply scoping
+    bool is_dm = !data.contains("guild_id") || data["guild_id"].is_null();
+    incoming.raw["_is_dm"] = is_dm;
+
     dispatch(std::move(incoming));
 }
 
@@ -411,6 +416,13 @@ auto DiscordChannel::parse_message(const json& msg) -> IncomingMessage {
             att.url = att_json.value("url", "");
             att.filename = att_json.value("filename", "");
             att.size = att_json.value("size", size_t{0});
+
+            // Enforce media download byte limit
+            if (att.size && *att.size > kMaxMediaDownloadBytes) {
+                LOG_WARN("[discord] Skipping oversized attachment '{}' ({} bytes)",
+                         att.filename.value_or(""), *att.size);
+                continue;
+            }
 
             std::string content_type = att_json.value("content_type", "");
             if (content_type.starts_with("image/")) {
@@ -577,7 +589,8 @@ auto DiscordChannel::generate_waveform(const std::vector<uint8_t>& pcm_data) -> 
     std::vector<uint8_t> waveform(kSamples, 0);
 
     if (pcm_data.empty()) {
-        return utils::base64_encode(waveform.data(), waveform.size());
+        return utils::base64_encode(std::string_view(
+            reinterpret_cast<const char*>(waveform.data()), waveform.size()));
     }
 
     // PCM 16-bit signed little-endian, divide into kSamples buckets
@@ -606,7 +619,8 @@ auto DiscordChannel::generate_waveform(const std::vector<uint8_t>& pcm_data) -> 
                      (max_amplitude * 255) / 32768));
     }
 
-    return utils::base64_encode(waveform.data(), waveform.size());
+    return utils::base64_encode(std::string_view(
+        reinterpret_cast<const char*>(waveform.data()), waveform.size()));
 }
 
 // ---------------------------------------------------------------------------

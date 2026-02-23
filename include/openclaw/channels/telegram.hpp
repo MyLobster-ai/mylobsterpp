@@ -23,6 +23,7 @@ struct TelegramConfig {
     int poll_interval_ms = 100;          // delay between poll cycles on empty
     std::optional<std::string> webhook_url;  // if set, uses webhook instead of polling
     std::optional<std::string> allowed_updates;  // JSON array of update types
+    std::optional<std::string> webhook_secret;  // X-Telegram-Bot-Api-Secret-Token validation
 };
 
 /// Telegram channel implementation using the Bot API.
@@ -84,6 +85,7 @@ private:
     auto set_bot_commands(const std::vector<std::pair<std::string, std::string>>& commands)
         -> boost::asio::awaitable<openclaw::Result<void>>;
 
+public:
     /// Checks if an audio file is voice-compatible for sendVoice routing.
     static auto is_voice_compatible(std::string_view filename) -> bool;
 
@@ -92,6 +94,7 @@ private:
         const std::vector<std::pair<std::string, std::string>>& commands)
         -> std::vector<std::pair<std::string, std::string>>;
 
+private:
     TelegramConfig config_;
     boost::asio::io_context& ioc_;
     infra::HttpClient http_;

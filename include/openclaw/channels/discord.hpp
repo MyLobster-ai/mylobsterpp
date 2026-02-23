@@ -104,9 +104,11 @@ private:
                        std::string_view name)
         -> boost::asio::awaitable<openclaw::Result<json>>;
 
+public:
     /// Generates a waveform from PCM audio data (256 amplitude samples, base64).
     static auto generate_waveform(const std::vector<uint8_t>& pcm_data) -> std::string;
 
+private:
     DiscordConfig config_;
     boost::asio::io_context& ioc_;
     infra::HttpClient http_;

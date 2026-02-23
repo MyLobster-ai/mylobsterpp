@@ -207,4 +207,50 @@ auto Authenticator::active_method() const noexcept -> AuthMethod {
     return method_;
 }
 
+// -- CredentialResolver --
+
+auto CredentialResolver::resolve(std::string_view auth_header,
+                                  std::string_view target,
+                                  std::string_view cookie_header,
+                                  std::string_view remote_addr)
+    -> std::optional<std::pair<std::string, AuthMethod>>
+{
+    // 1. Authorization header (Bearer token)
+    if (!auth_header.empty()) {
+        auto token = Authenticator::extract_bearer_token(auth_header);
+        if (token) {
+            return std::make_pair(std::string(*token), AuthMethod::Token);
+        }
+    }
+
+    // 2. ?token= query parameter
+    auto token_from_query = Authenticator::extract_token_from_request(target, "");
+    if (token_from_query) {
+        return std::make_pair(std::string(*token_from_query), AuthMethod::Token);
+    }
+
+    // 3. Cookie
+    if (!cookie_header.empty()) {
+        constexpr std::string_view key = "token=";
+        auto pos = cookie_header.find(key);
+        if (pos != std::string_view::npos) {
+            auto start = pos + key.size();
+            auto end = cookie_header.find(';', start);
+            auto token_val = (end != std::string_view::npos)
+                ? cookie_header.substr(start, end - start)
+                : cookie_header.substr(start);
+            if (!token_val.empty()) {
+                return std::make_pair(std::string(token_val), AuthMethod::Token);
+            }
+        }
+    }
+
+    // 4. Tailscale (peer address)
+    if (!remote_addr.empty()) {
+        return std::make_pair(std::string(remote_addr), AuthMethod::Tailscale);
+    }
+
+    return std::nullopt;
+}
+
 } // namespace openclaw::gateway

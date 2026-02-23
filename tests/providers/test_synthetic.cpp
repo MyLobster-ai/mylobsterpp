@@ -14,9 +14,14 @@ TEST_CASE("Synthetic catalog lookup", "[providers][synthetic]") {
         bool found_qwen = false;
         bool found_kimi = false;
         for (const auto& model : catalog) {
-            if (model.id.find("deepseek") != std::string::npos) found_deepseek = true;
-            if (model.id.find("qwen") != std::string::npos) found_qwen = true;
-            if (model.id.find("kimi") != std::string::npos) found_kimi = true;
+            if (model.id.find("deepseek") != std::string::npos ||
+                model.id.find("DeepSeek") != std::string::npos) found_deepseek = true;
+            if (model.id.find("qwen") != std::string::npos ||
+                model.id.find("Qwen") != std::string::npos ||
+                model.api_id.find("qwen") != std::string::npos) found_qwen = true;
+            if (model.id.find("kimi") != std::string::npos ||
+                model.id.find("Kimi") != std::string::npos ||
+                model.api_id.find("kimi") != std::string::npos) found_kimi = true;
         }
         CHECK(found_deepseek);
         CHECK(found_qwen);

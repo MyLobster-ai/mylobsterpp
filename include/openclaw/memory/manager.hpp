@@ -92,6 +92,10 @@ public:
     /// Clear all stored memories.
     auto clear() -> awaitable<Result<void>>;
 
+    /// Reindex a memory entry if its content has changed.
+    auto reindex(std::string_view id, std::string_view new_content)
+        -> awaitable<Result<void>>;
+
     /// Returns true if the memory system is properly initialized.
     [[nodiscard]] auto is_ready() const -> bool;
 

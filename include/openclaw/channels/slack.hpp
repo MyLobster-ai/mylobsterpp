@@ -4,6 +4,7 @@
 #include <optional>
 #include <string>
 #include <string_view>
+#include <unordered_map>
 
 #include <boost/asio.hpp>
 #include <nlohmann/json.hpp>
@@ -22,6 +23,7 @@ struct SlackConfig {
     std::string channel_name = "slack";
     std::optional<std::string> signing_secret;  // for Events API verification
     bool use_socket_mode = true;  // Socket Mode (default) vs Events API
+    std::optional<std::string> reply_to_mode;  // "thread", "channel", or "auto"
 };
 
 /// Slack channel implementation.
@@ -86,6 +88,9 @@ private:
     // Socket Mode state
     std::string socket_url_;
     // WebSocket managed internally during socket_mode_loop
+
+    /// Thread session tracking: maps thread_ts to whether we initiated it
+    std::unordered_map<std::string, bool> thread_sessions_;
 };
 
 /// Creates a SlackChannel from generic ChannelConfig settings JSON.

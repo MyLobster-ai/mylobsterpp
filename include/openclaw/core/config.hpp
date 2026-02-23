@@ -2,6 +2,7 @@
 
 #include <cstdint>
 #include <filesystem>
+#include <map>
 #include <optional>
 #include <string>
 #include <vector>
@@ -96,8 +97,9 @@ struct SessionConfig {
     std::string store = "sqlite";
     std::optional<std::string> db_path;
     int ttl_seconds = 86400;
+    int compaction_floor_tokens = 0;  // Minimum tokens to keep after compaction (0 = no floor)
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(SessionConfig, store, db_path, ttl_seconds)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(SessionConfig, store, db_path, ttl_seconds, compaction_floor_tokens)
 
 struct PluginConfig {
     std::string name;
@@ -138,8 +140,9 @@ struct Config {
     std::optional<std::string> data_dir;
     std::optional<SubagentConfig> subagents;
     std::optional<ImageConfig> image;
+    std::optional<std::map<std::string, std::string>> model_by_channel;
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image, model_by_channel)
 
 auto load_config(const std::filesystem::path& path) -> Config;
 auto load_config_from_env() -> Config;

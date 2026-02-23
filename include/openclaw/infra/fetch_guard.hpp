@@ -1,5 +1,6 @@
 #pragma once
 
+#include <map>
 #include <string>
 #include <string_view>
 #include <vector>
@@ -35,6 +36,19 @@ public:
                     boost::asio::io_context& ioc,
                     int max_redirects = 3)
         -> boost::asio::awaitable<openclaw::Result<HttpResponse>>;
+
+    /// Extracts the origin (scheme + host + port) from a URL.
+    [[nodiscard]] static auto extract_origin(std::string_view url) -> std::string;
+
+    /// Strips sensitive headers when a redirect crosses origin boundaries.
+    static void strip_cross_origin_headers(
+        std::map<std::string, std::string>& headers,
+        std::string_view from_url, std::string_view to_url);
+
+    /// Sanitizes HTML content by removing hidden/invisible elements that could
+    /// contain prompt injection payloads. Strips elements with display:none,
+    /// visibility:hidden, sr-only class, aria-hidden, opacity:0, font-size:0.
+    [[nodiscard]] static auto sanitize_html_content(std::string_view html) -> std::string;
 
 private:
     /// Extracts hostname from a URL string.

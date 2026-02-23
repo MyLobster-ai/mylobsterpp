@@ -25,6 +25,9 @@ struct Attachment {
 void to_json(json& j, const Attachment& a);
 void from_json(const json& j, Attachment& a);
 
+/// Maximum allowed media download size (50 MB).
+inline constexpr size_t kMaxMediaDownloadBytes = 50 * 1024 * 1024;
+
 /// A message received from a channel (platform -> agent).
 struct IncomingMessage {
     std::string id;

@@ -2,6 +2,7 @@
 
 #include <atomic>
 #include <cstdint>
+#include <filesystem>
 #include <functional>
 #include <memory>
 #include <string>
@@ -105,6 +106,12 @@ public:
 
     /// Return true if the server is running.
     [[nodiscard]] auto is_running() const noexcept -> bool;
+
+    /// Validates an avatar file path: checks canonical containment, symlink
+    /// rejection, and 2MB size limit.
+    [[nodiscard]] static auto validate_avatar_path(
+        const std::filesystem::path& path,
+        const std::filesystem::path& root) -> Result<void>;
 
 private:
     auto accept_loop(tcp::acceptor& acceptor) -> awaitable<void>;

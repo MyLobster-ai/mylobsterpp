@@ -62,6 +62,35 @@ private:
     std::unique_ptr<Impl> impl_;
 };
 
+/// Mistral embedding provider.
+/// Endpoint: /v1/embeddings, model: mistral-embed, dimensions: 1024.
+class MistralEmbeddings : public EmbeddingProvider {
+public:
+    MistralEmbeddings(boost::asio::io_context& ioc,
+                      std::string api_key,
+                      std::string model = "mistral-embed",
+                      std::string base_url = "https://api.mistral.ai");
+
+    ~MistralEmbeddings() override;
+
+    MistralEmbeddings(const MistralEmbeddings&) = delete;
+    MistralEmbeddings& operator=(const MistralEmbeddings&) = delete;
+    MistralEmbeddings(MistralEmbeddings&&) noexcept;
+    MistralEmbeddings& operator=(MistralEmbeddings&&) noexcept;
+
+    auto embed(std::string_view text)
+        -> awaitable<Result<std::vector<float>>> override;
+
+    auto embed_batch(std::vector<std::string> texts)
+        -> awaitable<Result<std::vector<std::vector<float>>>> override;
+
+    [[nodiscard]] auto dimensions() const -> size_t override;
+
+private:
+    struct Impl;
+    std::unique_ptr<Impl> impl_;
+};
+
 /// Embedding provider chain that tries multiple providers in order.
 /// Falls back to the next provider if the current one fails.
 class EmbeddingProviderChain : public EmbeddingProvider {

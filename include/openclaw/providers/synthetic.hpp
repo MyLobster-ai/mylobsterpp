@@ -44,6 +44,16 @@ public:
     [[nodiscard]] auto name() const -> std::string_view override;
     [[nodiscard]] auto models() const -> std::vector<std::string> override;
 
+public:
+    /// Check if a model ID suggests reasoning capability.
+    static auto is_reasoning_model(const std::string& model_id) -> bool;
+
+    /// Return the static model catalog.
+    static auto static_catalog() -> const std::vector<SyntheticModelInfo>&;
+
+    /// Resolve an hf: prefixed model ID to its API identifier.
+    static auto resolve_hf_model(const std::string& model_id) -> std::string;
+
 private:
     /// Build the JSON request body (Anthropic-compatible format).
     auto build_request_body(const CompletionRequest& req) const -> json;
@@ -57,12 +67,6 @@ private:
 
     /// Resolve a model ID, handling hf: prefix.
     auto resolve_model(const std::string& model_id) const -> std::string;
-
-    /// Check if a model ID suggests reasoning capability.
-    static auto is_reasoning_model(const std::string& model_id) -> bool;
-
-    /// Return the static model catalog.
-    static auto static_catalog() -> const std::vector<SyntheticModelInfo>&;
 
     std::string api_key_;
     std::string default_model_;

@@ -46,6 +46,17 @@ public:
     /// Dynamically discover models from the HuggingFace API.
     auto discover_models() -> boost::asio::awaitable<Result<std::vector<HFModelInfo>>>;
 
+public:
+    /// Strip route policy suffix and return {clean_model, policy}.
+    static auto strip_route_policy(const std::string& model)
+        -> std::pair<std::string, std::string>;
+
+    /// Check if a model ID suggests reasoning capability.
+    static auto is_reasoning_model(const std::string& model_id) -> bool;
+
+    /// Return the static model catalog.
+    static auto static_catalog() -> const std::vector<HFModelInfo>&;
+
 private:
     /// Build the JSON request body (OpenAI-compatible format).
     auto build_request_body(const CompletionRequest& req, bool streaming) const -> json;
@@ -59,16 +70,6 @@ private:
     /// Parse a single SSE data line during streaming.
     auto parse_sse_chunk(const json& chunk, CompletionResponse& response,
                          StreamCallback& cb) const -> void;
-
-    /// Strip route policy suffix and return {clean_model, policy}.
-    static auto strip_route_policy(const std::string& model)
-        -> std::pair<std::string, std::string>;
-
-    /// Check if a model ID suggests reasoning capability.
-    static auto is_reasoning_model(const std::string& model_id) -> bool;
-
-    /// Return the static model catalog.
-    static auto static_catalog() -> const std::vector<HFModelInfo>&;
 
     std::string api_key_;
     std::string default_model_;

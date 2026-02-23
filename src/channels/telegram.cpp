@@ -112,7 +112,7 @@ auto TelegramChannel::poll_loop() -> boost::asio::awaitable<void> {
     while (running_.load()) {
         json params = {
             {"timeout", config_.poll_timeout_seconds},
-            {"allowed_updates", json::array({"message", "edited_message", "callback_query"})},
+            {"allowed_updates", json::array({"message", "edited_message", "callback_query", "channel_post", "edited_channel_post"})},
         };
         if (last_update_id_ > 0) {
             params["offset"] = last_update_id_ + 1;
@@ -177,6 +177,12 @@ auto TelegramChannel::process_update(const json& update) -> void {
     } else if (update.contains("edited_message")) {
         auto incoming = parse_message(update["edited_message"]);
         dispatch(std::move(incoming));
+    } else if (update.contains("channel_post")) {
+        auto incoming = parse_message(update["channel_post"]);
+        dispatch(std::move(incoming));
+    } else if (update.contains("edited_channel_post")) {
+        auto incoming = parse_message(update["edited_channel_post"]);
+        dispatch(std::move(incoming));
     } else if (update.contains("callback_query")) {
         const auto& cb = update["callback_query"];
         if (cb.contains("message")) {
@@ -194,6 +200,11 @@ auto TelegramChannel::parse_message(const json& msg) -> IncomingMessage {
     incoming.channel = config_.channel_name;
     incoming.received_at = Clock::now();
     incoming.raw = msg;
+
+    // Propagate media_group_id for batching media group photos
+    if (msg.contains("media_group_id")) {
+        incoming.raw["_media_group_id"] = msg["media_group_id"];
+    }
 
     // Sender info
     if (msg.contains("from")) {
@@ -242,7 +253,11 @@ auto TelegramChannel::parse_message(const json& msg) -> IncomingMessage {
         if (photo.contains("file_size")) {
             att.size = photo.value("file_size", size_t{0});
         }
-        incoming.attachments.push_back(std::move(att));
+        if (!att.size || *att.size <= kMaxMediaDownloadBytes) {
+            incoming.attachments.push_back(std::move(att));
+        } else {
+            LOG_WARN("[telegram] Skipping oversized {} ({} bytes)", att.type, *att.size);
+        }
     }
     if (msg.contains("document")) {
         const auto& doc = msg["document"];
@@ -253,7 +268,11 @@ auto TelegramChannel::parse_message(const json& msg) -> IncomingMessage {
         if (doc.contains("file_size")) {
             att.size = doc.value("file_size", size_t{0});
         }
-        incoming.attachments.push_back(std::move(att));
+        if (!att.size || *att.size <= kMaxMediaDownloadBytes) {
+            incoming.attachments.push_back(std::move(att));
+        } else {
+            LOG_WARN("[telegram] Skipping oversized {} ({} bytes)", att.type, *att.size);
+        }
     }
     if (msg.contains("audio")) {
         const auto& audio = msg["audio"];
@@ -264,7 +283,11 @@ auto TelegramChannel::parse_message(const json& msg) -> IncomingMessage {
         if (audio.contains("file_size")) {
             att.size = audio.value("file_size", size_t{0});
         }
-        incoming.attachments.push_back(std::move(att));
+        if (!att.size || *att.size <= kMaxMediaDownloadBytes) {
+            incoming.attachments.push_back(std::move(att));
+        } else {
+            LOG_WARN("[telegram] Skipping oversized {} ({} bytes)", att.type, *att.size);
+        }
     }
     if (msg.contains("video")) {
         const auto& video = msg["video"];
@@ -275,7 +298,11 @@ auto TelegramChannel::parse_message(const json& msg) -> IncomingMessage {
         if (video.contains("file_size")) {
             att.size = video.value("file_size", size_t{0});
         }
-        incoming.attachments.push_back(std::move(att));
+        if (!att.size || *att.size <= kMaxMediaDownloadBytes) {
+            incoming.attachments.push_back(std::move(att));
+        } else {
+            LOG_WARN("[telegram] Skipping oversized {} ({} bytes)", att.type, *att.size);
+        }
     }
     if (msg.contains("voice")) {
         const auto& voice = msg["voice"];
@@ -285,7 +312,11 @@ auto TelegramChannel::parse_message(const json& msg) -> IncomingMessage {
         if (voice.contains("file_size")) {
             att.size = voice.value("file_size", size_t{0});
         }
-        incoming.attachments.push_back(std::move(att));
+        if (!att.size || *att.size <= kMaxMediaDownloadBytes) {
+            incoming.attachments.push_back(std::move(att));
+        } else {
+            LOG_WARN("[telegram] Skipping oversized {} ({} bytes)", att.type, *att.size);
+        }
     }
 
     return incoming;
@@ -556,6 +587,9 @@ auto make_telegram_channel(const json& settings, boost::asio::io_context& ioc)
     config.poll_interval_ms = settings.value("poll_interval_ms", 100);
     if (settings.contains("webhook_url")) {
         config.webhook_url = settings.at("webhook_url").get<std::string>();
+    }
+    if (settings.contains("webhook_secret")) {
+        config.webhook_secret = settings.at("webhook_secret").get<std::string>();
     }
 
     if (config.bot_token.empty()) {

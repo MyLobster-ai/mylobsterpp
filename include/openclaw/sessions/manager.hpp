@@ -36,6 +36,9 @@ public:
 
     auto cleanup_expired(int ttl_seconds) -> awaitable<Result<size_t>>;
 
+    /// Increment compaction counter after successful compaction.
+    auto record_compaction(std::string_view session_id) -> awaitable<Result<void>>;
+
 private:
     std::unique_ptr<SessionStore> store_;
 };

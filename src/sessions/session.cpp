@@ -2,6 +2,8 @@
 
 #include "openclaw/core/utils.hpp"
 
+#include <regex>
+
 namespace openclaw::sessions {
 
 void to_json(json& j, const SessionData& d) {
@@ -29,6 +31,30 @@ void from_json(const json& j, SessionData& d) {
     if (j.contains("channel")) {
         d.session.channel = j.at("channel").get<std::string>();
     }
+}
+
+auto redact_credentials(std::string_view text) -> std::string {
+    std::string result(text);
+
+    // Redact patterns: key=value, "key": "value" for sensitive keys
+    static const std::regex credential_patterns[] = {
+        std::regex(R"re((api[_-]?key|token|secret|password|bearer|authorization)\s*[=:]\s*"?([a-zA-Z0-9_\-\.\/\+]{8,})"?)re", std::regex::icase),
+        std::regex(R"re(Bearer\s+[a-zA-Z0-9_\-\.\/\+]{8,})re", std::regex::icase),
+        std::regex(R"re((sk-|pk-|rk-|key-)[a-zA-Z0-9_\-]{16,})re", std::regex::icase),
+    };
+
+    for (const auto& pattern : credential_patterns) {
+        result = std::regex_replace(result, pattern, "***REDACTED***");
+    }
+
+    return result;
+}
+
+auto strip_inbound_metadata(std::string_view text) -> std::string {
+    std::string result(text);
+    static const std::regex metadata_pattern(R"(<!--\s*metadata:.*?-->)", std::regex::icase);
+    result = std::regex_replace(result, metadata_pattern, "");
+    return result;
 }
 
 } // namespace openclaw::sessions

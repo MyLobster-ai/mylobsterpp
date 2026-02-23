@@ -24,6 +24,7 @@ struct WhatsAppConfig {
     std::string api_version = "v21.0";
     std::optional<std::string> business_account_id;
     uint16_t webhook_port = 0;        // 0 = no local webhook server
+    std::optional<std::vector<std::string>> allow_from;  // allowlist for outbound recipients
 };
 
 /// WhatsApp Cloud API channel implementation.

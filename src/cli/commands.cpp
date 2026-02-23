@@ -3,6 +3,7 @@
 
 #include <filesystem>
 #include <iostream>
+#include <regex>
 
 #include <boost/asio/co_spawn.hpp>
 #include <boost/asio/detached.hpp>
@@ -19,6 +20,45 @@
 namespace openclaw::cli {
 
 using json = nlohmann::json;
+
+namespace {
+
+/// Recursively redacts sensitive values in a JSON object.
+auto redact_config_json(json& j) -> void {
+    static const std::vector<std::string> sensitive_keys = {
+        "api_key", "bot_token", "access_token", "token", "secret",
+        "signing_secret", "app_token", "verify_token",
+    };
+
+    if (j.is_object()) {
+        for (auto it = j.begin(); it != j.end(); ++it) {
+            bool is_sensitive = false;
+            for (const auto& key : sensitive_keys) {
+                if (it.key() == key) {
+                    is_sensitive = true;
+                    break;
+                }
+            }
+            if (is_sensitive && it->is_string() && !it->get<std::string>().empty()) {
+                *it = "***REDACTED***";
+            } else {
+                redact_config_json(*it);
+            }
+        }
+    } else if (j.is_array()) {
+        for (auto& elem : j) {
+            redact_config_json(elem);
+        }
+    }
+}
+
+/// Wraps detected URLs with OSC 8 terminal hyperlinks for clickable links.
+auto apply_osc8_hyperlinks(const std::string& text) -> std::string {
+    static const std::regex url_re(R"((https?://[^\s<>"{}|\\^`\[\]]+))");
+    return std::regex_replace(text, url_re, "\033]8;;$1\033\\$1\033]8;;\033\\");
+}
+
+} // anonymous namespace
 
 // ---------------------------------------------------------------------------
 // gateway command
@@ -100,8 +140,9 @@ void register_config_command(CLI::App& app, Config& config) {
             return;
         }
 
-        // Pretty-print the configuration as JSON.
+        // Pretty-print the configuration as JSON (with secrets redacted).
         json j = cfg;
+        redact_config_json(j);
         std::cout << j.dump(2) << "\n";
     });
 }

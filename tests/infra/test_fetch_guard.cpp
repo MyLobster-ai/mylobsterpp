@@ -70,3 +70,48 @@ TEST_CASE("FetchGuard private IP detection", "[infra][fetch_guard]") {
         CHECK(FetchGuard::is_private_ip("not-an-ip"));
     }
 }
+
+TEST_CASE("FetchGuard cross-origin header stripping", "[infra][fetch_guard]") {
+    SECTION("Same origin preserves headers") {
+        std::map<std::string, std::string> headers = {
+            {"Authorization", "Bearer token123"},
+            {"Cookie", "session=abc"},
+            {"Accept", "text/html"},
+        };
+        FetchGuard::strip_cross_origin_headers(headers,
+            "https://example.com/path1", "https://example.com/path2");
+        CHECK(headers.contains("Authorization"));
+        CHECK(headers.contains("Cookie"));
+        CHECK(headers.contains("Accept"));
+    }
+
+    SECTION("Cross-origin strips sensitive headers") {
+        std::map<std::string, std::string> headers = {
+            {"Authorization", "Bearer token123"},
+            {"Cookie", "session=abc"},
+            {"Proxy-Authorization", "Basic xyz"},
+            {"Accept", "text/html"},
+        };
+        FetchGuard::strip_cross_origin_headers(headers,
+            "https://example.com/path", "https://evil.com/path");
+        CHECK_FALSE(headers.contains("Authorization"));
+        CHECK_FALSE(headers.contains("Cookie"));
+        CHECK_FALSE(headers.contains("Proxy-Authorization"));
+        CHECK(headers.contains("Accept"));
+    }
+
+    SECTION("Different port is cross-origin") {
+        std::map<std::string, std::string> headers = {
+            {"Authorization", "Bearer token"},
+        };
+        FetchGuard::strip_cross_origin_headers(headers,
+            "https://example.com:443/path", "https://example.com:8443/path");
+        CHECK_FALSE(headers.contains("Authorization"));
+    }
+}
+
+TEST_CASE("FetchGuard origin extraction", "[infra][fetch_guard]") {
+    CHECK(FetchGuard::extract_origin("https://example.com/path") == "https://example.com");
+    CHECK(FetchGuard::extract_origin("https://example.com:8443/path") == "https://example.com:8443");
+    CHECK(FetchGuard::extract_origin("http://localhost:3000/api") == "http://localhost:3000");
+}

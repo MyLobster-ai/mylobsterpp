@@ -2,6 +2,7 @@
 
 #include "openclaw/core/logger.hpp"
 
+#include <regex>
 #include <set>
 #include <boost/asio/ip/tcp.hpp>
 #include <boost/asio/use_awaitable.hpp>
@@ -66,11 +67,9 @@ auto FetchGuard::is_private_ip(std::string_view ip) -> bool {
         // fe80::/10 (link-local)
         if (v6.is_link_local()) return true;
 
-        // IPv4-mapped IPv6 (::ffff:x.x.x.x)
+        // IPv4-mapped IPv6 (::ffff:x.x.x.x) — IPv4 octets at bytes 12-15
         if (v6.is_v4_mapped()) {
-            auto v4 = v6.to_v4();
-            auto v4b = v4.to_bytes();
-            return is_private_ipv4(v4b[0], v4b[1], v4b[2], v4b[3]);
+            return is_private_ipv4(bytes[12], bytes[13], bytes[14], bytes[15]);
         }
 
         // :: (unspecified)
@@ -110,6 +109,82 @@ auto FetchGuard::extract_hostname(std::string_view url) -> std::string {
     }
 
     return std::string(url);
+}
+
+// ---------------------------------------------------------------------------
+// Origin extraction and cross-origin header stripping
+// ---------------------------------------------------------------------------
+
+auto FetchGuard::extract_origin(std::string_view url) -> std::string {
+    // Extract scheme
+    auto scheme_end = url.find("://");
+    if (scheme_end == std::string_view::npos) {
+        return std::string(url);
+    }
+
+    std::string_view scheme = url.substr(0, scheme_end);
+    std::string_view rest = url.substr(scheme_end + 3);
+
+    // Strip userinfo
+    auto at_pos = rest.find('@');
+    auto slash_pos = rest.find('/');
+    if (at_pos != std::string_view::npos &&
+        (slash_pos == std::string_view::npos || at_pos < slash_pos)) {
+        rest = rest.substr(at_pos + 1);
+    }
+
+    // Extract host:port (stop at path, query, or fragment)
+    auto end_pos = rest.find_first_of("/?#");
+    std::string_view host_port = (end_pos != std::string_view::npos)
+        ? rest.substr(0, end_pos)
+        : rest;
+
+    return std::string(scheme) + "://" + std::string(host_port);
+}
+
+void FetchGuard::strip_cross_origin_headers(
+    std::map<std::string, std::string>& headers,
+    std::string_view from_url, std::string_view to_url)
+{
+    auto from_origin = extract_origin(from_url);
+    auto to_origin = extract_origin(to_url);
+
+    if (from_origin == to_origin) {
+        return;
+    }
+
+    static const std::vector<std::string> sensitive_headers = {
+        "Authorization", "Cookie", "Proxy-Authorization",
+    };
+
+    for (const auto& header : sensitive_headers) {
+        headers.erase(header);
+    }
+}
+
+// ---------------------------------------------------------------------------
+// HTML content sanitization
+// ---------------------------------------------------------------------------
+
+auto FetchGuard::sanitize_html_content(std::string_view html) -> std::string {
+    std::string result(html);
+
+    // Remove elements with hidden styles/attributes
+    // Pattern: tags containing display:none, visibility:hidden, etc.
+    static const std::regex hidden_patterns[] = {
+        std::regex(R"(<[^>]*\bstyle\s*=\s*"[^"]*display\s*:\s*none[^"]*"[^>]*>.*?</[^>]+>)", std::regex::icase),
+        std::regex(R"(<[^>]*\bstyle\s*=\s*"[^"]*visibility\s*:\s*hidden[^"]*"[^>]*>.*?</[^>]+>)", std::regex::icase),
+        std::regex(R"(<[^>]*\bclass\s*=\s*"[^"]*\bsr-only\b[^"]*"[^>]*>.*?</[^>]+>)", std::regex::icase),
+        std::regex(R"(<[^>]*\baria-hidden\s*=\s*"true"[^>]*>.*?</[^>]+>)", std::regex::icase),
+        std::regex(R"(<[^>]*\bstyle\s*=\s*"[^"]*opacity\s*:\s*0[^"]*"[^>]*>.*?</[^>]+>)", std::regex::icase),
+        std::regex(R"(<[^>]*\bstyle\s*=\s*"[^"]*font-size\s*:\s*0[^"]*"[^>]*>.*?</[^>]+>)", std::regex::icase),
+    };
+
+    for (const auto& pattern : hidden_patterns) {
+        result = std::regex_replace(result, pattern, "");
+    }
+
+    return result;
 }
 
 // ---------------------------------------------------------------------------
@@ -189,7 +264,19 @@ auto FetchGuard::safe_fetch(std::string_view url,
                 it = response->headers.find("Location");
             }
             if (it != response->headers.end() && !it->second.empty()) {
+                std::string previous_url = current_url;
                 current_url = it->second;
+
+                // Check for cross-origin redirect and warn about header stripping
+                auto from_origin = extract_origin(previous_url);
+                auto to_origin = extract_origin(current_url);
+                if (from_origin != to_origin) {
+                    LOG_WARN("FetchGuard: cross-origin redirect detected from {} to {}, "
+                             "sensitive headers (Authorization, Cookie, Proxy-Authorization) "
+                             "would be stripped",
+                             from_origin, to_origin);
+                }
+
                 LOG_DEBUG("FetchGuard: following redirect to {}", current_url);
                 continue;
             }

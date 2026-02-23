@@ -117,4 +117,34 @@ auto SessionManager::cleanup_expired(int ttl_seconds)
     co_return co_await store_->remove_expired(ttl_seconds);
 }
 
+auto SessionManager::record_compaction(std::string_view session_id)
+    -> awaitable<Result<void>> {
+    auto result = co_await store_->get(session_id);
+    if (!result) {
+        co_return std::unexpected(result.error());
+    }
+
+    auto data = std::move(*result);
+
+    if (data.state == SessionState::Closed) {
+        co_return std::unexpected(
+            make_error(ErrorCode::SessionError,
+                       "Cannot record compaction on a closed session",
+                       std::string(session_id)));
+    }
+
+    // Only increment on successful compaction completion
+    data.auto_compaction_count += 1;
+    data.session.last_active = Clock::now();
+
+    auto update_result = co_await store_->update(data);
+    if (!update_result) {
+        co_return std::unexpected(update_result.error());
+    }
+
+    LOG_DEBUG("Recorded compaction #{} for session {}",
+              data.auto_compaction_count, session_id);
+    co_return Result<void>{};
+}
+
 } // namespace openclaw::sessions

@@ -73,6 +73,15 @@ public:
     /// Returns the number of scheduled tasks.
     [[nodiscard]] auto size() const noexcept -> size_t;
 
+    /// Manually trigger a task to run immediately.
+    auto manual_run(std::string_view name) -> Result<void>;
+
+    /// Request abort of the current running task (best-effort).
+    void abort_current();
+
+    /// Remove completed entries from the run log.
+    void clean_run_log();
+
 private:
     struct ScheduledTask {
         std::string name;
@@ -86,6 +95,16 @@ private:
     mutable std::mutex mutex_;
     std::unordered_map<std::string, ScheduledTask> tasks_;
     std::atomic<bool> running_{false};
+    std::atomic<bool> abort_requested_{false};
+
+    struct RunEntry {
+        std::string name;
+        std::chrono::steady_clock::time_point started_at;
+        bool completed = false;
+    };
+    std::unordered_map<std::string, RunEntry> run_log_;
+
+    int startup_timeout_ms_ = 60000;  // 60s default
 };
 
 } // namespace openclaw::cron

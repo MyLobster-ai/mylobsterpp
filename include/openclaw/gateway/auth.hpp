@@ -4,6 +4,7 @@
 #include <optional>
 #include <string>
 #include <string_view>
+#include <utility>
 
 #include <boost/asio/awaitable.hpp>
 #include <boost/beast/http/message.hpp>
@@ -117,6 +118,18 @@ public:
 private:
     AuthMethod method_ = AuthMethod::None;
     std::unique_ptr<AuthVerifier> verifier_;
+};
+
+/// Unified credential resolver with defined precedence:
+/// Authorization header > ?token= query param > cookie > Tailscale.
+class CredentialResolver {
+public:
+    /// Resolve credentials from request metadata in precedence order.
+    static auto resolve(std::string_view auth_header,
+                        std::string_view target,
+                        std::string_view cookie_header,
+                        std::string_view remote_addr)
+        -> std::optional<std::pair<std::string, AuthMethod>>;
 };
 
 } // namespace openclaw::gateway

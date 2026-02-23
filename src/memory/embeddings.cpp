@@ -60,9 +60,13 @@ OpenAIEmbeddings& OpenAIEmbeddings::operator=(OpenAIEmbeddings&&) noexcept = def
 
 auto OpenAIEmbeddings::embed(std::string_view text)
     -> awaitable<Result<std::vector<float>>> {
+    // Hard-cap input to ~8000 tokens (32000 chars)
+    constexpr size_t kMaxEmbedChars = 32000;
+    std::string input_text(text.substr(0, std::min(text.size(), kMaxEmbedChars)));
+
     json request_body = {
         {"model", impl_->model},
-        {"input", std::string(text)},
+        {"input", input_text},
         {"encoding_format", "float"},
     };
 
@@ -118,10 +122,22 @@ auto OpenAIEmbeddings::embed_batch(std::vector<std::string> texts)
         co_return std::vector<std::vector<float>>{};
     }
 
+    // Hard-cap each input to ~8000 tokens (32000 chars)
+    constexpr size_t kMaxEmbedChars = 32000;
+    std::vector<std::string> capped_texts;
+    capped_texts.reserve(texts.size());
+    for (auto& t : texts) {
+        if (t.size() > kMaxEmbedChars) {
+            capped_texts.push_back(t.substr(0, kMaxEmbedChars));
+        } else {
+            capped_texts.push_back(std::move(t));
+        }
+    }
+
     // OpenAI API supports batch embedding natively
     json request_body = {
         {"model", impl_->model},
-        {"input", texts},
+        {"input", capped_texts},
         {"encoding_format", "float"},
     };
 
@@ -183,6 +199,194 @@ auto OpenAIEmbeddings::embed_batch(std::vector<std::string> texts)
 }
 
 auto OpenAIEmbeddings::dimensions() const -> size_t {
+    return impl_->dims;
+}
+
+// ---------------------------------------------------------------------------
+// MistralEmbeddings::Impl
+// ---------------------------------------------------------------------------
+
+struct MistralEmbeddings::Impl {
+    infra::HttpClient http;
+    std::string api_key;
+    std::string model;
+    size_t dims = 1024;
+
+    Impl(boost::asio::io_context& ioc, std::string key, std::string mdl,
+         std::string base_url)
+        : http(ioc, infra::HttpClientConfig{
+                         .base_url = std::move(base_url),
+                         .timeout_seconds = 60,
+                         .verify_ssl = true,
+                         .default_headers = {
+                             {"Content-Type", "application/json"},
+                         },
+                     }),
+          api_key(std::move(key)),
+          model(std::move(mdl)) {
+        http.set_default_header("Authorization", "Bearer " + api_key);
+
+        // Mistral embed model always produces 1024-dimensional vectors
+        dims = 1024;
+    }
+};
+
+// ---------------------------------------------------------------------------
+// MistralEmbeddings
+// ---------------------------------------------------------------------------
+
+MistralEmbeddings::MistralEmbeddings(boost::asio::io_context& ioc,
+                                     std::string api_key,
+                                     std::string model,
+                                     std::string base_url)
+    : impl_(std::make_unique<Impl>(ioc, std::move(api_key),
+                                   std::move(model), std::move(base_url))) {}
+
+MistralEmbeddings::~MistralEmbeddings() = default;
+MistralEmbeddings::MistralEmbeddings(MistralEmbeddings&&) noexcept = default;
+MistralEmbeddings& MistralEmbeddings::operator=(MistralEmbeddings&&) noexcept = default;
+
+auto MistralEmbeddings::embed(std::string_view text)
+    -> awaitable<Result<std::vector<float>>> {
+    // Hard-cap input to ~8000 tokens (32000 chars)
+    constexpr size_t kMaxEmbedChars = 32000;
+    std::string input_text(text.substr(0, std::min(text.size(), kMaxEmbedChars)));
+
+    json request_body = {
+        {"model", impl_->model},
+        {"input", input_text},
+        {"encoding_format", "float"},
+    };
+
+    auto response = co_await impl_->http.post(
+        "/v1/embeddings", request_body.dump());
+
+    if (!response) {
+        co_return std::unexpected(
+            make_error(ErrorCode::ProviderError,
+                       "Mistral embedding request failed",
+                       response.error().what()));
+    }
+
+    if (!response->is_success()) {
+        LOG_ERROR("Mistral embeddings API returned status {}: {}",
+                  response->status, response->body);
+        co_return std::unexpected(
+            make_error(ErrorCode::ProviderError,
+                       "Mistral embedding API error",
+                       "HTTP " + std::to_string(response->status) + ": " +
+                           response->body));
+    }
+
+    try {
+        auto body = json::parse(response->body);
+
+        if (!body.contains("data") || body["data"].empty()) {
+            co_return std::unexpected(
+                make_error(ErrorCode::ProviderError,
+                           "Mistral embedding response missing data"));
+        }
+
+        auto& embedding_data = body["data"][0]["embedding"];
+        std::vector<float> embedding;
+        embedding.reserve(embedding_data.size());
+        for (const auto& val : embedding_data) {
+            embedding.push_back(val.get<float>());
+        }
+
+        LOG_DEBUG("Generated Mistral embedding with {} dimensions", embedding.size());
+        co_return embedding;
+    } catch (const json::exception& e) {
+        co_return std::unexpected(
+            make_error(ErrorCode::SerializationError,
+                       "Failed to parse Mistral embedding response",
+                       e.what()));
+    }
+}
+
+auto MistralEmbeddings::embed_batch(std::vector<std::string> texts)
+    -> awaitable<Result<std::vector<std::vector<float>>>> {
+    if (texts.empty()) {
+        co_return std::vector<std::vector<float>>{};
+    }
+
+    // Hard-cap each input to ~8000 tokens (32000 chars)
+    constexpr size_t kMaxEmbedChars = 32000;
+    std::vector<std::string> capped_texts;
+    capped_texts.reserve(texts.size());
+    for (auto& t : texts) {
+        if (t.size() > kMaxEmbedChars) {
+            capped_texts.push_back(t.substr(0, kMaxEmbedChars));
+        } else {
+            capped_texts.push_back(std::move(t));
+        }
+    }
+
+    // Mistral API supports batch embedding natively (same as OpenAI)
+    json request_body = {
+        {"model", impl_->model},
+        {"input", capped_texts},
+        {"encoding_format", "float"},
+    };
+
+    auto response = co_await impl_->http.post(
+        "/v1/embeddings", request_body.dump());
+
+    if (!response) {
+        co_return std::unexpected(
+            make_error(ErrorCode::ProviderError,
+                       "Mistral batch embedding request failed",
+                       response.error().what()));
+    }
+
+    if (!response->is_success()) {
+        LOG_ERROR("Mistral embeddings API returned status {}: {}",
+                  response->status, response->body);
+        co_return std::unexpected(
+            make_error(ErrorCode::ProviderError,
+                       "Mistral batch embedding API error",
+                       "HTTP " + std::to_string(response->status) + ": " +
+                           response->body));
+    }
+
+    try {
+        auto body = json::parse(response->body);
+
+        if (!body.contains("data")) {
+            co_return std::unexpected(
+                make_error(ErrorCode::ProviderError,
+                           "Mistral batch embedding response missing data"));
+        }
+
+        // Mistral returns embeddings sorted by index (same as OpenAI)
+        std::vector<std::vector<float>> results;
+        results.resize(texts.size());
+
+        for (const auto& item : body["data"]) {
+            auto index = item["index"].get<size_t>();
+            if (index >= results.size()) {
+                continue;
+            }
+            auto& embedding_data = item["embedding"];
+            std::vector<float> embedding;
+            embedding.reserve(embedding_data.size());
+            for (const auto& val : embedding_data) {
+                embedding.push_back(val.get<float>());
+            }
+            results[index] = std::move(embedding);
+        }
+
+        LOG_DEBUG("Generated {} Mistral embeddings in batch", results.size());
+        co_return results;
+    } catch (const json::exception& e) {
+        co_return std::unexpected(
+            make_error(ErrorCode::SerializationError,
+                       "Failed to parse Mistral batch embedding response",
+                       e.what()));
+    }
+}
+
+auto MistralEmbeddings::dimensions() const -> size_t {
     return impl_->dims;
 }
 

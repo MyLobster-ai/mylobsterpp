@@ -91,10 +91,19 @@ auto SlackChannel::send(OutgoingMessage msg)
                   *msg.thread_id);
     }
 
+    // Determine thread_ts based on reply_to_mode config
+    std::optional<std::string> effective_thread_ts;
+    if (msg.thread_id) {
+        if (!config_.reply_to_mode || *config_.reply_to_mode == "auto" || *config_.reply_to_mode == "thread") {
+            effective_thread_ts = *msg.thread_id;
+        }
+        // "channel" mode: don't set thread_ts (reply goes to channel)
+    }
+
     // Send text message
     if (!msg.text.empty()) {
         auto result = co_await post_message(msg.recipient_id, msg.text,
-            msg.thread_id ? std::optional<std::string_view>{*msg.thread_id} : std::nullopt);
+            effective_thread_ts ? std::optional<std::string_view>{*effective_thread_ts} : std::nullopt);
         if (!result) {
             co_return std::unexpected(result.error());
         }
@@ -338,6 +347,13 @@ auto SlackChannel::parse_message(const json& event) -> IncomingMessage {
             att.filename = file.value("name", "");
             att.size = file.value("size", size_t{0});
 
+            // Enforce media download byte limit
+            if (att.size && *att.size > kMaxMediaDownloadBytes) {
+                LOG_WARN("[slack] Skipping oversized attachment '{}' ({} bytes)",
+                         att.filename.value_or(""), *att.size);
+                continue;
+            }
+
             std::string mimetype = file.value("mimetype", "");
             if (mimetype.starts_with("image/")) {
                 att.type = "image";
@@ -510,6 +526,9 @@ auto make_slack_channel(const json& settings, boost::asio::io_context& ioc)
     config.use_socket_mode = settings.value("use_socket_mode", true);
     if (settings.contains("signing_secret")) {
         config.signing_secret = settings.at("signing_secret").get<std::string>();
+    }
+    if (settings.contains("reply_to_mode")) {
+        config.reply_to_mode = settings.at("reply_to_mode").get<std::string>();
     }
 
     if (config.bot_token.empty()) {

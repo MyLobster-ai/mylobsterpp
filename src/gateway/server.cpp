@@ -3,6 +3,8 @@
 #include "openclaw/core/logger.hpp"
 #include "openclaw/core/utils.hpp"
 
+#include <filesystem>
+#include <regex>
 #include <boost/asio/as_tuple.hpp>
 #include <boost/asio/co_spawn.hpp>
 #include <boost/asio/detached.hpp>
@@ -13,6 +15,20 @@
 #include <boost/beast/core/flat_buffer.hpp>
 
 namespace openclaw::gateway {
+
+namespace {
+auto sanitize_outbound_text(std::string& text) -> void {
+    // Strip script tags
+    static const std::regex script_re(R"(<script[^>]*>.*?</script>)", std::regex::icase);
+    text = std::regex_replace(text, script_re, "");
+    // Strip event handlers (onclick, onerror, etc.)
+    static const std::regex handler_re(R"(\bon\w+\s*=\s*"[^"]*")", std::regex::icase);
+    text = std::regex_replace(text, handler_re, "");
+    // Strip javascript: data URIs
+    static const std::regex js_uri_re(R"(javascript\s*:)", std::regex::icase);
+    text = std::regex_replace(text, js_uri_re, "");
+}
+} // anonymous namespace
 
 // ===========================================================================
 // Connection
@@ -47,6 +63,7 @@ auto Connection::send_text(std::string message) -> awaitable<Result<void>> {
     }
 
     try {
+        sanitize_outbound_text(message);
         ws_.text(true);
         co_await ws_.async_write(
             net::buffer(message), net::use_awaitable);
@@ -429,6 +446,57 @@ void GatewayServer::add_connection(std::shared_ptr<Connection> conn) {
 
 void GatewayServer::remove_connection(const std::string& id) {
     connections_.erase(id);
+}
+
+// ===========================================================================
+// Avatar path validation
+// ===========================================================================
+
+auto GatewayServer::validate_avatar_path(
+    const std::filesystem::path& path,
+    const std::filesystem::path& root) -> Result<void>
+{
+    namespace fs = std::filesystem;
+    constexpr size_t kMaxAvatarBytes = 2 * 1024 * 1024;  // 2MB
+
+    // Reject if path doesn't exist
+    if (!fs::exists(path)) {
+        return std::unexpected(make_error(ErrorCode::NotFound,
+            "Avatar file not found", path.string()));
+    }
+
+    // Reject symlinks outside root
+    if (fs::is_symlink(path)) {
+        auto target = fs::read_symlink(path);
+        auto canonical_target = fs::canonical(target.is_absolute() ? target : path.parent_path() / target);
+        auto canonical_root = fs::canonical(root);
+        auto target_str = canonical_target.string();
+        auto root_str = canonical_root.string();
+        if (!target_str.starts_with(root_str)) {
+            return std::unexpected(make_error(ErrorCode::Forbidden,
+                "Avatar symlink points outside allowed root",
+                path.string() + " -> " + target_str));
+        }
+    }
+
+    // Canonical containment check
+    auto canonical_path = fs::canonical(path);
+    auto canonical_root = fs::canonical(root);
+    if (!canonical_path.string().starts_with(canonical_root.string())) {
+        return std::unexpected(make_error(ErrorCode::Forbidden,
+            "Avatar path traversal detected",
+            canonical_path.string()));
+    }
+
+    // Size check
+    auto file_size = fs::file_size(path);
+    if (file_size > kMaxAvatarBytes) {
+        return std::unexpected(make_error(ErrorCode::InvalidArgument,
+            "Avatar file exceeds 2MB limit",
+            std::to_string(file_size) + " bytes"));
+    }
+
+    return {};
 }
 
 } // namespace openclaw::gateway

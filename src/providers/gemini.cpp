@@ -444,6 +444,9 @@ auto GeminiProvider::name() const -> std::string_view {
 
 auto GeminiProvider::models() const -> std::vector<std::string> {
     return {
+        "gemini-3.1-pro-preview",
+        "gemini-3.1-pro-preview-antigravity-high",
+        "gemini-3.1-pro-preview-antigravity-low",
         "gemini-2.0-flash",
         "gemini-2.0-flash-lite",
         "gemini-1.5-pro",

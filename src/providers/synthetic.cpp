@@ -109,11 +109,15 @@ auto SyntheticProvider::static_catalog() -> const std::vector<SyntheticModelInfo
 
 auto SyntheticProvider::is_reasoning_model(const std::string& model_id) -> bool {
     static const std::regex reasoning_pattern(
-        "r1|reasoning|thinking|reason|qwq", std::regex::icase);
+        "r1|reasoning|think|reason|qwq", std::regex::icase);
     return std::regex_search(model_id, reasoning_pattern);
 }
 
 auto SyntheticProvider::resolve_model(const std::string& model_id) const -> std::string {
+    return resolve_hf_model(model_id);
+}
+
+auto SyntheticProvider::resolve_hf_model(const std::string& model_id) -> std::string {
     // If it starts with hf:, look up in catalog
     if (model_id.starts_with("hf:")) {
         for (const auto& m : static_catalog()) {
@@ -121,8 +125,8 @@ auto SyntheticProvider::resolve_model(const std::string& model_id) const -> std:
                 return m.api_id;
             }
         }
-        // Fallback: strip hf: prefix and use as-is
-        return model_id.substr(3);
+        // Fallback: return as-is if not found in catalog
+        return model_id;
     }
     return model_id;
 }

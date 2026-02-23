@@ -7,7 +7,9 @@
 #include <algorithm>
 #include <cmath>
 #include <filesystem>
+#include <sstream>
 #include <unordered_map>
+#include <unordered_set>
 
 namespace openclaw::memory {
 
@@ -42,6 +44,95 @@ void from_json(const json& j, SearchResult& r) {
         j["combined_score"].get_to(r.combined_score);
     }
 }
+
+// ---------------------------------------------------------------------------
+// Multi-language stop-word filtering
+// ---------------------------------------------------------------------------
+
+namespace {
+
+/// Simple stop-word sets for multiple languages.
+/// Used to filter common words from BM25 queries for better relevance.
+const std::unordered_set<std::string>& stop_words() {
+    static const std::unordered_set<std::string> words = {
+        // English
+        "the", "a", "an", "is", "are", "was", "were", "be", "been", "being",
+        "have", "has", "had", "do", "does", "did", "will", "would", "could",
+        "should", "may", "might", "shall", "can", "need", "dare", "ought",
+        "used", "to", "of", "in", "for", "on", "with", "at", "by", "from",
+        "as", "into", "through", "during", "before", "after", "above", "below",
+        "between", "out", "off", "over", "under", "again", "further", "then",
+        "once", "here", "there", "when", "where", "why", "how", "all", "each",
+        "every", "both", "few", "more", "most", "other", "some", "such", "no",
+        "nor", "not", "only", "own", "same", "so", "than", "too", "very",
+        "just", "because", "but", "and", "or", "if", "while", "this", "that",
+        "these", "those", "i", "me", "my", "we", "our", "you", "your", "he",
+        "him", "his", "she", "her", "it", "its", "they", "them", "their",
+        "what", "which", "who", "whom",
+        // Spanish
+        "el", "la", "los", "las", "un", "una", "unos", "unas", "de", "del",
+        "en", "por", "para", "con", "sin", "sobre", "entre", "hasta", "desde",
+        "es", "son", "fue", "ser", "estar", "hay", "tiene", "como", "pero",
+        "mas", "que", "se", "su", "sus", "le", "lo", "nos", "yo", "tu",
+        // Portuguese
+        "o", "os", "um", "uma", "uns", "umas", "do", "da", "dos", "das",
+        "em", "no", "na", "nos", "nas", "ao", "aos", "pelo", "pela",
+        "com", "sem", "sob", "sobre", "entre", "ate", "desde",
+        "eu", "tu", "ele", "ela", "nos", "vos", "eles", "elas",
+        // Japanese particles (romaji)
+        "wa", "ga", "wo", "ni", "he", "de", "to", "no", "ka", "mo",
+        "ya", "shi", "kara", "made", "yori", "ba", "te", "nde",
+        // Korean particles (romanized)
+        "eun", "neun", "i", "ga", "reul", "eul", "e", "eseo",
+        "ro", "euro", "wa", "gwa", "do", "man", "buteo", "kkaji",
+        // Arabic
+        "\xd9\x81\xd9\x8a",           // في
+        "\xd9\x85\xd9\x86",           // من
+        "\xd8\xb9\xd9\x84\xd9\x89",  // على
+        "\xd8\xa5\xd9\x84\xd9\x89",  // إلى
+        "\xd8\xb9\xd9\x86",           // عن
+        "\xd9\x85\xd8\xb9",           // مع
+        "\xd9\x87\xd8\xb0\xd8\xa7",   // هذا
+        "\xd9\x87\xd8\xb0\xd9\x87",   // هذه
+        "\xd8\xb0\xd9\x84\xd9\x83",   // ذلك
+        "\xd8\xaa\xd9\x84\xd9\x83",   // تلك
+        "\xd8\xa7\xd9\x84\xd8\xb0\xd9\x8a", // الذي
+        "\xd8\xa7\xd9\x84\xd8\xaa\xd9\x8a", // التي
+        "\xd9\x87\xd9\x88",           // هو
+        "\xd9\x87\xd9\x8a",           // هي
+        "\xd9\x87\xd9\x85",           // هم
+        "\xd9\x87\xd9\x86",           // هن
+        "\xd8\xa3\xd9\x86",           // أن
+        "\xd9\x84\xd8\xa7",           // لا
+        "\xd9\x85\xd8\xa7",           // ما
+        "\xd9\x84\xd9\x85",           // لم
+        "\xd9\x84\xd9\x86",           // لن
+        "\xd9\x82\xd8\xaf",           // قد
+        "\xd9\x83\xd8\xa7\xd9\x86",   // كان
+        "\xd9\x83\xd8\xa7\xd9\x86\xd8\xaa", // كانت
+    };
+    return words;
+}
+
+auto filter_stop_words(std::string_view query) -> std::string {
+    std::string result;
+    std::istringstream stream{std::string{query}};
+    std::string word;
+    bool first = true;
+    while (stream >> word) {
+        // Lowercase for comparison
+        std::string lower = word;
+        std::transform(lower.begin(), lower.end(), lower.begin(),
+                       [](unsigned char c) { return std::tolower(c); });
+        if (stop_words().contains(lower)) continue;
+        if (!first) result += ' ';
+        result += word;
+        first = false;
+    }
+    return result.empty() ? std::string(query) : result;
+}
+
+} // anonymous namespace
 
 // ---------------------------------------------------------------------------
 // HybridSearch
@@ -255,6 +346,9 @@ auto HybridSearch::keyword_search(std::string_view query, size_t limit)
 auto HybridSearch::compute_bm25(std::string_view query, size_t limit)
     -> Result<std::vector<SearchResult>> {
     try {
+        // Filter stop words for better BM25 relevance
+        auto filtered_query = filter_stop_words(query);
+
         // FTS5 has built-in BM25 ranking via the bm25() function
         SQLite::Statement stmt(*fts_db_,
             "SELECT id, content, metadata, bm25(fts_content) AS rank "
@@ -262,7 +356,7 @@ auto HybridSearch::compute_bm25(std::string_view query, size_t limit)
             "WHERE fts_content MATCH ? "
             "ORDER BY rank "
             "LIMIT ?");
-        stmt.bind(1, std::string(query));
+        stmt.bind(1, filtered_query);
         stmt.bind(2, static_cast<int>(limit));
 
         std::vector<SearchResult> results;
