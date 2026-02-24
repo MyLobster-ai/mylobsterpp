@@ -577,7 +577,9 @@ auto GatewayServer::handle_connection(tcp::socket socket) -> awaitable<void> {
             {"type", "hello-ok"},
             {"protocol", PROTOCOL_VERSION},
             {"policy", {
-                {"tickIntervalMs", 15000},
+                {"tickIntervalMs", TICK_INTERVAL_MS},
+                {"maxPayload", MAX_PAYLOAD_BYTES},
+                {"maxBufferedBytes", MAX_BUFFERED_BYTES},
             }},
         });
         ws.text(true);

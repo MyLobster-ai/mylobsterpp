@@ -100,6 +100,15 @@ public:
     /// Maximum clock skew allowed for device signature timestamps (2 minutes).
     static constexpr int64_t DEVICE_SIGNATURE_SKEW_MS = 2 * 60 * 1000;
 
+    /// Tick interval for keep-alive pings (30 seconds, matches OpenClaw).
+    static constexpr int64_t TICK_INTERVAL_MS = 30000;
+
+    /// Maximum payload size per WebSocket message (25 MB).
+    static constexpr int64_t MAX_PAYLOAD_BYTES = 25 * 1024 * 1024;
+
+    /// Maximum buffered bytes before backpressure (50 MB).
+    static constexpr int64_t MAX_BUFFERED_BYTES = 50 * 1024 * 1024;
+
     explicit GatewayServer(net::io_context& ioc);
 
     /// Start the server with the given configuration.

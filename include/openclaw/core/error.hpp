@@ -3,7 +3,6 @@
 #include <expected>
 #include <string>
 #include <string_view>
-#include <system_error>
 
 namespace openclaw {
 
@@ -66,6 +65,35 @@ inline auto make_error(ErrorCode code, std::string message) -> Error {
 
 inline auto make_error(ErrorCode code, std::string message, std::string detail) -> Error {
     return Error(code, std::move(message), std::move(detail));
+}
+
+/// Convert ErrorCode to a string matching OpenClaw's error code format.
+inline auto error_code_to_string(ErrorCode code) -> std::string_view {
+    switch (code) {
+        case ErrorCode::Unknown: return "UNKNOWN";
+        case ErrorCode::InvalidConfig: return "INVALID_CONFIG";
+        case ErrorCode::InvalidArgument: return "INVALID_ARGUMENT";
+        case ErrorCode::NotFound: return "NOT_FOUND";
+        case ErrorCode::AlreadyExists: return "ALREADY_EXISTS";
+        case ErrorCode::Unauthorized: return "UNAUTHORIZED";
+        case ErrorCode::Forbidden: return "FORBIDDEN";
+        case ErrorCode::Timeout: return "TIMEOUT";
+        case ErrorCode::ConnectionFailed: return "CONNECTION_FAILED";
+        case ErrorCode::ConnectionClosed: return "CONNECTION_CLOSED";
+        case ErrorCode::ProtocolError: return "PROTOCOL_ERROR";
+        case ErrorCode::SerializationError: return "SERIALIZATION_ERROR";
+        case ErrorCode::IoError: return "IO_ERROR";
+        case ErrorCode::DatabaseError: return "DATABASE_ERROR";
+        case ErrorCode::ProviderError: return "PROVIDER_ERROR";
+        case ErrorCode::ChannelError: return "CHANNEL_ERROR";
+        case ErrorCode::PluginError: return "PLUGIN_ERROR";
+        case ErrorCode::BrowserError: return "BROWSER_ERROR";
+        case ErrorCode::MemoryError: return "MEMORY_ERROR";
+        case ErrorCode::SessionError: return "SESSION_ERROR";
+        case ErrorCode::RateLimited: return "RATE_LIMITED";
+        case ErrorCode::InternalError: return "INTERNAL_ERROR";
+        default: return "UNKNOWN";
+    }
 }
 
 } // namespace openclaw

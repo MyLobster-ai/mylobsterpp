@@ -34,14 +34,19 @@ void to_json(json& j, const ResponseFrame& f) {
         {"id", f.id},
         {"ok", f.ok},
     };
-    if (f.result) j["result"] = *f.result;
+    if (f.result) j["payload"] = *f.result;
     if (f.error) j["error"] = *f.error;
 }
 
 void from_json(const json& j, ResponseFrame& f) {
     j.at("id").get_to(f.id);
     f.ok = j.value("ok", true);
-    if (j.contains("result")) f.result = j.at("result");
+    // Accept both "payload" (OpenClaw v2026.2.22) and "result" (legacy)
+    if (j.contains("payload")) {
+        f.result = j.at("payload");
+    } else if (j.contains("result")) {
+        f.result = j.at("result");
+    }
     if (j.contains("error")) f.error = j.at("error");
 }
 
@@ -94,7 +99,7 @@ auto parse_frame(std::string_view data) -> Result<Frame> {
         type = "request";
     } else if (j.contains("event")) {
         type = "event";
-    } else if (j.contains("id") && (j.contains("result") || j.contains("error"))) {
+    } else if (j.contains("id") && (j.contains("payload") || j.contains("result") || j.contains("error"))) {
         type = "response";
     } else {
         return std::unexpected(
@@ -155,7 +160,7 @@ auto make_error_response(const std::string& id, ErrorCode code,
         .ok = false,
         .result = std::nullopt,
         .error = json{
-            {"code", static_cast<int>(code)},
+            {"code", std::string(error_code_to_string(code))},
             {"message", std::string(message)},
         },
     };

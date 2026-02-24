@@ -61,7 +61,7 @@ TEST_CASE("ResponseFrame serialization", "[frame]") {
         CHECK(j["type"] == "res");
         CHECK(j["id"] == "req-001");
         CHECK(j["ok"] == true);
-        CHECK(j["result"]["status"] == "ok");
+        CHECK(j["payload"]["status"] == "ok");
         CHECK_FALSE(j.contains("error"));
     }
 
@@ -79,7 +79,8 @@ TEST_CASE("ResponseFrame serialization", "[frame]") {
         CHECK(j["type"] == "res");
         CHECK(j["id"] == "req-002");
         CHECK(j["ok"] == false);
-        CHECK_FALSE(j.contains("result"));
+        CHECK_FALSE(j.contains("payload"));
+        CHECK(j["error"]["code"] == "NOT_FOUND");
         CHECK(j["error"]["message"] == "method not found");
     }
 

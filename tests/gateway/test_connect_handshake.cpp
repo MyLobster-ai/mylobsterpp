@@ -111,7 +111,9 @@ TEST_CASE("Hello-ok response format", "[connect_handshake]") {
         {"type", "hello-ok"},
         {"protocol", GatewayServer::PROTOCOL_VERSION},
         {"policy", {
-            {"tickIntervalMs", 15000},
+            {"tickIntervalMs", 30000},
+            {"maxPayload", 25 * 1024 * 1024},
+            {"maxBufferedBytes", 50 * 1024 * 1024},
         }},
     });
 
@@ -128,7 +130,9 @@ TEST_CASE("Hello-ok response format", "[connect_handshake]") {
 
     SECTION("result contains tick interval policy") {
         REQUIRE(resp.result.has_value());
-        CHECK((*resp.result)["policy"]["tickIntervalMs"] == 15000);
+        CHECK((*resp.result)["policy"]["tickIntervalMs"] == 30000);
+        CHECK((*resp.result)["policy"]["maxPayload"] == 25 * 1024 * 1024);
+        CHECK((*resp.result)["policy"]["maxBufferedBytes"] == 50 * 1024 * 1024);
     }
 
     SECTION("serialized format matches OpenClaw v2026.2.22") {
@@ -138,8 +142,8 @@ TEST_CASE("Hello-ok response format", "[connect_handshake]") {
         CHECK(j["type"] == "res");
         CHECK(j["ok"] == true);
         CHECK(j["id"] == "connect-1");
-        CHECK(j["result"]["type"] == "hello-ok");
-        CHECK(j["result"]["protocol"] == 3);
+        CHECK(j["payload"]["type"] == "hello-ok");
+        CHECK(j["payload"]["protocol"] == 3);
     }
 }
 
