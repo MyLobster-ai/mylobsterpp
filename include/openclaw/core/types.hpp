@@ -86,6 +86,10 @@ struct DeviceIdentity {
     std::string hostname;
     std::string os;
     std::string arch;
+    // Ed25519 crypto identity for v2026.2.22 device auth
+    std::string public_key_pem;
+    std::string private_key_pem;
+    std::string public_key_raw_b64url;  // 32-byte raw key, base64url encoded
 };
 
 void to_json(json& j, const DeviceIdentity& d);

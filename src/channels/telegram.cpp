@@ -453,6 +453,29 @@ auto TelegramChannel::fetch_bot_info() -> boost::asio::awaitable<openclaw::Resul
 }
 
 // ---------------------------------------------------------------------------
+// Webhook secret validation
+// ---------------------------------------------------------------------------
+
+auto TelegramChannel::validate_webhook_secret(std::string_view secret_header) const -> bool {
+    // If no webhook_secret is configured, all requests are valid
+    if (!config_.webhook_secret || config_.webhook_secret->empty()) {
+        return true;
+    }
+    // Compare the header value against the configured secret
+    return secret_header == *config_.webhook_secret;
+}
+
+auto TelegramChannel::process_webhook_update(const json& update,
+                                              std::string_view secret_header) -> bool {
+    if (!validate_webhook_secret(secret_header)) {
+        LOG_WARN("[telegram] Webhook secret validation failed");
+        return false;
+    }
+    process_update(update);
+    return true;
+}
+
+// ---------------------------------------------------------------------------
 // Voice routing
 // ---------------------------------------------------------------------------
 

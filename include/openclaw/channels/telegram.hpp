@@ -85,6 +85,16 @@ private:
     auto set_bot_commands(const std::vector<std::pair<std::string, std::string>>& commands)
         -> boost::asio::awaitable<openclaw::Result<void>>;
 
+    /// Validates a webhook request by checking the X-Telegram-Bot-Api-Secret-Token
+    /// header against the configured webhook_secret. Returns true if valid or if
+    /// no webhook_secret is configured. Returns false if the header is missing or
+    /// mismatches.
+    [[nodiscard]] auto validate_webhook_secret(std::string_view secret_header) const -> bool;
+
+    /// Processes a webhook update JSON object. Validates the webhook secret first.
+    /// Returns false if the secret validation fails.
+    auto process_webhook_update(const json& update, std::string_view secret_header) -> bool;
+
 public:
     /// Checks if an audio file is voice-compatible for sendVoice routing.
     static auto is_voice_compatible(std::string_view filename) -> bool;

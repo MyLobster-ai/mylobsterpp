@@ -27,6 +27,7 @@ void from_json(const json& j, RequestFrame& f);
 /// A JSON-RPC style response frame sent from server to client.
 struct ResponseFrame {
     std::string id;
+    bool ok = true;
     std::optional<json> result;
     std::optional<json> error;
 

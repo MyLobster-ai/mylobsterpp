@@ -86,12 +86,31 @@ auto DiscordChannel::send(OutgoingMessage msg)
             make_error(ErrorCode::ChannelError, "Discord channel is not running"));
     }
 
+    // Determine if this reply is in a thread already
+    bool is_in_thread = msg.thread_id.has_value();
+
     // Send text message
     if (!msg.text.empty()) {
         auto result = co_await send_channel_message(msg.recipient_id, msg.text,
             msg.reply_to ? std::optional<std::string_view>{*msg.reply_to} : std::nullopt);
         if (!result) {
             co_return std::unexpected(result.error());
+        }
+
+        // AutoThread: if enabled, not already in a thread, and we have a sent message ID,
+        // create a thread from the sent message so follow-up replies go there.
+        if (config_.auto_thread && !is_in_thread && result->contains("id")) {
+            std::string sent_msg_id = (*result)["id"].get<std::string>();
+            // Build thread name from first 100 chars of the message text
+            std::string thread_name = std::string(msg.text.substr(0, 100));
+            auto thread_result = co_await create_thread(
+                msg.recipient_id, sent_msg_id, thread_name);
+            if (!thread_result) {
+                LOG_WARN("[discord] Failed to create auto-thread: {}",
+                         thread_result.error().what());
+            } else {
+                LOG_DEBUG("[discord] Created auto-thread for message {}", sent_msg_id);
+            }
         }
     }
 

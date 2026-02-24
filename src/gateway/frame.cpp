@@ -9,7 +9,7 @@ namespace openclaw::gateway {
 
 void to_json(json& j, const RequestFrame& f) {
     j = json{
-        {"type", "request"},
+        {"type", "req"},
         {"id", f.id},
         {"method", f.method},
         {"params", f.params},
@@ -30,8 +30,9 @@ void from_json(const json& j, RequestFrame& f) {
 
 void to_json(json& j, const ResponseFrame& f) {
     j = json{
-        {"type", "response"},
+        {"type", "res"},
         {"id", f.id},
+        {"ok", f.ok},
     };
     if (f.result) j["result"] = *f.result;
     if (f.error) j["error"] = *f.error;
@@ -39,6 +40,7 @@ void to_json(json& j, const ResponseFrame& f) {
 
 void from_json(const json& j, ResponseFrame& f) {
     j.at("id").get_to(f.id);
+    f.ok = j.value("ok", true);
     if (j.contains("result")) f.result = j.at("result");
     if (j.contains("error")) f.error = j.at("error");
 }
@@ -49,13 +51,16 @@ void to_json(json& j, const EventFrame& f) {
     j = json{
         {"type", "event"},
         {"event", f.event},
-        {"data", f.data},
+        {"payload", f.data},
     };
 }
 
 void from_json(const json& j, EventFrame& f) {
     j.at("event").get_to(f.event);
-    if (j.contains("data")) {
+    if (j.contains("payload")) {
+        f.data = j.at("payload");
+    } else if (j.contains("data")) {
+        // Backwards compatibility: accept "data" field as well
         f.data = j.at("data");
     } else {
         f.data = json::object();
@@ -98,12 +103,12 @@ auto parse_frame(std::string_view data) -> Result<Frame> {
     }
 
     try {
-        if (type == "request") {
+        if (type == "req" || type == "request") {
             RequestFrame f;
             from_json(j, f);
             return Frame{std::move(f)};
         }
-        if (type == "response") {
+        if (type == "res" || type == "response") {
             ResponseFrame f;
             from_json(j, f);
             return Frame{std::move(f)};
@@ -137,6 +142,7 @@ auto serialize_frame(const Frame& frame) -> std::string {
 auto make_response(const std::string& id, json result) -> ResponseFrame {
     return ResponseFrame{
         .id = id,
+        .ok = true,
         .result = std::move(result),
         .error = std::nullopt,
     };
@@ -146,6 +152,7 @@ auto make_error_response(const std::string& id, ErrorCode code,
                          std::string_view message) -> ResponseFrame {
     return ResponseFrame{
         .id = id,
+        .ok = false,
         .result = std::nullopt,
         .error = json{
             {"code", static_cast<int>(code)},

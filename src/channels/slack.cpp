@@ -107,6 +107,11 @@ auto SlackChannel::send(OutgoingMessage msg)
         if (!result) {
             co_return std::unexpected(result.error());
         }
+
+        // Track threads we've posted to so we can avoid re-entry
+        if (effective_thread_ts) {
+            thread_sessions_[*effective_thread_ts] = true;
+        }
     }
 
     // Send attachments
@@ -309,6 +314,23 @@ auto SlackChannel::handle_message_event(const json& event) -> void {
     std::string subtype = event.value("subtype", "");
     if (!subtype.empty() && subtype != "thread_broadcast") {
         return;
+    }
+
+    // Skip messages in threads we initiated (to avoid re-entry / self-reply loops)
+    // unless the message contains an @-mention of the bot
+    if (event.contains("thread_ts")) {
+        std::string thread_ts = event["thread_ts"].get<std::string>();
+        if (thread_sessions_.contains(thread_ts)) {
+            // Check if the message @-mentions the bot (bypass re-entry guard)
+            std::string text = event.value("text", "");
+            bool has_mention = !bot_user_id_.empty() &&
+                text.find("<@" + bot_user_id_ + ">") != std::string::npos;
+            if (!has_mention) {
+                LOG_TRACE("[slack] Skipping thread message in owned thread {}",
+                          thread_ts);
+                return;
+            }
+        }
     }
 
     auto incoming = parse_message(event);

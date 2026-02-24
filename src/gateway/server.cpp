@@ -2,7 +2,9 @@
 
 #include "openclaw/core/logger.hpp"
 #include "openclaw/core/utils.hpp"
+#include "openclaw/infra/device.hpp"
 
+#include <cmath>
 #include <filesystem>
 #include <regex>
 #include <boost/asio/as_tuple.hpp>
@@ -95,6 +97,30 @@ void Connection::set_auth(AuthInfo info) {
 
 auto Connection::auth() const noexcept -> const std::optional<AuthInfo>& {
     return auth_info_;
+}
+
+void Connection::set_scopes(std::vector<std::string> scopes) {
+    scopes_ = std::move(scopes);
+}
+
+auto Connection::scopes() const noexcept -> const std::vector<std::string>& {
+    return scopes_;
+}
+
+void Connection::set_device_public_key(std::string key) {
+    device_public_key_ = std::move(key);
+}
+
+auto Connection::device_public_key() const noexcept -> const std::string& {
+    return device_public_key_;
+}
+
+void Connection::set_nonce(std::string nonce) {
+    connect_nonce_ = std::move(nonce);
+}
+
+auto Connection::nonce() const noexcept -> const std::string& {
+    return connect_nonce_;
 }
 
 auto Connection::read_loop() -> awaitable<void> {
@@ -343,99 +369,243 @@ auto GatewayServer::handle_connection(tcp::socket socket) -> awaitable<void> {
         co_return;
     }
 
-    // Authenticate if required.
+    // --- v2026.2.22 challenge-response connect handshake ---
+
+    // Step 1: Send connect.challenge event with a random nonce
+    auto challenge_nonce = utils::generate_uuid();
+    auto challenge_ts = utils::timestamp_ms();
+    {
+        auto challenge_event = make_event("connect.challenge", json{
+            {"nonce", challenge_nonce},
+            {"ts", challenge_ts},
+        });
+        ws.text(true);
+        co_await ws.async_write(
+            net::buffer(serialize_frame(Frame{challenge_event})),
+            net::use_awaitable);
+        LOG_DEBUG("Connection {}: sent connect.challenge nonce={}", conn_id, challenge_nonce);
+    }
+
+    // Step 2: Read the connect request
+    beast::flat_buffer buf;
+    try {
+        co_await ws.async_read(buf, net::use_awaitable);
+    } catch (const boost::system::system_error& e) {
+        LOG_WARN("Connection {}: failed to read connect request: {}", conn_id, e.what());
+        co_return;
+    }
+
+    auto connect_msg = beast::buffers_to_string(buf.data());
+    buf.consume(buf.size());
+
+    auto frame_result = parse_frame(connect_msg);
+    if (!frame_result || !std::holds_alternative<RequestFrame>(*frame_result)) {
+        LOG_WARN("Connection {}: expected connect request frame", conn_id);
+        auto err = make_error_response("", ErrorCode::ProtocolError,
+                                       "Expected connect request");
+        ws.text(true);
+        co_await ws.async_write(
+            net::buffer(serialize_frame(Frame{err})), net::use_awaitable);
+        co_await ws.async_close(websocket::close_code::policy_error, net::use_awaitable);
+        co_return;
+    }
+
+    auto& connect_req = std::get<RequestFrame>(*frame_result);
+    if (connect_req.method != "connect") {
+        LOG_WARN("Connection {}: expected method 'connect', got '{}'",
+                 conn_id, connect_req.method);
+        auto err = make_error_response(connect_req.id, ErrorCode::ProtocolError,
+                                       "First request must be 'connect'");
+        ws.text(true);
+        co_await ws.async_write(
+            net::buffer(serialize_frame(Frame{err})), net::use_awaitable);
+        co_await ws.async_close(websocket::close_code::policy_error, net::use_awaitable);
+        co_return;
+    }
+
+    const auto& params = connect_req.params;
+
+    // Step 3: Protocol version check
+    int min_protocol = params.value("minProtocol", 0);
+    int max_protocol = params.value("maxProtocol", 0);
+    if (max_protocol < PROTOCOL_VERSION || min_protocol > PROTOCOL_VERSION) {
+        LOG_WARN("Connection {}: protocol version mismatch (client {}-{}, server {})",
+                 conn_id, min_protocol, max_protocol, PROTOCOL_VERSION);
+        auto err = make_error_response(connect_req.id, ErrorCode::ProtocolError,
+                                       "Unsupported protocol version");
+        ws.text(true);
+        co_await ws.async_write(
+            net::buffer(serialize_frame(Frame{err})), net::use_awaitable);
+        co_await ws.async_close(websocket::close_code::policy_error, net::use_awaitable);
+        co_return;
+    }
+
+    // Step 4: Extract role and scopes
+    std::string role = params.value("role", "operator");
+    std::vector<std::string> requested_scopes;
+    if (params.contains("scopes") && params["scopes"].is_array()) {
+        for (const auto& s : params["scopes"]) {
+            if (s.is_string()) {
+                requested_scopes.push_back(s.get<std::string>());
+            }
+        }
+    }
+
+    // Step 5: Token auth (if authentication is required)
+    AuthInfo auth_info;
     if (!authenticator_.is_open()) {
-        // For token auth, expect the first message to contain the token.
-        // For tailscale, use the remote endpoint.
-        AuthInfo auth_info;
+        std::string token;
+        if (params.contains("auth") && params["auth"].is_object()) {
+            token = params["auth"].value("token", "");
+        }
+
         if (authenticator_.active_method() == AuthMethod::Tailscale) {
             auto result = co_await authenticator_.verify(
                 remote_ep.address().to_string());
             if (!result) {
-                LOG_WARN("Connection {}: auth failed: {}", conn_id,
+                LOG_WARN("Connection {}: tailscale auth failed: {}", conn_id,
                          result.error().what());
-                // Send error and close.
-                auto err = make_error_response("", ErrorCode::Unauthorized,
+                auto err = make_error_response(connect_req.id, ErrorCode::Unauthorized,
                                                result.error().message());
                 ws.text(true);
                 co_await ws.async_write(
-                    net::buffer(serialize_frame(Frame{err})),
-                    net::use_awaitable);
+                    net::buffer(serialize_frame(Frame{err})), net::use_awaitable);
                 co_await ws.async_close(websocket::close_code::policy_error,
                                         net::use_awaitable);
                 co_return;
             }
             auth_info = *result;
         } else {
-            // Token auth: read the first message as auth.
-            beast::flat_buffer buf;
-            co_await ws.async_read(buf, net::use_awaitable);
-            auto auth_msg = beast::buffers_to_string(buf.data());
-            buf.consume(buf.size());
-
-            // Try to parse as JSON with a "token" field, or use raw string.
-            std::string token;
-            try {
-                auto j = json::parse(auth_msg);
-                if (j.contains("token") && j["token"].is_string()) {
-                    token = j["token"].get<std::string>();
-                } else {
-                    token = auth_msg;
-                }
-            } catch (...) {
-                token = auth_msg;
+            if (token.empty()) {
+                LOG_WARN("Connection {}: no auth token in connect request", conn_id);
+                auto err = make_error_response(connect_req.id, ErrorCode::Unauthorized,
+                                               "Authentication required");
+                ws.text(true);
+                co_await ws.async_write(
+                    net::buffer(serialize_frame(Frame{err})), net::use_awaitable);
+                co_await ws.async_close(websocket::close_code::policy_error,
+                                        net::use_awaitable);
+                co_return;
             }
 
             auto result = co_await authenticator_.verify(token);
             if (!result) {
                 LOG_WARN("Connection {}: token auth failed", conn_id);
-                auto err = make_error_response("", ErrorCode::Unauthorized,
+                auto err = make_error_response(connect_req.id, ErrorCode::Unauthorized,
                                                "Authentication failed");
                 ws.text(true);
                 co_await ws.async_write(
-                    net::buffer(serialize_frame(Frame{err})),
-                    net::use_awaitable);
+                    net::buffer(serialize_frame(Frame{err})), net::use_awaitable);
                 co_await ws.async_close(websocket::close_code::policy_error,
                                         net::use_awaitable);
                 co_return;
             }
             auth_info = *result;
-
-            // Send auth success event.
-            auto event = make_event("auth.success", json{
-                {"identity", auth_info.identity},
-            });
-            ws.text(true);
-            co_await ws.async_write(
-                net::buffer(serialize_frame(Frame{event})),
-                net::use_awaitable);
         }
-
-        auto conn = std::make_shared<Connection>(
-            std::move(ws), conn_id, protocol_, hooks_);
-        conn->set_auth(std::move(auth_info));
-        add_connection(conn);
-
-        // Notify callbacks.
-        for (auto& cb : connection_callbacks_) {
-            cb(conn);
-        }
-
-        co_await conn->run();
-        remove_connection(conn_id);
-    } else {
-        // No auth required.
-        auto conn = std::make_shared<Connection>(
-            std::move(ws), conn_id, protocol_, hooks_);
-        add_connection(conn);
-
-        for (auto& cb : connection_callbacks_) {
-            cb(conn);
-        }
-
-        co_await conn->run();
-        remove_connection(conn_id);
     }
+
+    // Step 6: Device identity validation
+    std::vector<std::string> granted_scopes = requested_scopes;
+    std::string device_pub_key;
+    bool has_valid_device = false;
+
+    if (params.contains("device") && params["device"].is_object()) {
+        const auto& device = params["device"];
+        std::string dev_id = device.value("id", "");
+        std::string dev_pub_key = device.value("publicKey", "");
+        int64_t signed_at = device.value("signedAt", int64_t{0});
+        std::string dev_nonce = device.value("nonce", "");
+        std::string dev_signature = device.value("signature", "");
+        std::string dev_client_id = device.value("clientId", "");
+        std::string dev_client_mode = device.value("clientMode", "");
+
+        // 6a: Derive device ID from public key and check match
+        auto derived_id = infra::derive_device_id_from_public_key(dev_pub_key);
+        if (derived_id != dev_id) {
+            LOG_WARN("Connection {}: device ID mismatch (declared={}, derived={})",
+                     conn_id, dev_id, derived_id);
+            granted_scopes.clear();
+        }
+        // 6b: Check timestamp skew
+        else if (std::abs(utils::timestamp_ms() - signed_at) > DEVICE_SIGNATURE_SKEW_MS) {
+            LOG_WARN("Connection {}: device signature timestamp too stale", conn_id);
+            granted_scopes.clear();
+        }
+        // 6c: Check nonce matches challenge
+        else if (dev_nonce != challenge_nonce) {
+            LOG_WARN("Connection {}: device nonce mismatch", conn_id);
+            granted_scopes.clear();
+        }
+        // 6d: Verify Ed25519 signature
+        else {
+            // Reconstruct v2 payload
+            std::string auth_token;
+            if (params.contains("auth") && params["auth"].is_object()) {
+                auth_token = params["auth"].value("token", "");
+            }
+
+            infra::DeviceAuthParams auth_params{
+                .device_id = dev_id,
+                .client_id = dev_client_id,
+                .client_mode = dev_client_mode,
+                .role = role,
+                .scopes = requested_scopes,
+                .signed_at_ms = signed_at,
+                .token = auth_token,
+                .nonce = dev_nonce,
+            };
+            auto payload = infra::build_device_auth_payload(auth_params);
+
+            if (!infra::verify_device_signature(dev_pub_key, payload, dev_signature)) {
+                LOG_WARN("Connection {}: device signature verification failed", conn_id);
+                granted_scopes.clear();
+            } else {
+                has_valid_device = true;
+                device_pub_key = dev_pub_key;
+                LOG_DEBUG("Connection {}: device identity verified, id={}", conn_id, dev_id);
+            }
+        }
+    } else if (!authenticator_.is_open()) {
+        // Step 7: No device identity and auth is required → clear scopes
+        LOG_DEBUG("Connection {}: no device identity, clearing scopes", conn_id);
+        granted_scopes.clear();
+    }
+
+    // Step 8: Send hello-ok response
+    {
+        auto hello_ok = make_response(connect_req.id, json{
+            {"type", "hello-ok"},
+            {"protocol", PROTOCOL_VERSION},
+            {"policy", {
+                {"tickIntervalMs", 15000},
+            }},
+        });
+        ws.text(true);
+        co_await ws.async_write(
+            net::buffer(serialize_frame(Frame{hello_ok})),
+            net::use_awaitable);
+        LOG_DEBUG("Connection {}: sent hello-ok, scopes={}, device={}",
+                  conn_id, granted_scopes.size(), has_valid_device);
+    }
+
+    // Step 9: Create Connection with auth info and scopes
+    auto conn = std::make_shared<Connection>(
+        std::move(ws), conn_id, protocol_, hooks_);
+    conn->set_auth(std::move(auth_info));
+    conn->set_scopes(std::move(granted_scopes));
+    conn->set_nonce(challenge_nonce);
+    if (!device_pub_key.empty()) {
+        conn->set_device_public_key(std::move(device_pub_key));
+    }
+    add_connection(conn);
+
+    // Notify callbacks.
+    for (auto& cb : connection_callbacks_) {
+        cb(conn);
+    }
+
+    co_await conn->run();
+    remove_connection(conn_id);
 
     LOG_INFO("Connection {} closed", conn_id);
 }

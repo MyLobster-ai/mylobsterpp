@@ -22,6 +22,7 @@
 #include "openclaw/gateway/frame.hpp"
 #include "openclaw/gateway/hooks.hpp"
 #include "openclaw/gateway/protocol.hpp"
+#include "openclaw/infra/device.hpp"
 
 namespace openclaw::gateway {
 
@@ -58,6 +59,18 @@ public:
     void set_auth(AuthInfo info);
     [[nodiscard]] auto auth() const noexcept -> const std::optional<AuthInfo>&;
 
+    /// Scopes granted to this connection after device identity validation.
+    void set_scopes(std::vector<std::string> scopes);
+    [[nodiscard]] auto scopes() const noexcept -> const std::vector<std::string>&;
+
+    /// Device public key (base64url-encoded raw Ed25519 key).
+    void set_device_public_key(std::string key);
+    [[nodiscard]] auto device_public_key() const noexcept -> const std::string&;
+
+    /// Per-connection challenge nonce used in the connect handshake.
+    void set_nonce(std::string nonce);
+    [[nodiscard]] auto nonce() const noexcept -> const std::string&;
+
 private:
     auto read_loop() -> awaitable<void>;
     auto handle_frame(const Frame& frame) -> awaitable<void>;
@@ -68,6 +81,9 @@ private:
     std::shared_ptr<Protocol> protocol_;
     std::shared_ptr<HookRegistry> hooks_;
     std::optional<AuthInfo> auth_info_;
+    std::vector<std::string> scopes_;
+    std::string device_public_key_;
+    std::string connect_nonce_;
     std::atomic<bool> open_{true};
 };
 
@@ -78,6 +94,12 @@ using ConnectionCallback = std::function<void(std::shared_ptr<Connection>)>;
 /// requests, authenticates connections, and manages their lifecycle.
 class GatewayServer {
 public:
+    /// Protocol version for the connect handshake.
+    static constexpr int PROTOCOL_VERSION = 3;
+
+    /// Maximum clock skew allowed for device signature timestamps (2 minutes).
+    static constexpr int64_t DEVICE_SIGNATURE_SKEW_MS = 2 * 60 * 1000;
+
     explicit GatewayServer(net::io_context& ioc);
 
     /// Start the server with the given configuration.
