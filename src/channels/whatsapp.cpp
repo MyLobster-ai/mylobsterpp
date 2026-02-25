@@ -358,6 +358,14 @@ auto WhatsAppChannel::send_text_message(std::string_view to, std::string_view te
         co_return std::unexpected(response.error());
     }
     if (!response->is_success()) {
+        // v2026.2.24: Treat 440 as non-retryable (session expired, do not reconnect)
+        if (response->status == 440) {
+            LOG_ERROR("[whatsapp] Received 440 (non-retryable session error), halting send");
+            co_return std::unexpected(
+                make_error(ErrorCode::ChannelError,
+                           "WhatsApp session expired (440), non-retryable",
+                           "status=440 body=" + response->body));
+        }
         co_return std::unexpected(
             make_error(ErrorCode::ChannelError,
                        "WhatsApp send text failed",
@@ -469,6 +477,36 @@ auto WhatsAppChannel::send_reaction(std::string_view message_id, std::string_vie
     }
 
     co_return openclaw::Result<void>{};
+}
+
+// ---------------------------------------------------------------------------
+// v2026.2.24: Reasoning payload suppression
+// ---------------------------------------------------------------------------
+
+auto WhatsAppChannel::suppress_reasoning_payload(std::string_view text) -> std::string {
+    if (text.empty()) return "";
+
+    // Check for "Reasoning:" prefix
+    constexpr std::string_view kReasoningPrefix = "Reasoning:";
+    if (!text.starts_with(kReasoningPrefix)) {
+        return std::string(text);
+    }
+
+    // Find the end of the reasoning block (double newline)
+    auto end_pos = text.find("\n\n", kReasoningPrefix.size());
+    if (end_pos == std::string_view::npos) {
+        // Entire text is reasoning — suppress completely
+        return "";
+    }
+
+    // Return everything after the reasoning block
+    auto remaining = text.substr(end_pos + 2);  // skip \n\n
+
+    // Trim leading whitespace from the remaining text
+    auto start = remaining.find_first_not_of(" \t\n\r");
+    if (start == std::string_view::npos) return "";
+
+    return std::string(remaining.substr(start));
 }
 
 // ---------------------------------------------------------------------------

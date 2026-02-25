@@ -67,6 +67,15 @@ public:
     /// Get the configuration.
     [[nodiscard]] auto config() const -> const Config&;
 
+    /// v2026.2.24: Set fallback providers for model chain traversal.
+    void set_fallback_providers(std::vector<std::shared_ptr<Provider>> fallbacks);
+
+    /// v2026.2.24: Check if text matches a multilingual stop phrase.
+    [[nodiscard]] static auto is_stop_phrase(std::string_view text) -> bool;
+
+    /// v2026.2.24: Best-effort delivery mode parameter.
+    std::optional<bool> best_effort_deliver;
+
 private:
     /// Extract tool call content blocks from a message.
     auto extract_tool_calls(const Message& msg) const
@@ -79,6 +88,7 @@ private:
     boost::asio::io_context& ioc_;
     Config config_;
     std::shared_ptr<Provider> provider_;
+    std::vector<std::shared_ptr<Provider>> fallback_providers_;
     ToolRegistry tools_;
 };
 

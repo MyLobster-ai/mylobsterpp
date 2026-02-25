@@ -359,7 +359,15 @@ auto SlackChannel::parse_message(const json& event) -> IncomingMessage {
     }
 
     // Channel ID stored in raw for sending replies
-    incoming.raw["_channel_id"] = event.value("channel", "");
+    std::string channel_id = event.value("channel", "");
+    incoming.raw["_channel_id"] = channel_id;
+
+    // v2026.2.24: Treat D* channel IDs as DMs regardless of channel_type field
+    bool is_dm = channel_id.starts_with("D");
+    if (!is_dm && event.contains("channel_type")) {
+        is_dm = event["channel_type"].get<std::string>() == "im";
+    }
+    incoming.raw["_is_dm"] = is_dm;
 
     // Attachments (files)
     if (event.contains("files") && event["files"].is_array()) {

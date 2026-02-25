@@ -719,6 +719,10 @@ auto make_discord_channel(const json& settings, boost::asio::io_context& ioc)
     config.auto_thread = settings.value("auto_thread", false);
     config.auto_thread_ttl_minutes = settings.value("auto_thread_ttl_minutes", 5);
 
+    // v2026.2.24: DAVE voice encryption configuration
+    config.dave_encryption = settings.value("dave_encryption", false);
+    config.decryption_failure_tolerance = settings.value("decryption_failure_tolerance", 100);
+
     if (config.bot_token.empty()) {
         LOG_ERROR("[discord] bot_token is required in channel settings");
         return nullptr;

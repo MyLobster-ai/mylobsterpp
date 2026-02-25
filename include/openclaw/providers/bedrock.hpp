@@ -43,6 +43,10 @@ public:
     [[nodiscard]] auto name() const -> std::string_view override;
     [[nodiscard]] auto models() const -> std::vector<std::string> override;
 
+    /// v2026.2.24: Normalize provider name aliases to canonical "amazon-bedrock".
+    /// Maps "bedrock", "aws-bedrock", "aws_bedrock", "amazon bedrock" → "amazon-bedrock".
+    [[nodiscard]] static auto normalize_provider_alias(std::string_view alias) -> std::string;
+
 private:
     /// Build the JSON request body for the Bedrock Converse API.
     auto build_request_body(const CompletionRequest& req) const -> json;

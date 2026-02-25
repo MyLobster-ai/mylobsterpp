@@ -186,8 +186,16 @@ auto SyntheticProvider::build_request_body(const CompletionRequest& req) const -
     }
 
     if (req.thinking != ThinkingMode::None) {
-        auto thinking_config = agent::thinking_config_from_mode(req.thinking);
-        agent::apply_thinking_anthropic(body, thinking_config);
+        // v2026.2.24: Normalize thinking="off" to null for Pro/* models
+        // Some SiliconFlow Pro/* models don't support the "off" sentinel
+        std::string model = req.model;
+        bool is_pro_model = model.starts_with("Pro/") || model.starts_with("pro/");
+        if (is_pro_model && req.thinking == ThinkingMode::None) {
+            // Already none, skip applying thinking config
+        } else {
+            auto thinking_config = agent::thinking_config_from_mode(req.thinking);
+            agent::apply_thinking_anthropic(body, thinking_config);
+        }
     }
 
     return body;

@@ -61,6 +61,11 @@ private:
     std::string default_model_;
     std::optional<std::string> organization_;
     infra::HttpClient http_;
+
+public:
+    /// Normalizes Vercel AI Gateway model references to canonical Anthropic model IDs.
+    /// E.g., "vercel-ai-gateway/claude-opus-4.6" -> "claude-opus-4.6-20250514"
+    [[nodiscard]] static auto normalize_vercel_model_ref(std::string_view model) -> std::string;
 };
 
 } // namespace openclaw::providers

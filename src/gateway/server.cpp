@@ -355,10 +355,15 @@ auto GatewayServer::handle_connection(tcp::socket socket) -> awaitable<void> {
         // Set WebSocket options.
         ws.set_option(websocket::stream_base::timeout::suggested(
             beast::role_type::server));
+        // v2026.2.24: Include HSTS header when configured
+        auto hsts_value = config_.http_security_hsts;
         ws.set_option(websocket::stream_base::decorator(
-            [](websocket::response_type& res) {
+            [hsts_value](websocket::response_type& res) {
                 res.set(boost::beast::http::field::server,
                         "openclaw-gateway/0.1.0");
+                if (!hsts_value.empty()) {
+                    res.set("Strict-Transport-Security", hsts_value);
+                }
             }));
 
         // Accept the WebSocket handshake.

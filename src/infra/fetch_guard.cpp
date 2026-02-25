@@ -2,6 +2,7 @@
 
 #include "openclaw/core/logger.hpp"
 
+#include <algorithm>
 #include <regex>
 #include <set>
 #include <boost/asio/ip/tcp.hpp>
@@ -200,14 +201,31 @@ auto FetchGuard::validate_url(std::string_view url, boost::asio::io_context& ioc
             make_error(ErrorCode::InvalidArgument, "Empty hostname in URL"));
     }
 
+    // v2026.2.23+: skip private IP validation in trusted-network mode
+    if (allow_private_) {
+        co_return openclaw::Result<void>{};
+    }
+
     // Resolve hostname to IP addresses
     net::ip::tcp::resolver resolver(ioc);
     try {
         auto results = co_await resolver.async_resolve(
             hostname, "443", net::use_awaitable);
 
+        // Sort resolved addresses with IPv4 first for consistent behavior
+        std::vector<std::string> addresses;
         for (const auto& entry : results) {
-            auto addr = entry.endpoint().address().to_string();
+            addresses.push_back(entry.endpoint().address().to_string());
+        }
+        std::sort(addresses.begin(), addresses.end(),
+                  [](const std::string& a, const std::string& b) {
+                      bool a_v4 = a.find(':') == std::string::npos;
+                      bool b_v4 = b.find(':') == std::string::npos;
+                      if (a_v4 != b_v4) return a_v4;  // IPv4 first
+                      return a < b;
+                  });
+
+        for (const auto& addr : addresses) {
             if (is_private_ip(addr)) {
                 co_return std::unexpected(
                     make_error(ErrorCode::Forbidden,

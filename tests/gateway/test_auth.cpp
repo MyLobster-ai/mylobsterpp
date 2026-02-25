@@ -90,3 +90,31 @@ TEST_CASE("AuthMethod enum values", "[auth]") {
     CHECK(AuthMethod::None != AuthMethod::Tailscale);
     CHECK(AuthMethod::Token != AuthMethod::Tailscale);
 }
+
+// ---------------------------------------------------------------------------
+// v2026.2.24: Trusted proxy auth for Control UI
+// ---------------------------------------------------------------------------
+
+TEST_CASE("AuthInfo default trusted_proxy_auth_ok is false", "[auth]") {
+    AuthInfo info;
+    CHECK_FALSE(info.trusted_proxy_auth_ok);
+}
+
+TEST_CASE("should_skip_control_ui_pairing with trusted proxy", "[auth]") {
+    AuthInfo info;
+    info.trusted_proxy_auth_ok = true;
+
+    // Control UI with trusted proxy -> skip pairing
+    CHECK(should_skip_control_ui_pairing(info, true));
+
+    // Non-Control UI -> don't skip even with trusted proxy
+    CHECK_FALSE(should_skip_control_ui_pairing(info, false));
+}
+
+TEST_CASE("should_skip_control_ui_pairing without trusted proxy", "[auth]") {
+    AuthInfo info;
+    info.trusted_proxy_auth_ok = false;
+
+    // Control UI without trusted proxy -> don't skip
+    CHECK_FALSE(should_skip_control_ui_pairing(info, true));
+}

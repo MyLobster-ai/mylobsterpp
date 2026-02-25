@@ -300,4 +300,88 @@ auto AgentRuntime::config() const -> const Config& {
     return config_;
 }
 
+void AgentRuntime::set_fallback_providers(std::vector<std::shared_ptr<Provider>> fallbacks) {
+    fallback_providers_ = std::move(fallbacks);
+    LOG_INFO("Set {} fallback provider(s) for model chain traversal",
+             fallback_providers_.size());
+}
+
+auto AgentRuntime::is_stop_phrase(std::string_view text) -> bool {
+    // v2026.2.24: Multilingual stop phrase matching
+    // Trim trailing punctuation for comparison
+    std::string trimmed(text);
+    while (!trimmed.empty() && (trimmed.back() == '.' || trimmed.back() == '!' ||
+           trimmed.back() == '?' || trimmed.back() == ',' || trimmed.back() == ';')) {
+        trimmed.pop_back();
+    }
+
+    // Normalize to lowercase for ASCII portion
+    std::string lower;
+    lower.reserve(trimmed.size());
+    for (unsigned char c : trimmed) {
+        lower += static_cast<char>(std::tolower(c));
+    }
+
+    // English stop phrases
+    if (lower == "stop openclaw" || lower == "please stop" ||
+        lower == "do not do that" || lower == "stop" ||
+        lower == "cancel" || lower == "abort" || lower == "quit" ||
+        lower == "stop it" || lower == "stop now") {
+        return true;
+    }
+
+    // Spanish
+    if (lower == "para" || lower == "detente" || lower == "basta") {
+        return true;
+    }
+
+    // French (using raw UTF-8 bytes via regular strings)
+    if (lower == "arr\xc3\xaate" || lower == "arr\xc3\xaater" ||
+        lower == "arr\xc3\xaate-toi" ||
+        lower == "arrete" || lower == "arreter") {
+        return true;
+    }
+
+    // German
+    if (lower == "stopp" || lower == "halt" ||
+        lower == "h\xc3\xb6r auf" || lower == "hoer auf") {
+        return true;
+    }
+
+    // Chinese (simplified) - compare against trimmed (not lowered) for CJK
+    if (trimmed == "\xe5\x81\x9c\xe6\xad\xa2" ||   // 停止
+        trimmed == "\xe5\x81\x9c" ||                  // 停
+        trimmed == "\xe5\x88\xab\xe5\x81\x9a\xe4\xba\x86") {  // 别做了
+        return true;
+    }
+
+    // Japanese
+    if (trimmed == "\xe6\xad\xa2\xe3\x82\x81\xe3\x81\xa6" ||   // 止めて
+        trimmed == "\xe3\x82\x84\xe3\x82\x81\xe3\x81\xa6" ||   // やめて
+        trimmed == "\xe3\x82\xb9\xe3\x83\x88\xe3\x83\x83\xe3\x83\x97") {  // ストップ
+        return true;
+    }
+
+    // Russian
+    if (trimmed == "\xd1\x81\xd1\x82\xd0\xbe\xd0\xbf" ||                 // стоп
+        trimmed == "\xd0\xbe\xd1\x81\xd1\x82\xd0\xb0\xd0\xbd\xd0\xbe\xd0\xb2\xd0\xb8\xd1\x81\xd1\x8c" ||  // остановись
+        trimmed == "\xd1\x85\xd0\xb2\xd0\xb0\xd1\x82\xd0\xb8\xd1\x82") {  // хватит
+        return true;
+    }
+
+    // Arabic
+    if (trimmed == "\xd8\xaa\xd9\x88\xd9\x82\xd9\x81" ||  // توقف
+        trimmed == "\xd9\x82\xd9\x81") {                     // قف
+        return true;
+    }
+
+    // Hindi
+    if (trimmed == "\xe0\xa4\xb0\xe0\xa5\x81\xe0\xa4\x95\xe0\xa5\x8b" ||  // रुको
+        trimmed == "\xe0\xa4\xac\xe0\xa4\x82\xe0\xa4\xa6 \xe0\xa4\x95\xe0\xa4\xb0\xe0\xa5\x8b") {  // बंद करो
+        return true;
+    }
+
+    return false;
+}
+
 } // namespace openclaw::agent

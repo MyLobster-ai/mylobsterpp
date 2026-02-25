@@ -165,6 +165,26 @@ auto TelegramChannel::poll_loop() -> boost::asio::awaitable<void> {
 // Update processing
 // ---------------------------------------------------------------------------
 
+auto TelegramChannel::is_dm_authorized(std::string_view sender_id) const -> bool {
+    // v2026.2.24: DM authorization policy enforcement
+    if (config_.dm_policy == "open") {
+        return true;
+    }
+
+    if (config_.dm_policy == "allowlist") {
+        for (const auto& id : config_.allowed_sender_ids) {
+            if (id == sender_id) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // "pairing" mode - requires additional pairing flow (not yet implemented)
+    // Default to denying for unknown policies
+    return false;
+}
+
 auto TelegramChannel::process_update(const json& update) -> void {
     int64_t update_id = update.value("update_id", int64_t{0});
     if (update_id > last_update_id_) {
@@ -172,7 +192,20 @@ auto TelegramChannel::process_update(const json& update) -> void {
     }
 
     if (update.contains("message")) {
-        auto incoming = parse_message(update["message"]);
+        const auto& msg = update["message"];
+        // v2026.2.24: Enforce DM authorization before processing
+        if (msg.contains("chat") && msg["chat"].value("type", "") == "private") {
+            std::string sender_id;
+            if (msg.contains("from")) {
+                sender_id = std::to_string(msg["from"].value("id", int64_t{0}));
+            }
+            if (!is_dm_authorized(sender_id)) {
+                LOG_DEBUG("[telegram] DM from {} blocked by dm_policy '{}'",
+                          sender_id, config_.dm_policy);
+                return;
+            }
+        }
+        auto incoming = parse_message(msg);
         dispatch(std::move(incoming));
     } else if (update.contains("edited_message")) {
         auto incoming = parse_message(update["edited_message"]);
@@ -347,6 +380,28 @@ auto TelegramChannel::send_text(std::string_view chat_id,
         co_return std::unexpected(response.error());
     }
     if (!response->is_success()) {
+        // v2026.2.24: On Markdown parse failure, retry with plain text
+        // Telegram returns 400 when Markdown is malformed
+        if (response->status == 400 && payload.contains("parse_mode")) {
+            LOG_DEBUG("[telegram] Markdown send failed (status 400), retrying with plain text");
+            payload.erase("parse_mode");
+            auto retry_response = co_await http_.post("/sendMessage", payload.dump());
+            if (!retry_response) {
+                co_return std::unexpected(retry_response.error());
+            }
+            if (!retry_response->is_success()) {
+                co_return std::unexpected(
+                    make_error(ErrorCode::ChannelError,
+                               "sendMessage failed (plain text retry)",
+                               "status=" + std::to_string(retry_response->status) + " body=" + retry_response->body));
+            }
+            try {
+                co_return json::parse(retry_response->body);
+            } catch (const json::exception& e) {
+                co_return std::unexpected(
+                    make_error(ErrorCode::SerializationError, "Failed to parse sendMessage response", e.what()));
+            }
+        }
         co_return std::unexpected(
             make_error(ErrorCode::ChannelError,
                        "sendMessage failed",

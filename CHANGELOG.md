@@ -2,6 +2,81 @@
 
 All notable changes to MyLobster++ are documented in this file.
 
+## v2026.2.24
+
+Port of [OpenClaw v2026.2.23](https://github.com/openclaw/openclaw) and [v2026.2.24](https://github.com/openclaw/openclaw) changes to C++23.
+
+### Breaking Changes
+
+- **Browser SSRF policy default** — Default SSRF policy flipped to trusted-network mode (`dangerously_allow_private_network=true`). New `SsrfPolicyConfig` struct with dual-key resolution (`allow_private_network` legacy, `dangerously_allow_private_network` canonical). Explicit `false` re-enables private IP blocking.
+- **Heartbeat DM delivery blocking** — `HeartbeatConfig::target` default changed from `"last"` to `"none"`. `ChatType` enum and per-channel DM inference functions (`infer_telegram_target_chat_type()`, `infer_discord_target_chat_type()`, etc.) block heartbeats to DM channels unless explicitly allowed.
+- **Docker sandbox namespace-join blocking** — `is_dangerous_network_mode()` blocks `host` and `container:*` network modes by default. Break-glass override via `SandboxDockerSettings::dangerously_allow_container_namespace_join`.
+
+### Security Fixes
+
+- **Cross-channel reply routing hardening** — `TurnSourceMetadata` struct with channel/to/account_id/thread_id fields pins reply routing to turn-scoped metadata, preventing cross-channel reply injection.
+- **Unauthorized WebSocket flood guard** — `UnauthorizedFloodGuard` tracks per-connection rejection count, closes connection after threshold, and samples duplicate rejection logs.
+- **Sandbox hardlink/symlink escape prevention** — `assert_no_hardlinked_final_path()` checks `stat.nlink > 1` to detect hardlink-based sandbox escapes. `normalize_at_prefix()` strips leading `@` from paths.
+- **Exec approval hardening** — `unwrap_shell_wrapper_argv()` with depth cap, `resolve_inline_command_token_index()`, `has_trailing_positional_argv()` for shell wrapper detection. Fail-closed on depth cap exceeded.
+- **Safe-bin trusted directory hardening** — `classify_risky_safe_bin_dir()` flags temporary, package-manager, and home-scoped paths. Default trusted dirs restricted to `{"/bin", "/usr/bin"}`.
+- **Telegram DM authorization** — `is_dm_authorized()` enforces DM policy (`open`/`allowlist`) before processing media downloads. Inbound activity tracking deferred until after authorization.
+- **Workspace @-prefix path normalization** — `normalize_at_prefix()` strips leading `@` before workspace boundary checks to prevent path traversal.
+- **WhatsApp reasoning payload suppression** — `suppress_reasoning_payload()` hard-drops payloads marked as reasoning and text starting with `Reasoning:`.
+- **Trusted proxy auth for Control UI** — `AuthInfo::trusted_proxy_auth_ok` allows Control UI connections behind trusted reverse proxies without device pairing.
+- **Sandbox bind-mount source path canonicalization** — `canonicalize_bind_mount_source()` resolves via existing-ancestor realpath to prevent symlink-parent bypass.
+- **Multi-user heuristic security flag** — `collect_multi_user_findings()` inspects config for open group/DM policies, wildcard allowlists, and unsandboxed tool exposure.
+
+### New Providers
+
+- **Kilo Gateway** — `KilocodeProvider` with Anthropic-compatible API. Default model `kilocode/anthropic/claude-opus-4.6`. Implicit provider detection via `is_kilocode_model()`.
+- **Vercel AI Gateway normalization** — `normalize_vercel_model_ref()` maps `vercel-ai-gateway/claude-*` refs to canonical Anthropic model IDs.
+
+### Protocol & Gateway
+
+- **tools.catalog RPC** — New `tools.catalog` method returns tool registry grouped by subsystem with plugin provenance labeling. `ToolCatalogEntry`, `ToolCatalogGroup`, `ToolCatalogProfile`, `ToolsCatalogResult` structs.
+- **Cron list/runs paging & sorting** — `CronListParams` and `CronRunsParams` extended with `limit`, `offset`, `query`, `sort_by`, `sort_dir`, status/delivery filters, and `scope` field.
+- **Talk provider-agnostic config** — `TalkProviderConfig` and `TalkConfig` structs with `normalize_talk_config()` for legacy flat-field migration, `resolve_active_talk_provider()`, and `build_talk_config_response()`.
+- **HTTP HSTS headers** — `GatewayConfig::http_security_hsts` emits `Strict-Transport-Security` header on WebSocket connections when configured.
+
+### Channel & Provider Fixes
+
+- **Telegram empty markdown retry** — On 400 status with `parse_mode` set, retries send without parse_mode.
+- **Discord DAVE voice config** — `dave_encryption` and `decryption_failure_tolerance` config fields for DAVE protocol support.
+- **Slack DM routing fix** — `D*` channel IDs treated as DMs regardless of `channel_type` field.
+- **WhatsApp close 440 non-retryable** — Status 440 treated as non-retryable session error, halts reconnection.
+- **Typing keepalive** — `Channel::refresh_typing()` and `clear_typing_keepalive()` virtual methods for long-reply typing indicators.
+- **Gemini reasoning budget sanitization** — Negative `thinkingBudget` dropped, `ThinkingMode` mapped to `thinkingLevel` (`HIGH`/`MEDIUM`).
+- **SiliconFlow thinking normalization** — `thinking="off"` normalized to null for `Pro/*` models.
+- **Bedrock alias normalization** — `normalize_provider_alias()` maps `bedrock`, `aws-bedrock`, `aws_bedrock`, `amazon bedrock` to `amazon-bedrock`.
+- **Agent model fallback chain** — `set_fallback_providers()` enables fallback chain traversal during cooldown instead of collapsing to primary.
+
+### Config & Runtime
+
+- **Config meta timestamp coercion** — Numeric `meta.lastTouchedAt` coerced to ISO 8601 string during config load.
+- **Google antigravity removal compat** — `google-antigravity-auth` plugin references logged as warnings and stripped during config load.
+- **bestEffortDeliver agent param** — `AgentRuntime::best_effort_deliver` optional bool for delivery-failure tolerance.
+- **Bootstrap file caching** — `SessionManager::cache_bootstrap()`, `get_cached_bootstrap()`, `invalidate_bootstrap_cache()` for session-key-scoped bootstrap snapshots.
+- **Auto-reply multilingual stop phrases** — `AgentRuntime::is_stop_phrase()` matches `stop openclaw`, `please stop`, trailing punctuation tolerance, and keywords in ES/FR/ZH/JP/HI/AR/RU/DE.
+
+### Tests
+
+Added 12 Catch2 test files covering new features:
+
+| File | Coverage |
+|------|----------|
+| `tests/providers/test_kilocode.cpp` | Provider constants, model detection |
+| `tests/providers/test_openai.cpp` | Vercel model normalization |
+| `tests/gateway/test_tools_catalog.cpp` | Catalog entry/group/profile JSON, build function |
+| `tests/gateway/test_talk_config.cpp` | Talk config normalization, legacy compat, provider resolution |
+| `tests/cron/test_list_paging.cpp` | Paging, filtering, sorting for list/runs |
+| `tests/agent/test_stop_phrases.cpp` | Multilingual stop phrase matching |
+| `tests/infra/test_security_audit.cpp` | Multi-user heuristic detection |
+| `tests/infra/test_sandbox_paths.cpp` | Hardlink detection, @-prefix normalization |
+| `tests/infra/test_sandbox_network.cpp` | Network mode blocking, break-glass override |
+| `tests/infra/test_exec_safety.cpp` | Shell wrapper detection, depth cap |
+| `tests/infra/test_exec_trust.cpp` | Safe-bin risk classification |
+| `tests/routing/test_turn_source.cpp` | Turn-source pinning |
+
 ## v2026.2.22
 
 Port of [OpenClaw v2026.2.22](https://github.com/openclaw/openclaw) changes to C++23.

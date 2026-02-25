@@ -82,6 +82,43 @@ public:
     /// Remove completed entries from the run log.
     void clean_run_log();
 
+    // v2026.2.24: Paging and filtering for cron list/runs
+
+    /// A run-log entry tracking task execution.
+    struct RunEntry {
+        std::string name;
+        std::chrono::steady_clock::time_point started_at;
+        bool completed = false;
+    };
+
+    /// Parameters for listing cron jobs with paging/filtering.
+    struct CronListParams {
+        int limit = 50;
+        int offset = 0;
+        std::optional<std::string> query;         // name filter
+        std::optional<bool> enabled;              // enabled filter
+        std::string sort_by = "name";             // "name", "created_at"
+        std::string sort_dir = "asc";             // "asc", "desc"
+    };
+
+    /// Parameters for listing cron runs with paging/filtering.
+    struct CronRunsParams {
+        int limit = 50;
+        int offset = 0;
+        std::optional<std::string> query;
+        std::optional<std::vector<std::string>> statuses;
+        std::optional<std::vector<std::string>> delivery_statuses;
+        std::optional<std::string> scope;
+        std::string sort_by = "started_at";
+        std::string sort_dir = "desc";
+    };
+
+    /// List scheduled tasks with paging and filtering.
+    [[nodiscard]] auto list(const CronListParams& params) const -> std::vector<std::string>;
+
+    /// List run log entries with paging and filtering.
+    [[nodiscard]] auto list_runs(const CronRunsParams& params) const -> std::vector<RunEntry>;
+
 private:
     struct ScheduledTask {
         std::string name;
@@ -96,12 +133,6 @@ private:
     std::unordered_map<std::string, ScheduledTask> tasks_;
     std::atomic<bool> running_{false};
     std::atomic<bool> abort_requested_{false};
-
-    struct RunEntry {
-        std::string name;
-        std::chrono::steady_clock::time_point started_at;
-        bool completed = false;
-    };
     std::unordered_map<std::string, RunEntry> run_log_;
 
     int startup_timeout_ms_ = 60000;  // 60s default

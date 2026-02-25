@@ -100,3 +100,17 @@ TEST_CASE("all path functions return absolute paths", "[infra][paths]") {
     CHECK(openclaw::infra::logs_dir().is_absolute());
     CHECK(openclaw::infra::runtime_dir().is_absolute());
 }
+
+// ---------------------------------------------------------------------------
+// v2026.2.24: @-prefix path normalization
+// ---------------------------------------------------------------------------
+
+TEST_CASE("normalize_at_prefix strips leading @", "[infra][paths]") {
+    CHECK(openclaw::infra::normalize_at_prefix("@/path/to/file") == "/path/to/file");
+    CHECK(openclaw::infra::normalize_at_prefix("@relative") == "relative");
+}
+
+TEST_CASE("normalize_at_prefix preserves non-@ paths", "[infra][paths]") {
+    CHECK(openclaw::infra::normalize_at_prefix("/normal/path") == "/normal/path");
+    CHECK(openclaw::infra::normalize_at_prefix("") == "");
+}

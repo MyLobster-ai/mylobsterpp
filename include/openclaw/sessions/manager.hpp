@@ -1,7 +1,9 @@
 #pragma once
 
 #include <memory>
+#include <string>
 #include <string_view>
+#include <unordered_map>
 
 #include <boost/asio/awaitable.hpp>
 #include <boost/asio/use_awaitable.hpp>
@@ -39,8 +41,18 @@ public:
     /// Increment compaction counter after successful compaction.
     auto record_compaction(std::string_view session_id) -> awaitable<Result<void>>;
 
+    /// v2026.2.24: Cache a bootstrap file snapshot for the given session key.
+    void cache_bootstrap(std::string_view session_key, std::string snapshot);
+
+    /// v2026.2.24: Retrieve a cached bootstrap snapshot, or empty string if not cached.
+    [[nodiscard]] auto get_cached_bootstrap(std::string_view session_key) const -> std::string;
+
+    /// v2026.2.24: Invalidate cached bootstrap for a session (called on /new, /reset).
+    void invalidate_bootstrap_cache(std::string_view session_key);
+
 private:
     std::unique_ptr<SessionStore> store_;
+    std::unordered_map<std::string, std::string> bootstrap_cache_;
 };
 
 } // namespace openclaw::sessions

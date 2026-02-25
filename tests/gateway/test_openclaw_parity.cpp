@@ -1,8 +1,14 @@
 /// Parity tests verifying MyLobsterPP produces frames and structures
-/// byte-for-byte compatible with OpenClaw v2026.2.22 (TypeScript reference).
+/// byte-for-byte compatible with OpenClaw v2026.2.24 (TypeScript reference).
 ///
 /// Each test references the exact OpenClaw source file and line(s) it
 /// validates against, so regressions can be traced back to the spec.
+///
+/// v2026.2.23: Browser SSRF policy default, Kilo Gateway provider,
+///             Vercel AI Gateway normalization.
+/// v2026.2.24: Heartbeat DM blocking, Docker sandbox namespace-join,
+///             tools.catalog RPC, cron paging, Talk config, HSTS headers,
+///             bootstrap caching, security audit heuristics.
 
 #include <catch2/catch_test_macros.hpp>
 

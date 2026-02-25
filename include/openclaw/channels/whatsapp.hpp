@@ -84,6 +84,12 @@ private:
                        std::string_view emoji)
         -> boost::asio::awaitable<openclaw::Result<void>>;
 
+public:
+    /// Suppresses reasoning payloads from outbound delivery.
+    /// Strips text starting with "Reasoning:" and payloads marked as reasoning content.
+    static auto suppress_reasoning_payload(std::string_view text) -> std::string;
+
+private:
     WhatsAppConfig config_;
     boost::asio::io_context& ioc_;
     infra::HttpClient http_;

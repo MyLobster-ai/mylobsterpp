@@ -147,4 +147,20 @@ auto SessionManager::record_compaction(std::string_view session_id)
     co_return Result<void>{};
 }
 
+void SessionManager::cache_bootstrap(std::string_view session_key, std::string snapshot) {
+    bootstrap_cache_[std::string(session_key)] = std::move(snapshot);
+}
+
+auto SessionManager::get_cached_bootstrap(std::string_view session_key) const -> std::string {
+    auto it = bootstrap_cache_.find(std::string(session_key));
+    if (it != bootstrap_cache_.end()) {
+        return it->second;
+    }
+    return {};
+}
+
+void SessionManager::invalidate_bootstrap_cache(std::string_view session_key) {
+    bootstrap_cache_.erase(std::string(session_key));
+}
+
 } // namespace openclaw::sessions

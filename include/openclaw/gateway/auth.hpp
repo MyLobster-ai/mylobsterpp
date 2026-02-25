@@ -32,7 +32,14 @@ struct AuthInfo {
     AuthMethod method = AuthMethod::None;
     std::optional<std::string> device;  // optional device/node info
     json metadata;                      // extra provider-specific data
+    bool trusted_proxy_auth_ok = false; // v2026.2.24: trusted reverse proxy authentication
 };
+
+/// Returns true if a Control UI connection should skip device pairing
+/// because a trusted reverse proxy has already authenticated the request.
+inline auto should_skip_control_ui_pairing(const AuthInfo& auth, bool is_control_ui) -> bool {
+    return is_control_ui && auth.trusted_proxy_auth_ok;
+}
 
 void to_json(json& j, const AuthInfo& a);
 void from_json(const json& j, AuthInfo& a);

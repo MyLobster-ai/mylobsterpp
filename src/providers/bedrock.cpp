@@ -643,4 +643,31 @@ auto BedrockProvider::models() const -> std::vector<std::string> {
     };
 }
 
+auto BedrockProvider::normalize_provider_alias(std::string_view alias) -> std::string {
+    // v2026.2.24: Normalize common Bedrock provider name variants
+    std::string lower(alias);
+    std::transform(lower.begin(), lower.end(), lower.begin(),
+                   [](unsigned char c) { return std::tolower(c); });
+
+    // Replace underscores and spaces with hyphens for matching
+    std::string normalized;
+    normalized.reserve(lower.size());
+    for (char c : lower) {
+        if (c == '_' || c == ' ') {
+            normalized += '-';
+        } else {
+            normalized += c;
+        }
+    }
+
+    // Map variants to canonical name
+    if (normalized == "bedrock" ||
+        normalized == "aws-bedrock" ||
+        normalized == "amazon-bedrock") {
+        return "amazon-bedrock";
+    }
+
+    return std::string(alias);
+}
+
 } // namespace openclaw::providers

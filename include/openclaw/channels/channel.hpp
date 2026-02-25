@@ -43,6 +43,13 @@ public:
     /// Registers a callback for incoming messages.
     void set_on_message(MessageCallback cb) { on_message_ = std::move(cb); }
 
+    /// v2026.2.24: Typing keepalive during long replies.
+    /// Subclasses can override to send platform-specific typing indicators.
+    virtual void refresh_typing(std::string_view /*channel_id*/) {}
+
+    /// Clear the typing keepalive timer (called when reply is complete).
+    virtual void clear_typing_keepalive() {}
+
 protected:
     /// Dispatches an incoming message to the registered callback.
     void dispatch(IncomingMessage msg) {

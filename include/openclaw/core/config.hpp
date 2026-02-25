@@ -56,8 +56,9 @@ struct GatewayConfig {
     std::optional<AuthConfig> auth;
     std::optional<TlsConfig> tls;
     size_t max_connections = 100;
+    std::string http_security_hsts;  // v2026.2.24: HSTS header value (empty = disabled)
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(GatewayConfig, port, bind, max_connections)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(GatewayConfig, port, bind, max_connections, http_security_hsts)
 
 struct ProviderConfig {
     std::string name;
@@ -85,13 +86,32 @@ struct MemoryConfig {
 };
 NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(MemoryConfig, enabled, store, db_path, max_results, similarity_threshold)
 
+struct SsrfPolicyConfig {
+    std::optional<bool> allow_private_network;               // legacy key
+    std::optional<bool> dangerously_allow_private_network;   // canonical key (v2026.2.23+)
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(SsrfPolicyConfig, allow_private_network, dangerously_allow_private_network)
+
+/// Resolves the effective SSRF private-network policy.
+/// If neither key is explicitly set, defaults to true (trusted-network mode).
+inline auto resolve_ssrf_allow_private(const SsrfPolicyConfig& policy) -> bool {
+    bool has_explicit = policy.allow_private_network.has_value() ||
+                        policy.dangerously_allow_private_network.has_value();
+    if (!has_explicit) return true;  // v2026.2.23 default: trusted-network
+    // Canonical key takes precedence
+    if (policy.dangerously_allow_private_network.has_value())
+        return *policy.dangerously_allow_private_network;
+    return *policy.allow_private_network;
+}
+
 struct BrowserConfig {
     bool enabled = false;
     size_t pool_size = 2;
     std::optional<std::string> chrome_path;
     int timeout_ms = 30000;
+    SsrfPolicyConfig ssrf_policy;
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(BrowserConfig, enabled, pool_size, chrome_path, timeout_ms)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(BrowserConfig, enabled, pool_size, chrome_path, timeout_ms, ssrf_policy)
 
 struct SessionConfig {
     std::string store = "sqlite";
@@ -114,6 +134,31 @@ struct CronConfig {
     std::optional<int> default_stagger_ms;
 };
 NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(CronConfig, enabled, default_stagger_ms)
+
+struct HeartbeatConfig {
+    std::string target = "none";  // v2026.2.24: default "none" (was "last")
+    std::optional<std::string> cron_expression;
+    std::optional<std::string> message;
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(HeartbeatConfig, target, cron_expression, message)
+
+struct SandboxDockerSettings {
+    bool dangerously_allow_container_namespace_join = false;
+    std::optional<std::string> network_mode;
+    std::optional<std::vector<std::string>> bind_mounts;
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(SandboxDockerSettings, dangerously_allow_container_namespace_join, network_mode, bind_mounts)
+
+struct SandboxConfig {
+    bool enabled = false;
+    SandboxDockerSettings docker;
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(SandboxConfig, enabled, docker)
+
+struct HttpSecurityHeaders {
+    std::optional<std::string> strict_transport_security;
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(HttpSecurityHeaders, strict_transport_security)
 
 struct SubagentConfig {
     std::optional<int> max_spawn_depth;        // 1-5, default 1
@@ -141,8 +186,11 @@ struct Config {
     std::optional<SubagentConfig> subagents;
     std::optional<ImageConfig> image;
     std::optional<std::map<std::string, std::string>> model_by_channel;
+    HeartbeatConfig heartbeat;
+    SandboxConfig sandbox;
+    HttpSecurityHeaders http_security;
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image, model_by_channel)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image, model_by_channel, heartbeat, sandbox, http_security)
 
 auto load_config(const std::filesystem::path& path) -> Config;
 auto load_config_from_env() -> Config;

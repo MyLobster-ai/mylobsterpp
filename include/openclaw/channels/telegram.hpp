@@ -24,6 +24,10 @@ struct TelegramConfig {
     std::optional<std::string> webhook_url;  // if set, uses webhook instead of polling
     std::optional<std::string> allowed_updates;  // JSON array of update types
     std::optional<std::string> webhook_secret;  // X-Telegram-Bot-Api-Secret-Token validation
+
+    // v2026.2.24: DM authorization policy
+    std::string dm_policy = "open";  // "open", "allowlist", "pairing"
+    std::vector<std::string> allowed_sender_ids;  // allowlist for DM senders
 };
 
 /// Telegram channel implementation using the Bot API.
@@ -47,6 +51,9 @@ public:
 private:
     /// Long-polling loop that fetches updates from Telegram.
     auto poll_loop() -> boost::asio::awaitable<void>;
+
+    /// Checks if a DM sender is authorized based on dm_policy and allowed_sender_ids.
+    [[nodiscard]] auto is_dm_authorized(std::string_view sender_id) const -> bool;
 
     /// Processes a single Telegram update JSON object.
     auto process_update(const json& update) -> void;

@@ -177,6 +177,24 @@ auto GeminiProvider::build_request_body(const CompletionRequest& req) const -> j
     if (req.temperature.has_value()) {
         gen_config["temperature"] = *req.temperature;
     }
+    // v2026.2.24: Thinking budget sanitization
+    // Drop negative thinkingBudget values, map to thinkingLevel
+    if (req.thinking != ThinkingMode::None) {
+        if (req.thinking == ThinkingMode::Extended) {
+            gen_config["thinkingLevel"] = "HIGH";
+        } else if (req.thinking == ThinkingMode::Basic) {
+            gen_config["thinkingLevel"] = "MEDIUM";
+        }
+        // If thinkingBudget is provided (via custom params), validate it
+        if (gen_config.contains("thinkingBudget") && gen_config["thinkingBudget"].is_number_integer()) {
+            int budget = gen_config["thinkingBudget"].get<int>();
+            if (budget < 0) {
+                LOG_DEBUG("[gemini] Dropping negative thinkingBudget ({})", budget);
+                gen_config.erase("thinkingBudget");
+            }
+        }
+    }
+
     if (!gen_config.empty()) {
         body["generationConfig"] = gen_config;
     }

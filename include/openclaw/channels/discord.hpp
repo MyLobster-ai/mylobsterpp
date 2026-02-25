@@ -34,6 +34,10 @@ struct DiscordConfig {
     // AutoThread configuration
     bool auto_thread = false;                      // Auto-create threads for replies
     int auto_thread_ttl_minutes = 5;              // Thread starter cache TTL
+
+    // v2026.2.24: DAVE voice encryption
+    bool dave_encryption = false;                  // Enable DAVE end-to-end encryption for voice
+    int decryption_failure_tolerance = 100;        // Max consecutive decryption failures before disconnect
 };
 
 /// Discord channel implementation.

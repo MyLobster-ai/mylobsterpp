@@ -1,5 +1,6 @@
 #include <catch2/catch_test_macros.hpp>
 
+#include "openclaw/core/config.hpp"
 #include "openclaw/infra/fetch_guard.hpp"
 
 using namespace openclaw::infra;
@@ -114,4 +115,50 @@ TEST_CASE("FetchGuard origin extraction", "[infra][fetch_guard]") {
     CHECK(FetchGuard::extract_origin("https://example.com/path") == "https://example.com");
     CHECK(FetchGuard::extract_origin("https://example.com:8443/path") == "https://example.com:8443");
     CHECK(FetchGuard::extract_origin("http://localhost:3000/api") == "http://localhost:3000");
+}
+
+// ---------------------------------------------------------------------------
+// v2026.2.23: SSRF policy default change (trusted-network mode)
+// ---------------------------------------------------------------------------
+
+TEST_CASE("FetchGuard default constructor enables trusted-network mode", "[infra][fetch_guard][ssrf_policy]") {
+    FetchGuard guard;
+    CHECK(guard.allows_private() == true);
+}
+
+TEST_CASE("FetchGuard explicit allow_private=false blocks private IPs", "[infra][fetch_guard][ssrf_policy]") {
+    FetchGuard guard(false);
+    CHECK(guard.allows_private() == false);
+}
+
+TEST_CASE("FetchGuard explicit allow_private=true allows private IPs", "[infra][fetch_guard][ssrf_policy]") {
+    FetchGuard guard(true);
+    CHECK(guard.allows_private() == true);
+}
+
+// ---------------------------------------------------------------------------
+// SsrfPolicyConfig resolution
+// ---------------------------------------------------------------------------
+
+TEST_CASE("SsrfPolicyConfig defaults to true when nothing set", "[infra][ssrf_policy]") {
+    openclaw::SsrfPolicyConfig policy;
+    CHECK(openclaw::resolve_ssrf_allow_private(policy) == true);
+}
+
+TEST_CASE("SsrfPolicyConfig canonical key takes precedence", "[infra][ssrf_policy]") {
+    openclaw::SsrfPolicyConfig policy;
+    policy.allow_private_network = true;
+    policy.dangerously_allow_private_network = false;
+    CHECK(openclaw::resolve_ssrf_allow_private(policy) == false);
+}
+
+TEST_CASE("SsrfPolicyConfig legacy key respected when canonical not set", "[infra][ssrf_policy]") {
+    openclaw::SsrfPolicyConfig policy;
+    policy.allow_private_network = false;
+    CHECK(openclaw::resolve_ssrf_allow_private(policy) == false);
+}
+
+TEST_CASE("BrowserConfig includes ssrf_policy", "[infra][ssrf_policy]") {
+    openclaw::BrowserConfig browser;
+    CHECK(openclaw::resolve_ssrf_allow_private(browser.ssrf_policy) == true);
 }

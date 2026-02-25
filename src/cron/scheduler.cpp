@@ -278,4 +278,99 @@ void CronScheduler::clean_run_log() {
     });
 }
 
+auto CronScheduler::list(const CronListParams& params) const -> std::vector<std::string> {
+    std::lock_guard lock(mutex_);
+
+    // Collect all task names
+    std::vector<std::string> names;
+    names.reserve(tasks_.size());
+    for (const auto& [name, _] : tasks_) {
+        // Apply query filter (substring match on name)
+        if (params.query && !params.query->empty()) {
+            if (name.find(*params.query) == std::string::npos) {
+                continue;
+            }
+        }
+        names.push_back(name);
+    }
+
+    // Sort
+    if (params.sort_by == "name") {
+        if (params.sort_dir == "desc") {
+            std::sort(names.begin(), names.end(), std::greater<>());
+        } else {
+            std::sort(names.begin(), names.end());
+        }
+    }
+
+    // Apply paging
+    int offset = std::max(0, params.offset);
+    int limit = std::max(0, params.limit);
+
+    if (offset >= static_cast<int>(names.size())) {
+        return {};
+    }
+
+    auto begin = names.begin() + offset;
+    auto end = (offset + limit < static_cast<int>(names.size()))
+        ? names.begin() + offset + limit
+        : names.end();
+
+    return std::vector<std::string>(begin, end);
+}
+
+auto CronScheduler::list_runs(const CronRunsParams& params) const -> std::vector<RunEntry> {
+    std::lock_guard lock(mutex_);
+
+    // Collect all run entries
+    std::vector<RunEntry> entries;
+    entries.reserve(run_log_.size());
+    for (const auto& [_, entry] : run_log_) {
+        // Apply query filter (substring match on name)
+        if (params.query && !params.query->empty()) {
+            if (entry.name.find(*params.query) == std::string::npos) {
+                continue;
+            }
+        }
+        // Apply status filter
+        if (params.statuses) {
+            std::string status = entry.completed ? "completed" : "running";
+            bool found = false;
+            for (const auto& s : *params.statuses) {
+                if (s == status) { found = true; break; }
+            }
+            if (!found) continue;
+        }
+        entries.push_back(entry);
+    }
+
+    // Sort by started_at
+    if (params.sort_dir == "asc") {
+        std::sort(entries.begin(), entries.end(),
+            [](const RunEntry& a, const RunEntry& b) {
+                return a.started_at < b.started_at;
+            });
+    } else {
+        std::sort(entries.begin(), entries.end(),
+            [](const RunEntry& a, const RunEntry& b) {
+                return a.started_at > b.started_at;
+            });
+    }
+
+    // Apply paging
+    int offset = std::max(0, params.offset);
+    int limit = std::max(0, params.limit);
+
+    if (offset >= static_cast<int>(entries.size())) {
+        return {};
+    }
+
+    auto begin = entries.begin() + offset;
+    auto end = (offset + limit < static_cast<int>(entries.size()))
+        ? entries.begin() + offset + limit
+        : entries.end();
+
+    return std::vector<RunEntry>(begin, end);
+}
+
 } // namespace openclaw::cron

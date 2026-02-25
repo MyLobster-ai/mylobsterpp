@@ -38,4 +38,8 @@ auto ensure_dir(const std::filesystem::path& path) -> std::filesystem::path;
 /// Returns the user's home directory.
 auto home_dir() -> std::filesystem::path;
 
+/// Strips a leading '@' from a workspace path reference before boundary checks.
+/// Re-exported from sandbox_paths for convenience.
+auto normalize_at_prefix(std::string_view path) -> std::string;
+
 } // namespace openclaw::infra

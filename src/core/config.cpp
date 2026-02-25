@@ -20,6 +20,37 @@ auto load_config(const std::filesystem::path& path) -> Config {
 
     try {
         json j = json::parse(file);
+
+        // v2026.2.24: Coerce meta.lastTouchedAt from numeric to ISO string
+        if (j.contains("meta") && j["meta"].is_object()) {
+            if (j["meta"].contains("lastTouchedAt") && j["meta"]["lastTouchedAt"].is_number()) {
+                auto ts = j["meta"]["lastTouchedAt"].get<int64_t>();
+                // Convert epoch milliseconds to ISO 8601 string
+                auto tp = std::chrono::system_clock::time_point(std::chrono::milliseconds(ts));
+                auto time_t_val = std::chrono::system_clock::to_time_t(tp);
+                char buf[64];
+                struct tm tm_val;
+                gmtime_r(&time_t_val, &tm_val);
+                strftime(buf, sizeof(buf), "%Y-%m-%dT%H:%M:%SZ", &tm_val);
+                j["meta"]["lastTouchedAt"] = std::string(buf);
+                LOG_DEBUG("Config: coerced meta.lastTouchedAt from numeric ({}) to '{}'", ts, buf);
+            }
+        }
+
+        // v2026.2.24: Treat google-antigravity-auth plugin references as warnings
+        if (j.contains("plugins") && j["plugins"].is_array()) {
+            auto& plugins = j["plugins"];
+            for (auto it = plugins.begin(); it != plugins.end(); ) {
+                auto plugin_name = it->value("name", "");
+                if (plugin_name == "google-antigravity-auth") {
+                    LOG_WARN("Config: ignoring removed plugin '{}' (deprecated in v2026.2.24)", plugin_name);
+                    it = plugins.erase(it);
+                } else {
+                    ++it;
+                }
+            }
+        }
+
         return j.get<Config>();
     } catch (const json::exception& e) {
         LOG_ERROR("Failed to parse config: {}", e.what());

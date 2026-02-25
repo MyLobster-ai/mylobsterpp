@@ -140,4 +140,7 @@ auto ensure_dir(const fs::path& path) -> fs::path {
     return ec ? path : canon;
 }
 
+// normalize_at_prefix() is defined in sandbox_paths.cpp (canonical location).
+// paths.hpp re-exports the declaration for convenience.
+
 } // namespace openclaw::infra

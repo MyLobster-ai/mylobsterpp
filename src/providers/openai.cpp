@@ -542,4 +542,31 @@ auto OpenAIProvider::models() const -> std::vector<std::string> {
     };
 }
 
+auto OpenAIProvider::normalize_vercel_model_ref(std::string_view model) -> std::string {
+    constexpr std::string_view kVercelPrefix = "vercel-ai-gateway/";
+    if (!model.starts_with(kVercelPrefix)) {
+        return std::string(model);
+    }
+
+    // Strip the vercel-ai-gateway/ prefix
+    auto base = model.substr(kVercelPrefix.size());
+
+    // Map common Vercel AI Gateway model names to canonical Anthropic IDs
+    static const std::map<std::string, std::string, std::less<>> kVercelModelMap = {
+        {"claude-opus-4.6", "claude-opus-4-6-20250514"},
+        {"claude-sonnet-4.6", "claude-sonnet-4-6-20250514"},
+        {"claude-haiku-4.5", "claude-haiku-4-5-20251001"},
+        {"claude-sonnet-4", "claude-sonnet-4-20250514"},
+        {"claude-opus-4", "claude-opus-4-20250514"},
+    };
+
+    auto it = kVercelModelMap.find(base);
+    if (it != kVercelModelMap.end()) {
+        return it->second;
+    }
+
+    // Return the full original string if no mapping found
+    return std::string(model);
+}
+
 } // namespace openclaw::providers
