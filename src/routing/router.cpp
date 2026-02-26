@@ -25,10 +25,10 @@ auto Router::route(const IncomingMessage& msg) -> awaitable<Result<void>> {
             LOG_DEBUG("Message matched rule '{}'", rule->name());
             try {
                 co_await handler(msg);
-                co_return Result<void>{};
+                co_return ok_result();
             } catch (const std::exception& e) {
                 LOG_ERROR("Handler for rule '{}' threw: {}", rule->name(), e.what());
-                co_return std::unexpected(
+                co_return make_fail(
                     make_error(ErrorCode::InternalError,
                                "Route handler failed", e.what()));
             }
@@ -37,7 +37,7 @@ auto Router::route(const IncomingMessage& msg) -> awaitable<Result<void>> {
 
     LOG_WARN("No matching route for message from {} on channel '{}'",
              msg.sender_id, msg.channel);
-    co_return std::unexpected(
+    co_return make_fail(
         make_error(ErrorCode::NotFound, "No matching route found"));
 }
 

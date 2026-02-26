@@ -70,7 +70,7 @@ auto SignalChannel::send(OutgoingMessage msg)
     -> boost::asio::awaitable<openclaw::Result<void>>
 {
     if (!running_.load()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError, "Signal channel is not running"));
     }
 
@@ -78,7 +78,7 @@ auto SignalChannel::send(OutgoingMessage msg)
     if (!msg.text.empty()) {
         auto result = co_await send_text(msg.recipient_id, msg.text);
         if (!result) {
-            co_return std::unexpected(result.error());
+            co_return make_fail(result.error());
         }
     }
 
@@ -101,7 +101,7 @@ auto SignalChannel::send(OutgoingMessage msg)
         }
     }
 
-    co_return openclaw::Result<void>{};
+    co_return ok_result();
 }
 
 // ---------------------------------------------------------------------------
@@ -270,10 +270,10 @@ auto SignalChannel::send_text(std::string_view recipient, std::string_view text)
 
     auto response = co_await http_.post("/v2/send", payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "Signal send failed",
                        "status=" + std::to_string(response->status) + " body=" + response->body));
@@ -282,7 +282,7 @@ auto SignalChannel::send_text(std::string_view recipient, std::string_view text)
     try {
         co_return json::parse(response->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse Signal send response", e.what()));
     }
@@ -308,10 +308,10 @@ auto SignalChannel::send_attachment(std::string_view recipient,
 
     auto response = co_await http_.post("/v2/send", payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "Signal send attachment failed",
                        "status=" + std::to_string(response->status)));
@@ -320,7 +320,7 @@ auto SignalChannel::send_attachment(std::string_view recipient,
     try {
         co_return json::parse(response->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse Signal response", e.what()));
     }
@@ -346,10 +346,10 @@ auto SignalChannel::send_reaction(std::string_view recipient,
     std::string path = "/v1/reactions/" + encoded_number;
     auto response = co_await http_.post(path, payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "Signal send reaction failed",
                        "status=" + std::to_string(response->status)));
@@ -358,7 +358,7 @@ auto SignalChannel::send_reaction(std::string_view recipient,
     try {
         co_return json::parse(response->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse Signal response", e.what()));
     }
@@ -367,10 +367,10 @@ auto SignalChannel::send_reaction(std::string_view recipient,
 auto SignalChannel::verify_connection() -> boost::asio::awaitable<openclaw::Result<void>> {
     auto response = co_await http_.get("/v1/about");
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ConnectionFailed,
                        "signal-cli REST API not reachable",
                        "status=" + std::to_string(response->status)));
@@ -380,10 +380,10 @@ auto SignalChannel::verify_connection() -> boost::asio::awaitable<openclaw::Resu
         auto body = json::parse(response->body);
         LOG_DEBUG("[signal] signal-cli version: {}",
                   body.value("version", "unknown"));
-        co_return openclaw::Result<void>{};
+        co_return ok_result();
     } catch (const json::exception&) {
         // Even if we can't parse the about response, the server is up
-        co_return openclaw::Result<void>{};
+        co_return ok_result();
     }
 }
 

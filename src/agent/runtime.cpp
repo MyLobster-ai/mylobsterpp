@@ -17,7 +17,7 @@ AgentRuntime::~AgentRuntime() = default;
 auto AgentRuntime::process(CompletionRequest req)
     -> boost::asio::awaitable<Result<CompletionResponse>> {
     if (!provider_) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::InvalidConfig,
             "No provider configured"));
     }
@@ -54,7 +54,7 @@ auto AgentRuntime::process(CompletionRequest req)
 auto AgentRuntime::process_stream(CompletionRequest req, StreamCallback cb)
     -> boost::asio::awaitable<Result<CompletionResponse>> {
     if (!provider_) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::InvalidConfig,
             "No provider configured"));
     }
@@ -127,7 +127,7 @@ auto AgentRuntime::execute_tool_call(const ContentBlock& tool_call)
 auto AgentRuntime::process_with_tools(CompletionRequest req, int max_iterations)
     -> boost::asio::awaitable<Result<CompletionResponse>> {
     if (!provider_) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::InvalidConfig,
             "No provider configured"));
     }
@@ -153,7 +153,7 @@ auto AgentRuntime::process_with_tools(CompletionRequest req, int max_iterations)
         auto result = co_await provider_->complete(req);
 
         if (!result.has_value()) {
-            co_return std::unexpected(result.error());
+            co_return make_fail(result.error());
         }
 
         auto& response = result.value();
@@ -205,7 +205,7 @@ auto AgentRuntime::process_with_tools_stream(CompletionRequest req, StreamCallba
                                               int max_iterations)
     -> boost::asio::awaitable<Result<CompletionResponse>> {
     if (!provider_) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::InvalidConfig,
             "No provider configured"));
     }
@@ -235,7 +235,7 @@ auto AgentRuntime::process_with_tools_stream(CompletionRequest req, StreamCallba
         auto result = co_await provider_->stream(req, cb);
 
         if (!result.has_value()) {
-            co_return std::unexpected(result.error());
+            co_return make_fail(result.error());
         }
 
         auto& response = result.value();

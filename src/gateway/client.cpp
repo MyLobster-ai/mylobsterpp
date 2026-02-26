@@ -120,7 +120,7 @@ auto GatewayClient::connect(std::string_view host, std::string_view port,
                     if (resp->is_error()) {
                         connected_ = false;
                         auto err_msg = resp->error->value("message", "Auth failed");
-                        co_return std::unexpected(
+                        co_return make_fail(
                             make_error(ErrorCode::Unauthorized, err_msg));
                     }
                 }
@@ -134,12 +134,12 @@ auto GatewayClient::connect(std::string_view host, std::string_view port,
         // Start the read loop.
         boost::asio::co_spawn(ioc_, read_loop(), boost::asio::detached);
 
-        co_return Result<void>{};
+        co_return ok_result();
 
     } catch (const boost::system::system_error& e) {
         LOG_ERROR("Failed to connect to {}:{}: {}", host_, port_, e.what());
         connected_ = false;
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ConnectionFailed,
                        "WebSocket connection failed", e.what()));
     }
@@ -162,7 +162,7 @@ auto GatewayClient::disconnect() -> awaitable<void> {
 
 auto GatewayClient::send(const Frame& frame) -> awaitable<Result<void>> {
     if (!connected_ || !ws_) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ConnectionClosed, "Not connected"));
     }
 
@@ -171,10 +171,10 @@ auto GatewayClient::send(const Frame& frame) -> awaitable<Result<void>> {
         ws_->text(true);
         co_await ws_->async_write(
             net::buffer(text), net::use_awaitable);
-        co_return Result<void>{};
+        co_return ok_result();
     } catch (const boost::system::system_error& e) {
         LOG_WARN("Client send error: {}", e.what());
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::IoError, "WebSocket write failed", e.what()));
     }
 }
@@ -183,7 +183,7 @@ auto GatewayClient::call(std::string_view method, json params,
                           uint32_t timeout_ms)
     -> awaitable<Result<json>> {
     if (!connected_ || !ws_) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ConnectionClosed, "Not connected"));
     }
 
@@ -215,7 +215,7 @@ auto GatewayClient::call(std::string_view method, json params,
     auto send_result = co_await send(Frame{req});
     if (!send_result) {
         pending_calls_.erase(request_id);
-        co_return std::unexpected(send_result.error());
+        co_return make_fail(send_result.error());
     }
 
     // Wait for the response with timeout.
@@ -230,7 +230,7 @@ auto GatewayClient::call(std::string_view method, json params,
 
         if (!connected_) {
             pending_calls_.erase(request_id);
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::ConnectionClosed,
                            "Connection lost while waiting for response"));
         }
@@ -241,7 +241,7 @@ auto GatewayClient::call(std::string_view method, json params,
         timeout_ms -= 10;
         if (timeout_ms == 0) {
             pending_calls_.erase(request_id);
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::Timeout,
                            "RPC call timed out: " + std::string(method)));
         }
@@ -253,7 +253,7 @@ auto GatewayClient::call(std::string_view method, json params,
         co_return std::move(*state->result);
     }
 
-    co_return std::unexpected(
+    co_return make_fail(
         make_error(ErrorCode::InternalError, "No result received"));
 }
 

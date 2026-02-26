@@ -81,7 +81,7 @@ auto Snapshot::capture_dom(const SnapshotOptions& options)
             {"pierce", true},
         });
         if (!doc) {
-            co_return std::unexpected(doc.error());
+            co_return make_fail(doc.error());
         }
 
         // Convert CDP document node to our DomNode
@@ -95,7 +95,7 @@ auto Snapshot::capture_dom(const SnapshotOptions& options)
 
     // Parse the DOMSnapshot format
     if (!result->contains("documents") || (*result)["documents"].empty()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::BrowserError,
                        "DOM snapshot returned no documents"));
     }
@@ -117,11 +117,11 @@ auto Snapshot::capture_accessibility_tree()
     auto result = co_await cdp_.send_command(
         "Accessibility.getFullAXTree");
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     if (!result->contains("nodes") || (*result)["nodes"].empty()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::BrowserError,
                        "Accessibility tree is empty"));
     }
@@ -179,7 +179,7 @@ auto Snapshot::extract_text() -> awaitable<Result<std::string>> {
         {"returnByValue", true},
     });
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     if (result->contains("result") && (*result)["result"].contains("value")) {
@@ -197,7 +197,7 @@ auto Snapshot::extract_text(std::string_view selector)
         {"returnByValue", true},
     });
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     if (result->contains("result") && (*result)["result"].contains("value")) {
@@ -218,7 +218,7 @@ auto Snapshot::to_text_representation(const SnapshotOptions& options)
     // Fall back to DOM text extraction
     auto dom_text = co_await extract_text();
     if (!dom_text) {
-        co_return std::unexpected(dom_text.error());
+        co_return make_fail(dom_text.error());
     }
     co_return *dom_text;
 }
@@ -241,7 +241,7 @@ auto Snapshot::extract_links()
         {"awaitPromise", false},
     });
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     std::vector<std::pair<std::string, std::string>> links;
@@ -312,7 +312,7 @@ auto Snapshot::extract_form_fields() -> awaitable<Result<json>> {
         {"awaitPromise", false},
     });
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     if (result->contains("result") && (*result)["result"].contains("value")) {

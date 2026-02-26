@@ -36,7 +36,7 @@ auto TokenAuthVerifier::verify(std::string_view credential)
     -> awaitable<Result<AuthInfo>> {
     // Constant-time comparison to prevent timing attacks.
     if (credential.size() != secret_.size()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::Unauthorized, "Invalid authentication token"));
     }
 
@@ -46,7 +46,7 @@ auto TokenAuthVerifier::verify(std::string_view credential)
     }
 
     if (!equal) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::Unauthorized, "Invalid authentication token"));
     }
 
@@ -78,7 +78,7 @@ auto TailscaleAuthVerifier::verify(std::string_view peer_addr)
     // would go.
 
     if (peer_addr.empty()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::Unauthorized,
                        "Empty peer address for tailscale auth"));
     }
@@ -140,7 +140,7 @@ auto Authenticator::verify(std::string_view credential)
     }
 
     if (!verifier_) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::InternalError,
                        "Auth verifier not configured"));
     }

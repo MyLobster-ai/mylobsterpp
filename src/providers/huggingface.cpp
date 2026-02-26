@@ -443,7 +443,7 @@ auto HuggingFaceProvider::complete(CompletionRequest req)
                                        "application/json", extra_headers);
 
     if (!result.has_value()) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ConnectionFailed,
             "HuggingFace API request failed",
             result.error().what()));
@@ -455,7 +455,7 @@ auto HuggingFaceProvider::complete(CompletionRequest req)
         try {
             auto err_json = json::parse(http_resp.body);
             if (err_json.contains("error")) {
-                co_return std::unexpected(make_error(
+                co_return make_fail(make_error(
                     ErrorCode::ProviderError,
                     "HuggingFace API error (HTTP " + std::to_string(http_resp.status) + ")",
                     err_json["error"].is_string()
@@ -464,7 +464,7 @@ auto HuggingFaceProvider::complete(CompletionRequest req)
             }
         } catch (...) {}
 
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ProviderError,
             "HuggingFace API error",
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));
@@ -491,7 +491,7 @@ auto HuggingFaceProvider::stream(CompletionRequest req, StreamCallback cb)
                                        "application/json", extra_headers);
 
     if (!result.has_value()) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ConnectionFailed,
             "HuggingFace API streaming request failed",
             result.error().what()));
@@ -503,7 +503,7 @@ auto HuggingFaceProvider::stream(CompletionRequest req, StreamCallback cb)
         try {
             auto err_json = json::parse(http_resp.body);
             if (err_json.contains("error")) {
-                co_return std::unexpected(make_error(
+                co_return make_fail(make_error(
                     ErrorCode::ProviderError,
                     "HuggingFace API stream error (HTTP " + std::to_string(http_resp.status) + ")",
                     err_json["error"].is_string()
@@ -512,7 +512,7 @@ auto HuggingFaceProvider::stream(CompletionRequest req, StreamCallback cb)
             }
         } catch (...) {}
 
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ProviderError,
             "HuggingFace API stream error",
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));
@@ -554,11 +554,11 @@ auto HuggingFaceProvider::discover_models()
 
     if (!result.has_value()) {
         LOG_WARN("HuggingFace model discovery failed: {}", result.error().what());
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     if (!result->is_success()) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ProviderError,
             "HuggingFace model discovery failed",
             "HTTP " + std::to_string(result->status)));
@@ -586,7 +586,7 @@ auto HuggingFaceProvider::discover_models()
         LOG_INFO("Discovered {} HuggingFace models", models.size());
         co_return models;
     } catch (const json::exception& e) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::SerializationError,
             "Failed to parse model list",
             e.what()));

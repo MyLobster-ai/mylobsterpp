@@ -360,7 +360,7 @@ auto OllamaProvider::complete(CompletionRequest req)
     auto result = co_await http_.post(kChatPath, body.dump());
 
     if (!result.has_value()) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ConnectionFailed,
             "Ollama API request failed",
             result.error().what()));
@@ -372,14 +372,14 @@ auto OllamaProvider::complete(CompletionRequest req)
         try {
             auto err_json = json::parse(http_resp.body);
             if (err_json.contains("error")) {
-                co_return std::unexpected(make_error(
+                co_return make_fail(make_error(
                     ErrorCode::ProviderError,
                     "Ollama API error (HTTP " + std::to_string(http_resp.status) + ")",
                     err_json.value("error", http_resp.body)));
             }
         } catch (...) {}
 
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ProviderError,
             "Ollama API error",
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));
@@ -397,7 +397,7 @@ auto OllamaProvider::stream(CompletionRequest req, StreamCallback cb)
     auto result = co_await http_.post(kChatPath, body.dump());
 
     if (!result.has_value()) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ConnectionFailed,
             "Ollama API streaming request failed",
             result.error().what()));
@@ -409,14 +409,14 @@ auto OllamaProvider::stream(CompletionRequest req, StreamCallback cb)
         try {
             auto err_json = json::parse(http_resp.body);
             if (err_json.contains("error")) {
-                co_return std::unexpected(make_error(
+                co_return make_fail(make_error(
                     ErrorCode::ProviderError,
                     "Ollama API stream error (HTTP " + std::to_string(http_resp.status) + ")",
                     err_json.value("error", http_resp.body)));
             }
         } catch (...) {}
 
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ProviderError,
             "Ollama API stream error",
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));
@@ -430,11 +430,11 @@ auto OllamaProvider::discover_models()
     auto result = co_await http_.get(kTagsPath);
 
     if (!result.has_value()) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     if (!result->is_success()) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ProviderError,
             "Ollama model discovery failed",
             "HTTP " + std::to_string(result->status)));
@@ -457,7 +457,7 @@ auto OllamaProvider::discover_models()
         LOG_INFO("Discovered {} Ollama models", model_names.size());
         co_return model_names;
     } catch (const json::exception& e) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::SerializationError,
             "Failed to parse Ollama model list",
             e.what()));

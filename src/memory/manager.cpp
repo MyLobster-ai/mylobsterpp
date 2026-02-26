@@ -143,7 +143,7 @@ void MemoryManager::init_metadata_db(const std::string& db_path) {
 auto MemoryManager::store(std::string_view content, const StoreOptions& options)
     -> awaitable<Result<MemoryEntry>> {
     if (!impl_->ready) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::MemoryError, "Memory system not initialized"));
     }
 
@@ -162,7 +162,7 @@ auto MemoryManager::store(std::string_view content, const StoreOptions& options)
     // Index in hybrid search (generates embedding + stores in vector + FTS)
     auto index_result = co_await impl_->hybrid_search->index(id, content, metadata);
     if (!index_result) {
-        co_return std::unexpected(index_result.error());
+        co_return make_fail(index_result.error());
     }
 
     // Store metadata entry
@@ -179,7 +179,7 @@ auto MemoryManager::store(std::string_view content, const StoreOptions& options)
         stmt.bind(7, now);
         stmt.exec();
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError,
                        "Failed to store memory metadata",
                        e.what()));
@@ -201,7 +201,7 @@ auto MemoryManager::store(std::string_view content, const StoreOptions& options)
 auto MemoryManager::recall(std::string_view query, const RecallOptions& options)
     -> awaitable<Result<std::vector<SearchResult>>> {
     if (!impl_->ready) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::MemoryError, "Memory system not initialized"));
     }
 
@@ -230,7 +230,7 @@ auto MemoryManager::recall(std::string_view query, const RecallOptions& options)
 
 auto MemoryManager::forget(std::string_view id) -> awaitable<Result<void>> {
     if (!impl_->ready) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::MemoryError, "Memory system not initialized"));
     }
 
@@ -248,19 +248,19 @@ auto MemoryManager::forget(std::string_view id) -> awaitable<Result<void>> {
         stmt.bind(1, std::string(id));
         stmt.exec();
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError,
                        "Failed to delete memory metadata",
                        e.what()));
     }
 
     LOG_DEBUG("Forgot memory: {}", std::string(id));
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto MemoryManager::get(std::string_view id) -> awaitable<Result<MemoryEntry>> {
     if (!impl_->ready) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::MemoryError, "Memory system not initialized"));
     }
 
@@ -281,12 +281,12 @@ auto MemoryManager::get(std::string_view id) -> awaitable<Result<MemoryEntry>> {
             co_return entry;
         }
 
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::NotFound,
                        "Memory not found",
                        std::string(id)));
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError,
                        "Failed to get memory",
                        e.what()));
@@ -298,7 +298,7 @@ auto MemoryManager::list(std::string_view user_id,
                          size_t limit)
     -> awaitable<Result<std::vector<MemoryEntry>>> {
     if (!impl_->ready) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::MemoryError, "Memory system not initialized"));
     }
 
@@ -333,7 +333,7 @@ auto MemoryManager::list(std::string_view user_id,
 
         co_return entries;
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError,
                        "Failed to list memories",
                        e.what()));
@@ -342,7 +342,7 @@ auto MemoryManager::list(std::string_view user_id,
 
 auto MemoryManager::count() -> awaitable<Result<size_t>> {
     if (!impl_->ready) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::MemoryError, "Memory system not initialized"));
     }
     co_return co_await impl_->vector_store->count();
@@ -350,34 +350,34 @@ auto MemoryManager::count() -> awaitable<Result<size_t>> {
 
 auto MemoryManager::clear() -> awaitable<Result<void>> {
     if (!impl_->ready) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::MemoryError, "Memory system not initialized"));
     }
 
     // Clear vector store
     auto vec_result = co_await impl_->vector_store->clear();
     if (!vec_result) {
-        co_return std::unexpected(vec_result.error());
+        co_return make_fail(vec_result.error());
     }
 
     // Clear metadata
     try {
         impl_->meta_db->exec("DELETE FROM memories");
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError,
                        "Failed to clear memory metadata",
                        e.what()));
     }
 
     LOG_INFO("Cleared all memories");
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto MemoryManager::reindex(std::string_view id, std::string_view new_content)
     -> awaitable<Result<void>> {
     if (!impl_->ready) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::MemoryError, "Memory system not initialized"));
     }
 
@@ -388,13 +388,13 @@ auto MemoryManager::reindex(std::string_view id, std::string_view new_content)
     auto it = impl_->source_hashes.find(std::string(id));
     if (it != impl_->source_hashes.end() && it->second == content_hash) {
         LOG_DEBUG("Content unchanged for {}, skipping reindex", std::string(id));
-        co_return Result<void>{};
+        co_return ok_result();
     }
 
     // Re-embed and store
     auto embed_result = co_await impl_->embeddings->embed(new_content);
     if (!embed_result) {
-        co_return std::unexpected(embed_result.error());
+        co_return make_fail(embed_result.error());
     }
 
     // Update in hybrid search
@@ -404,7 +404,7 @@ auto MemoryManager::reindex(std::string_view id, std::string_view new_content)
     json metadata;
     auto index_result = co_await impl_->hybrid_search->index(id, new_content, metadata);
     if (!index_result) {
-        co_return std::unexpected(index_result.error());
+        co_return make_fail(index_result.error());
     }
 
     // Update metadata DB
@@ -416,13 +416,13 @@ auto MemoryManager::reindex(std::string_view id, std::string_view new_content)
         stmt.bind(3, std::string(id));
         stmt.exec();
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError, "Failed to update memory", e.what()));
     }
 
     impl_->source_hashes[std::string(id)] = content_hash;
     LOG_DEBUG("Reindexed memory: {}", std::string(id));
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto MemoryManager::is_ready() const -> bool {

@@ -58,7 +58,7 @@ auto Connection::run() -> awaitable<void> {
 
 auto Connection::send(const Frame& frame) -> awaitable<Result<void>> {
     if (!open_) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ConnectionClosed, "Connection is closed"));
     }
 
@@ -68,7 +68,7 @@ auto Connection::send(const Frame& frame) -> awaitable<Result<void>> {
 
 auto Connection::send_text(std::string message) -> awaitable<Result<void>> {
     if (!open_) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ConnectionClosed, "Connection is closed"));
     }
 
@@ -77,11 +77,11 @@ auto Connection::send_text(std::string message) -> awaitable<Result<void>> {
         ws_.text(true);
         co_await ws_.async_write(
             net::buffer(message), net::use_awaitable);
-        co_return Result<void>{};
+        co_return ok_result();
     } catch (const boost::system::system_error& e) {
         LOG_WARN("Connection {}: write error: {}", id_, e.what());
         open_ = false;
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::IoError, "WebSocket write failed", e.what()));
     }
 }

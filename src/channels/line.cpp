@@ -63,7 +63,7 @@ auto LineChannel::send(OutgoingMessage msg)
     -> boost::asio::awaitable<openclaw::Result<void>>
 {
     if (!running_.load()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError, "LINE channel is not running"));
     }
 
@@ -86,7 +86,7 @@ auto LineChannel::send(OutgoingMessage msg)
     }
 
     if (messages.empty()) {
-        co_return openclaw::Result<void>{};
+        co_return ok_result();
     }
 
     // LINE API allows max 5 messages per request
@@ -113,11 +113,11 @@ auto LineChannel::send(OutgoingMessage msg)
         }
 
         if (!result) {
-            co_return std::unexpected(result.error());
+            co_return make_fail(result.error());
         }
     }
 
-    co_return openclaw::Result<void>{};
+    co_return ok_result();
 }
 
 // ---------------------------------------------------------------------------
@@ -326,10 +326,10 @@ auto LineChannel::reply_message(std::string_view reply_token, const json& messag
 
     auto response = co_await http_.post("/bot/message/reply", payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "LINE reply_message failed",
                        "status=" + std::to_string(response->status) + " body=" + response->body));
@@ -349,10 +349,10 @@ auto LineChannel::push_message(std::string_view to, const json& messages)
 
     auto response = co_await http_.post("/bot/message/push", payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "LINE push_message failed",
                        "status=" + std::to_string(response->status) + " body=" + response->body));
@@ -420,10 +420,10 @@ auto LineChannel::get_message_content(std::string_view message_id)
     std::string path = "/bot/message/" + std::string(message_id) + "/content";
     auto response = co_await data_http_.get(path);
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "Failed to get message content",
                        "status=" + std::to_string(response->status)));
@@ -438,10 +438,10 @@ auto LineChannel::get_user_profile(std::string_view user_id)
     std::string path = "/bot/profile/" + std::string(user_id);
     auto response = co_await http_.get(path);
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "Failed to get user profile",
                        "status=" + std::to_string(response->status)));
@@ -450,7 +450,7 @@ auto LineChannel::get_user_profile(std::string_view user_id)
     try {
         co_return json::parse(response->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse user profile", e.what()));
     }

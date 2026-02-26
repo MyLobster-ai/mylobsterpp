@@ -381,7 +381,7 @@ auto GeminiProvider::complete(CompletionRequest req)
     auto result = co_await http_.post(path, body.dump());
 
     if (!result.has_value()) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ConnectionFailed,
             "Gemini API request failed",
             result.error().what()));
@@ -393,14 +393,14 @@ auto GeminiProvider::complete(CompletionRequest req)
         try {
             auto err_json = json::parse(http_resp.body);
             if (err_json.contains("error")) {
-                co_return std::unexpected(make_error(
+                co_return make_fail(make_error(
                     ErrorCode::ProviderError,
                     "Gemini API error (HTTP " + std::to_string(http_resp.status) + ")",
                     err_json["error"].value("message", http_resp.body)));
             }
         } catch (...) {}
 
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ProviderError,
             "Gemini API error",
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));
@@ -423,7 +423,7 @@ auto GeminiProvider::stream(CompletionRequest req, StreamCallback cb)
     auto result = co_await http_.post(path, body.dump());
 
     if (!result.has_value()) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ConnectionFailed,
             "Gemini API streaming request failed",
             result.error().what()));
@@ -435,14 +435,14 @@ auto GeminiProvider::stream(CompletionRequest req, StreamCallback cb)
         try {
             auto err_json = json::parse(http_resp.body);
             if (err_json.contains("error")) {
-                co_return std::unexpected(make_error(
+                co_return make_fail(make_error(
                     ErrorCode::ProviderError,
                     "Gemini API stream error (HTTP " + std::to_string(http_resp.status) + ")",
                     err_json["error"].value("message", http_resp.body)));
             }
         } catch (...) {}
 
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ProviderError,
             "Gemini API stream error",
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));

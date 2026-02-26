@@ -76,7 +76,7 @@ auto SlackChannel::send(OutgoingMessage msg)
     -> boost::asio::awaitable<openclaw::Result<void>>
 {
     if (!running_.load()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError, "Slack channel is not running"));
     }
 
@@ -105,7 +105,7 @@ auto SlackChannel::send(OutgoingMessage msg)
         auto result = co_await post_message(msg.recipient_id, msg.text,
             effective_thread_ts ? std::optional<std::string_view>{*effective_thread_ts} : std::nullopt);
         if (!result) {
-            co_return std::unexpected(result.error());
+            co_return make_fail(result.error());
         }
 
         // Track threads we've posted to so we can avoid re-entry
@@ -124,7 +124,7 @@ auto SlackChannel::send(OutgoingMessage msg)
         }
     }
 
-    co_return openclaw::Result<void>{};
+    co_return ok_result();
 }
 
 // ---------------------------------------------------------------------------
@@ -140,10 +140,10 @@ auto SlackChannel::open_socket_mode()
         {{"Authorization", "Bearer " + config_.app_token}});
 
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "Failed to open Socket Mode connection",
                        "status=" + std::to_string(response->status) + " body=" + response->body));
@@ -152,14 +152,14 @@ auto SlackChannel::open_socket_mode()
     try {
         auto body = json::parse(response->body);
         if (!body.value("ok", false)) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::ChannelError,
                            "apps.connections.open returned ok=false",
                            body.value("error", "unknown")));
         }
         co_return body.value("url", "");
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse Socket Mode response", e.what()));
     }
@@ -464,10 +464,10 @@ auto SlackChannel::post_message(std::string_view channel_id,
 
     auto response = co_await http_.post("/chat.postMessage", payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "chat.postMessage failed",
                        "status=" + std::to_string(response->status) + " body=" + response->body));
@@ -476,14 +476,14 @@ auto SlackChannel::post_message(std::string_view channel_id,
     try {
         auto body = json::parse(response->body);
         if (!body.value("ok", false)) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::ChannelError,
                            "chat.postMessage returned ok=false",
                            body.value("error", "unknown")));
         }
         co_return body;
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse postMessage response", e.what()));
     }
@@ -506,13 +506,13 @@ auto SlackChannel::upload_file(std::string_view channel_id,
     auto url_response = co_await http_.post("/files.getUploadURLExternal",
                                              get_url_payload.dump());
     if (!url_response) {
-        co_return std::unexpected(url_response.error());
+        co_return make_fail(url_response.error());
     }
 
     try {
         auto url_body = json::parse(url_response->body);
         if (!url_body.value("ok", false)) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::ChannelError,
                            "files.getUploadURLExternal failed",
                            url_body.value("error", "unknown")));
@@ -530,12 +530,12 @@ auto SlackChannel::upload_file(std::string_view channel_id,
         auto complete_response = co_await http_.post("/files.completeUploadExternal",
                                                       complete_payload.dump());
         if (!complete_response) {
-            co_return std::unexpected(complete_response.error());
+            co_return make_fail(complete_response.error());
         }
 
         auto complete_body = json::parse(complete_response->body);
         if (!complete_body.value("ok", false)) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::ChannelError,
                            "files.completeUploadExternal failed",
                            complete_body.value("error", "unknown")));
@@ -543,7 +543,7 @@ auto SlackChannel::upload_file(std::string_view channel_id,
 
         co_return complete_body;
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse file upload response", e.what()));
     }
@@ -552,10 +552,10 @@ auto SlackChannel::upload_file(std::string_view channel_id,
 auto SlackChannel::fetch_bot_info() -> boost::asio::awaitable<openclaw::Result<void>> {
     auto response = co_await http_.post("/auth.test", "");
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "auth.test failed",
                        "status=" + std::to_string(response->status)));
@@ -564,7 +564,7 @@ auto SlackChannel::fetch_bot_info() -> boost::asio::awaitable<openclaw::Result<v
     try {
         auto body = json::parse(response->body);
         if (!body.value("ok", false)) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::Unauthorized,
                            "auth.test returned ok=false",
                            body.value("error", "unknown")));
@@ -572,9 +572,9 @@ auto SlackChannel::fetch_bot_info() -> boost::asio::awaitable<openclaw::Result<v
         bot_user_id_ = body.value("user_id", "");
         bot_name_ = body.value("user", "");
         team_id_ = body.value("team_id", "");
-        co_return openclaw::Result<void>{};
+        co_return ok_result();
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse auth.test response", e.what()));
     }

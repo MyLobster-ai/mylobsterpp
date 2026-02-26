@@ -41,7 +41,7 @@ auto DeliveredChannel::send(OutgoingMessage msg)
         // Check for cancel
         if (hooked.value("cancel", false)) {
             LOG_DEBUG("Message to {} cancelled by message_sending hook", msg.recipient_id);
-            co_return Result<void>{};
+            co_return ok_result();
         }
 
         // Check for content modification

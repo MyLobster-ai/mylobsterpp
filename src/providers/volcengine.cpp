@@ -420,7 +420,7 @@ auto VolcEngineProvider::complete(CompletionRequest req)
     auto result = co_await http_.post(kCompletionsPath, body.dump());
 
     if (!result.has_value()) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ConnectionFailed,
             "VolcEngine API request failed",
             result.error().what()));
@@ -432,14 +432,14 @@ auto VolcEngineProvider::complete(CompletionRequest req)
         try {
             auto err_json = json::parse(http_resp.body);
             if (err_json.contains("error")) {
-                co_return std::unexpected(make_error(
+                co_return make_fail(make_error(
                     ErrorCode::ProviderError,
                     "VolcEngine API error (HTTP " + std::to_string(http_resp.status) + ")",
                     err_json["error"].value("message", http_resp.body)));
             }
         } catch (...) {}
 
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ProviderError,
             "VolcEngine API error",
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));
@@ -457,7 +457,7 @@ auto VolcEngineProvider::stream(CompletionRequest req, StreamCallback cb)
     auto result = co_await http_.post(kCompletionsPath, body.dump());
 
     if (!result.has_value()) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ConnectionFailed,
             "VolcEngine API streaming request failed",
             result.error().what()));
@@ -469,14 +469,14 @@ auto VolcEngineProvider::stream(CompletionRequest req, StreamCallback cb)
         try {
             auto err_json = json::parse(http_resp.body);
             if (err_json.contains("error")) {
-                co_return std::unexpected(make_error(
+                co_return make_fail(make_error(
                     ErrorCode::ProviderError,
                     "VolcEngine API stream error (HTTP " + std::to_string(http_resp.status) + ")",
                     err_json["error"].value("message", http_resp.body)));
             }
         } catch (...) {}
 
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ProviderError,
             "VolcEngine API stream error",
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));

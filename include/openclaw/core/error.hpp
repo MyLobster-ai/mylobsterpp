@@ -96,4 +96,26 @@ inline auto error_code_to_string(ErrorCode code) -> std::string_view {
     }
 }
 
+// GCC 14 ICE workaround for co_return std::unexpected(...) in coroutines.
+// GCC 14 crashes (internal compiler error) when a coroutine uses
+// co_return std::unexpected(...) due to bugs in special member call
+// resolution within coroutine frames. This wrapper defers the
+// std::unexpected -> std::expected conversion to a user-defined
+// conversion operator outside the coroutine frame.
+// See: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=112341
+struct Fail {
+    Error error;
+
+    explicit Fail(Error e) : error(std::move(e)) {}
+
+    template <typename T>
+    operator Result<T>() && { return std::unexpected(std::move(error)); }
+};
+
+/// Use co_return make_fail(err) instead of co_return std::unexpected(err).
+inline auto make_fail(Error e) -> Fail { return Fail(std::move(e)); }
+
+/// Use co_return ok_result() instead of co_return Result<void>{}.
+inline auto ok_result() -> Result<void> { return {}; }
+
 } // namespace openclaw

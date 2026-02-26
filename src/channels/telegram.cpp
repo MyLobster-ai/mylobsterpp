@@ -58,7 +58,7 @@ auto TelegramChannel::send(OutgoingMessage msg)
     -> boost::asio::awaitable<openclaw::Result<void>>
 {
     if (!running_.load()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError, "Telegram channel is not running"));
     }
 
@@ -67,7 +67,7 @@ auto TelegramChannel::send(OutgoingMessage msg)
         auto result = co_await send_text(msg.recipient_id, msg.text,
             msg.reply_to ? std::optional<std::string_view>{*msg.reply_to} : std::nullopt);
         if (!result) {
-            co_return std::unexpected(result.error());
+            co_return make_fail(result.error());
         }
     }
 
@@ -99,7 +99,7 @@ auto TelegramChannel::send(OutgoingMessage msg)
         }
     }
 
-    co_return openclaw::Result<void>{};
+    co_return ok_result();
 }
 
 // ---------------------------------------------------------------------------
@@ -442,7 +442,7 @@ auto TelegramChannel::send_text(std::string_view chat_id,
 
     auto response = co_await http_.post("/sendMessage", payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
         // v2026.2.24: On Markdown parse failure, retry with plain text
@@ -452,10 +452,10 @@ auto TelegramChannel::send_text(std::string_view chat_id,
             payload.erase("parse_mode");
             auto retry_response = co_await http_.post("/sendMessage", payload.dump());
             if (!retry_response) {
-                co_return std::unexpected(retry_response.error());
+                co_return make_fail(retry_response.error());
             }
             if (!retry_response->is_success()) {
-                co_return std::unexpected(
+                co_return make_fail(
                     make_error(ErrorCode::ChannelError,
                                "sendMessage failed (plain text retry)",
                                "status=" + std::to_string(retry_response->status) + " body=" + retry_response->body));
@@ -463,11 +463,11 @@ auto TelegramChannel::send_text(std::string_view chat_id,
             try {
                 co_return json::parse(retry_response->body);
             } catch (const json::exception& e) {
-                co_return std::unexpected(
+                co_return make_fail(
                     make_error(ErrorCode::SerializationError, "Failed to parse sendMessage response", e.what()));
             }
         }
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "sendMessage failed",
                        "status=" + std::to_string(response->status) + " body=" + response->body));
@@ -477,7 +477,7 @@ auto TelegramChannel::send_text(std::string_view chat_id,
         auto body = json::parse(response->body);
         co_return body;
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError, "Failed to parse sendMessage response", e.what()));
     }
 }
@@ -497,10 +497,10 @@ auto TelegramChannel::send_document(std::string_view chat_id,
 
     auto response = co_await http_.post("/sendDocument", payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "sendDocument failed",
                        "status=" + std::to_string(response->status)));
@@ -509,7 +509,7 @@ auto TelegramChannel::send_document(std::string_view chat_id,
     try {
         co_return json::parse(response->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError, "Failed to parse sendDocument response", e.what()));
     }
 }
@@ -529,10 +529,10 @@ auto TelegramChannel::send_photo(std::string_view chat_id,
 
     auto response = co_await http_.post("/sendPhoto", payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "sendPhoto failed",
                        "status=" + std::to_string(response->status)));
@@ -541,7 +541,7 @@ auto TelegramChannel::send_photo(std::string_view chat_id,
     try {
         co_return json::parse(response->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError, "Failed to parse sendPhoto response", e.what()));
     }
 }
@@ -549,10 +549,10 @@ auto TelegramChannel::send_photo(std::string_view chat_id,
 auto TelegramChannel::fetch_bot_info() -> boost::asio::awaitable<openclaw::Result<void>> {
     auto response = co_await http_.get("/getMe");
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "getMe failed",
                        "status=" + std::to_string(response->status) + " body=" + response->body));
@@ -561,13 +561,13 @@ auto TelegramChannel::fetch_bot_info() -> boost::asio::awaitable<openclaw::Resul
     try {
         auto body = json::parse(response->body);
         if (!body.value("ok", false)) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::ChannelError, "getMe returned ok=false"));
         }
         bot_username_ = body["result"].value("username", "unknown");
-        co_return openclaw::Result<void>{};
+        co_return ok_result();
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError, "Failed to parse getMe response", e.what()));
     }
 }
@@ -627,10 +627,10 @@ auto TelegramChannel::send_voice(std::string_view chat_id,
 
     auto response = co_await http_.post("/sendVoice", payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "sendVoice failed",
                        "status=" + std::to_string(response->status)));
@@ -639,7 +639,7 @@ auto TelegramChannel::send_voice(std::string_view chat_id,
     try {
         co_return json::parse(response->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError, "Failed to parse sendVoice response", e.what()));
     }
 }
@@ -703,17 +703,17 @@ auto TelegramChannel::set_bot_commands(
     json payload = {{"commands", cmd_array}};
     auto response = co_await http_.post("/setMyCommands", payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "setMyCommands failed",
                        "status=" + std::to_string(response->status)));
     }
 
     LOG_INFO("[telegram] Set {} bot commands", capped.size());
-    co_return openclaw::Result<void>{};
+    co_return ok_result();
 }
 
 // ---------------------------------------------------------------------------

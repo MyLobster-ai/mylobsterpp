@@ -74,7 +74,7 @@ auto OpenAIEmbeddings::embed(std::string_view text)
         "/v1/embeddings", request_body.dump());
 
     if (!response) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ProviderError,
                        "Embedding request failed",
                        response.error().what()));
@@ -83,7 +83,7 @@ auto OpenAIEmbeddings::embed(std::string_view text)
     if (!response->is_success()) {
         LOG_ERROR("OpenAI embeddings API returned status {}: {}",
                   response->status, response->body);
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ProviderError,
                        "Embedding API error",
                        "HTTP " + std::to_string(response->status) + ": " +
@@ -94,7 +94,7 @@ auto OpenAIEmbeddings::embed(std::string_view text)
         auto body = json::parse(response->body);
 
         if (!body.contains("data") || body["data"].empty()) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::ProviderError,
                            "Embedding response missing data"));
         }
@@ -109,7 +109,7 @@ auto OpenAIEmbeddings::embed(std::string_view text)
         LOG_DEBUG("Generated embedding with {} dimensions", embedding.size());
         co_return embedding;
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse embedding response",
                        e.what()));
@@ -145,7 +145,7 @@ auto OpenAIEmbeddings::embed_batch(std::vector<std::string> texts)
         "/v1/embeddings", request_body.dump());
 
     if (!response) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ProviderError,
                        "Batch embedding request failed",
                        response.error().what()));
@@ -154,7 +154,7 @@ auto OpenAIEmbeddings::embed_batch(std::vector<std::string> texts)
     if (!response->is_success()) {
         LOG_ERROR("OpenAI embeddings API returned status {}: {}",
                   response->status, response->body);
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ProviderError,
                        "Batch embedding API error",
                        "HTTP " + std::to_string(response->status) + ": " +
@@ -165,7 +165,7 @@ auto OpenAIEmbeddings::embed_batch(std::vector<std::string> texts)
         auto body = json::parse(response->body);
 
         if (!body.contains("data")) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::ProviderError,
                            "Batch embedding response missing data"));
         }
@@ -191,7 +191,7 @@ auto OpenAIEmbeddings::embed_batch(std::vector<std::string> texts)
         LOG_DEBUG("Generated {} embeddings in batch", results.size());
         co_return results;
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse batch embedding response",
                        e.what()));
@@ -262,7 +262,7 @@ auto MistralEmbeddings::embed(std::string_view text)
         "/v1/embeddings", request_body.dump());
 
     if (!response) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ProviderError,
                        "Mistral embedding request failed",
                        response.error().what()));
@@ -271,7 +271,7 @@ auto MistralEmbeddings::embed(std::string_view text)
     if (!response->is_success()) {
         LOG_ERROR("Mistral embeddings API returned status {}: {}",
                   response->status, response->body);
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ProviderError,
                        "Mistral embedding API error",
                        "HTTP " + std::to_string(response->status) + ": " +
@@ -282,7 +282,7 @@ auto MistralEmbeddings::embed(std::string_view text)
         auto body = json::parse(response->body);
 
         if (!body.contains("data") || body["data"].empty()) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::ProviderError,
                            "Mistral embedding response missing data"));
         }
@@ -297,7 +297,7 @@ auto MistralEmbeddings::embed(std::string_view text)
         LOG_DEBUG("Generated Mistral embedding with {} dimensions", embedding.size());
         co_return embedding;
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse Mistral embedding response",
                        e.what()));
@@ -333,7 +333,7 @@ auto MistralEmbeddings::embed_batch(std::vector<std::string> texts)
         "/v1/embeddings", request_body.dump());
 
     if (!response) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ProviderError,
                        "Mistral batch embedding request failed",
                        response.error().what()));
@@ -342,7 +342,7 @@ auto MistralEmbeddings::embed_batch(std::vector<std::string> texts)
     if (!response->is_success()) {
         LOG_ERROR("Mistral embeddings API returned status {}: {}",
                   response->status, response->body);
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ProviderError,
                        "Mistral batch embedding API error",
                        "HTTP " + std::to_string(response->status) + ": " +
@@ -353,7 +353,7 @@ auto MistralEmbeddings::embed_batch(std::vector<std::string> texts)
         auto body = json::parse(response->body);
 
         if (!body.contains("data")) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::ProviderError,
                            "Mistral batch embedding response missing data"));
         }
@@ -379,7 +379,7 @@ auto MistralEmbeddings::embed_batch(std::vector<std::string> texts)
         LOG_DEBUG("Generated {} Mistral embeddings in batch", results.size());
         co_return results;
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse Mistral batch embedding response",
                        e.what()));
@@ -407,7 +407,7 @@ auto EmbeddingProviderChain::embed(std::string_view text)
         }
         LOG_DEBUG("EmbeddingProviderChain: provider failed, trying next");
     }
-    co_return std::unexpected(
+    co_return make_fail(
         make_error(ErrorCode::ProviderError,
                    "All embedding providers failed"));
 }
@@ -421,7 +421,7 @@ auto EmbeddingProviderChain::embed_batch(std::vector<std::string> texts)
         }
         LOG_DEBUG("EmbeddingProviderChain: batch provider failed, trying next");
     }
-    co_return std::unexpected(
+    co_return make_fail(
         make_error(ErrorCode::ProviderError,
                    "All embedding providers failed for batch"));
 }

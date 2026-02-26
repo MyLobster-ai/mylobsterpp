@@ -104,10 +104,10 @@ auto SqliteSessionStore::create(const SessionData& data) -> awaitable<Result<voi
         stmt.exec();
 
         LOG_DEBUG("Created session {}", data.session.id);
-        co_return Result<void>{};
+        co_return ok_result();
     } catch (const SQLite::Exception& e) {
         LOG_ERROR("Failed to create session {}: {}", data.session.id, e.what());
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError, "Failed to create session", e.what()));
     }
 }
@@ -121,7 +121,7 @@ auto SqliteSessionStore::get(std::string_view id) -> awaitable<Result<SessionDat
         stmt.bind(1, std::string(id));
 
         if (!stmt.executeStep()) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::NotFound, "Session not found",
                            std::string(id)));
         }
@@ -146,7 +146,7 @@ auto SqliteSessionStore::get(std::string_view id) -> awaitable<Result<SessionDat
         co_return data;
     } catch (const SQLite::Exception& e) {
         LOG_ERROR("Failed to get session {}: {}", id, e.what());
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError, "Failed to get session", e.what()));
     }
 }
@@ -171,16 +171,16 @@ auto SqliteSessionStore::update(const SessionData& data) -> awaitable<Result<voi
 
         auto rows = stmt.exec();
         if (rows == 0) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::NotFound, "Session not found",
                            data.session.id));
         }
 
         LOG_DEBUG("Updated session {}", data.session.id);
-        co_return Result<void>{};
+        co_return ok_result();
     } catch (const SQLite::Exception& e) {
         LOG_ERROR("Failed to update session {}: {}", data.session.id, e.what());
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError, "Failed to update session", e.what()));
     }
 }
@@ -192,16 +192,16 @@ auto SqliteSessionStore::remove(std::string_view id) -> awaitable<Result<void>> 
 
         auto rows = stmt.exec();
         if (rows == 0) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::NotFound, "Session not found",
                            std::string(id)));
         }
 
         LOG_DEBUG("Removed session {}", id);
-        co_return Result<void>{};
+        co_return ok_result();
     } catch (const SQLite::Exception& e) {
         LOG_ERROR("Failed to remove session {}: {}", id, e.what());
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError, "Failed to remove session", e.what()));
     }
 }
@@ -241,7 +241,7 @@ auto SqliteSessionStore::list(std::string_view user_id)
         co_return results;
     } catch (const SQLite::Exception& e) {
         LOG_ERROR("Failed to list sessions for user {}: {}", user_id, e.what());
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError, "Failed to list sessions", e.what()));
     }
 }
@@ -266,7 +266,7 @@ auto SqliteSessionStore::remove_expired(int ttl_seconds)
         co_return rows;
     } catch (const SQLite::Exception& e) {
         LOG_ERROR("Failed to remove expired sessions: {}", e.what());
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError, "Failed to remove expired sessions",
                        e.what()));
     }

@@ -192,7 +192,7 @@ auto HybridSearch::index(std::string_view id, std::string_view content,
     // Generate embedding and store in vector store
     auto embed_result = co_await embeddings_->embed(content);
     if (!embed_result) {
-        co_return std::unexpected(embed_result.error());
+        co_return make_fail(embed_result.error());
     }
 
     VectorEntry entry;
@@ -203,7 +203,7 @@ auto HybridSearch::index(std::string_view id, std::string_view content,
 
     auto insert_result = co_await vector_store_->insert(entry);
     if (!insert_result) {
-        co_return std::unexpected(insert_result.error());
+        co_return make_fail(insert_result.error());
     }
 
     // Index in FTS5 for keyword search
@@ -226,9 +226,9 @@ auto HybridSearch::index(std::string_view id, std::string_view content,
         }
 
         LOG_DEBUG("Indexed document for hybrid search: {}", std::string(id));
-        co_return Result<void>{};
+        co_return ok_result();
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError,
                        "Failed to index document in FTS",
                        e.what()));
@@ -240,13 +240,13 @@ auto HybridSearch::search(std::string_view query, const SearchOptions& options)
     // Perform vector search
     auto vec_results = co_await vector_search(query, options.limit * 2);
     if (!vec_results) {
-        co_return std::unexpected(vec_results.error());
+        co_return make_fail(vec_results.error());
     }
 
     // Perform keyword search
     auto kw_results = co_await keyword_search(query, options.limit * 2);
     if (!kw_results) {
-        co_return std::unexpected(kw_results.error());
+        co_return make_fail(kw_results.error());
     }
 
     // Merge and rank results
@@ -298,25 +298,25 @@ auto HybridSearch::remove(std::string_view id) -> awaitable<Result<void>> {
         stmt.bind(1, std::string(id));
         stmt.exec();
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError,
                        "Failed to remove from FTS index",
                        e.what()));
     }
 
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto HybridSearch::vector_search(std::string_view query, size_t limit)
     -> awaitable<Result<std::vector<SearchResult>>> {
     auto embed_result = co_await embeddings_->embed(query);
     if (!embed_result) {
-        co_return std::unexpected(embed_result.error());
+        co_return make_fail(embed_result.error());
     }
 
     auto vec_results = co_await vector_store_->search(*embed_result, limit);
     if (!vec_results) {
-        co_return std::unexpected(vec_results.error());
+        co_return make_fail(vec_results.error());
     }
 
     std::vector<SearchResult> results;
@@ -338,7 +338,7 @@ auto HybridSearch::keyword_search(std::string_view query, size_t limit)
     -> awaitable<Result<std::vector<SearchResult>>> {
     auto result = compute_bm25(query, limit);
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
     co_return std::move(*result);
 }

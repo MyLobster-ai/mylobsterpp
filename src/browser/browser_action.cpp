@@ -24,12 +24,12 @@ auto BrowserAction::navigate(std::string_view url, const NavigateOptions& option
         {"url", std::string(url)},
     });
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     // Check for navigation error
     if (result->contains("errorText")) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::BrowserError,
                        "Navigation failed",
                        (*result)["errorText"].get<std::string>()));
@@ -38,18 +38,18 @@ auto BrowserAction::navigate(std::string_view url, const NavigateOptions& option
     // Wait for load event
     co_await wait_for_navigation(options.timeout_ms);
     LOG_DEBUG("Navigated to: {}", std::string(url));
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto BrowserAction::go_back() -> awaitable<Result<void>> {
     auto history = co_await cdp_.send_command("Page.getNavigationHistory");
     if (!history) {
-        co_return std::unexpected(history.error());
+        co_return make_fail(history.error());
     }
 
     int current_index = (*history)["currentIndex"].get<int>();
     if (current_index <= 0) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::BrowserError,
                        "Cannot go back: no previous history entry"));
     }
@@ -61,22 +61,22 @@ auto BrowserAction::go_back() -> awaitable<Result<void>> {
         {"entryId", target_id},
     });
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto BrowserAction::go_forward() -> awaitable<Result<void>> {
     auto history = co_await cdp_.send_command("Page.getNavigationHistory");
     if (!history) {
-        co_return std::unexpected(history.error());
+        co_return make_fail(history.error());
     }
 
     int current_index = (*history)["currentIndex"].get<int>();
     auto& entries = (*history)["entries"];
     if (current_index >= static_cast<int>(entries.size()) - 1) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::BrowserError,
                        "Cannot go forward: no next history entry"));
     }
@@ -87,24 +87,24 @@ auto BrowserAction::go_forward() -> awaitable<Result<void>> {
         {"entryId", target_id},
     });
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto BrowserAction::reload() -> awaitable<Result<void>> {
     auto result = co_await cdp_.send_command("Page.reload");
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto BrowserAction::current_url() -> awaitable<Result<std::string>> {
     auto result = co_await evaluate("window.location.href");
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
     if (result->value.is_string()) {
         co_return result->value.get<std::string>();
@@ -115,7 +115,7 @@ auto BrowserAction::current_url() -> awaitable<Result<std::string>> {
 auto BrowserAction::title() -> awaitable<Result<std::string>> {
     auto result = co_await evaluate("document.title");
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
     if (result->value.is_string()) {
         co_return result->value.get<std::string>();
@@ -129,12 +129,12 @@ auto BrowserAction::click(std::string_view selector, const ClickOptions& options
     -> awaitable<Result<void>> {
     auto node_id = co_await resolve_selector(selector);
     if (!node_id) {
-        co_return std::unexpected(node_id.error());
+        co_return make_fail(node_id.error());
     }
 
     auto box = co_await get_box_model(*node_id);
     if (!box) {
-        co_return std::unexpected(box.error());
+        co_return make_fail(box.error());
     }
 
     // Get the center of the content quad
@@ -147,14 +147,14 @@ auto BrowserAction::click(std::string_view selector, const ClickOptions& options
     // Move mouse to element center
     auto move_result = co_await dispatch_mouse_event("mouseMoved", cx, cy);
     if (!move_result) {
-        co_return std::unexpected(move_result.error());
+        co_return make_fail(move_result.error());
     }
 
     // Click
     for (int i = 0; i < options.click_count; ++i) {
         auto press = co_await dispatch_mouse_event("mousePressed", cx, cy, options);
         if (!press) {
-            co_return std::unexpected(press.error());
+            co_return make_fail(press.error());
         }
 
         if (options.delay_ms > 0) {
@@ -163,12 +163,12 @@ auto BrowserAction::click(std::string_view selector, const ClickOptions& options
 
         auto release = co_await dispatch_mouse_event("mouseReleased", cx, cy, options);
         if (!release) {
-            co_return std::unexpected(release.error());
+            co_return make_fail(release.error());
         }
     }
 
     LOG_DEBUG("Clicked: {}", std::string(selector));
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto BrowserAction::type(std::string_view selector, std::string_view text,
@@ -176,7 +176,7 @@ auto BrowserAction::type(std::string_view selector, std::string_view text,
     // Focus the element first
     auto focus_result = co_await focus(selector);
     if (!focus_result) {
-        co_return std::unexpected(focus_result.error());
+        co_return make_fail(focus_result.error());
     }
 
     // Optionally clear existing content
@@ -218,7 +218,7 @@ auto BrowserAction::type(std::string_view selector, std::string_view text,
             {"text", std::string(1, ch)},
         });
         if (!result) {
-            co_return std::unexpected(result.error());
+            co_return make_fail(result.error());
         }
 
         if (options.delay_ms > 0) {
@@ -227,7 +227,7 @@ auto BrowserAction::type(std::string_view selector, std::string_view text,
     }
 
     LOG_DEBUG("Typed into {}: {} chars", std::string(selector), text.size());
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto BrowserAction::select(std::string_view selector, std::string_view value)
@@ -239,41 +239,41 @@ auto BrowserAction::select(std::string_view selector, std::string_view value)
               "return true; })()";
     auto result = co_await evaluate(js);
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
     if (result->value.is_boolean() && !result->value.get<bool>()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::BrowserError,
                        "Select element not found",
                        std::string(selector)));
     }
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto BrowserAction::focus(std::string_view selector) -> awaitable<Result<void>> {
     auto node_id = co_await resolve_selector(selector);
     if (!node_id) {
-        co_return std::unexpected(node_id.error());
+        co_return make_fail(node_id.error());
     }
 
     auto result = co_await cdp_.send_command("DOM.focus", {
         {"nodeId", *node_id},
     });
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto BrowserAction::hover(std::string_view selector) -> awaitable<Result<void>> {
     auto node_id = co_await resolve_selector(selector);
     if (!node_id) {
-        co_return std::unexpected(node_id.error());
+        co_return make_fail(node_id.error());
     }
 
     auto box = co_await get_box_model(*node_id);
     if (!box) {
-        co_return std::unexpected(box.error());
+        co_return make_fail(box.error());
     }
 
     auto& content = (*box)["model"]["content"];
@@ -291,7 +291,7 @@ auto BrowserAction::press_key(std::string_view key) -> awaitable<Result<void>> {
         {"key", std::string(key)},
     });
     if (!down) {
-        co_return std::unexpected(down.error());
+        co_return make_fail(down.error());
     }
 
     auto up = co_await cdp_.send_command("Input.dispatchKeyEvent", {
@@ -299,10 +299,10 @@ auto BrowserAction::press_key(std::string_view key) -> awaitable<Result<void>> {
         {"key", std::string(key)},
     });
     if (!up) {
-        co_return std::unexpected(up.error());
+        co_return make_fail(up.error());
     }
 
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto BrowserAction::scroll(int x, int y) -> awaitable<Result<void>> {
@@ -314,9 +314,9 @@ auto BrowserAction::scroll(int x, int y) -> awaitable<Result<void>> {
         {"deltaY", y},
     });
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 // -- Extraction --
@@ -350,7 +350,7 @@ auto BrowserAction::screenshot(const ScreenshotOptions& options)
 
     auto result = co_await cdp_.send_command("Page.captureScreenshot", params);
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     co_return (*result)["data"].get<std::string>();
@@ -362,7 +362,7 @@ auto BrowserAction::get_text(std::string_view selector)
               "')?.textContent || ''";
     auto result = co_await evaluate(js);
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
     if (result->value.is_string()) {
         co_return result->value.get<std::string>();
@@ -376,7 +376,7 @@ auto BrowserAction::get_html(std::string_view selector)
               "')?.innerHTML || ''";
     auto result = co_await evaluate(js);
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
     if (result->value.is_string()) {
         co_return result->value.get<std::string>();
@@ -391,7 +391,7 @@ auto BrowserAction::get_attribute(std::string_view selector,
               "')?.getAttribute('" + std::string(attribute) + "') || ''";
     auto result = co_await evaluate(js);
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
     if (result->value.is_string()) {
         co_return result->value.get<std::string>();
@@ -425,7 +425,7 @@ auto BrowserAction::query_all(std::string_view selector)
 
     auto result = co_await evaluate(js);
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     std::vector<ElementInfo> elements;
@@ -446,7 +446,7 @@ auto BrowserAction::query_all(std::string_view selector)
 auto BrowserAction::page_source() -> awaitable<Result<std::string>> {
     auto result = co_await evaluate("document.documentElement.outerHTML");
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
     if (result->value.is_string()) {
         co_return result->value.get<std::string>();
@@ -464,7 +464,7 @@ auto BrowserAction::evaluate(std::string_view expression)
         {"awaitPromise", true},
     });
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     EvalResult eval_result;
@@ -492,15 +492,15 @@ auto BrowserAction::evaluate(std::string_view expression)
 auto BrowserAction::execute(std::string_view script) -> awaitable<Result<void>> {
     auto result = co_await evaluate(script);
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
     if (result->exception) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::BrowserError,
                        "Script execution failed",
                        *result->exception));
     }
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 // -- Waiting --
@@ -514,13 +514,13 @@ auto BrowserAction::wait_for(std::string_view selector,
         auto js = "!!document.querySelector('" + std::string(selector) + "')";
         auto result = co_await evaluate(js);
         if (result && result->value.is_boolean() && result->value.get<bool>()) {
-            co_return Result<void>{};
+            co_return ok_result();
         }
 
         co_await wait(options.polling_ms);
     }
 
-    co_return std::unexpected(
+    co_return make_fail(
         make_error(ErrorCode::Timeout,
                    "Timeout waiting for selector",
                    std::string(selector)));
@@ -537,13 +537,13 @@ auto BrowserAction::wait_for_navigation(int timeout_ms)
         if (result && result->value.is_string()) {
             auto state = result->value.get<std::string>();
             if (state == "complete" || state == "interactive") {
-                co_return Result<void>{};
+                co_return ok_result();
             }
         }
         co_await wait(100);
     }
 
-    co_return std::unexpected(
+    co_return make_fail(
         make_error(ErrorCode::Timeout,
                    "Navigation timeout",
                    std::to_string(timeout_ms) + "ms"));
@@ -564,7 +564,7 @@ auto BrowserAction::resolve_selector(std::string_view selector)
         {"depth", 0},
     });
     if (!doc) {
-        co_return std::unexpected(doc.error());
+        co_return make_fail(doc.error());
     }
 
     int root_node_id = (*doc)["root"]["nodeId"].get<int>();
@@ -575,12 +575,12 @@ auto BrowserAction::resolve_selector(std::string_view selector)
         {"selector", std::string(selector)},
     });
     if (!query) {
-        co_return std::unexpected(query.error());
+        co_return make_fail(query.error());
     }
 
     int node_id = (*query)["nodeId"].get<int>();
     if (node_id == 0) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::NotFound,
                        "Element not found",
                        std::string(selector)));
@@ -594,7 +594,7 @@ auto BrowserAction::get_box_model(int node_id) -> awaitable<Result<json>> {
         {"nodeId", node_id},
     });
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
     co_return *result;
 }
@@ -613,9 +613,9 @@ auto BrowserAction::dispatch_mouse_event(std::string_view type, double x,
 
     auto result = co_await cdp_.send_command("Input.dispatchMouseEvent", params);
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 } // namespace openclaw::browser

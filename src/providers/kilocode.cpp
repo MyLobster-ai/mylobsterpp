@@ -23,14 +23,14 @@ KilocodeProvider::~KilocodeProvider() = default;
 auto KilocodeProvider::complete(CompletionRequest req)
     -> boost::asio::awaitable<Result<CompletionResponse>> {
     // Stub: Kilo Gateway uses Anthropic-compatible API
-    co_return std::unexpected(
+    co_return make_fail(
         make_error(ErrorCode::ProviderError, "KilocodeProvider::complete not yet implemented"));
 }
 
 auto KilocodeProvider::stream(CompletionRequest req, StreamCallback cb)
     -> boost::asio::awaitable<Result<CompletionResponse>> {
     // Stub: Kilo Gateway uses Anthropic-compatible streaming
-    co_return std::unexpected(
+    co_return make_fail(
         make_error(ErrorCode::ProviderError, "KilocodeProvider::stream not yet implemented"));
 }
 

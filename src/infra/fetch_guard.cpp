@@ -200,13 +200,13 @@ auto FetchGuard::validate_url(std::string_view url, boost::asio::io_context& ioc
 {
     std::string hostname = extract_hostname(url);
     if (hostname.empty()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::InvalidArgument, "Empty hostname in URL"));
     }
 
     // v2026.2.23+: skip private IP validation in trusted-network mode
     if (allow_private_) {
-        co_return openclaw::Result<void>{};
+        co_return ok_result();
     }
 
     // Resolve hostname to IP addresses
@@ -230,20 +230,20 @@ auto FetchGuard::validate_url(std::string_view url, boost::asio::io_context& ioc
 
         for (const auto& addr : addresses) {
             if (is_private_ip(addr)) {
-                co_return std::unexpected(
+                co_return make_fail(
                     make_error(ErrorCode::Forbidden,
                                "SSRF blocked: URL resolves to private IP",
                                hostname + " -> " + addr));
             }
         }
     } catch (const boost::system::system_error& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ConnectionFailed,
                        "DNS resolution failed for SSRF check",
                        hostname + ": " + e.what()));
     }
 
-    co_return openclaw::Result<void>{};
+    co_return ok_result();
 }
 
 auto FetchGuard::safe_fetch(std::string_view url,
@@ -259,12 +259,12 @@ auto FetchGuard::safe_fetch(std::string_view url,
         // Validate current URL
         auto valid = co_await validate_url(current_url, ioc);
         if (!valid) {
-            co_return std::unexpected(valid.error());
+            co_return make_fail(valid.error());
         }
 
         // Loop detection
         if (visited.contains(current_url)) {
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::InvalidArgument,
                            "Redirect loop detected",
                            current_url));
@@ -274,7 +274,7 @@ auto FetchGuard::safe_fetch(std::string_view url,
         // Fetch
         auto response = co_await http.get(current_url);
         if (!response) {
-            co_return std::unexpected(response.error());
+            co_return make_fail(response.error());
         }
 
         // Check for redirect (3xx)
@@ -306,7 +306,7 @@ auto FetchGuard::safe_fetch(std::string_view url,
         co_return *response;
     }
 
-    co_return std::unexpected(
+    co_return make_fail(
         make_error(ErrorCode::InvalidArgument,
                    "Too many redirects",
                    "max=" + std::to_string(max_redirects)));

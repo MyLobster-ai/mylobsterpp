@@ -16,7 +16,7 @@ public:
     auto start() -> boost::asio::awaitable<void> override { running_ = true; co_return; }
     auto stop() -> boost::asio::awaitable<void> override { running_ = false; co_return; }
     auto send(OutgoingMessage) -> boost::asio::awaitable<openclaw::Result<void>> override {
-        co_return openclaw::Result<void>{};
+        co_return ok_result();
     }
     [[nodiscard]] auto name() const -> std::string_view override { return name_; }
     [[nodiscard]] auto type() const -> std::string_view override { return type_; }

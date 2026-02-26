@@ -229,14 +229,14 @@ auto CdpClient::connect(std::string_view ws_url) -> awaitable<Result<void>> {
             },
             net::detached);
 
-        co_return Result<void>{};
+        co_return ok_result();
     } catch (const beast::system_error& se) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ConnectionFailed,
                        "Failed to connect to CDP",
                        se.what()));
     } catch (const std::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ConnectionFailed,
                        "Failed to connect to CDP",
                        e.what()));
@@ -246,7 +246,7 @@ auto CdpClient::connect(std::string_view ws_url) -> awaitable<Result<void>> {
 auto CdpClient::send_command(std::string_view method, json params)
     -> awaitable<Result<json>> {
     if (!impl_->connected) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ConnectionClosed,
                        "CDP client not connected"));
     }
@@ -287,7 +287,7 @@ auto CdpClient::send_command(std::string_view method, json params)
             std::lock_guard lock(impl_->pending_mutex);
             impl_->pending_commands.erase(id);
         }
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ConnectionFailed,
                        "Failed to send CDP command",
                        se.what()));

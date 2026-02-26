@@ -41,7 +41,7 @@ auto SessionManager::create_session(std::string_view user_id,
     if (!result) {
         LOG_ERROR("Failed to create session for user {}: {}",
                   user_id, result.error().what());
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     LOG_INFO("Created session {} for user {} on device {}",
@@ -54,7 +54,7 @@ auto SessionManager::get_session(std::string_view id)
     auto result = co_await store_->get(id);
     if (!result) {
         LOG_DEBUG("Session {} not found", id);
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
     co_return *result;
 }
@@ -63,13 +63,13 @@ auto SessionManager::touch_session(std::string_view id)
     -> awaitable<Result<void>> {
     auto result = co_await store_->get(id);
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     auto data = std::move(*result);
 
     if (data.state == SessionState::Closed) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SessionError, "Cannot touch a closed session",
                        std::string(id)));
     }
@@ -79,18 +79,18 @@ auto SessionManager::touch_session(std::string_view id)
 
     auto update_result = co_await store_->update(data);
     if (!update_result) {
-        co_return std::unexpected(update_result.error());
+        co_return make_fail(update_result.error());
     }
 
     LOG_DEBUG("Touched session {}", id);
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto SessionManager::end_session(std::string_view id)
     -> awaitable<Result<void>> {
     auto result = co_await store_->get(id);
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     auto data = std::move(*result);
@@ -99,11 +99,11 @@ auto SessionManager::end_session(std::string_view id)
 
     auto update_result = co_await store_->update(data);
     if (!update_result) {
-        co_return std::unexpected(update_result.error());
+        co_return make_fail(update_result.error());
     }
 
     LOG_INFO("Ended session {}", id);
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto SessionManager::list_sessions(std::string_view user_id)
@@ -121,13 +121,13 @@ auto SessionManager::record_compaction(std::string_view session_id)
     -> awaitable<Result<void>> {
     auto result = co_await store_->get(session_id);
     if (!result) {
-        co_return std::unexpected(result.error());
+        co_return make_fail(result.error());
     }
 
     auto data = std::move(*result);
 
     if (data.state == SessionState::Closed) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SessionError,
                        "Cannot record compaction on a closed session",
                        std::string(session_id)));
@@ -139,12 +139,12 @@ auto SessionManager::record_compaction(std::string_view session_id)
 
     auto update_result = co_await store_->update(data);
     if (!update_result) {
-        co_return std::unexpected(update_result.error());
+        co_return make_fail(update_result.error());
     }
 
     LOG_DEBUG("Recorded compaction #{} for session {}",
               data.auto_compaction_count, session_id);
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 void SessionManager::cache_bootstrap(std::string_view session_key, std::string snapshot) {

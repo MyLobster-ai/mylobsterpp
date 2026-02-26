@@ -52,7 +52,7 @@ auto WhatsAppChannel::send(OutgoingMessage msg)
     -> boost::asio::awaitable<openclaw::Result<void>>
 {
     if (!running_.load()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError, "WhatsApp channel is not running"));
     }
 
@@ -68,7 +68,7 @@ auto WhatsAppChannel::send(OutgoingMessage msg)
         if (!allowed) {
             LOG_WARN("[whatsapp] Recipient {} not in allowFrom list, blocking send",
                      msg.recipient_id);
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::Forbidden,
                            "Recipient not in allowFrom list",
                            msg.recipient_id));
@@ -79,7 +79,7 @@ auto WhatsAppChannel::send(OutgoingMessage msg)
     if (!msg.text.empty()) {
         auto result = co_await send_text_message(msg.recipient_id, msg.text);
         if (!result) {
-            co_return std::unexpected(result.error());
+            co_return make_fail(result.error());
         }
     }
 
@@ -108,7 +108,7 @@ auto WhatsAppChannel::send(OutgoingMessage msg)
         }
     }
 
-    co_return openclaw::Result<void>{};
+    co_return ok_result();
 }
 
 // ---------------------------------------------------------------------------
@@ -355,18 +355,18 @@ auto WhatsAppChannel::send_text_message(std::string_view to, std::string_view te
     std::string path = "/" + config_.phone_number_id + "/messages";
     auto response = co_await http_.post(path, payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
         // v2026.2.24: Treat 440 as non-retryable (session expired, do not reconnect)
         if (response->status == 440) {
             LOG_ERROR("[whatsapp] Received 440 (non-retryable session error), halting send");
-            co_return std::unexpected(
+            co_return make_fail(
                 make_error(ErrorCode::ChannelError,
                            "WhatsApp session expired (440), non-retryable",
                            "status=440 body=" + response->body));
         }
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "WhatsApp send text failed",
                        "status=" + std::to_string(response->status) + " body=" + response->body));
@@ -375,7 +375,7 @@ auto WhatsAppChannel::send_text_message(std::string_view to, std::string_view te
     try {
         co_return json::parse(response->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse WhatsApp response", e.what()));
     }
@@ -409,10 +409,10 @@ auto WhatsAppChannel::send_media_message(std::string_view to,
     std::string path = "/" + config_.phone_number_id + "/messages";
     auto response = co_await http_.post(path, payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "WhatsApp send media failed",
                        "status=" + std::to_string(response->status) + " body=" + response->body));
@@ -421,7 +421,7 @@ auto WhatsAppChannel::send_media_message(std::string_view to,
     try {
         co_return json::parse(response->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError,
                        "Failed to parse WhatsApp response", e.what()));
     }
@@ -439,16 +439,16 @@ auto WhatsAppChannel::mark_as_read(std::string_view message_id)
     std::string path = "/" + config_.phone_number_id + "/messages";
     auto response = co_await http_.post(path, payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "WhatsApp mark_as_read failed",
                        "status=" + std::to_string(response->status)));
     }
 
-    co_return openclaw::Result<void>{};
+    co_return ok_result();
 }
 
 auto WhatsAppChannel::send_reaction(std::string_view message_id, std::string_view emoji)
@@ -467,16 +467,16 @@ auto WhatsAppChannel::send_reaction(std::string_view message_id, std::string_vie
     std::string path = "/" + config_.phone_number_id + "/messages";
     auto response = co_await http_.post(path, payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "WhatsApp send_reaction failed",
                        "status=" + std::to_string(response->status)));
     }
 
-    co_return openclaw::Result<void>{};
+    co_return ok_result();
 }
 
 // ---------------------------------------------------------------------------

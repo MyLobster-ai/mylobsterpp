@@ -87,7 +87,7 @@ auto ToolRegistry::execute(std::string_view name, json params)
 
     auto* tool = get(name);
     if (!tool) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::NotFound,
             "Tool not found",
             std::string(name)));

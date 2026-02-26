@@ -49,7 +49,7 @@ auto Protocol::methods_in_group(std::string_view group) const
 auto Protocol::dispatch(const RequestFrame& request) -> awaitable<Result<json>> {
     auto it = methods_.find(request.method);
     if (it == methods_.end()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::NotFound,
                        "Method not found: " + request.method));
     }
@@ -59,7 +59,7 @@ auto Protocol::dispatch(const RequestFrame& request) -> awaitable<Result<json>> 
         co_return result;
     } catch (const std::exception& e) {
         LOG_ERROR("Method {} threw exception: {}", request.method, e.what());
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::InternalError,
                        "Method execution failed", e.what()));
     }

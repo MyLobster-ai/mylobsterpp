@@ -82,7 +82,7 @@ auto DiscordChannel::send(OutgoingMessage msg)
     -> boost::asio::awaitable<openclaw::Result<void>>
 {
     if (!running_.load()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError, "Discord channel is not running"));
     }
 
@@ -94,7 +94,7 @@ auto DiscordChannel::send(OutgoingMessage msg)
         auto result = co_await send_channel_message(msg.recipient_id, msg.text,
             msg.reply_to ? std::optional<std::string_view>{*msg.reply_to} : std::nullopt);
         if (!result) {
-            co_return std::unexpected(result.error());
+            co_return make_fail(result.error());
         }
 
         // AutoThread: if enabled, not already in a thread, and we have a sent message ID,
@@ -124,7 +124,7 @@ auto DiscordChannel::send(OutgoingMessage msg)
         }
     }
 
-    co_return openclaw::Result<void>{};
+    co_return ok_result();
 }
 
 // ---------------------------------------------------------------------------
@@ -136,10 +136,10 @@ auto DiscordChannel::fetch_gateway_url()
 {
     auto response = co_await http_.get("/gateway/bot");
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "Failed to get gateway URL",
                        "status=" + std::to_string(response->status) + " body=" + response->body));
@@ -151,7 +151,7 @@ auto DiscordChannel::fetch_gateway_url()
         url += "/?v=10&encoding=json";
         co_return url;
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError, "Failed to parse gateway response", e.what()));
     }
 }
@@ -504,10 +504,10 @@ auto DiscordChannel::send_channel_message(std::string_view channel_id,
     std::string path = "/channels/" + std::string(channel_id) + "/messages";
     auto response = co_await http_.post(path, payload.dump());
     if (!response) {
-        co_return std::unexpected(response.error());
+        co_return make_fail(response.error());
     }
     if (!response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "Failed to send Discord message",
                        "status=" + std::to_string(response->status) + " body=" + response->body));
@@ -516,7 +516,7 @@ auto DiscordChannel::send_channel_message(std::string_view channel_id,
     try {
         co_return json::parse(response->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError, "Failed to parse response", e.what()));
     }
 }
@@ -559,7 +559,7 @@ auto DiscordChannel::send_voice_message(std::string_view channel_id,
     std::string attach_path = "/channels/" + std::string(channel_id) + "/attachments";
     auto attach_resp = co_await http_.post(attach_path, attach_req.dump());
     if (!attach_resp || !attach_resp->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "Failed to request voice upload URL",
                        attach_resp ? attach_resp->body : "no response"));
@@ -569,12 +569,12 @@ auto DiscordChannel::send_voice_message(std::string_view channel_id,
     try {
         attach_body = json::parse(attach_resp->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError, "Failed to parse attachment response", e.what()));
     }
 
     if (!attach_body.contains("attachments") || attach_body["attachments"].empty()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError, "No upload URL in attachment response"));
     }
 
@@ -582,7 +582,7 @@ auto DiscordChannel::send_voice_message(std::string_view channel_id,
     std::string uploaded_filename = attach_body["attachments"][0].value("upload_filename", "");
 
     if (upload_url.empty()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError, "Empty upload URL from Discord"));
     }
 
@@ -590,7 +590,7 @@ auto DiscordChannel::send_voice_message(std::string_view channel_id,
     auto put_resp = co_await http_.put(upload_url, std::string(audio_data),
                                         "audio/ogg", {});
     if (!put_resp || !put_resp->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "Failed to upload voice data to CDN",
                        put_resp ? put_resp->body : "no response"));
@@ -611,7 +611,7 @@ auto DiscordChannel::send_voice_message(std::string_view channel_id,
     std::string msg_path = "/channels/" + std::string(channel_id) + "/messages";
     auto msg_resp = co_await http_.post(msg_path, msg_payload.dump());
     if (!msg_resp || !msg_resp->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "Failed to send voice message",
                        msg_resp ? msg_resp->body : "no response"));
@@ -620,7 +620,7 @@ auto DiscordChannel::send_voice_message(std::string_view channel_id,
     try {
         co_return json::parse(msg_resp->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError, "Failed to parse voice message response", e.what()));
     }
 }
@@ -685,7 +685,7 @@ auto DiscordChannel::create_thread(std::string_view channel_id,
                        "/messages/" + std::string(message_id) + "/threads";
     auto response = co_await http_.post(path, payload.dump());
     if (!response || !response->is_success()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::ChannelError,
                        "Failed to create thread",
                        response ? response->body : "no response"));
@@ -694,7 +694,7 @@ auto DiscordChannel::create_thread(std::string_view channel_id,
     try {
         co_return json::parse(response->body);
     } catch (const json::exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::SerializationError, "Failed to parse thread response", e.what()));
     }
 }

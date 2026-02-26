@@ -108,7 +108,7 @@ auto BrowserPool::acquire() -> awaitable<Result<BrowserInstance*>> {
 
     // Check pool capacity
     if (impl_->instances.size() >= impl_->config.pool_size) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::BrowserError,
                        "Browser pool exhausted",
                        "max_size=" + std::to_string(impl_->config.pool_size)));
@@ -117,7 +117,7 @@ auto BrowserPool::acquire() -> awaitable<Result<BrowserInstance*>> {
     // Launch a new browser instance
     auto instance = launch_browser();
     if (!instance) {
-        co_return std::unexpected(instance.error());
+        co_return make_fail(instance.error());
     }
 
     auto* ptr = instance->get();
@@ -127,7 +127,7 @@ auto BrowserPool::acquire() -> awaitable<Result<BrowserInstance*>> {
     if (!connect_result) {
         // Kill the process since we can't connect
         kill_browser_process(*ptr);
-        co_return std::unexpected(connect_result.error());
+        co_return make_fail(connect_result.error());
     }
 
     // Enable necessary CDP domains
@@ -173,7 +173,7 @@ auto BrowserPool::close(std::string_view instance_id) -> awaitable<Result<void>>
                            });
 
     if (it == impl_->instances.end()) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::NotFound,
                        "Browser instance not found",
                        std::string(instance_id)));
@@ -191,7 +191,7 @@ auto BrowserPool::close(std::string_view instance_id) -> awaitable<Result<void>>
 
     impl_->instances.erase(it);
     LOG_INFO("Closed browser instance: {}", std::string(instance_id));
-    co_return Result<void>{};
+    co_return ok_result();
 }
 
 auto BrowserPool::close_all() -> awaitable<void> {

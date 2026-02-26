@@ -133,9 +133,9 @@ auto SqliteVecStore::insert(const VectorEntry& entry) -> awaitable<Result<void>>
 
         txn.commit();
         LOG_DEBUG("Inserted vector entry: {}", entry.id);
-        co_return Result<void>{};
+        co_return ok_result();
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError,
                        "Failed to insert vector entry",
                        e.what()));
@@ -245,7 +245,7 @@ auto SqliteVecStore::search(const std::vector<float>& query, size_t limit)
         LOG_DEBUG("Vector search returned {} results", results.size());
         co_return results;
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError,
                        "Vector search failed",
                        e.what()));
@@ -284,9 +284,9 @@ auto SqliteVecStore::remove(std::string_view id) -> awaitable<Result<void>> {
 
         txn.commit();
         LOG_DEBUG("Removed vector entry: {}", std::string(id));
-        co_return Result<void>{};
+        co_return ok_result();
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError,
                        "Failed to remove vector entry",
                        e.what()));
@@ -297,7 +297,7 @@ auto SqliteVecStore::update(const VectorEntry& entry) -> awaitable<Result<void>>
     // Update is implemented as remove + insert
     auto rm = co_await remove(entry.id);
     if (!rm) {
-        co_return std::unexpected(rm.error());
+        co_return make_fail(rm.error());
     }
     co_return co_await insert(entry);
 }
@@ -310,7 +310,7 @@ auto SqliteVecStore::count() -> awaitable<Result<size_t>> {
         }
         co_return size_t{0};
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError,
                        "Failed to count vector entries",
                        e.what()));
@@ -332,9 +332,9 @@ auto SqliteVecStore::clear() -> awaitable<Result<void>> {
 
         txn.commit();
         LOG_INFO("Cleared all vector entries");
-        co_return Result<void>{};
+        co_return ok_result();
     } catch (const SQLite::Exception& e) {
-        co_return std::unexpected(
+        co_return make_fail(
             make_error(ErrorCode::DatabaseError,
                        "Failed to clear vector store",
                        e.what()));

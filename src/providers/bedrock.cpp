@@ -532,7 +532,7 @@ auto BedrockProvider::complete(CompletionRequest req)
     auto result = co_await http_.post(path, payload, "application/json", sign_headers);
 
     if (!result.has_value()) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ConnectionFailed,
             "Bedrock API request failed",
             result.error().what()));
@@ -545,13 +545,13 @@ auto BedrockProvider::complete(CompletionRequest req)
             auto err_json = json::parse(http_resp.body);
             auto msg = err_json.value("message",
                        err_json.value("Message", http_resp.body));
-            co_return std::unexpected(make_error(
+            co_return make_fail(make_error(
                 ErrorCode::ProviderError,
                 "Bedrock API error (HTTP " + std::to_string(http_resp.status) + ")",
                 msg));
         } catch (...) {}
 
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ProviderError,
             "Bedrock API error",
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));
@@ -581,7 +581,7 @@ auto BedrockProvider::stream(CompletionRequest req, StreamCallback cb)
     auto result = co_await http_.post(path, payload, "application/json", sign_headers);
 
     if (!result.has_value()) {
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ConnectionFailed,
             "Bedrock API streaming request failed",
             result.error().what()));
@@ -594,13 +594,13 @@ auto BedrockProvider::stream(CompletionRequest req, StreamCallback cb)
             auto err_json = json::parse(http_resp.body);
             auto msg = err_json.value("message",
                        err_json.value("Message", http_resp.body));
-            co_return std::unexpected(make_error(
+            co_return make_fail(make_error(
                 ErrorCode::ProviderError,
                 "Bedrock API stream error (HTTP " + std::to_string(http_resp.status) + ")",
                 msg));
         } catch (...) {}
 
-        co_return std::unexpected(make_error(
+        co_return make_fail(make_error(
             ErrorCode::ProviderError,
             "Bedrock API stream error",
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));
