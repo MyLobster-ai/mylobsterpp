@@ -3,6 +3,7 @@
 #include "openclaw/core/logger.hpp"
 
 #include <algorithm>
+#include <cctype>
 
 #include <boost/asio/use_awaitable.hpp>
 
@@ -154,6 +155,64 @@ auto HookRegistry::after_count(std::string_view method) const -> size_t {
 void HookRegistry::clear() {
     before_hooks_.clear();
     after_hooks_.clear();
+}
+
+// -- Webhook URL validation (v2026.2.25) --
+
+auto HookRegistry::validate_webhook_url(std::string_view url) -> bool {
+    if (url.empty()) {
+        LOG_WARN("Hook URL validation: empty URL");
+        return false;
+    }
+
+    // Must have a scheme
+    auto scheme_end = url.find("://");
+    if (scheme_end == std::string_view::npos) {
+        LOG_WARN("Hook URL validation: missing scheme in '{}'", url);
+        return false;
+    }
+
+    auto rest = url.substr(scheme_end + 3);
+
+    // Reject userinfo (user:pass@host)
+    auto at_pos = rest.find('@');
+    auto slash_pos = rest.find('/');
+    if (at_pos != std::string_view::npos &&
+        (slash_pos == std::string_view::npos || at_pos < slash_pos)) {
+        LOG_WARN("Hook URL validation: userinfo detected in URL");
+        return false;
+    }
+
+    // Extract host (before first / or end)
+    auto host = (slash_pos != std::string_view::npos)
+        ? rest.substr(0, slash_pos)
+        : rest;
+
+    // Strip port
+    auto colon_pos = host.find(':');
+    if (colon_pos != std::string_view::npos) {
+        host = host.substr(0, colon_pos);
+    }
+
+    // Reject empty host
+    if (host.empty()) {
+        LOG_WARN("Hook URL validation: empty host");
+        return false;
+    }
+
+    // Reject encoded path traversal sequences
+    std::string url_lower(url);
+    std::transform(url_lower.begin(), url_lower.end(), url_lower.begin(),
+                   [](unsigned char c) { return std::tolower(c); });
+
+    if (url_lower.find("%2e%2e") != std::string::npos ||  // ..
+        url_lower.find("%2f") != std::string::npos ||      // /
+        url_lower.find("%5c") != std::string::npos) {      // backslash
+        LOG_WARN("Hook URL validation: encoded traversal detected in URL");
+        return false;
+    }
+
+    return true;
 }
 
 } // namespace openclaw::gateway

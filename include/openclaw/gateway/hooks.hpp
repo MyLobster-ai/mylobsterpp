@@ -91,6 +91,11 @@ public:
     /// Clear all hooks.
     void clear();
 
+    /// v2026.2.25: Validates a webhook URL for hook registration.
+    /// Rejects URLs with empty host, userinfo (user:pass@), or encoded
+    /// path traversal sequences (%2e%2e, %2f).
+    [[nodiscard]] static auto validate_webhook_url(std::string_view url) -> bool;
+
 private:
     using HookList = std::vector<HookEntry>;
 

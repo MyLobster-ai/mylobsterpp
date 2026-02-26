@@ -37,8 +37,12 @@ struct AuthInfo {
 
 /// Returns true if a Control UI connection should skip device pairing
 /// because a trusted reverse proxy has already authenticated the request.
-inline auto should_skip_control_ui_pairing(const AuthInfo& auth, bool is_control_ui) -> bool {
-    return is_control_ui && auth.trusted_proxy_auth_ok;
+/// v2026.2.25: Now requires the operator role — non-operator connections
+/// claiming control-ui through a trusted proxy get their scopes cleared.
+inline auto should_skip_control_ui_pairing(const AuthInfo& auth,
+                                            bool is_control_ui,
+                                            std::string_view role = "operator") -> bool {
+    return is_control_ui && auth.trusted_proxy_auth_ok && role == "operator";
 }
 
 void to_json(json& j, const AuthInfo& a);
@@ -126,6 +130,27 @@ private:
     AuthMethod method_ = AuthMethod::None;
     std::unique_ptr<AuthVerifier> verifier_;
 };
+
+/// v2026.2.25: Browser WebSocket authentication policy.
+/// Controls loopback browser connection throttling and origin validation.
+struct BrowserAuthPolicy {
+    bool allow_loopback = true;              // Allow connections from 127.0.0.1/::1
+    int max_loopback_connections = 10;       // Max concurrent loopback connections
+    std::vector<std::string> allowed_origins; // Allowed Origin headers (empty = all)
+};
+
+/// v2026.2.25: Validates browser WebSocket origin header against policy.
+/// Returns true if the origin is allowed, false otherwise.
+[[nodiscard]] auto validate_browser_ws_origin(
+    std::string_view origin,
+    const BrowserAuthPolicy& policy) -> bool;
+
+/// v2026.2.25: Checks loopback browser throttle.
+/// Returns true if the connection should be allowed based on current
+/// connection count from loopback addresses.
+[[nodiscard]] auto check_loopback_browser_throttle(
+    int current_loopback_count,
+    const BrowserAuthPolicy& policy) -> bool;
 
 /// Unified credential resolver with defined precedence:
 /// Authorization header > ?token= query param > cookie > Tailscale.

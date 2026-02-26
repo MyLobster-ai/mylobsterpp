@@ -68,6 +68,9 @@ auto FetchGuard::is_private_ip(std::string_view ip) -> bool {
         // fe80::/10 (link-local)
         if (v6.is_link_local()) return true;
 
+        // v2026.2.25: ff00::/8 (multicast) — blocks SSRF via multicast addresses
+        if ((bytes[0] & 0xFF) == 0xFF) return true;
+
         // IPv4-mapped IPv6 (::ffff:x.x.x.x) — IPv4 octets at bytes 12-15
         if (v6.is_v4_mapped()) {
             return is_private_ipv4(bytes[12], bytes[13], bytes[14], bytes[15]);

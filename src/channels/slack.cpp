@@ -300,6 +300,44 @@ auto SlackChannel::handle_socket_event(const json& envelope) -> void {
     }
 }
 
+auto SlackChannel::authorize_system_event_sender(
+    std::string_view sender_id, std::string_view channel_id,
+    std::string_view event_type) const -> bool
+{
+    if (!is_channel_allowed(channel_id)) {
+        LOG_DEBUG("[slack] System event '{}' in channel {} blocked by channel_allowlist",
+                  event_type, channel_id);
+        return false;
+    }
+    return true;
+}
+
+auto SlackChannel::is_channel_allowed(std::string_view channel_id) const -> bool {
+    if (config_.channel_allowlist.empty()) {
+        return true;
+    }
+
+    for (const auto& allowed : config_.channel_allowlist) {
+        if (config_.case_insensitive_allowlist) {
+            // Case-insensitive comparison
+            if (allowed.size() == channel_id.size()) {
+                bool match = true;
+                for (size_t i = 0; i < allowed.size(); ++i) {
+                    if (std::tolower(static_cast<unsigned char>(allowed[i])) !=
+                        std::tolower(static_cast<unsigned char>(channel_id[i]))) {
+                        match = false;
+                        break;
+                    }
+                }
+                if (match) return true;
+            }
+        } else {
+            if (allowed == channel_id) return true;
+        }
+    }
+    return false;
+}
+
 auto SlackChannel::handle_message_event(const json& event) -> void {
     // Ignore bot messages
     if (event.contains("bot_id") || event.value("subtype", "") == "bot_message") {

@@ -373,6 +373,28 @@ auto DiscordChannel::handle_dispatch(const json& payload) -> void {
     }
 }
 
+auto DiscordChannel::authorize_system_event_sender(
+    std::string_view sender_id, std::string_view guild_id,
+    std::string_view event_type) const -> bool
+{
+    // Check guild allowlist if configured
+    if (!config_.guild_allowlist.empty() && !guild_id.empty()) {
+        bool found = false;
+        for (const auto& id : config_.guild_allowlist) {
+            if (id == guild_id) {
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            LOG_DEBUG("[discord] System event '{}' from guild {} blocked by guild_allowlist",
+                      event_type, guild_id);
+            return false;
+        }
+    }
+    return true;
+}
+
 auto DiscordChannel::handle_message_create(const json& data) -> void {
     // Ignore messages from the bot itself
     if (data.contains("author")) {

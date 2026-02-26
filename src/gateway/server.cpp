@@ -7,6 +7,14 @@
 #include <cmath>
 #include <filesystem>
 #include <regex>
+
+#ifndef _WIN32
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#else
+#include <fstream>
+#endif
 #include <boost/asio/as_tuple.hpp>
 #include <boost/asio/co_spawn.hpp>
 #include <boost/asio/detached.hpp>
@@ -576,6 +584,25 @@ auto GatewayServer::handle_connection(tcp::socket socket) -> awaitable<void> {
         granted_scopes.clear();
     }
 
+    // v2026.2.25: Trusted proxy control-UI bypass requires operator role.
+    // Non-operator connections claiming control-ui through trusted proxy
+    // get their scopes cleared to prevent privilege escalation.
+    bool is_control_ui = params.value("clientMode", "") == "control-ui";
+    if (is_control_ui && auth_info.trusted_proxy_auth_ok && role != "operator") {
+        LOG_WARN("Connection {}: control-ui via trusted proxy without operator role, clearing scopes",
+                 conn_id);
+        granted_scopes.clear();
+    }
+
+    // v2026.2.25: Require pairing for unpaired operator device auth.
+    // If auth is required, device is not validated, and it's not a trusted proxy,
+    // clear scopes to force pairing flow.
+    if (!authenticator_.is_open() && !has_valid_device &&
+        !auth_info.trusted_proxy_auth_ok && role == "operator") {
+        LOG_DEBUG("Connection {}: unpaired operator device, clearing scopes for pairing", conn_id);
+        granted_scopes.clear();
+    }
+
     // Step 8: Send hello-ok response
     {
         auto hello_ok = make_response(connect_req.id, json{
@@ -673,6 +700,142 @@ auto GatewayServer::validate_avatar_path(
             std::to_string(file_size) + " bytes"));
     }
 
+    return {};
+}
+
+// ===========================================================================
+// Workspace file path resolution (v2026.2.25)
+// ===========================================================================
+
+auto GatewayServer::resolve_agent_workspace_file_path(
+    const std::filesystem::path& requested_path,
+    const std::filesystem::path& workspace_root)
+    -> ResolvedAgentWorkspaceFilePath
+{
+    namespace fs = std::filesystem;
+    std::error_code ec;
+
+    // Normalize the workspace root
+    auto canonical_root = fs::canonical(workspace_root, ec);
+    if (ec) {
+        return {WorkspaceFileStatus::Invalid, {}, "Cannot canonicalize workspace root: " + ec.message()};
+    }
+
+    // Build the resolved path
+    fs::path resolved;
+    if (requested_path.is_absolute()) {
+        resolved = requested_path;
+    } else {
+        resolved = workspace_root / requested_path;
+    }
+
+    // Normalize (resolve .., .)
+    resolved = resolved.lexically_normal();
+
+    // Check if file exists
+    if (!fs::exists(resolved, ec) || ec) {
+        // File doesn't exist — verify the path would be within workspace
+        auto parent = resolved.parent_path();
+        if (fs::exists(parent, ec) && !ec) {
+            auto canonical_parent = fs::canonical(parent, ec);
+            if (!ec && canonical_parent.string().starts_with(canonical_root.string())) {
+                return {WorkspaceFileStatus::Missing, resolved, ""};
+            }
+        }
+        return {WorkspaceFileStatus::Invalid, resolved,
+                "Path parent escapes workspace or doesn't exist"};
+    }
+
+    // Resolve canonical path (follows symlinks)
+    auto canonical_path = fs::canonical(resolved, ec);
+    if (ec) {
+        return {WorkspaceFileStatus::Invalid, resolved,
+                "Cannot canonicalize path: " + ec.message()};
+    }
+
+    // Verify containment
+    if (!canonical_path.string().starts_with(canonical_root.string())) {
+        return {WorkspaceFileStatus::Invalid, canonical_path,
+                "Path escapes workspace after symlink resolution"};
+    }
+
+    return {WorkspaceFileStatus::Ready, canonical_path, ""};
+}
+
+auto GatewayServer::write_file_safely(
+    const std::filesystem::path& path,
+    std::string_view data,
+    const std::filesystem::path& workspace_root) -> Result<void>
+{
+    namespace fs = std::filesystem;
+
+    // First resolve the path
+    auto resolved = resolve_agent_workspace_file_path(path, workspace_root);
+    if (resolved.status == WorkspaceFileStatus::Invalid) {
+        return std::unexpected(make_error(ErrorCode::Forbidden,
+            "Cannot write to path outside workspace",
+            resolved.error_detail));
+    }
+
+#ifndef _WIN32
+    // Use O_NOFOLLOW to prevent writing through symlinks
+    // O_CREAT | O_TRUNC: create or truncate
+    int fd = ::open(resolved.resolved_path.c_str(),
+                    O_WRONLY | O_CREAT | O_TRUNC | O_NOFOLLOW, 0644);
+    if (fd < 0) {
+        if (errno == ELOOP) {
+            return std::unexpected(make_error(ErrorCode::Forbidden,
+                "Refusing to write through symlink (O_NOFOLLOW)",
+                resolved.resolved_path.string()));
+        }
+        return std::unexpected(make_error(ErrorCode::IoError,
+            "Failed to open file for writing",
+            resolved.resolved_path.string() + ": " + std::string(strerror(errno))));
+    }
+
+    // Write data
+    auto written = ::write(fd, data.data(), data.size());
+    if (written < 0 || static_cast<size_t>(written) != data.size()) {
+        ::close(fd);
+        return std::unexpected(make_error(ErrorCode::IoError,
+            "Failed to write file data",
+            resolved.resolved_path.string()));
+    }
+
+    // Post-write identity validation: fstat the open fd and lstat the path,
+    // verify they reference the same inode
+    struct stat fd_stat{};
+    struct stat path_stat{};
+    if (::fstat(fd, &fd_stat) == 0 && ::lstat(resolved.resolved_path.c_str(), &path_stat) == 0) {
+        if (fd_stat.st_ino != path_stat.st_ino || fd_stat.st_dev != path_stat.st_dev) {
+            ::close(fd);
+            LOG_WARN("write_file_safely: TOCTOU detected on {}",
+                     resolved.resolved_path.string());
+            return std::unexpected(make_error(ErrorCode::Forbidden,
+                "TOCTOU race detected during file write",
+                resolved.resolved_path.string()));
+        }
+    }
+
+    ::close(fd);
+#else
+    // Windows: basic write without O_NOFOLLOW
+    std::ofstream ofs(resolved.resolved_path, std::ios::binary | std::ios::trunc);
+    if (!ofs) {
+        return std::unexpected(make_error(ErrorCode::IoError,
+            "Failed to open file for writing",
+            resolved.resolved_path.string()));
+    }
+    ofs.write(data.data(), data.size());
+    if (!ofs) {
+        return std::unexpected(make_error(ErrorCode::IoError,
+            "Failed to write file data",
+            resolved.resolved_path.string()));
+    }
+#endif
+
+    LOG_DEBUG("Safely wrote {} bytes to {}", data.size(),
+              resolved.resolved_path.string());
     return {};
 }
 

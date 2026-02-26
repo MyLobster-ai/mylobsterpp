@@ -177,13 +177,24 @@ auto GeminiProvider::build_request_body(const CompletionRequest& req) const -> j
     if (req.temperature.has_value()) {
         gen_config["temperature"] = *req.temperature;
     }
-    // v2026.2.24: Thinking budget sanitization
-    // Drop negative thinkingBudget values, map to thinkingLevel
+    // v2026.2.25: Thinking budget sanitization and effort-to-thinkingLevel mapping
+    // Drop negative thinkingBudget values, map ThinkingMode to thinkingLevel
     if (req.thinking != ThinkingMode::None) {
         if (req.thinking == ThinkingMode::Extended) {
             gen_config["thinkingLevel"] = "HIGH";
         } else if (req.thinking == ThinkingMode::Basic) {
             gen_config["thinkingLevel"] = "MEDIUM";
+        }
+        // v2026.2.25: Support LOW effort level via custom params
+        if (req.custom_params.contains("thinking_effort")) {
+            auto effort = req.custom_params["thinking_effort"].get<std::string>();
+            if (effort == "low") {
+                gen_config["thinkingLevel"] = "LOW";
+            } else if (effort == "medium") {
+                gen_config["thinkingLevel"] = "MEDIUM";
+            } else if (effort == "high") {
+                gen_config["thinkingLevel"] = "HIGH";
+            }
         }
         // If thinkingBudget is provided (via custom params), validate it
         if (gen_config.contains("thinkingBudget") && gen_config["thinkingBudget"].is_number_integer()) {

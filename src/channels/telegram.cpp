@@ -185,6 +185,42 @@ auto TelegramChannel::is_dm_authorized(std::string_view sender_id) const -> bool
     return false;
 }
 
+auto TelegramChannel::is_group_authorized(std::string_view chat_id) const -> bool {
+    // Empty group allowlist means all groups are allowed
+    if (config_.group_allowlist.empty()) {
+        return true;
+    }
+    for (const auto& id : config_.group_allowlist) {
+        if (id == chat_id) {
+            return true;
+        }
+    }
+    return false;
+}
+
+auto TelegramChannel::authorize_system_event_sender(
+    std::string_view sender_id, std::string_view chat_id,
+    std::string_view event_type) const -> bool
+{
+    // Check DM authorization for private chats
+    if (!chat_id.empty() && !chat_id.starts_with("-")) {
+        if (!is_dm_authorized(sender_id)) {
+            LOG_DEBUG("[telegram] System event '{}' from {} blocked by dm_policy",
+                      event_type, sender_id);
+            return false;
+        }
+    }
+    // Check group authorization for group chats
+    if (!chat_id.empty() && chat_id.starts_with("-")) {
+        if (!is_group_authorized(chat_id)) {
+            LOG_DEBUG("[telegram] System event '{}' in group {} blocked by group_allowlist",
+                      event_type, chat_id);
+            return false;
+        }
+    }
+    return true;
+}
+
 auto TelegramChannel::process_update(const json& update) -> void {
     int64_t update_id = update.value("update_id", int64_t{0});
     if (update_id > last_update_id_) {
@@ -193,8 +229,15 @@ auto TelegramChannel::process_update(const json& update) -> void {
 
     if (update.contains("message")) {
         const auto& msg = update["message"];
+        std::string chat_id;
+        std::string chat_type;
+        if (msg.contains("chat")) {
+            chat_id = std::to_string(msg["chat"].value("id", int64_t{0}));
+            chat_type = msg["chat"].value("type", "");
+        }
+
         // v2026.2.24: Enforce DM authorization before processing
-        if (msg.contains("chat") && msg["chat"].value("type", "") == "private") {
+        if (chat_type == "private") {
             std::string sender_id;
             if (msg.contains("from")) {
                 sender_id = std::to_string(msg["from"].value("id", int64_t{0}));
@@ -205,6 +248,15 @@ auto TelegramChannel::process_update(const json& update) -> void {
                 return;
             }
         }
+
+        // v2026.2.25: Enforce group allowlist for group/supergroup chats
+        if (chat_type == "group" || chat_type == "supergroup") {
+            if (!is_group_authorized(chat_id)) {
+                LOG_DEBUG("[telegram] Message in group {} blocked by group_allowlist", chat_id);
+                return;
+            }
+        }
+
         auto incoming = parse_message(msg);
         dispatch(std::move(incoming));
     } else if (update.contains("edited_message")) {
@@ -219,6 +271,19 @@ auto TelegramChannel::process_update(const json& update) -> void {
     } else if (update.contains("callback_query")) {
         const auto& cb = update["callback_query"];
         if (cb.contains("message")) {
+            // v2026.2.25: Gate callback_query through sender authorization
+            std::string sender_id;
+            if (cb.contains("from")) {
+                sender_id = std::to_string(cb["from"].value("id", int64_t{0}));
+            }
+            std::string cb_chat_id;
+            if (cb["message"].contains("chat")) {
+                cb_chat_id = std::to_string(cb["message"]["chat"].value("id", int64_t{0}));
+            }
+            if (!authorize_system_event_sender(sender_id, cb_chat_id, "callback_query")) {
+                return;
+            }
+
             auto incoming = parse_message(cb["message"]);
             incoming.text = cb.value("data", "");
             incoming.raw = update;

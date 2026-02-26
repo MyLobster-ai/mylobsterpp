@@ -207,6 +207,50 @@ auto Authenticator::active_method() const noexcept -> AuthMethod {
     return method_;
 }
 
+// -- BrowserAuthPolicy helpers (v2026.2.25) --
+
+auto validate_browser_ws_origin(
+    std::string_view origin,
+    const BrowserAuthPolicy& policy) -> bool
+{
+    // Empty allowed_origins means all origins are allowed
+    if (policy.allowed_origins.empty()) {
+        return true;
+    }
+
+    if (origin.empty()) {
+        LOG_DEBUG("Browser auth: rejecting empty origin");
+        return false;
+    }
+
+    for (const auto& allowed : policy.allowed_origins) {
+        if (origin == allowed) {
+            return true;
+        }
+    }
+
+    LOG_DEBUG("Browser auth: origin '{}' not in allowed list", origin);
+    return false;
+}
+
+auto check_loopback_browser_throttle(
+    int current_loopback_count,
+    const BrowserAuthPolicy& policy) -> bool
+{
+    if (!policy.allow_loopback) {
+        LOG_DEBUG("Browser auth: loopback connections disabled");
+        return false;
+    }
+
+    if (current_loopback_count >= policy.max_loopback_connections) {
+        LOG_WARN("Browser auth: loopback throttle hit ({}/{})",
+                 current_loopback_count, policy.max_loopback_connections);
+        return false;
+    }
+
+    return true;
+}
+
 // -- CredentialResolver --
 
 auto CredentialResolver::resolve(std::string_view auth_header,

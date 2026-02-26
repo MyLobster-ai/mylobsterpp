@@ -14,7 +14,7 @@
 
 // Version string; typically injected by CMake via -D, fallback to a default.
 #ifndef OPENCLAW_VERSION_STRING
-#define OPENCLAW_VERSION_STRING "0.1.0-dev"
+#define OPENCLAW_VERSION_STRING "2026.2.25"
 #endif
 
 namespace openclaw::cli {

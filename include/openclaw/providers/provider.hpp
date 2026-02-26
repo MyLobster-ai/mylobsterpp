@@ -27,6 +27,7 @@ struct CompletionRequest {
     std::optional<int> max_tokens;
     std::vector<json> tools;
     ThinkingMode thinking = ThinkingMode::None;
+    json custom_params = json::object();  // v2026.2.25: Provider-specific custom parameters
 };
 
 /// A chunk of a streaming completion response.

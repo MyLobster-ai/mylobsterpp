@@ -24,6 +24,10 @@ struct SlackConfig {
     std::optional<std::string> signing_secret;  // for Events API verification
     bool use_socket_mode = true;  // Socket Mode (default) vs Events API
     std::optional<std::string> reply_to_mode;  // "thread", "channel", or "auto"
+
+    // v2026.2.25: Separate channel allowlist from DM controls
+    std::vector<std::string> channel_allowlist;  // Allowlist for channel IDs (empty = all)
+    bool case_insensitive_allowlist = true;       // Case-insensitive allowlist matching
 };
 
 /// Slack channel implementation.
@@ -54,6 +58,14 @@ private:
 
     /// Processes a message event from Slack.
     auto handle_message_event(const json& event) -> void;
+
+    /// v2026.2.25: Authorizes a system event sender before processing.
+    [[nodiscard]] auto authorize_system_event_sender(
+        std::string_view sender_id, std::string_view channel_id,
+        std::string_view event_type) const -> bool;
+
+    /// v2026.2.25: Checks channel allowlist with optional case-insensitive matching.
+    [[nodiscard]] auto is_channel_allowed(std::string_view channel_id) const -> bool;
 
     /// Parses a Slack message event into an IncomingMessage.
     auto parse_message(const json& event) -> IncomingMessage;

@@ -1,5 +1,6 @@
 #pragma once
 
+#include <filesystem>
 #include <optional>
 #include <string>
 #include <string_view>
@@ -41,6 +42,18 @@ auto has_trailing_positional_argv(const std::vector<std::string>& argv,
 /// ensures the resolved command is the same as the declared command.
 auto validate_system_run_consistency(const std::vector<std::string>& argv,
                                       std::string_view declared_command)
+    -> bool;
+
+/// v2026.2.25: Hardens approved execution paths against TOCTOU attacks.
+///
+/// Validates:
+///   1. `cwd` is not a symlink (prevents cwd-swap attacks)
+///   2. `executable` canonicalizes to the same inode across lstat/stat/realpath
+///   3. Inode identity is stable (no TOCTOU race between checks)
+///
+/// Returns true if the execution paths are safe, false otherwise.
+auto harden_approved_execution_paths(const std::filesystem::path& cwd,
+                                      const std::filesystem::path& executable)
     -> bool;
 
 } // namespace openclaw::infra

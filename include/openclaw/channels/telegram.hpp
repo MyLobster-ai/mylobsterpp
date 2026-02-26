@@ -28,6 +28,13 @@ struct TelegramConfig {
     // v2026.2.24: DM authorization policy
     std::string dm_policy = "open";  // "open", "allowlist", "pairing"
     std::vector<std::string> allowed_sender_ids;  // allowlist for DM senders
+
+    // v2026.2.25: Separate group allowlist from DM sender allowlist
+    std::vector<std::string> group_allowlist;  // allowlist for group chats (chat IDs)
+
+    // v2026.2.25: Webhook callback mode (upfront JSON body parsing)
+    enum class WebhookMode { Polling, WebhookCallback };
+    WebhookMode webhook_mode = WebhookMode::Polling;
 };
 
 /// Telegram channel implementation using the Bot API.
@@ -54,6 +61,16 @@ private:
 
     /// Checks if a DM sender is authorized based on dm_policy and allowed_sender_ids.
     [[nodiscard]] auto is_dm_authorized(std::string_view sender_id) const -> bool;
+
+    /// v2026.2.25: Checks if a group chat is authorized based on group_allowlist.
+    /// Empty allowlist means all groups are allowed.
+    [[nodiscard]] auto is_group_authorized(std::string_view chat_id) const -> bool;
+
+    /// v2026.2.25: Authorizes a system event sender (reactions, pins, etc.)
+    /// before enqueuing for processing.
+    [[nodiscard]] auto authorize_system_event_sender(
+        std::string_view sender_id, std::string_view chat_id,
+        std::string_view event_type) const -> bool;
 
     /// Processes a single Telegram update JSON object.
     auto process_update(const json& update) -> void;

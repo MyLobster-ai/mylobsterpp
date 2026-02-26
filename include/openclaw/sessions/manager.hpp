@@ -16,6 +16,22 @@ namespace openclaw::sessions {
 
 using boost::asio::awaitable;
 
+/// v2026.2.25: Configuration for session fork behavior.
+struct SessionForkConfig {
+    /// Maximum token count for parent fork before starting a fresh child session.
+    /// When the parent session exceeds this threshold, should_skip_parent_fork()
+    /// returns true, causing the orchestrator to start a fresh child session
+    /// instead of forking from the oversized parent.
+    int64_t parent_fork_max_tokens = 100000;
+};
+
+/// v2026.2.25: Checks if a parent fork should be skipped due to token overflow.
+/// Returns true if `token_count` exceeds the configured threshold.
+[[nodiscard]] inline auto should_skip_parent_fork(
+    int64_t token_count, const SessionForkConfig& config = {}) -> bool {
+    return token_count > config.parent_fork_max_tokens;
+}
+
 class SessionManager {
 public:
     explicit SessionManager(std::unique_ptr<SessionStore> store);

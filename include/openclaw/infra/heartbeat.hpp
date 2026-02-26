@@ -1,5 +1,6 @@
 #pragma once
 
+#include <optional>
 #include <string>
 #include <string_view>
 
@@ -42,6 +43,25 @@ auto resolve_heartbeat_delivery_chat_type(std::string_view channel_type,
 /// Returns true if heartbeat delivery should be blocked for this target.
 /// DM delivery is blocked by default in v2026.2.24 to prevent unwanted
 /// heartbeat messages being sent to individual users' DM channels.
+/// @deprecated Use should_block_heartbeat_delivery() with DirectPolicy instead.
 auto should_block_heartbeat_dm(ChatType chat_type) -> bool;
+
+/// v2026.2.25: Direct delivery policy for heartbeat messages.
+/// Replaces the v2026.2.24 boolean DM toggle with a more flexible enum.
+enum class DirectPolicy {
+    Allow,  // v2026.2.25 default: allow DM heartbeat delivery
+    Block,  // v2026.2.24 default: block DM heartbeat delivery
+};
+
+/// v2026.2.25: Returns true if heartbeat delivery should be blocked.
+///
+/// Uses the DirectPolicy to control DM delivery behavior, with an optional
+/// per-agent override that takes precedence over the global policy.
+///
+/// Default policy changed from Block (v2026.2.24) to Allow (v2026.2.25).
+auto should_block_heartbeat_delivery(
+    ChatType chat_type,
+    DirectPolicy policy = DirectPolicy::Allow,
+    std::optional<DirectPolicy> agent_override = std::nullopt) -> bool;
 
 } // namespace openclaw::infra

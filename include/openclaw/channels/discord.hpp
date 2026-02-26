@@ -38,6 +38,9 @@ struct DiscordConfig {
     // v2026.2.24: DAVE voice encryption
     bool dave_encryption = false;                  // Enable DAVE end-to-end encryption for voice
     int decryption_failure_tolerance = 100;        // Max consecutive decryption failures before disconnect
+
+    // v2026.2.25: Separate group/guild allowlist from DM sender controls
+    std::vector<std::string> guild_allowlist;       // Allowlist for guild IDs (empty = all)
 };
 
 /// Discord channel implementation.
@@ -80,6 +83,11 @@ private:
 
     /// Processes a MESSAGE_CREATE event.
     auto handle_message_create(const json& data) -> void;
+
+    /// v2026.2.25: Authorizes a system event sender before processing.
+    [[nodiscard]] auto authorize_system_event_sender(
+        std::string_view sender_id, std::string_view guild_id,
+        std::string_view event_type) const -> bool;
 
     /// Parses a Discord message into an IncomingMessage.
     auto parse_message(const json& msg) -> IncomingMessage;

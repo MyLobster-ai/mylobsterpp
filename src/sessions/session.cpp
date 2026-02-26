@@ -57,4 +57,48 @@ auto strip_inbound_metadata(std::string_view text) -> std::string {
     return result;
 }
 
+auto resolve_session_model_identity_ref(std::string_view model_str)
+    -> ModelIdentityRef
+{
+    ModelIdentityRef ref;
+
+    // Try "provider/model" format
+    auto slash = model_str.find('/');
+    if (slash != std::string_view::npos && slash > 0 && slash < model_str.size() - 1) {
+        ref.provider = std::string(model_str.substr(0, slash));
+        ref.model = std::string(model_str.substr(slash + 1));
+        return ref;
+    }
+
+    // Try "provider:model" format
+    auto colon = model_str.find(':');
+    if (colon != std::string_view::npos && colon > 0 && colon < model_str.size() - 1) {
+        ref.provider = std::string(model_str.substr(0, colon));
+        ref.model = std::string(model_str.substr(colon + 1));
+        return ref;
+    }
+
+    // Infer provider from model prefix
+    ref.model = std::string(model_str);
+
+    if (model_str.starts_with("claude-") || model_str.starts_with("claude3") ||
+        model_str.starts_with("claude_")) {
+        ref.provider = "anthropic";
+    } else if (model_str.starts_with("gpt-") || model_str.starts_with("o1-") ||
+               model_str.starts_with("o3-") || model_str.starts_with("chatgpt-")) {
+        ref.provider = "openai";
+    } else if (model_str.starts_with("gemini-")) {
+        ref.provider = "gemini";
+    } else if (model_str.starts_with("mistral-") || model_str.starts_with("mixtral-") ||
+               model_str.starts_with("codestral-")) {
+        ref.provider = "mistral";
+    } else if (model_str.starts_with("llama-") || model_str.starts_with("meta-llama")) {
+        ref.provider = "meta";
+    } else {
+        ref.provider = "unknown";
+    }
+
+    return ref;
+}
+
 } // namespace openclaw::sessions

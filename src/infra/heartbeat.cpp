@@ -80,7 +80,24 @@ auto resolve_heartbeat_delivery_chat_type(std::string_view channel_type,
 }
 
 auto should_block_heartbeat_dm(ChatType chat_type) -> bool {
+    // Preserved for backward compatibility — callers should migrate to
+    // should_block_heartbeat_delivery() with DirectPolicy.
     return chat_type == ChatType::Direct;
+}
+
+auto should_block_heartbeat_delivery(
+    ChatType chat_type,
+    DirectPolicy policy,
+    std::optional<DirectPolicy> agent_override) -> bool
+{
+    // Only DM delivery is subject to policy control
+    if (chat_type != ChatType::Direct) {
+        return false;
+    }
+
+    // Per-agent override takes precedence
+    auto effective_policy = agent_override.value_or(policy);
+    return effective_policy == DirectPolicy::Block;
 }
 
 } // namespace openclaw::infra

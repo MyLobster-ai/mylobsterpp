@@ -144,6 +144,35 @@ public:
         const std::filesystem::path& path,
         const std::filesystem::path& root) -> Result<void>;
 
+    /// v2026.2.25: Discriminated union for resolved workspace file paths.
+    enum class WorkspaceFileStatus {
+        Ready,    // File exists and is within workspace
+        Missing,  // File does not exist but path is within workspace
+        Invalid,  // Path escapes workspace or is otherwise invalid
+    };
+
+    struct ResolvedAgentWorkspaceFilePath {
+        WorkspaceFileStatus status;
+        std::filesystem::path resolved_path;
+        std::string error_detail;
+    };
+
+    /// v2026.2.25: Resolves and validates a file path against workspace boundaries.
+    /// Normalizes the path, verifies containment, follows symlinks and checks
+    /// that targets remain in the workspace.
+    [[nodiscard]] static auto resolve_agent_workspace_file_path(
+        const std::filesystem::path& requested_path,
+        const std::filesystem::path& workspace_root)
+        -> ResolvedAgentWorkspaceFilePath;
+
+    /// v2026.2.25: Safely writes data to a file with symlink-following protection.
+    /// Uses POSIX open(O_NOFOLLOW | O_CREAT | O_TRUNC), then performs
+    /// fstat/lstat identity validation after the write.
+    [[nodiscard]] static auto write_file_safely(
+        const std::filesystem::path& path,
+        std::string_view data,
+        const std::filesystem::path& workspace_root) -> Result<void>;
+
 private:
     auto accept_loop(tcp::acceptor& acceptor) -> awaitable<void>;
     auto handle_connection(tcp::socket socket) -> awaitable<void>;

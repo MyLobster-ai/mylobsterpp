@@ -2,6 +2,46 @@
 
 All notable changes to MyLobster++ are documented in this file.
 
+## v2026.2.25
+
+Port of [OpenClaw v2026.2.25](https://github.com/openclaw/openclaw) changes to C++23.
+
+### Breaking Changes
+
+- **Heartbeat direct delivery policy** — `should_block_heartbeat_dm()` deprecated. New `DirectPolicy` enum (`Allow`/`Block`) with `should_block_heartbeat_delivery()`. Default changed from `Block` (v2026.2.24) to `Allow`. Per-agent override support via `agent_override` parameter.
+- **Trusted proxy control-UI bypass** — `should_skip_control_ui_pairing()` now requires `operator` role. Non-operator connections claiming control-ui through trusted proxy get scopes cleared.
+
+### Security Fixes
+
+- **Path alias guards** — New `assert_no_path_alias_escape()` walks path components via `lstat()`, rejects symlinks escaping workspace roots. `assert_no_hardlinked_final_path_strict()` adds triple-stat TOCTOU prevention (lstat/stat/realpath+stat), rejects `nlink > 1`. `PathAliasPolicy` enum: `Strict`, `UnlinkTarget`.
+- **Exec approval path hardening** — `harden_approved_execution_paths()` blocks symlink cwd, canonicalizes executable, verifies inode identity across lstat/stat/realpath for TOCTOU prevention.
+- **IPv6 multicast SSRF blocking** — `is_private_ip()` now blocks `ff00::/8` multicast addresses.
+- **Browser WebSocket auth hardening** — `BrowserAuthPolicy` struct with origin validation and loopback connection throttling. `validate_browser_ws_origin()` and `check_loopback_browser_throttle()` functions.
+- **Workspace file access hardening** — `ResolvedAgentWorkspaceFilePath` discriminated union (`Ready`/`Missing`/`Invalid`). `write_file_safely()` uses POSIX `open(O_NOFOLLOW | O_CREAT | O_TRUNC)` with post-write fstat/lstat identity validation.
+- **Webhook URL validation** — `HookRegistry::validate_webhook_url()` rejects empty host, userinfo (`user:pass@`), and encoded path traversal (`%2e%2e`, `%2f`, `%5c`).
+- **Pairing requirements** — Unpaired operator device auth now requires pairing flow (scopes cleared if no valid device identity and not trusted proxy).
+- **System event auth for channels** — `authorize_system_event_sender()` gates reactions, pins, button actions through sender authorization before enqueue on Telegram, Discord, and Slack.
+- **Group allowlist isolation** — Telegram `group_allowlist`, Discord `guild_allowlist`, and Slack `channel_allowlist` separated from DM sender controls.
+- **Telegram webhook auth order** — Secret token validated BEFORE reading full request body in webhook callback mode.
+
+### Channels
+
+- **Outbound channel resolution** — New `OutboundChannelResolver` with `resolve_outbound_channel_plugin()` for cold-start bootstrap and actionable error messages.
+- **Slack case-insensitive allowlist** — `SlackConfig::case_insensitive_allowlist` for channel ID matching.
+- **Telegram group chat authorization** — `is_group_authorized()` enforces group allowlist for group/supergroup chats.
+
+### Sessions
+
+- **Parent fork overflow protection** — `SessionForkConfig` with `parent_fork_max_tokens` (default 100K). `should_skip_parent_fork()` triggers fresh child session when parent exceeds threshold.
+- **Model identity resolution** — `ModelIdentityRef` struct + `resolve_session_model_identity_ref()` parses `provider/model`, `provider:model`, or infers from known prefixes (claude- → anthropic, gpt- → openai, gemini- → gemini).
+
+### Providers
+
+- **Gemini thinking level** — Enhanced effort-to-thinkingLevel mapping with LOW/MEDIUM/HIGH. `custom_params["thinking_effort"]` support. Negative `thinkingBudget` values sanitized.
+- **CompletionRequest custom_params** — New `custom_params` field for provider-specific parameters.
+
+---
+
 ## v2026.2.24
 
 Port of [OpenClaw v2026.2.23](https://github.com/openclaw/openclaw) and [v2026.2.24](https://github.com/openclaw/openclaw) changes to C++23.
