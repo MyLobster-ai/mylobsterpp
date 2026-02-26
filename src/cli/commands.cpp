@@ -12,6 +12,34 @@
 
 #include <nlohmann/json.hpp>
 
+// Handler headers for wiring real implementations.
+#include "openclaw/gateway/server.hpp"
+#include "openclaw/gateway/chat_handler.hpp"
+#include "openclaw/gateway/config_handler.hpp"
+#include "openclaw/gateway/gateway_handler.hpp"
+#include "openclaw/gateway/agent_handler.hpp"
+#include "openclaw/gateway/session_handler.hpp"
+#include "openclaw/gateway/provider_handler.hpp"
+#include "openclaw/gateway/memory_handler.hpp"
+#include "openclaw/gateway/tool_handler.hpp"
+#include "openclaw/gateway/browser_handler.hpp"
+#include "openclaw/gateway/channel_handler.hpp"
+#include "openclaw/gateway/plugin_handler.hpp"
+#include "openclaw/gateway/cron_handler.hpp"
+
+// Subsystem headers.
+#include "openclaw/sessions/manager.hpp"
+#include "openclaw/sessions/store.hpp"
+#include "openclaw/agent/runtime.hpp"
+#include "openclaw/channels/registry.hpp"
+#include "openclaw/memory/manager.hpp"
+#include "openclaw/browser/browser_pool.hpp"
+#include "openclaw/plugins/loader.hpp"
+#include "openclaw/cron/scheduler.hpp"
+
+// Provider factory.
+#include "openclaw/providers/anthropic.hpp"
+
 // Version string; typically injected by CMake via -D, fallback to a default.
 #ifndef OPENCLAW_VERSION_STRING
 #define OPENCLAW_VERSION_STRING "2026.2.25"
@@ -65,7 +93,7 @@ auto apply_osc8_hyperlinks(const std::string& text) -> std::string {
 // ---------------------------------------------------------------------------
 
 void register_gateway_command(CLI::App& app, Config& config) {
-    auto* sub = app.add_subcommand("gateway", "Start the OpenClaw gateway server");
+    auto* sub = app.add_subcommand("gateway", "Start the MyLobster++ gateway server");
 
     uint16_t port = 0;
     sub->add_option("-p,--port", port, "Listen port (overrides config)")
@@ -75,8 +103,8 @@ void register_gateway_command(CLI::App& app, Config& config) {
     sub->add_option("-b,--bind", bind, "Bind mode: loopback or all")
         ->envname("OPENCLAW_BIND");
 
-    sub->callback([&config, sub, &port, &bind]() {
-        Logger::init("openclaw", config.log_level);
+    sub->callback([&config, &port, &bind]() {
+        Logger::init("mylobsterpp", config.log_level);
 
         // Apply CLI overrides.
         if (port != 0) {
@@ -86,7 +114,7 @@ void register_gateway_command(CLI::App& app, Config& config) {
             config.gateway.bind = (bind == "all") ? BindMode::All : BindMode::Loopback;
         }
 
-        LOG_INFO("Starting OpenClaw gateway on port {}", config.gateway.port);
+        LOG_INFO("Starting MyLobster++ gateway on port {}", config.gateway.port);
         LOG_INFO("Bind mode: {}", config.gateway.bind == BindMode::Loopback
                                       ? "loopback" : "all");
 
@@ -101,8 +129,106 @@ void register_gateway_command(CLI::App& app, Config& config) {
             }
         });
 
-        // In a full build the GatewayServer would be constructed and
-        // co_spawned here. For now, run the io_context so signals work.
+        // --- Construct the GatewayServer ---
+        gateway::GatewayServer server(ioc);
+
+        // Register all built-in method stubs first.
+        server.protocol()->register_builtins();
+
+        // --- Initialize subsystems ---
+
+        // Data directory for persistent storage.
+        auto data_dir = config.data_dir
+            ? std::filesystem::path(*config.data_dir)
+            : default_data_dir();
+        std::filesystem::create_directories(data_dir);
+
+        // Session manager with SQLite store.
+        auto session_db = (data_dir / "sessions.db").string();
+        auto session_store = std::make_unique<sessions::SqliteSessionStore>(session_db);
+        sessions::SessionManager session_mgr(std::move(session_store));
+
+        // Agent runtime with config.
+        agent::AgentRuntime runtime(ioc, config);
+
+        // Set up the primary AI provider from config.
+        gateway::ProviderRegistry provider_registry;
+        for (const auto& pc : config.providers) {
+            if (pc.name == "anthropic" && !pc.api_key.empty()) {
+                auto provider = std::make_shared<providers::AnthropicProvider>(
+                    ioc, pc);
+                runtime.set_provider(provider);
+                provider_registry.add(pc.name, provider);
+            }
+            // TODO: initialize other provider types (openai, gemini, etc.)
+        }
+
+        // Runtime config for config.get/set/patch.
+        gateway::RuntimeConfig runtime_config(config);
+        auto config_persist = data_dir / "config.json";
+        runtime_config.set_persist_path(config_persist);
+
+        // Memory manager.
+        std::string openai_key;
+        for (const auto& pc : config.providers) {
+            if (pc.name == "openai" && !pc.api_key.empty()) {
+                openai_key = pc.api_key;
+                break;
+            }
+        }
+        memory::MemoryManager memory_mgr(
+            ioc, config.memory, openai_key, data_dir.string());
+
+        // Browser pool.
+        browser::BrowserPool browser_pool(ioc, config.browser);
+
+        // Channel registry.
+        channels::ChannelRegistry channel_registry;
+
+        // Plugin loader.
+        plugins::PluginLoader plugin_loader;
+
+        // Cron scheduler.
+        cron::CronScheduler cron_scheduler(ioc);
+
+        // --- Wire real handlers (overwrites stubs) ---
+        auto& protocol = *server.protocol();
+
+        gateway::register_chat_handlers(protocol, server, session_mgr, runtime);
+        gateway::register_config_handlers(protocol, runtime_config);
+        gateway::register_gateway_handlers(protocol, server);
+        gateway::register_agent_handlers(protocol, server, session_mgr, runtime);
+        gateway::register_session_handlers(protocol, session_mgr);
+        gateway::register_provider_handlers(protocol, server, provider_registry);
+        gateway::register_memory_handlers(protocol, memory_mgr);
+        gateway::register_tool_handlers(protocol, server, runtime.tool_registry());
+        gateway::register_browser_handlers(protocol, browser_pool);
+        gateway::register_channel_handlers(protocol, channel_registry);
+        gateway::register_plugin_handlers(protocol, plugin_loader);
+        gateway::register_cron_handlers(protocol, cron_scheduler);
+
+        LOG_INFO("All {} RPC handlers registered", protocol.methods().size());
+
+        // --- Start the gateway ---
+        boost::asio::co_spawn(ioc,
+            server.start(config.gateway),
+            boost::asio::detached);
+
+        // Start cron scheduler if enabled.
+        if (config.cron.enabled) {
+            boost::asio::co_spawn(ioc,
+                cron_scheduler.start(),
+                boost::asio::detached);
+        }
+
+        // Start channel providers.
+        for (const auto& cc : config.channels) {
+            if (cc.enabled) {
+                // Channel construction and registration would happen here.
+                LOG_INFO("Channel '{}' configured but dynamic startup not yet wired", cc.type);
+            }
+        }
+
         LOG_INFO("Gateway running. Press Ctrl+C to stop.");
         ioc.run();
 
@@ -155,7 +281,7 @@ void register_version_command(CLI::App& app) {
     auto* sub = app.add_subcommand("version", "Print version information");
 
     sub->callback([]() {
-        std::cout << "openclaw " << OPENCLAW_VERSION_STRING << "\n";
+        std::cout << "mylobsterpp " << OPENCLAW_VERSION_STRING << "\n";
         std::cout << "C++ standard: " << __cplusplus << "\n";
 #if defined(__clang__)
         std::cout << "Compiler: clang " << __clang_major__ << "."

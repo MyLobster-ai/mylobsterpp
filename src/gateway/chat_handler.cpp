@@ -1,0 +1,175 @@
+#include "openclaw/gateway/chat_handler.hpp"
+
+#include <atomic>
+
+#include <boost/asio/co_spawn.hpp>
+#include <boost/asio/detached.hpp>
+#include <boost/asio/this_coro.hpp>
+#include <boost/asio/use_awaitable.hpp>
+
+#include "openclaw/core/logger.hpp"
+
+namespace openclaw::gateway {
+
+using json = nlohmann::json;
+using boost::asio::awaitable;
+
+namespace {
+
+static std::atomic<uint64_t> run_counter{0};
+
+auto generate_run_id() -> std::string {
+    auto count = run_counter.fetch_add(1, std::memory_order_relaxed);
+    auto now = std::chrono::system_clock::now().time_since_epoch();
+    auto ms = std::chrono::duration_cast<std::chrono::milliseconds>(now).count();
+    return "run-" + std::to_string(ms) + "-" + std::to_string(count);
+}
+
+/// Detached coroutine that performs the actual AI completion and streams
+/// events back via broadcast. Runs after the ack has been sent.
+auto run_chat_completion(std::string run_id,
+                         std::string message_text,
+                         GatewayServer& server,
+                         agent::AgentRuntime& runtime) -> awaitable<void> {
+    providers::CompletionRequest req;
+    if (auto provider = runtime.provider(); provider) {
+        auto models = provider->models();
+        if (!models.empty()) {
+            req.model = models[0];
+        }
+    }
+
+    // Add the user message.
+    Message user_msg;
+    user_msg.role = Role::User;
+    user_msg.content.push_back(ContentBlock{.type = "text", .text = message_text});
+    user_msg.created_at = Clock::now();
+    req.messages.push_back(std::move(user_msg));
+
+    // Include tool definitions from the runtime's tool registry.
+    req.tools = runtime.tool_registry().to_anthropic_json();
+
+    // Collect streaming chunks and broadcast after each chunk.
+    // Since StreamCallback is synchronous, we collect chunks in a vector
+    // and broadcast them after the synchronous callback returns.
+    // The provider calls the callback synchronously during co_await.
+    struct ChunkAccumulator {
+        std::vector<providers::CompletionChunk> chunks;
+    };
+    auto accumulator = std::make_shared<ChunkAccumulator>();
+
+    auto stream_cb = [accumulator](const providers::CompletionChunk& chunk) {
+        accumulator->chunks.push_back(chunk);
+    };
+
+    auto result = co_await runtime.process_with_tools_stream(
+        std::move(req), stream_cb);
+
+    // Broadcast all collected chunks.
+    for (const auto& chunk : accumulator->chunks) {
+        if (chunk.type == "text") {
+            co_await server.broadcast(make_event("chat", json{
+                {"runId", run_id},
+                {"state", "delta"},
+                {"stream", "assistant"},
+                {"text", chunk.text},
+            }));
+        } else if (chunk.type == "tool_use") {
+            co_await server.broadcast(make_event("agent", json{
+                {"runId", run_id},
+                {"stream", "tool"},
+                {"toolName", chunk.tool_name.value_or("")},
+                {"toolInput", chunk.tool_input.value_or(json::object())},
+            }));
+        } else if (chunk.type == "thinking") {
+            co_await server.broadcast(make_event("agent", json{
+                {"runId", run_id},
+                {"stream", "thinking"},
+                {"text", chunk.text},
+            }));
+        }
+    }
+
+    // Send final or error event.
+    if (result.has_value()) {
+        auto& resp = result.value();
+        std::string final_text;
+        for (const auto& block : resp.message.content) {
+            if (block.type == "text") {
+                final_text += block.text;
+            }
+        }
+        co_await server.broadcast(make_event("chat", json{
+            {"runId", run_id},
+            {"state", "final"},
+            {"text", final_text},
+            {"model", resp.model},
+            {"inputTokens", resp.input_tokens},
+            {"outputTokens", resp.output_tokens},
+            {"stopReason", resp.stop_reason},
+        }));
+    } else {
+        co_await server.broadcast(make_event("chat", json{
+            {"runId", run_id},
+            {"state", "error"},
+            {"error", result.error().what()},
+        }));
+    }
+}
+
+/// Core chat handler: returns ack immediately, spawns streaming work.
+auto handle_chat_send(json params,
+                      GatewayServer& server,
+                      [[maybe_unused]] sessions::SessionManager& sessions,
+                      agent::AgentRuntime& runtime) -> awaitable<json> {
+    auto message_text = params.value("message", "");
+    if (message_text.empty()) {
+        co_return json{{"ok", false}, {"error", "message is required"}};
+    }
+
+    auto run_id = generate_run_id();
+    auto executor = co_await boost::asio::this_coro::executor;
+
+    // Spawn the completion work as a detached coroutine so the ack
+    // returns to the client immediately.
+    boost::asio::co_spawn(executor,
+        run_chat_completion(run_id, std::move(message_text), server, runtime),
+        boost::asio::detached);
+
+    co_return json{{"ok", true}, {"payload", json{{"runId", run_id}}}};
+}
+
+} // anonymous namespace
+
+void register_chat_handlers(Protocol& protocol,
+                            GatewayServer& server,
+                            sessions::SessionManager& sessions,
+                            agent::AgentRuntime& runtime) {
+    // chat.send — primary method called by bridge for every user message.
+    protocol.register_method("chat.send",
+        [&server, &sessions, &runtime](json params) -> awaitable<json> {
+            co_return co_await handle_chat_send(
+                std::move(params), server, sessions, runtime);
+        },
+        "Send a chat message and receive streaming response", "chat");
+
+    // agent.chat — alias for chat.send.
+    protocol.register_method("agent.chat",
+        [&server, &sessions, &runtime](json params) -> awaitable<json> {
+            co_return co_await handle_chat_send(
+                std::move(params), server, sessions, runtime);
+        },
+        "Send a message to the agent and get a response", "agent");
+
+    // agent.chat.stream — explicit streaming variant (same behavior).
+    protocol.register_method("agent.chat.stream",
+        [&server, &sessions, &runtime](json params) -> awaitable<json> {
+            co_return co_await handle_chat_send(
+                std::move(params), server, sessions, runtime);
+        },
+        "Stream agent chat response", "agent");
+
+    LOG_INFO("Registered chat handlers: chat.send, agent.chat, agent.chat.stream");
+}
+
+} // namespace openclaw::gateway
