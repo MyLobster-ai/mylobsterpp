@@ -31,88 +31,113 @@ auto run_chat_completion(std::string run_id,
                          std::string message_text,
                          GatewayServer& server,
                          agent::AgentRuntime& runtime) -> awaitable<void> {
-    providers::CompletionRequest req;
-    if (auto provider = runtime.provider(); provider) {
-        auto models = provider->models();
-        if (!models.empty()) {
-            req.model = models[0];
-        }
-    }
-
-    // Add the user message.
-    Message user_msg;
-    user_msg.role = Role::User;
-    user_msg.content.push_back(ContentBlock{.type = "text", .text = message_text});
-    user_msg.created_at = Clock::now();
-    req.messages.push_back(std::move(user_msg));
-
-    // Include tool definitions from the runtime's tool registry.
-    req.tools = runtime.tool_registry().to_anthropic_json();
-
-    // Collect streaming chunks and broadcast after each chunk.
-    // Since StreamCallback is synchronous, we collect chunks in a vector
-    // and broadcast them after the synchronous callback returns.
-    // The provider calls the callback synchronously during co_await.
-    struct ChunkAccumulator {
-        std::vector<providers::CompletionChunk> chunks;
-    };
-    auto accumulator = std::make_shared<ChunkAccumulator>();
-
-    auto stream_cb = [accumulator](const providers::CompletionChunk& chunk) {
-        accumulator->chunks.push_back(chunk);
-    };
-
-    auto result = co_await runtime.process_with_tools_stream(
-        std::move(req), stream_cb);
-
-    // Broadcast all collected chunks.
-    for (const auto& chunk : accumulator->chunks) {
-        if (chunk.type == "text") {
-            co_await server.broadcast(make_event("chat", json{
-                {"runId", run_id},
-                {"state", "delta"},
-                {"stream", "assistant"},
-                {"text", chunk.text},
-            }));
-        } else if (chunk.type == "tool_use") {
-            co_await server.broadcast(make_event("agent", json{
-                {"runId", run_id},
-                {"stream", "tool"},
-                {"toolName", chunk.tool_name.value_or("")},
-                {"toolInput", chunk.tool_input.value_or(json::object())},
-            }));
-        } else if (chunk.type == "thinking") {
-            co_await server.broadcast(make_event("agent", json{
-                {"runId", run_id},
-                {"stream", "thinking"},
-                {"text", chunk.text},
-            }));
-        }
-    }
-
-    // Send final or error event.
-    if (result.has_value()) {
-        auto& resp = result.value();
-        std::string final_text;
-        for (const auto& block : resp.message.content) {
-            if (block.type == "text") {
-                final_text += block.text;
+    std::string error_msg;
+    try {
+        providers::CompletionRequest req;
+        if (auto provider = runtime.provider(); provider) {
+            auto models = provider->models();
+            if (!models.empty()) {
+                req.model = models[0];
             }
         }
-        co_await server.broadcast(make_event("chat", json{
-            {"runId", run_id},
-            {"state", "final"},
-            {"text", final_text},
-            {"model", resp.model},
-            {"inputTokens", resp.input_tokens},
-            {"outputTokens", resp.output_tokens},
-            {"stopReason", resp.stop_reason},
-        }));
-    } else {
+
+        LOG_INFO("chat.send run={} model={} msg_len={}",
+                 run_id, req.model, message_text.size());
+
+        // Add the user message.
+        Message user_msg;
+        user_msg.role = Role::User;
+        user_msg.content.push_back(ContentBlock{.type = "text", .text = message_text});
+        user_msg.created_at = Clock::now();
+        req.messages.push_back(std::move(user_msg));
+
+        // Include tool definitions from the runtime's tool registry.
+        req.tools = runtime.tool_registry().to_anthropic_json();
+
+        // Collect streaming chunks and broadcast after each chunk.
+        // Since StreamCallback is synchronous, we collect chunks in a vector
+        // and broadcast them after the synchronous callback returns.
+        // The provider calls the callback synchronously during co_await.
+        struct ChunkAccumulator {
+            std::vector<providers::CompletionChunk> chunks;
+        };
+        auto accumulator = std::make_shared<ChunkAccumulator>();
+
+        auto stream_cb = [accumulator](const providers::CompletionChunk& chunk) {
+            accumulator->chunks.push_back(chunk);
+        };
+
+        auto result = co_await runtime.process_with_tools_stream(
+            std::move(req), stream_cb);
+
+        // Broadcast all collected chunks.
+        for (const auto& chunk : accumulator->chunks) {
+            if (chunk.type == "text") {
+                co_await server.broadcast(make_event("chat", json{
+                    {"runId", run_id},
+                    {"state", "delta"},
+                    {"stream", "assistant"},
+                    {"text", chunk.text},
+                }));
+            } else if (chunk.type == "tool_use") {
+                co_await server.broadcast(make_event("agent", json{
+                    {"runId", run_id},
+                    {"stream", "tool"},
+                    {"toolName", chunk.tool_name.value_or("")},
+                    {"toolInput", chunk.tool_input.value_or(json::object())},
+                }));
+            } else if (chunk.type == "thinking") {
+                co_await server.broadcast(make_event("agent", json{
+                    {"runId", run_id},
+                    {"stream", "thinking"},
+                    {"text", chunk.text},
+                }));
+            }
+        }
+
+        // Send final or error event.
+        if (result.has_value()) {
+            auto& resp = result.value();
+            std::string final_text;
+            for (const auto& block : resp.message.content) {
+                if (block.type == "text") {
+                    final_text += block.text;
+                }
+            }
+            LOG_INFO("chat.send run={} completed: {} chars, model={}",
+                     run_id, final_text.size(), resp.model);
+            co_await server.broadcast(make_event("chat", json{
+                {"runId", run_id},
+                {"state", "final"},
+                {"text", final_text},
+                {"model", resp.model},
+                {"inputTokens", resp.input_tokens},
+                {"outputTokens", resp.output_tokens},
+                {"stopReason", resp.stop_reason},
+            }));
+        } else {
+            LOG_ERROR("chat.send run={} provider error: {}",
+                      run_id, result.error().what());
+            co_await server.broadcast(make_event("chat", json{
+                {"runId", run_id},
+                {"state", "error"},
+                {"error", result.error().what()},
+            }));
+        }
+    } catch (const std::exception& e) {
+        LOG_ERROR("chat.send run={} exception: {}", run_id, e.what());
+        // Cannot co_await inside a catch handler; capture and broadcast below.
+        error_msg = std::string("Internal error: ") + e.what();
+    } catch (...) {
+        LOG_ERROR("chat.send run={} unknown exception", run_id);
+        error_msg = "Internal error (unknown)";
+    }
+
+    if (!error_msg.empty()) {
         co_await server.broadcast(make_event("chat", json{
             {"runId", run_id},
             {"state", "error"},
-            {"error", result.error().what()},
+            {"error", error_msg},
         }));
     }
 }

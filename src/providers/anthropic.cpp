@@ -17,7 +17,7 @@ auto is_1m_eligible_model(const std::string& model) -> bool {
 namespace {
 
 constexpr auto kDefaultBaseUrl = "https://api.anthropic.com";
-constexpr auto kDefaultModel = "claude-sonnet-4-6-20250514";
+constexpr auto kDefaultModel = "claude-sonnet-4-20250514";
 constexpr auto kApiVersion = "2023-06-01";
 constexpr auto kMessagesPath = "/v1/messages";
 
@@ -442,8 +442,6 @@ auto AnthropicProvider::name() const -> std::string_view {
 
 auto AnthropicProvider::models() const -> std::vector<std::string> {
     return {
-        "claude-opus-4-6-20250514",
-        "claude-sonnet-4-6-20250514",
         "claude-opus-4-20250514",
         "claude-sonnet-4-20250514",
         "claude-haiku-3-5-20241022",

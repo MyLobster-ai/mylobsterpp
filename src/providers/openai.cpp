@@ -553,8 +553,8 @@ auto OpenAIProvider::normalize_vercel_model_ref(std::string_view model) -> std::
 
     // Map common Vercel AI Gateway model names to canonical Anthropic IDs
     static const std::map<std::string, std::string, std::less<>> kVercelModelMap = {
-        {"claude-opus-4.6", "claude-opus-4-6-20250514"},
-        {"claude-sonnet-4.6", "claude-sonnet-4-6-20250514"},
+        {"claude-opus-4.6", "claude-opus-4-20250514"},
+        {"claude-sonnet-4.6", "claude-sonnet-4-20250514"},
         {"claude-haiku-4.5", "claude-haiku-4-5-20251001"},
         {"claude-sonnet-4", "claude-sonnet-4-20250514"},
         {"claude-opus-4", "claude-opus-4-20250514"},
