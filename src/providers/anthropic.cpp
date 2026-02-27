@@ -442,8 +442,8 @@ auto AnthropicProvider::name() const -> std::string_view {
 
 auto AnthropicProvider::models() const -> std::vector<std::string> {
     return {
-        "claude-opus-4-20250514",
         "claude-sonnet-4-20250514",
+        "claude-opus-4-20250514",
         "claude-haiku-3-5-20241022",
         "claude-3-5-sonnet-20241022",
         "claude-3-5-haiku-20241022",

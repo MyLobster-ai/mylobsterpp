@@ -161,7 +161,7 @@ auto handle_chat_send(json params,
         run_chat_completion(run_id, std::move(message_text), server, runtime),
         boost::asio::detached);
 
-    co_return json{{"ok", true}, {"payload", json{{"runId", run_id}}}};
+    co_return json{{"runId", run_id}};
 }
 
 } // anonymous namespace
