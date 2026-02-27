@@ -1,6 +1,5 @@
 #include "openclaw/providers/anthropic.hpp"
 
-#include <sstream>
 #include <string>
 
 #include "openclaw/agent/thinking.hpp"
@@ -70,25 +69,45 @@ auto message_to_json(const Message& msg) -> json {
     return j;
 }
 
-/// Parse SSE (Server-Sent Events) text into individual lines of event data.
-/// Each event starts with "data: " and ends with a double newline.
-auto parse_sse_lines(const std::string& body) -> std::vector<std::string> {
-    std::vector<std::string> lines;
-    std::istringstream stream(body);
-    std::string line;
+/// Incremental SSE line parser for streaming responses.
+/// Handles partial lines spanning chunk boundaries.
+class SseLineParser {
+public:
+    using LineCallback = std::function<void(std::string_view data_line)>;
 
-    while (std::getline(stream, line)) {
-        // Remove trailing \r if present
-        if (!line.empty() && line.back() == '\r') {
-            line.pop_back();
-        }
+    explicit SseLineParser(LineCallback cb) : cb_(std::move(cb)) {}
 
-        if (line.starts_with("data: ")) {
-            lines.push_back(line.substr(6));
+    /// Feed raw bytes from an HTTP chunk. Parses complete lines and
+    /// invokes the callback for each "data: ..." line.
+    void feed(const char* data, size_t length) {
+        for (size_t i = 0; i < length; ++i) {
+            char c = data[i];
+            if (c == '\n') {
+                // Remove trailing \r
+                if (!partial_.empty() && partial_.back() == '\r') {
+                    partial_.pop_back();
+                }
+                process_line(partial_);
+                partial_.clear();
+            } else {
+                partial_ += c;
+            }
         }
     }
-    return lines;
-}
+
+private:
+    void process_line(const std::string& line) {
+        if (line.starts_with("data: ")) {
+            auto data_part = std::string_view(line).substr(6);
+            if (data_part != "[DONE]") {
+                cb_(data_part);
+            }
+        }
+    }
+
+    LineCallback cb_;
+    std::string partial_;
+};
 
 } // anonymous namespace
 
@@ -99,7 +118,7 @@ AnthropicProvider::AnthropicProvider(boost::asio::io_context& ioc,
     , api_version_(kApiVersion)
     , http_(ioc, infra::HttpClientConfig{
           .base_url = config.base_url.value_or(kDefaultBaseUrl),
-          .timeout_seconds = 120,
+          .timeout_seconds = 300,
           .verify_ssl = true,
           .default_headers = {
               {"x-api-key", config.api_key},
@@ -387,9 +406,32 @@ auto AnthropicProvider::stream(CompletionRequest req, StreamCallback cb)
         extra_headers["anthropic-beta"] = "context-1m-2025-08-07";
     }
 
-    auto result = extra_headers.empty()
-        ? co_await http_.post(kMessagesPath, body.dump())
-        : co_await http_.post(kMessagesPath, body.dump(), "application/json", extra_headers);
+    // Accumulate the CompletionResponse as SSE events arrive.
+    // The SseLineParser and parse_sse_event run on the background thread
+    // inside post_stream's content_receiver callback. Use shared_ptr for
+    // all objects accessed from the background thread to ensure they
+    // outlive the thread even if the coroutine is cancelled.
+    auto response = std::make_shared<CompletionResponse>();
+    auto cb_shared = std::make_shared<StreamCallback>(std::move(cb));
+
+    auto parser = std::make_shared<SseLineParser>(
+        [this, cb_shared, response](std::string_view data_line) {
+            try {
+                auto event = json::parse(data_line);
+                parse_sse_event(event, *response, *cb_shared);
+            } catch (const json::parse_error& e) {
+                LOG_WARN("Failed to parse SSE event: {}", e.what());
+            }
+        });
+
+    auto chunk_cb = [parser](const char* data, size_t length) -> bool {
+        parser->feed(data, length);
+        return true;
+    };
+
+    auto result = co_await http_.post_stream(
+        kMessagesPath, body.dump(), "application/json",
+        extra_headers, std::move(chunk_cb));
 
     if (!result.has_value()) {
         co_return make_fail(make_error(
@@ -401,6 +443,7 @@ auto AnthropicProvider::stream(CompletionRequest req, StreamCallback cb)
     const auto& http_resp = result.value();
 
     if (!http_resp.is_success()) {
+        // Error body was buffered by post_stream (not sent to chunk_cb).
         try {
             auto err_json = json::parse(http_resp.body);
             if (err_json.contains("error")) {
@@ -417,23 +460,7 @@ auto AnthropicProvider::stream(CompletionRequest req, StreamCallback cb)
             "HTTP " + std::to_string(http_resp.status) + ": " + http_resp.body));
     }
 
-    // Parse SSE response body
-    CompletionResponse response;
-    auto sse_lines = parse_sse_lines(http_resp.body);
-
-    for (const auto& line : sse_lines) {
-        if (line == "[DONE]") break;
-
-        try {
-            auto event = json::parse(line);
-            parse_sse_event(event, response, cb);
-        } catch (const json::parse_error& e) {
-            LOG_WARN("Failed to parse SSE event: {}", e.what());
-            continue;
-        }
-    }
-
-    co_return response;
+    co_return std::move(*response);
 }
 
 auto AnthropicProvider::name() const -> std::string_view {

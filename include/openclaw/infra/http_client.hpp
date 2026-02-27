@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cstdint>
+#include <functional>
 #include <map>
 #include <memory>
 #include <optional>
@@ -12,6 +13,10 @@
 #include "openclaw/core/error.hpp"
 
 namespace openclaw::infra {
+
+/// Callback invoked for each chunk of response data during streaming.
+/// Return true to continue receiving data, false to abort the request.
+using HttpChunkCallback = std::function<bool(const char* data, size_t length)>;
 
 /// HTTP response from the client.
 struct HttpResponse {
@@ -55,6 +60,17 @@ public:
               std::string_view body,
               std::string_view content_type = "application/json",
               const std::map<std::string, std::string>& headers = {})
+        -> boost::asio::awaitable<openclaw::Result<HttpResponse>>;
+
+    /// Performs a streaming HTTP POST request on a background thread.
+    /// The chunk_callback is invoked for each chunk of the response body
+    /// as it arrives (on the background thread). For error responses
+    /// (non-2xx), the body is buffered and returned in HttpResponse::body.
+    auto post_stream(std::string_view path,
+                     std::string_view body,
+                     std::string_view content_type,
+                     const std::map<std::string, std::string>& headers,
+                     HttpChunkCallback chunk_callback)
         -> boost::asio::awaitable<openclaw::Result<HttpResponse>>;
 
     /// Performs an asynchronous HTTP PUT request.
