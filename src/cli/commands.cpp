@@ -114,6 +114,14 @@ void register_gateway_command(CLI::App& app, Config& config) {
             config.gateway.bind = (bind == "all") ? BindMode::All : BindMode::Loopback;
         }
 
+        // Load provider configuration from environment variables when no
+        // config file was supplied (the normal deployment path).  The bridge
+        // passes ANTHROPIC_API_KEY as an env var to the child process.
+        if (config.providers.empty()) {
+            auto env_config = load_config_from_env();
+            config.providers = std::move(env_config.providers);
+        }
+
         LOG_INFO("Starting MyLobster++ gateway on port {}", config.gateway.port);
         LOG_INFO("Bind mode: {}", config.gateway.bind == BindMode::Loopback
                                       ? "loopback" : "all");
@@ -162,6 +170,7 @@ void register_gateway_command(CLI::App& app, Config& config) {
             }
             // TODO: initialize other provider types (openai, gemini, etc.)
         }
+        LOG_INFO("Providers configured: {}", provider_registry.list().size());
 
         // Runtime config for config.get/set/patch.
         gateway::RuntimeConfig runtime_config(config);
