@@ -163,6 +163,58 @@ auto build_device_auth_payload(const DeviceAuthParams& params) -> std::string {
 }
 
 // ---------------------------------------------------------------------------
+// v3 payload construction (v2026.2.26)
+// ---------------------------------------------------------------------------
+
+auto normalize_device_metadata_for_auth(std::string_view value) -> std::string {
+    std::string result;
+    result.reserve(value.size());
+
+    // Trim leading whitespace
+    auto start = value.find_first_not_of(" \t\r\n");
+    if (start == std::string_view::npos) return {};
+    auto end = value.find_last_not_of(" \t\r\n");
+    auto trimmed = value.substr(start, end - start + 1);
+
+    // ASCII-only lowercase, drop non-ASCII characters entirely
+    for (char c : trimmed) {
+        auto uc = static_cast<unsigned char>(c);
+        if (uc > 127) {
+            continue;  // drop non-ASCII
+        }
+        if (uc >= 'A' && uc <= 'Z') {
+            result += static_cast<char>(uc + 32);  // lowercase
+        } else {
+            result += c;
+        }
+    }
+    return result;
+}
+
+auto build_device_auth_payload_v3(const DeviceAuthV3Params& params) -> std::string {
+    // Format: "v3|deviceId|clientId|clientMode|role|scope1,scope2|signedAtMs|token|nonce|platform|deviceFamily"
+    std::string payload = "v3|";
+    payload += params.device_id + "|";
+    payload += params.client_id + "|";
+    payload += params.client_mode + "|";
+    payload += params.role + "|";
+
+    for (size_t i = 0; i < params.scopes.size(); ++i) {
+        if (i > 0) payload += ",";
+        payload += params.scopes[i];
+    }
+    payload += "|";
+
+    payload += std::to_string(params.signed_at_ms) + "|";
+    payload += params.token + "|";
+    payload += params.nonce + "|";
+    payload += normalize_device_metadata_for_auth(params.platform) + "|";
+    payload += normalize_device_metadata_for_auth(params.device_family);
+
+    return payload;
+}
+
+// ---------------------------------------------------------------------------
 // Ed25519 signature verification
 // ---------------------------------------------------------------------------
 

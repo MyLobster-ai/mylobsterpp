@@ -9,30 +9,10 @@
 
 #include <nlohmann/json.hpp>
 
+#include "openclaw/core/secrets.hpp"
 #include "openclaw/core/types.hpp"
 
-// std::optional serializer for nlohmann/json — enables NLOHMANN_DEFINE macros
-// to work with optional fields via j.value("key", default_val)
-namespace nlohmann {
-template <typename T>
-struct adl_serializer<std::optional<T>> {
-    static void to_json(json& j, const std::optional<T>& opt) {
-        if (opt.has_value()) {
-            j = *opt;
-        } else {
-            j = nullptr;
-        }
-    }
-
-    static void from_json(const json& j, std::optional<T>& opt) {
-        if (j.is_null()) {
-            opt = std::nullopt;
-        } else {
-            opt = j.get<T>();
-        }
-    }
-};
-} // namespace nlohmann
+// std::optional serializer is defined in secrets.hpp (included above).
 
 namespace openclaw {
 
@@ -69,13 +49,22 @@ struct ProviderConfig {
 };
 NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ProviderConfig, name, api_key, base_url, model, organization)
 
+/// v2026.2.26: Thread binding policy for channel sessions.
+struct ThreadBindingConfig {
+    bool enabled = true;           // Whether thread binding is active
+    bool spawn_subagent = true;    // Allow spawning sub-agents in threads
+    bool spawn_acp = true;         // Allow spawning ACP in threads
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ThreadBindingConfig, enabled, spawn_subagent, spawn_acp)
+
 struct ChannelConfig {
     std::string type;
     bool enabled = false;
     json settings;
     std::optional<int> history_limit;  // Per-channel DM history compaction limit
+    std::optional<ThreadBindingConfig> thread_binding;  // v2026.2.26
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ChannelConfig, type, enabled, settings, history_limit)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ChannelConfig, type, enabled, settings, history_limit, thread_binding)
 
 struct MemoryConfig {
     bool enabled = true;
@@ -118,8 +107,9 @@ struct SessionConfig {
     std::optional<std::string> db_path;
     int ttl_seconds = 86400;
     int compaction_floor_tokens = 0;  // Minimum tokens to keep after compaction (0 = no floor)
+    std::optional<ThreadBindingConfig> thread_binding;  // v2026.2.26
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(SessionConfig, store, db_path, ttl_seconds, compaction_floor_tokens)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(SessionConfig, store, db_path, ttl_seconds, compaction_floor_tokens, thread_binding)
 
 struct PluginConfig {
     std::string name;
@@ -189,8 +179,21 @@ struct Config {
     HeartbeatConfig heartbeat;
     SandboxConfig sandbox;
     HttpSecurityHeaders http_security;
+    std::optional<SecretsConfig> secrets;  // v2026.2.26: external secrets management
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image, model_by_channel, heartbeat, sandbox, http_security)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image, model_by_channel, heartbeat, sandbox, http_security, secrets)
+
+/// v2026.2.26: Resolve thread binding policy with cascade:
+/// session config > channel config > global default.
+inline auto resolve_thread_binding_policy(
+    const std::optional<ThreadBindingConfig>& session_override,
+    const std::optional<ThreadBindingConfig>& channel_override)
+    -> ThreadBindingConfig
+{
+    if (session_override) return *session_override;
+    if (channel_override) return *channel_override;
+    return ThreadBindingConfig{};  // global defaults
+}
 
 auto load_config(const std::filesystem::path& path) -> Config;
 auto load_config_from_env() -> Config;

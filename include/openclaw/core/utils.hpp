@@ -24,4 +24,9 @@ auto sha256(std::string_view data) -> std::string;
 auto url_encode(std::string_view s) -> std::string;
 auto url_decode(std::string_view s) -> std::string;
 
+/// v2026.2.26: Normalize a session key to prevent double-prefixing.
+/// If the key already starts with "agent_id:", strips the existing prefix
+/// before re-prefixing. This prevents "agent:agent:key" doubling.
+auto normalize_session_key(std::string_view key, std::string_view agent_id) -> std::string;
+
 } // namespace openclaw::utils

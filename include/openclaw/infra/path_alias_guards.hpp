@@ -1,11 +1,27 @@
 #pragma once
 
 #include <filesystem>
+#include <string>
+#include <string_view>
 #include <vector>
 
 #include "openclaw/core/error.hpp"
 
 namespace openclaw::infra {
+
+/// Decode a single percent-encoded byte (%XX) in a string.
+/// Returns the decoded string. Does NOT handle '+' → ' '.
+auto uri_decode_percent(std::string_view input) -> std::string;
+
+/// Iteratively decode percent-encoding up to `max_passes` times.
+/// Stops early if a pass produces no change (stable).
+auto iterative_uri_decode(std::string_view input, int max_passes = 3) -> std::string;
+
+/// Returns true if the string contains malformed percent-encoding:
+///   - %XX where X is not a valid hex digit
+///   - %00 (null byte injection)
+///   - Trailing '%' without two hex digits
+auto has_malformed_percent_encoding(std::string_view input) -> bool;
 
 /// Policy for handling path alias escape detection.
 enum class PathAliasPolicy {

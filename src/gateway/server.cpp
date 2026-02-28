@@ -551,31 +551,58 @@ auto GatewayServer::handle_connection(tcp::socket socket) -> awaitable<void> {
         }
         // 6d: Verify Ed25519 signature
         else {
-            // Reconstruct v2 payload
+            // Extract auth token
             std::string auth_token;
             if (params.contains("auth") && params["auth"].is_object()) {
                 auth_token = params["auth"].value("token", "");
             }
 
-            infra::DeviceAuthParams auth_params{
-                .device_id = dev_id,
-                .client_id = dev_client_id,
-                .client_mode = dev_client_mode,
-                .role = role,
-                .scopes = requested_scopes,
-                .signed_at_ms = signed_at,
-                .token = auth_token,
-                .nonce = dev_nonce,
-            };
-            auto payload = infra::build_device_auth_payload(auth_params);
+            // v2026.2.26: Detect payload version (default v2 for backward compat)
+            int payload_version = device.value("payloadVersion", 2);
+            std::string payload;
+
+            if (payload_version >= 3) {
+                // v3: includes platform and device_family metadata
+                std::string dev_platform = device.value("platform", "");
+                std::string dev_device_family = device.value("deviceFamily", "");
+
+                infra::DeviceAuthV3Params v3_params{};
+                v3_params.device_id = dev_id;
+                v3_params.client_id = dev_client_id;
+                v3_params.client_mode = dev_client_mode;
+                v3_params.role = role;
+                v3_params.scopes = requested_scopes;
+                v3_params.signed_at_ms = signed_at;
+                v3_params.token = auth_token;
+                v3_params.nonce = dev_nonce;
+                v3_params.platform = dev_platform;
+                v3_params.device_family = dev_device_family;
+                payload = infra::build_device_auth_payload_v3(v3_params);
+                LOG_DEBUG("Connection {}: using v3 device auth payload", conn_id);
+            } else {
+                // v2: original payload format
+                infra::DeviceAuthParams auth_params{
+                    .device_id = dev_id,
+                    .client_id = dev_client_id,
+                    .client_mode = dev_client_mode,
+                    .role = role,
+                    .scopes = requested_scopes,
+                    .signed_at_ms = signed_at,
+                    .token = auth_token,
+                    .nonce = dev_nonce,
+                };
+                payload = infra::build_device_auth_payload(auth_params);
+            }
 
             if (!infra::verify_device_signature(dev_pub_key, payload, dev_signature)) {
-                LOG_WARN("Connection {}: device signature verification failed", conn_id);
+                LOG_WARN("Connection {}: device signature verification failed (v{})",
+                         conn_id, payload_version);
                 granted_scopes.clear();
             } else {
                 has_valid_device = true;
                 device_pub_key = dev_pub_key;
-                LOG_DEBUG("Connection {}: device identity verified, id={}", conn_id, dev_id);
+                LOG_DEBUG("Connection {}: device identity verified (v{}), id={}",
+                          conn_id, payload_version, dev_id);
             }
         }
     } else if (!authenticator_.is_open()) {

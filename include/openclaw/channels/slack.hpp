@@ -9,6 +9,7 @@
 #include <boost/asio.hpp>
 #include <nlohmann/json.hpp>
 
+#include "openclaw/channels/auth_policy.hpp"
 #include "openclaw/channels/channel.hpp"
 #include "openclaw/infra/http_client.hpp"
 

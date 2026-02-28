@@ -2,6 +2,7 @@
 
 #include <chrono>
 #include <filesystem>
+#include <functional>
 #include <map>
 #include <optional>
 #include <string>
@@ -72,6 +73,15 @@ public:
 
     /// Compute the backoff delay for a given retry count.
     static auto backoff_delay(int retry_count) -> std::chrono::seconds;
+
+    /// v2026.2.26: Drain pending deliveries, attempting to resend each eligible entry.
+    /// Uses continue (not break) when an entry is not yet eligible for retry,
+    /// preventing head-of-line blocking where a single entry with remaining backoff
+    /// blocks all subsequent entries.
+    /// @param send_fn  Callback that attempts to send a delivery. Returns true on success.
+    /// @returns        Number of deliveries successfully sent.
+    using SendFunction = std::function<bool(const QueuedDelivery&)>;
+    auto drain_pending(SendFunction send_fn) -> size_t;
 
     /// Return the queue base directory.
     [[nodiscard]] auto base_dir() const -> const std::filesystem::path& { return base_dir_; }

@@ -186,6 +186,100 @@ TEST_CASE("Ed25519 sign and verify round-trip", "[device_auth]") {
     }
 }
 
+// v2026.2.26: Device auth v3 tests
+TEST_CASE("normalize_device_metadata_for_auth", "[device_auth]") {
+    SECTION("ASCII lowercase") {
+        CHECK(normalize_device_metadata_for_auth("DARWIN") == "darwin");
+        CHECK(normalize_device_metadata_for_auth("Linux") == "linux");
+        CHECK(normalize_device_metadata_for_auth("Windows") == "windows");
+    }
+
+    SECTION("trims whitespace") {
+        CHECK(normalize_device_metadata_for_auth("  desktop  ") == "desktop");
+        CHECK(normalize_device_metadata_for_auth("\tmobile\n") == "mobile");
+    }
+
+    SECTION("drops non-ASCII characters") {
+        CHECK(normalize_device_metadata_for_auth("darw\xc3\xadn") == "darwn");
+        CHECK(normalize_device_metadata_for_auth("\xc0\xc1server") == "server");
+    }
+
+    SECTION("empty and whitespace-only") {
+        CHECK(normalize_device_metadata_for_auth("").empty());
+        CHECK(normalize_device_metadata_for_auth("   ").empty());
+    }
+}
+
+TEST_CASE("build_device_auth_payload_v3", "[device_auth]") {
+    SECTION("produces correct v3 pipe-delimited format") {
+        DeviceAuthV3Params params{};
+        params.device_id = "abc123";
+        params.client_id = "client-1";
+        params.client_mode = "bridge";
+        params.role = "operator";
+        params.scopes = {"operator.write"};
+        params.signed_at_ms = 1700000000000;
+        params.token = "my-token";
+        params.nonce = "nonce-uuid";
+        params.platform = "Darwin";
+        params.device_family = "Desktop";
+
+        auto payload = build_device_auth_payload_v3(params);
+        CHECK(payload == "v3|abc123|client-1|bridge|operator|operator.write|1700000000000|my-token|nonce-uuid|darwin|desktop");
+    }
+
+    SECTION("v3 sign and verify round-trip") {
+        auto identity = generate_device_keypair();
+
+        DeviceAuthV3Params params{};
+        params.device_id = identity.device_id;
+        params.client_id = "test-client";
+        params.client_mode = "bridge";
+        params.role = "operator";
+        params.scopes = {"operator.write"};
+        params.signed_at_ms = openclaw::utils::timestamp_ms();
+        params.token = "test-token";
+        params.nonce = openclaw::utils::generate_uuid();
+        params.platform = "linux";
+        params.device_family = "server";
+
+        auto payload = build_device_auth_payload_v3(params);
+        auto sig = sign_device_payload(identity.private_key_pem, payload);
+        CHECK(verify_device_signature(identity.public_key_raw_b64url, payload, sig));
+    }
+
+    SECTION("v2 and v3 payloads differ for same base params") {
+        DeviceAuthV3Params v3_params{};
+        v3_params.device_id = "id";
+        v3_params.client_id = "cid";
+        v3_params.client_mode = "mode";
+        v3_params.role = "role";
+        v3_params.scopes = {"scope"};
+        v3_params.signed_at_ms = 123;
+        v3_params.token = "tok";
+        v3_params.nonce = "n";
+        v3_params.platform = "linux";
+        v3_params.device_family = "desktop";
+
+        DeviceAuthParams v2_params{
+            .device_id = "id",
+            .client_id = "cid",
+            .client_mode = "mode",
+            .role = "role",
+            .scopes = {"scope"},
+            .signed_at_ms = 123,
+            .token = "tok",
+            .nonce = "n",
+        };
+
+        auto v3_payload = build_device_auth_payload_v3(v3_params);
+        auto v2_payload = build_device_auth_payload(v2_params);
+        CHECK(v3_payload != v2_payload);
+        CHECK(v3_payload.starts_with("v3|"));
+        CHECK(v2_payload.starts_with("v2|"));
+    }
+}
+
 TEST_CASE("Device signature timestamp skew validation", "[device_auth]") {
     auto identity = generate_device_keypair();
 

@@ -60,6 +60,19 @@ auto parse_sse_lines(const std::string& body) -> std::vector<std::string> {
     return lines;
 }
 
+/// v2026.2.26: Normalize model name shortcuts to full model identifiers.
+auto normalize_gemini_model(std::string_view model) -> std::string {
+    auto m = std::string(model);
+    // Normalize common abbreviations
+    if (m == "gemini-3" || m == "gemini3") {
+        return "gemini-3.1-pro-preview";
+    }
+    if (m == "gemini-3-flash" || m == "gemini3-flash") {
+        return "gemini-3.1-flash-preview";
+    }
+    return m;
+}
+
 } // anonymous namespace
 
 GeminiProvider::GeminiProvider(boost::asio::io_context& ioc,
@@ -370,7 +383,7 @@ auto GeminiProvider::parse_stream_chunk(const json& chunk,
 
 auto GeminiProvider::complete(CompletionRequest req)
     -> boost::asio::awaitable<Result<CompletionResponse>> {
-    auto model = req.model.empty() ? default_model_ : req.model;
+    auto model = normalize_gemini_model(req.model.empty() ? default_model_ : req.model);
     auto body = build_request_body(req);
 
     // Gemini REST endpoint: /v1beta/models/{model}:generateContent?key={api_key}
@@ -411,7 +424,7 @@ auto GeminiProvider::complete(CompletionRequest req)
 
 auto GeminiProvider::stream(CompletionRequest req, StreamCallback cb)
     -> boost::asio::awaitable<Result<CompletionResponse>> {
-    auto model = req.model.empty() ? default_model_ : req.model;
+    auto model = normalize_gemini_model(req.model.empty() ? default_model_ : req.model);
     auto body = build_request_body(req);
 
     // Gemini streaming endpoint: /v1beta/models/{model}:streamGenerateContent?key={api_key}&alt=sse

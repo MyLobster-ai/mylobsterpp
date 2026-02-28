@@ -42,7 +42,7 @@
 
 // Version string; typically injected by CMake via -D, fallback to a default.
 #ifndef OPENCLAW_VERSION_STRING
-#define OPENCLAW_VERSION_STRING "2026.2.25"
+#define OPENCLAW_VERSION_STRING "2026.2.26"
 #endif
 
 namespace openclaw::cli {

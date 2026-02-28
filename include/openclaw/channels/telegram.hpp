@@ -8,6 +8,7 @@
 #include <boost/asio.hpp>
 #include <nlohmann/json.hpp>
 
+#include "openclaw/channels/auth_policy.hpp"
 #include "openclaw/channels/channel.hpp"
 #include "openclaw/infra/http_client.hpp"
 
@@ -132,6 +133,7 @@ private:
     TelegramConfig config_;
     boost::asio::io_context& ioc_;
     infra::HttpClient http_;
+    ChannelAuthPolicy auth_policy_;  // v2026.2.26: centralized auth
     std::atomic<bool> running_{false};
     int64_t last_update_id_{0};
     std::string bot_username_;

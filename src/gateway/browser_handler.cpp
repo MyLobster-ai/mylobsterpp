@@ -85,6 +85,21 @@ void register_browser_handlers(Protocol& protocol,
         },
         "Type text into an input field", "browser");
 
+    // browser.fill — v2026.2.26: fill a form field, defaults type to "text".
+    protocol.register_method("browser.fill",
+        []([[maybe_unused]] json params) -> awaitable<json> {
+            auto selector = params.value("selector", "");
+            auto value = params.value("value", "");
+            if (selector.empty()) {
+                co_return json{{"ok", false}, {"error", "selector is required"}};
+            }
+            // Default field type to "text" when not specified.
+            auto type = params.value("type", "text");
+            // TODO: wire to BrowserAction::fill via pool instance.
+            co_return json{{"ok", false}, {"error", "Not yet implemented"}};
+        },
+        "Fill a form field with a value", "browser");
+
     // browser.evaluate
     protocol.register_method("browser.evaluate",
         []([[maybe_unused]] json params) -> awaitable<json> {

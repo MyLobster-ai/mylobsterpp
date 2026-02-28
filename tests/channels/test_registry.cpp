@@ -5,6 +5,7 @@
 
 #include "openclaw/channels/registry.hpp"
 
+using namespace openclaw;
 using namespace openclaw::channels;
 
 /// Minimal stub channel for testing the registry.

@@ -250,6 +250,52 @@ auto BrowserAction::select(std::string_view selector, std::string_view value)
     co_return ok_result();
 }
 
+auto BrowserAction::fill(std::string_view selector, std::string_view value,
+                         std::string_view type) -> awaitable<Result<void>> {
+    // v2026.2.26: Fill a form field. `type` defaults to "text".
+    // For checkbox/radio, set the checked property; for other types, set value.
+    std::string field_type = type.empty() ? "text" : std::string(type);
+
+    if (field_type == "checkbox" || field_type == "radio") {
+        auto js = "(() => { const el = document.querySelector('" +
+                  std::string(selector) + "'); if (!el) return 'not_found'; "
+                  "el.checked = " + std::string(value) + "; "
+                  "el.dispatchEvent(new Event('change', { bubbles: true })); "
+                  "return 'ok'; })()";
+        auto result = co_await evaluate(js);
+        if (!result) {
+            co_return make_fail(result.error());
+        }
+        if (result->value.is_string() && result->value.get<std::string>() == "not_found") {
+            co_return make_fail(
+                make_error(ErrorCode::NotFound,
+                           "Form field not found",
+                           std::string(selector)));
+        }
+    } else {
+        // Default path for text, email, password, number, etc.
+        auto js = "(() => { const el = document.querySelector('" +
+                  std::string(selector) + "'); if (!el) return 'not_found'; "
+                  "el.value = " + json(std::string(value)).dump() + "; "
+                  "el.dispatchEvent(new Event('input', { bubbles: true })); "
+                  "el.dispatchEvent(new Event('change', { bubbles: true })); "
+                  "return 'ok'; })()";
+        auto result = co_await evaluate(js);
+        if (!result) {
+            co_return make_fail(result.error());
+        }
+        if (result->value.is_string() && result->value.get<std::string>() == "not_found") {
+            co_return make_fail(
+                make_error(ErrorCode::NotFound,
+                           "Form field not found",
+                           std::string(selector)));
+        }
+    }
+
+    LOG_DEBUG("Filled field {}: type={}", std::string(selector), field_type);
+    co_return ok_result();
+}
+
 auto BrowserAction::focus(std::string_view selector) -> awaitable<Result<void>> {
     auto node_id = co_await resolve_selector(selector);
     if (!node_id) {

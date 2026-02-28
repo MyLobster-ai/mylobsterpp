@@ -1,11 +1,44 @@
 #include "openclaw/sessions/manager.hpp"
 
 #include <chrono>
+#include <future>
 
 #include "openclaw/core/logger.hpp"
 #include "openclaw/core/utils.hpp"
 
 namespace openclaw::sessions {
+
+// v2026.2.26: Run a cleanup operation with a timeout.
+// Returns "ok" on success, "timeout" if the timeout was hit,
+// or "error" with the error message.
+enum class CleanupResult { Ok, Timeout, Error };
+
+static auto run_cleanup_with_timeout(
+    std::function<void()> op,
+    std::chrono::seconds duration) -> CleanupResult
+{
+    auto future = std::async(std::launch::async, [op = std::move(op)]() {
+        try {
+            op();
+        } catch (const std::exception& e) {
+            LOG_ERROR("Session cleanup error: {}", e.what());
+            throw;
+        }
+    });
+
+    auto status = future.wait_for(duration);
+    if (status == std::future_status::timeout) {
+        LOG_WARN("Session cleanup timed out after {}s", duration.count());
+        return CleanupResult::Timeout;
+    }
+
+    try {
+        future.get();  // propagate exception if any
+        return CleanupResult::Ok;
+    } catch (...) {
+        return CleanupResult::Error;
+    }
+}
 
 SessionManager::SessionManager(std::unique_ptr<SessionStore> store)
     : store_(std::move(store)) {
@@ -100,6 +133,24 @@ auto SessionManager::end_session(std::string_view id)
     auto update_result = co_await store_->update(data);
     if (!update_result) {
         co_return make_fail(update_result.error());
+    }
+
+    // v2026.2.26: Run ACP cleanup with 15s timeout.
+    // Errors are logged but not propagated (graceful degradation).
+    auto session_id_str = std::string(id);
+    auto cleanup_result = run_cleanup_with_timeout(
+        [sid = session_id_str]() {
+            // Cancel any active agent runs tied to this session.
+            // This is a placeholder — actual ACP cancellation depends on
+            // the agent runtime integration.
+            LOG_DEBUG("Running ACP cleanup for session {}", sid);
+        },
+        std::chrono::seconds(15));
+
+    if (cleanup_result == CleanupResult::Timeout) {
+        LOG_WARN("ACP cleanup for session {} timed out", id);
+    } else if (cleanup_result == CleanupResult::Error) {
+        LOG_WARN("ACP cleanup for session {} failed", id);
     }
 
     LOG_INFO("Ended session {}", id);

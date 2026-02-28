@@ -3,6 +3,7 @@
 #include <boost/asio/use_awaitable.hpp>
 
 #include "openclaw/core/logger.hpp"
+#include "openclaw/core/utils.hpp"
 
 namespace openclaw::gateway {
 
@@ -37,10 +38,27 @@ void register_cron_handlers(Protocol& protocol,
             }
             bool delete_after_run = params.value("deleteAfterRun", false);
 
+            // v2026.2.26: Accept optional sessionKey for task context.
+            auto session_key_raw = params.value("sessionKey", "");
+            std::optional<std::string> session_key;
+            if (!session_key_raw.empty()) {
+                // Normalize to prevent double-prefixing (e.g. "agent:agent:key").
+                auto agent_id = params.value("agentId", "");
+                session_key = agent_id.empty()
+                    ? session_key_raw
+                    : utils::normalize_session_key(session_key_raw, agent_id);
+            }
+
             // Create a placeholder task. Real tasks would execute agent actions.
+            auto task_session_key = session_key;
             auto result = scheduler.schedule(name, expression,
-                [name]() -> awaitable<void> {
-                    LOG_INFO("Cron task '{}' executed", name);
+                [name, task_session_key]() -> awaitable<void> {
+                    if (task_session_key) {
+                        LOG_INFO("Cron task '{}' executed (session={})",
+                                 name, *task_session_key);
+                    } else {
+                        LOG_INFO("Cron task '{}' executed", name);
+                    }
                     co_return;
                 },
                 delete_after_run);
@@ -48,7 +66,12 @@ void register_cron_handlers(Protocol& protocol,
             if (!result.has_value()) {
                 co_return json{{"ok", false}, {"error", result.error().what()}};
             }
-            co_return json{{"ok", true}, {"name", name}};
+
+            json response = {{"ok", true}, {"name", name}};
+            if (session_key) {
+                response["sessionKey"] = *session_key;
+            }
+            co_return response;
         },
         "Create a scheduled task", "cron");
 

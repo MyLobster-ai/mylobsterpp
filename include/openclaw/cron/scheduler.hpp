@@ -126,6 +126,7 @@ private:
         Task task;
         bool delete_after_run = false;  // Auto-cancel after successful execution
         int stagger_ms = 0;             // Delay before execution (jitter)
+        std::optional<std::string> session_key;  // v2026.2.26: session key for task context
     };
 
     boost::asio::io_context& ioc_;

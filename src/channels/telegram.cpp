@@ -21,6 +21,11 @@ TelegramChannel::TelegramChannel(TelegramConfig config, boost::asio::io_context&
           .timeout_seconds = config_.poll_timeout_seconds + 10,
           .default_headers = {{"Content-Type", "application/json"}},
       })
+    , auth_policy_{
+          .dm_policy = config_.dm_policy,
+          .dm_allowlist = config_.allowed_sender_ids,
+          .group_allowlist = config_.group_allowlist,
+      }
 {
 }
 
@@ -166,59 +171,21 @@ auto TelegramChannel::poll_loop() -> boost::asio::awaitable<void> {
 // ---------------------------------------------------------------------------
 
 auto TelegramChannel::is_dm_authorized(std::string_view sender_id) const -> bool {
-    // v2026.2.24: DM authorization policy enforcement
-    if (config_.dm_policy == "open") {
-        return true;
-    }
-
-    if (config_.dm_policy == "allowlist") {
-        for (const auto& id : config_.allowed_sender_ids) {
-            if (id == sender_id) {
-                return true;
-            }
-        }
-        return false;
-    }
-
-    // "pairing" mode - requires additional pairing flow (not yet implemented)
-    // Default to denying for unknown policies
-    return false;
+    // v2026.2.26: Delegate to centralized auth policy
+    return auth_policy_.is_dm_authorized(sender_id);
 }
 
 auto TelegramChannel::is_group_authorized(std::string_view chat_id) const -> bool {
-    // Empty group allowlist means all groups are allowed
-    if (config_.group_allowlist.empty()) {
-        return true;
-    }
-    for (const auto& id : config_.group_allowlist) {
-        if (id == chat_id) {
-            return true;
-        }
-    }
-    return false;
+    // v2026.2.26: Delegate to centralized auth policy
+    return auth_policy_.is_group_authorized(chat_id);
 }
 
 auto TelegramChannel::authorize_system_event_sender(
     std::string_view sender_id, std::string_view chat_id,
     std::string_view event_type) const -> bool
 {
-    // Check DM authorization for private chats
-    if (!chat_id.empty() && !chat_id.starts_with("-")) {
-        if (!is_dm_authorized(sender_id)) {
-            LOG_DEBUG("[telegram] System event '{}' from {} blocked by dm_policy",
-                      event_type, sender_id);
-            return false;
-        }
-    }
-    // Check group authorization for group chats
-    if (!chat_id.empty() && chat_id.starts_with("-")) {
-        if (!is_group_authorized(chat_id)) {
-            LOG_DEBUG("[telegram] System event '{}' in group {} blocked by group_allowlist",
-                      event_type, chat_id);
-            return false;
-        }
-    }
-    return true;
+    // v2026.2.26: Delegate to centralized auth policy
+    return auth_policy_.authorize_event(sender_id, chat_id, event_type, "telegram");
 }
 
 auto TelegramChannel::process_update(const json& update) -> void {

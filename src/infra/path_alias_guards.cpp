@@ -2,12 +2,82 @@
 
 #include "openclaw/core/logger.hpp"
 
+#include <cctype>
 #include <sys/stat.h>
 #include <unistd.h>
 
 namespace openclaw::infra {
 
 namespace fs = std::filesystem;
+
+// ---------------------------------------------------------------------------
+// URI percent-decoding helpers (v2026.2.26)
+// ---------------------------------------------------------------------------
+
+namespace {
+
+auto hex_digit_value(char c) -> int {
+    if (c >= '0' && c <= '9') return c - '0';
+    if (c >= 'a' && c <= 'f') return c - 'a' + 10;
+    if (c >= 'A' && c <= 'F') return c - 'A' + 10;
+    return -1;  // invalid
+}
+
+auto is_hex_digit(char c) -> bool {
+    return hex_digit_value(c) >= 0;
+}
+
+} // anonymous namespace
+
+auto uri_decode_percent(std::string_view input) -> std::string {
+    std::string result;
+    result.reserve(input.size());
+
+    for (size_t i = 0; i < input.size(); ++i) {
+        if (input[i] == '%' && i + 2 < input.size() &&
+            is_hex_digit(input[i + 1]) && is_hex_digit(input[i + 2])) {
+            auto hi = hex_digit_value(input[i + 1]);
+            auto lo = hex_digit_value(input[i + 2]);
+            result += static_cast<char>((hi << 4) | lo);
+            i += 2;
+        } else {
+            result += input[i];
+        }
+    }
+    return result;
+}
+
+auto iterative_uri_decode(std::string_view input, int max_passes) -> std::string {
+    std::string current(input);
+    for (int pass = 0; pass < max_passes; ++pass) {
+        auto decoded = uri_decode_percent(current);
+        if (decoded == current) {
+            break;  // stable — no further decoding possible
+        }
+        current = std::move(decoded);
+    }
+    return current;
+}
+
+auto has_malformed_percent_encoding(std::string_view input) -> bool {
+    for (size_t i = 0; i < input.size(); ++i) {
+        if (input[i] == '%') {
+            // Must have two hex digits following
+            if (i + 2 >= input.size()) {
+                return true;  // trailing %
+            }
+            if (!is_hex_digit(input[i + 1]) || !is_hex_digit(input[i + 2])) {
+                return true;  // malformed %XZ
+            }
+            // Reject %00 null byte injection
+            if (input[i + 1] == '0' && input[i + 2] == '0') {
+                return true;
+            }
+            i += 2;
+        }
+    }
+    return false;
+}
 
 namespace {
 
@@ -73,18 +143,70 @@ auto assert_no_path_alias_escape(
             "No workspace roots provided for path alias check"));
     }
 
+    // v2026.2.26: URI-decode the path before any fs::path construction.
+    // This prevents double-encoding attacks like /api%252Fchannels.
+    auto path_str = path.string();
+
+    // Fail-closed: reject malformed percent-encoding
+    if (has_malformed_percent_encoding(path_str)) {
+        LOG_WARN("Path contains malformed percent-encoding: {}", path_str);
+        return std::unexpected(make_error(
+            ErrorCode::Forbidden,
+            "Path contains malformed percent-encoding",
+            path_str));
+    }
+
+    // Iteratively decode and check each candidate
+    auto decoded_str = iterative_uri_decode(path_str);
+
+    // If still contains '%' after max passes, fail closed
+    if (decoded_str.find('%') != std::string::npos && decoded_str != path_str) {
+        LOG_WARN("Path still contains percent-encoding after iterative decode: {}", decoded_str);
+        return std::unexpected(make_error(
+            ErrorCode::Forbidden,
+            "Path contains unresolvable percent-encoding",
+            decoded_str));
+    }
+
+    // Use the decoded path for all subsequent checks
+    fs::path decoded_path(decoded_str);
+
     // Canonicalize the full path first to check final containment.
     // This resolves platform symlinks like /var -> /private/var on macOS.
     std::error_code canon_ec;
-    auto canonical_path = fs::canonical(path, canon_ec);
+    auto canonical_path = fs::canonical(decoded_path, canon_ec);
     if (!canon_ec) {
         if (!is_within_any_root(canonical_path, workspace_roots)) {
             LOG_WARN("Path escapes workspace after canonicalization: {} -> {}",
-                     path.string(), canonical_path.string());
+                     decoded_path.string(), canonical_path.string());
             return std::unexpected(make_error(
                 ErrorCode::Forbidden,
                 "Path escapes workspace boundary",
-                path.string() + " -> " + canonical_path.string()));
+                decoded_path.string() + " -> " + canonical_path.string()));
+        }
+    } else {
+        // v2026.2.26: Broken-symlink escape detection.
+        // canonical() failed — check if it's because the path is a broken symlink
+        // whose target would escape the workspace.
+        std::error_code sym_ec;
+        if (fs::is_symlink(decoded_path, sym_ec) && !sym_ec) {
+            auto target = fs::read_symlink(decoded_path, sym_ec);
+            if (!sym_ec) {
+                // Resolve relative target against parent
+                fs::path resolved_target = target.is_absolute()
+                    ? target
+                    : decoded_path.parent_path() / target;
+                // Use weakly_canonical to resolve what we can without requiring existence
+                auto weak_canonical = fs::weakly_canonical(resolved_target, sym_ec);
+                if (!sym_ec && !is_within_any_root(weak_canonical, workspace_roots)) {
+                    LOG_WARN("Broken symlink escape detected: {} -> {} (weakly: {})",
+                             decoded_path.string(), target.string(), weak_canonical.string());
+                    return std::unexpected(make_error(
+                        ErrorCode::Forbidden,
+                        "Broken symlink target escapes workspace boundary",
+                        decoded_path.string() + " -> " + weak_canonical.string()));
+                }
+            }
         }
     }
 
@@ -92,7 +214,7 @@ auto assert_no_path_alias_escape(
     // Only flag symlinks whose targets aren't ancestors of the workspace (true escapes),
     // not platform-level symlinks like /var -> /private/var.
     fs::path accumulated;
-    for (const auto& component : path) {
+    for (const auto& component : decoded_path) {
         accumulated /= component;
 
         // Skip the root component (e.g., "/")
@@ -104,6 +226,20 @@ auto assert_no_path_alias_escape(
         if (!fs::exists(accumulated, ec) || ec) {
             // Path component doesn't exist yet — stop walking
             break;
+        }
+
+        // v2026.2.26: Check intermediate hardlinks (regular files only).
+        // Directories naturally have nlink > 2 on most filesystems, so skip them.
+        if (fs::is_regular_file(accumulated, ec) && !ec) {
+            struct stat st{};
+            if (::lstat(accumulated.c_str(), &st) == 0 && st.st_nlink > 1) {
+                LOG_WARN("Hardlinked intermediate path component detected: {} (nlink={})",
+                         accumulated.string(), st.st_nlink);
+                return std::unexpected(make_error(
+                    ErrorCode::Forbidden,
+                    "Hardlinked intermediate path component rejected",
+                    accumulated.string() + " has " + std::to_string(st.st_nlink) + " links"));
+            }
         }
 
         // Check if this component is a symlink

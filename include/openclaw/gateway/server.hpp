@@ -1,10 +1,14 @@
 #pragma once
 
+#include <array>
 #include <atomic>
+#include <chrono>
 #include <cstdint>
+#include <deque>
 #include <filesystem>
 #include <functional>
 #include <memory>
+#include <mutex>
 #include <string>
 #include <unordered_map>
 #include <vector>
@@ -89,6 +93,53 @@ private:
 
 /// Callback type for new connection events.
 using ConnectionCallback = std::function<void(std::shared_ptr<Connection>)>;
+
+/// v2026.2.26: Protected route prefixes requiring gateway authentication.
+inline constexpr std::array<std::string_view, 1> PROTECTED_ROUTE_PREFIXES = {
+    "/api/channels"
+};
+
+/// v2026.2.26: Sliding-window rate limiter for auth failures per IP.
+/// 10 failures per 60-second window.
+struct AuthRateLimiter {
+    static constexpr int kMaxFailures = 10;
+    static constexpr int kWindowSeconds = 60;
+
+    /// Returns true if the IP is rate-limited (too many failures).
+    auto check(const std::string& ip) -> bool {
+        std::lock_guard lock(mutex_);
+        auto now = std::chrono::steady_clock::now();
+        prune(ip, now);
+        auto it = failures_.find(ip);
+        if (it == failures_.end()) return false;
+        return static_cast<int>(it->second.size()) >= kMaxFailures;
+    }
+
+    /// Record an auth failure for the given IP.
+    void record_failure(const std::string& ip) {
+        std::lock_guard lock(mutex_);
+        auto now = std::chrono::steady_clock::now();
+        failures_[ip].push_back(now);
+        prune(ip, now);
+    }
+
+private:
+    void prune(const std::string& ip, std::chrono::steady_clock::time_point now) {
+        auto cutoff = now - std::chrono::seconds(kWindowSeconds);
+        auto it = failures_.find(ip);
+        if (it == failures_.end()) return;
+        auto& q = it->second;
+        while (!q.empty() && q.front() < cutoff) {
+            q.pop_front();
+        }
+        if (q.empty()) {
+            failures_.erase(it);
+        }
+    }
+
+    std::mutex mutex_;
+    std::unordered_map<std::string, std::deque<std::chrono::steady_clock::time_point>> failures_;
+};
 
 /// The GatewayServer listens on a TCP port, accepts WebSocket upgrade
 /// requests, authenticates connections, and manages their lifecycle.
@@ -191,6 +242,9 @@ private:
 
     std::atomic<bool> running_{false};
     size_t max_connections_ = 100;
+
+    /// v2026.2.26: Rate limiter for plugin route auth failures.
+    AuthRateLimiter auth_rate_limiter_;
 };
 
 } // namespace openclaw::gateway

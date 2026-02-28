@@ -225,6 +225,47 @@ auto DeliveryQueue::load_pending() -> std::vector<QueuedDelivery> {
     return pending;
 }
 
+auto DeliveryQueue::drain_pending(SendFunction send_fn) -> size_t {
+    auto pending = load_pending();
+    size_t sent = 0;
+    auto now = Clock::now();
+
+    for (auto& delivery : pending) {
+        // Check backoff eligibility
+        auto delay = backoff_delay(delivery.retry_count);
+        if (now < delivery.enqueued_at + delay) {
+            // v2026.2.26: CONTINUE, not break.
+            // This is the head-of-line blocking fix: a single entry with
+            // remaining backoff should not prevent processing of subsequent
+            // entries that may be ready.
+            continue;
+        }
+
+        // Attempt resend
+        bool success = false;
+        try {
+            success = send_fn(delivery);
+        } catch (const std::exception& e) {
+            LOG_WARN("drain_pending: send threw for {}: {}", delivery.id, e.what());
+        }
+
+        if (success) {
+            // Normalize legacy entries: clear stale last_error on success
+            (void)ack(delivery.id);
+            ++sent;
+        } else {
+            (void)fail(delivery.id, "drain_pending: send failed");
+        }
+    }
+
+    if (sent > 0) {
+        LOG_INFO("drain_pending: successfully sent {} of {} pending deliveries",
+                 sent, pending.size());
+    }
+
+    return sent;
+}
+
 auto DeliveryQueue::backoff_delay(int retry_count) -> std::chrono::seconds {
     if (retry_count <= 0) return std::chrono::seconds{0};
     int idx = std::min(retry_count - 1, static_cast<int>(kBackoffSeconds.size()) - 1);

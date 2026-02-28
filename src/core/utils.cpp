@@ -209,4 +209,19 @@ auto url_decode(std::string_view s) -> std::string {
     return result;
 }
 
+auto normalize_session_key(std::string_view key, std::string_view agent_id) -> std::string {
+    if (key.empty()) return std::string(key);
+
+    std::string prefix = std::string(agent_id) + ":";
+
+    // Strip existing prefix if present to prevent doubling
+    std::string_view stripped = key;
+    if (key.starts_with(prefix)) {
+        stripped = key.substr(prefix.size());
+    }
+
+    // Re-prefix
+    return prefix + std::string(stripped);
+}
+
 } // namespace openclaw::utils

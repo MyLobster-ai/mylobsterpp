@@ -1,8 +1,11 @@
 #include "openclaw/gateway/chat_handler.hpp"
 
 #include <atomic>
+#include <chrono>
 #include <deque>
+#include <iomanip>
 #include <mutex>
+#include <sstream>
 
 #include <boost/asio/co_spawn.hpp>
 #include <boost/asio/detached.hpp>
@@ -22,6 +25,15 @@ using boost::asio::awaitable;
 namespace {
 
 static std::atomic<uint64_t> run_counter{0};
+
+/// v2026.2.26: Generate a current UTC timestamp string for system context.
+auto current_utc_timestamp() -> std::string {
+    auto now = std::chrono::system_clock::now();
+    auto time = std::chrono::system_clock::to_time_t(now);
+    std::ostringstream oss;
+    oss << std::put_time(std::gmtime(&time), "%FT%TZ");
+    return oss.str();
+}
 
 auto generate_run_id() -> std::string {
     auto count = run_counter.fetch_add(1, std::memory_order_relaxed);
@@ -123,6 +135,9 @@ auto run_chat_completion(std::string run_id,
 
         LOG_INFO("chat.send run={} model={} msg_len={}",
                  run_id, req.model, message_text.size());
+
+        // v2026.2.26: Inject current UTC timestamp into system context.
+        req.system_prompt = "Current time: " + current_utc_timestamp();
 
         // Add the user message.
         Message user_msg;

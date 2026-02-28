@@ -565,6 +565,16 @@ auto OpenAIProvider::normalize_vercel_model_ref(std::string_view model) -> std::
         return it->second;
     }
 
+    // v2026.2.26: Codex model routing
+    if (base == "gpt-5.3-codex") {
+        // Route to github-copilot provider path
+        return "gpt-5.3-codex";
+    }
+    if (base == "openai-codex-responses") {
+        // Route to /v1/responses endpoint
+        return "openai-codex-responses";
+    }
+
     // Return the full original string if no mapping found
     return std::string(model);
 }

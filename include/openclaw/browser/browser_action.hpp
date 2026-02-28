@@ -109,6 +109,11 @@ public:
     auto select(std::string_view selector, std::string_view value)
         -> awaitable<Result<void>>;
 
+    /// v2026.2.26: Fill a form field with a value.
+    /// Defaults `type` to "text" when not specified.
+    auto fill(std::string_view selector, std::string_view value,
+              std::string_view type = "text") -> awaitable<Result<void>>;
+
     /// Focus an element identified by a CSS selector.
     auto focus(std::string_view selector) -> awaitable<Result<void>>;
 
