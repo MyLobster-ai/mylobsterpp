@@ -91,6 +91,35 @@ private:
     std::unique_ptr<Impl> impl_;
 };
 
+/// v2026.3.2: Ollama embedding provider.
+/// Uses the Ollama /api/embeddings endpoint for local embedding generation.
+class OllamaEmbeddings : public EmbeddingProvider {
+public:
+    OllamaEmbeddings(boost::asio::io_context& ioc,
+                     std::string model = "nomic-embed-text",
+                     std::string base_url = "http://localhost:11434",
+                     size_t dimensions = 768);
+
+    ~OllamaEmbeddings() override;
+
+    OllamaEmbeddings(const OllamaEmbeddings&) = delete;
+    OllamaEmbeddings& operator=(const OllamaEmbeddings&) = delete;
+    OllamaEmbeddings(OllamaEmbeddings&&) noexcept;
+    OllamaEmbeddings& operator=(OllamaEmbeddings&&) noexcept;
+
+    auto embed(std::string_view text)
+        -> awaitable<Result<std::vector<float>>> override;
+
+    auto embed_batch(std::vector<std::string> texts)
+        -> awaitable<Result<std::vector<std::vector<float>>>> override;
+
+    [[nodiscard]] auto dimensions() const -> size_t override;
+
+private:
+    struct Impl;
+    std::unique_ptr<Impl> impl_;
+};
+
 /// Embedding provider chain that tries multiple providers in order.
 /// Falls back to the next provider if the current one fails.
 class EmbeddingProviderChain : public EmbeddingProvider {

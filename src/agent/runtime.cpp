@@ -48,6 +48,29 @@ auto AgentRuntime::process(CompletionRequest req)
         }
     }
 
+    // v2026.3.2: Thinking fallback — retry with think=off if provider rejects
+    if (req.thinking != ThinkingMode::None) {
+        auto fallback_req = req;  // Save copy for potential retry
+        auto result = co_await provider_->complete(std::move(req));
+
+        if (!result.has_value()) {
+            auto err_msg = std::string(result.error().what());
+            bool is_thinking_rejection =
+                err_msg.find("thinking") != std::string::npos &&
+                (err_msg.find("not supported") != std::string::npos ||
+                 err_msg.find("unsupported") != std::string::npos ||
+                 err_msg.find("invalid") != std::string::npos);
+
+            if (is_thinking_rejection) {
+                LOG_WARN("Provider rejected thinking mode, retrying with think=off");
+                fallback_req.thinking = ThinkingMode::None;
+                co_return co_await provider_->complete(std::move(fallback_req));
+            }
+        }
+
+        co_return result;
+    }
+
     co_return co_await provider_->complete(std::move(req));
 }
 
@@ -172,6 +195,9 @@ auto AgentRuntime::process_with_tools(CompletionRequest req, int max_iterations)
 
         LOG_INFO("Model requested {} tool call(s)", tool_calls.size());
 
+        // v2026.3.2: Mark pending tool-call state
+        pending_tool_call_ = true;
+
         // Add the assistant's response to the conversation
         req.messages.push_back(response.message);
 
@@ -185,6 +211,9 @@ auto AgentRuntime::process_with_tools(CompletionRequest req, int max_iterations)
             auto result_block = co_await execute_tool_call(tool_call);
             tool_results_msg.content.push_back(std::move(result_block));
         }
+
+        // v2026.3.2: Clear pending tool-call state after results collected
+        pending_tool_call_ = false;
 
         // Add tool results to the conversation
         req.messages.push_back(std::move(tool_results_msg));
@@ -252,6 +281,9 @@ auto AgentRuntime::process_with_tools_stream(CompletionRequest req, StreamCallba
 
         LOG_INFO("Streaming: Model requested {} tool call(s)", tool_calls.size());
 
+        // v2026.3.2: Mark pending tool-call state
+        pending_tool_call_ = true;
+
         // Add the assistant's response to the conversation
         req.messages.push_back(response.message);
 
@@ -265,6 +297,9 @@ auto AgentRuntime::process_with_tools_stream(CompletionRequest req, StreamCallba
             auto result_block = co_await execute_tool_call(tool_call);
             tool_results_msg.content.push_back(std::move(result_block));
         }
+
+        // v2026.3.2: Clear pending tool-call state after results collected
+        pending_tool_call_ = false;
 
         req.messages.push_back(std::move(tool_results_msg));
         final_response = std::move(response);
@@ -304,6 +339,18 @@ void AgentRuntime::set_fallback_providers(std::vector<std::shared_ptr<Provider>>
     fallback_providers_ = std::move(fallbacks);
     LOG_INFO("Set {} fallback provider(s) for model chain traversal",
              fallback_providers_.size());
+}
+
+// v2026.3.2: Clear pending tool-call state on interruptions
+void AgentRuntime::clear_pending_tool_state() {
+    if (pending_tool_call_) {
+        LOG_INFO("Clearing pending tool-call state (interruption cleanup)");
+        pending_tool_call_ = false;
+    }
+}
+
+auto AgentRuntime::has_pending_tool_call() const -> bool {
+    return pending_tool_call_;
 }
 
 auto AgentRuntime::is_stop_phrase(std::string_view text) -> bool {

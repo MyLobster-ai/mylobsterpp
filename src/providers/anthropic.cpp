@@ -134,10 +134,37 @@ AnthropicProvider::AnthropicProvider(boost::asio::io_context& ioc,
 
 AnthropicProvider::~AnthropicProvider() = default;
 
+/// v2026.3.2: Check if a model is a Claude 4.6 model that defaults to adaptive thinking.
+auto is_claude_4_6_model(const std::string& model) -> bool {
+    return model.starts_with("claude-opus-4-6") ||
+           model.starts_with("claude-sonnet-4-6") ||
+           model.starts_with("claude-opus-4.6") ||
+           model.starts_with("claude-sonnet-4.6") ||
+           model == "claude-opus-4-6" ||
+           model == "claude-sonnet-4-6";
+}
+
+/// v2026.3.2: Resolve effective thinking mode for a model.
+/// Claude 4.6 models default to adaptive thinking; other reasoning-capable
+/// models default to low unless explicitly configured.
+auto resolve_thinking_mode(ThinkingMode requested, const std::string& model) -> ThinkingMode {
+    if (requested != ThinkingMode::None) {
+        return requested;  // Explicit configuration takes precedence
+    }
+
+    // v2026.3.2: Claude 4.6 defaults to adaptive thinking
+    if (is_claude_4_6_model(model)) {
+        return ThinkingMode::Adaptive;
+    }
+
+    return ThinkingMode::None;
+}
+
 auto AnthropicProvider::build_request_body(const CompletionRequest& req) const -> json {
     json body;
 
-    body["model"] = req.model.empty() ? default_model_ : req.model;
+    auto model = req.model.empty() ? default_model_ : req.model;
+    body["model"] = model;
 
     if (req.system_prompt.has_value() && !req.system_prompt->empty()) {
         body["system"] = *req.system_prompt;
@@ -165,9 +192,10 @@ auto AnthropicProvider::build_request_body(const CompletionRequest& req) const -
         body["tools"] = req.tools;
     }
 
-    // Apply thinking configuration
-    if (req.thinking != ThinkingMode::None) {
-        auto thinking_config = agent::thinking_config_from_mode(req.thinking);
+    // v2026.3.2: Resolve thinking mode with Claude 4.6 adaptive defaults
+    auto effective_thinking = resolve_thinking_mode(req.thinking, model);
+    if (effective_thinking != ThinkingMode::None) {
+        auto thinking_config = agent::thinking_config_from_mode(effective_thinking);
         agent::apply_thinking_anthropic(body, thinking_config);
     }
 
@@ -200,9 +228,10 @@ auto AnthropicProvider::parse_response(const std::string& body) const
     response.stop_reason = j.value("stop_reason", "");
 
     // Parse usage
+    // v2026.3.2: Clamp negative token values to zero
     if (j.contains("usage")) {
-        response.input_tokens = j["usage"].value("input_tokens", 0);
-        response.output_tokens = j["usage"].value("output_tokens", 0);
+        response.input_tokens = clamp_token_count(j["usage"].value("input_tokens", 0));
+        response.output_tokens = clamp_token_count(j["usage"].value("output_tokens", 0));
     }
 
     // Parse the message
@@ -248,7 +277,8 @@ auto AnthropicProvider::parse_sse_event(const json& event,
             response.message.created_at = Clock::now();
 
             if (msg.contains("usage")) {
-                response.input_tokens = msg["usage"].value("input_tokens", 0);
+                // v2026.3.2: Clamp negative token values to zero
+                response.input_tokens = clamp_token_count(msg["usage"].value("input_tokens", 0));
             }
         }
     } else if (event_type == "content_block_start") {
@@ -336,7 +366,8 @@ auto AnthropicProvider::parse_sse_event(const json& event,
             response.stop_reason = event["delta"].value("stop_reason", "");
         }
         if (event.contains("usage")) {
-            response.output_tokens = event["usage"].value("output_tokens", 0);
+            // v2026.3.2: Clamp negative token values to zero
+            response.output_tokens = clamp_token_count(event["usage"].value("output_tokens", 0));
         }
     } else if (event_type == "message_stop") {
         CompletionChunk chunk;
@@ -469,8 +500,14 @@ auto AnthropicProvider::name() const -> std::string_view {
 
 auto AnthropicProvider::models() const -> std::vector<std::string> {
     return {
+        // v2026.3.2: Claude 4.6 models (adaptive thinking default)
+        "claude-opus-4-6-20260301",
+        "claude-sonnet-4-6-20260301",
+        // Claude 4.x models
         "claude-sonnet-4-20250514",
         "claude-opus-4-20250514",
+        // Claude 3.5 models
+        "claude-haiku-4-5-20251001",
         "claude-haiku-3-5-20241022",
         "claude-3-5-sonnet-20241022",
         "claude-3-5-haiku-20241022",

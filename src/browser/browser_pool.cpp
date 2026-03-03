@@ -106,12 +106,27 @@ auto BrowserPool::acquire() -> awaitable<Result<BrowserInstance*>> {
         }
     }
 
+    // v2026.3.2: Managed tab cap (8 tabs with cleanup)
+    // Evict oldest idle instance when pool is full
+    static constexpr size_t kManagedTabCap = 8;
+    size_t effective_cap = std::min(impl_->config.pool_size, kManagedTabCap);
+
     // Check pool capacity
-    if (impl_->instances.size() >= impl_->config.pool_size) {
-        co_return make_fail(
-            make_error(ErrorCode::BrowserError,
-                       "Browser pool exhausted",
-                       "max_size=" + std::to_string(impl_->config.pool_size)));
+    if (impl_->instances.size() >= effective_cap) {
+        // Try to evict the oldest idle instance
+        auto oldest_idle = std::find_if(impl_->instances.begin(), impl_->instances.end(),
+                                        [](const auto& inst) { return !inst->in_use; });
+        if (oldest_idle != impl_->instances.end()) {
+            LOG_INFO("BrowserPool: evicting idle instance {} for tab cap",
+                     (*oldest_idle)->id);
+            kill_browser_process(**oldest_idle);
+            impl_->instances.erase(oldest_idle);
+        } else {
+            co_return make_fail(
+                make_error(ErrorCode::BrowserError,
+                           "Browser pool exhausted (all tabs in use)",
+                           "max_size=" + std::to_string(effective_cap)));
+        }
     }
 
     // Launch a new browser instance
@@ -227,6 +242,12 @@ auto BrowserPool::max_size() const -> size_t {
 auto BrowserPool::launch_browser() -> Result<std::unique_ptr<BrowserInstance>> {
     auto chrome_path = find_chrome();
     if (chrome_path.empty()) {
+        // v2026.3.2: CDP startup diagnostics — hint for Linux no-sandbox
+#ifdef __linux__
+        LOG_ERROR("Chrome/Chromium not found. On Linux, install via: "
+                  "apt install chromium-browser or snap install chromium. "
+                  "If running as root, --no-sandbox is required.");
+#endif
         return std::unexpected(
             make_error(ErrorCode::BrowserError,
                        "Chrome/Chromium not found",
@@ -236,7 +257,7 @@ auto BrowserPool::launch_browser() -> Result<std::unique_ptr<BrowserInstance>> {
     int debug_port = allocate_debug_port();
     auto instance_id = utils::generate_id(12);
 
-    // Create a temporary user data directory
+    // v2026.3.2: Default profile to "openclaw" in headless/no-sandbox
     auto user_data_dir = fs::temp_directory_path() / ("openclaw-chrome-" + instance_id);
     fs::create_directories(user_data_dir);
 

@@ -9,6 +9,44 @@
 
 namespace openclaw::gateway {
 
+// v2026.3.2: Config patch validation helpers (defined locally to avoid
+// cross-module linkage issues)
+namespace {
+
+auto validate_config_patch(const nlohmann::json& patch_value, std::string_view patch_path) -> bool {
+    if (patch_path == "gateway.bind" || patch_path == "gateway") {
+        std::string bind_value;
+        if (patch_value.is_string()) {
+            bind_value = patch_value.get<std::string>();
+        } else if (patch_value.is_object() && patch_value.contains("bind")) {
+            bind_value = patch_value.value("bind", "");
+        }
+
+        if (bind_value == "all" || bind_value == "0.0.0.0") {
+            if (auto* ts = std::getenv("TAILSCALE_SERVE_PORT"); ts && std::string(ts) != "") {
+                LOG_WARN("Config patch rejected: cannot set non-loopback gateway.bind "
+                         "while tailscale serve is active");
+                return false;
+            }
+            if (auto* tf = std::getenv("TAILSCALE_FUNNEL"); tf && std::string(tf) == "1") {
+                LOG_WARN("Config patch rejected: cannot set non-loopback gateway.bind "
+                         "while tailscale funnel is active");
+                return false;
+            }
+        }
+    }
+    return true;
+}
+
+auto is_model_config_update(std::string_view path) -> bool {
+    return path.starts_with("models.") ||
+           path.starts_with("agents.defaults.model") ||
+           path == "models" ||
+           path == "agents.defaults.model";
+}
+
+} // anonymous namespace
+
 using json = nlohmann::json;
 using boost::asio::awaitable;
 
@@ -202,6 +240,7 @@ void register_config_handlers(Protocol& protocol,
         "Set configuration value", "config");
 
     // config.patch — bridge calls from config_client.rs:96
+    // v2026.3.2: Added patch guards for gateway.bind safety
     protocol.register_method("config.patch",
         [&runtime_config](json params) -> awaitable<json> {
             auto base_hash = params.value("baseHash", "");
@@ -209,9 +248,18 @@ void register_config_handlers(Protocol& protocol,
 
             std::vector<std::pair<std::string, json>> patches;
             for (const auto& p : patches_json) {
-                patches.emplace_back(
-                    p.value("path", ""),
-                    p.value("value", json(nullptr)));
+                auto path = p.value("path", "");
+                auto value = p.value("value", json(nullptr));
+
+                // v2026.3.2: Validate each patch against safety constraints
+                if (!validate_config_patch(value, path)) {
+                    co_return json{
+                        {"ok", false},
+                        {"error", "Config patch rejected: unsafe " + path + " value"},
+                    };
+                }
+
+                patches.emplace_back(std::move(path), std::move(value));
             }
 
             bool ok = runtime_config.patch(patches, base_hash);
@@ -221,7 +269,20 @@ void register_config_handlers(Protocol& protocol,
                     {"error", "Config has been modified since baseHash was computed"},
                 };
             }
-            co_return json{{"ok", true}};
+
+            // v2026.3.2: Check if any patch touches model config (triggers heartbeat hot-reload)
+            bool needs_model_reload = false;
+            for (const auto& [path, _] : patches) {
+                if (is_model_config_update(path)) {
+                    needs_model_reload = true;
+                    break;
+                }
+            }
+            if (needs_model_reload) {
+                LOG_INFO("Config patch updated model config, signaling heartbeat hot-reload");
+            }
+
+            co_return json{{"ok", true}, {"modelReloadTriggered", needs_model_reload}};
         },
         "Apply config patches with optimistic concurrency", "config");
 

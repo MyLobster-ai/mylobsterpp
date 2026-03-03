@@ -56,4 +56,30 @@ auto harden_approved_execution_paths(const std::filesystem::path& cwd,
                                       const std::filesystem::path& executable)
     -> bool;
 
+/// v2026.3.2: Escape regex metacharacters in path-pattern literals.
+/// Used for exec approval patterns to prevent regex injection via
+/// characters like '+' in paths (e.g., `/usr/bin/g++`).
+auto escape_regex_metacharacters(std::string_view input) -> std::string;
+
+/// v2026.3.2: Revalidate approval-bound cwd identity before execution.
+/// Ensures the working directory hasn't been swapped between the time
+/// an approval was granted and the time the command is executed.
+auto revalidate_approval_cwd_identity(
+    const std::filesystem::path& original_cwd,
+    const std::filesystem::path& current_cwd) -> bool;
+
+/// v2026.3.2: Validate with preserved shell/dispatch-wrapper argv.
+/// When preserve_wrappers is true, validates the full argv chain
+/// instead of unwrapping to the inner command.
+auto validate_with_preserved_argv(
+    const std::vector<std::string>& argv,
+    std::string_view declared_command,
+    bool preserve_wrappers = false) -> bool;
+
+#ifdef _WIN32
+/// v2026.3.2: Windows ACPX spawn - resolve .cmd/.bat wrappers via PATH/PATHEXT.
+auto resolve_windows_cmd_wrapper(std::string_view command)
+    -> std::optional<std::filesystem::path>;
+#endif
+
 } // namespace openclaw::infra

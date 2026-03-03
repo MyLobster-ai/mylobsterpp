@@ -442,11 +442,21 @@ auto HybridSearch::merge_results(std::vector<SearchResult>& vector_results,
     }
 
     // Compute combined score using weighted sum
+    // v2026.3.2: Preserve keyword-backed matches with text-weight floor
+    // If a result has a keyword score but no vector score, apply a minimum
+    // weight to prevent pure-keyword matches from being suppressed
+    constexpr double kKeywordFloor = 0.1;
+
     std::vector<SearchResult> results;
     results.reserve(merged_map.size());
     for (auto& [id, r] : merged_map) {
         r.combined_score = options.vector_weight * r.vector_score +
                            options.keyword_weight * r.keyword_score;
+        // Apply floor: if keyword match exists but combined score is below floor,
+        // boost to floor to prevent keyword-only matches from being dropped
+        if (r.keyword_score > 0.0 && r.combined_score < kKeywordFloor) {
+            r.combined_score = kKeywordFloor;
+        }
         results.push_back(std::move(r));
     }
 

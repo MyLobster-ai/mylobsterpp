@@ -56,6 +56,18 @@ public:
     /// Returns the number of loaded plugins.
     [[nodiscard]] auto size() const noexcept -> size_t;
 
+    /// v2026.3.2: Load bundled plugins before auto-discovered plugins.
+    /// @param bundled_dir  Directory containing bundled plugins (loaded first).
+    /// @param auto_dir     Directory containing auto-discovered plugins (loaded second).
+    auto load_all_ordered(const std::filesystem::path& bundled_dir,
+                          const std::filesystem::path& auto_dir)
+        -> Result<std::vector<Plugin*>>;
+
+    /// v2026.3.2: Validate a plugin command registration.
+    /// Returns error if name/description are invalid.
+    static auto validate_command(std::string_view name, std::string_view description)
+        -> Result<void>;
+
 private:
     struct LoadedPlugin {
         void* handle = nullptr;

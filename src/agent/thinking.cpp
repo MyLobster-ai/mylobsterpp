@@ -15,6 +15,14 @@ void apply_thinking_anthropic(json& request_body, const ThinkingConfig& config) 
     } else if (config.mode == ThinkingMode::Extended) {
         // Default budget for extended thinking
         thinking["budget_tokens"] = 10000;
+    } else if (config.mode == ThinkingMode::Adaptive) {
+        // v2026.3.2: Adaptive thinking uses a moderate budget that the model
+        // can scale up or down based on task complexity
+        thinking["budget_tokens"] = 8000;
+        thinking["adaptive"] = true;
+    } else if (config.mode == ThinkingMode::Low) {
+        // v2026.3.2: Low thinking — minimal reasoning budget
+        thinking["budget_tokens"] = 2000;
     } else {
         // Basic thinking -- smaller budget
         thinking["budget_tokens"] = 5000;
@@ -35,6 +43,12 @@ void apply_thinking_openai(json& request_body, const ThinkingConfig& config) {
     // OpenAI uses "reasoning_effort" for o1/o3 models
     if (config.mode == ThinkingMode::Extended) {
         request_body["reasoning_effort"] = "high";
+    } else if (config.mode == ThinkingMode::Adaptive) {
+        // v2026.3.2: Map adaptive to medium reasoning effort
+        request_body["reasoning_effort"] = "medium";
+    } else if (config.mode == ThinkingMode::Low) {
+        // v2026.3.2: Low thinking maps to low reasoning effort
+        request_body["reasoning_effort"] = "low";
     } else {
         request_body["reasoning_effort"] = "medium";
     }
@@ -63,6 +77,16 @@ auto thinking_config_from_mode(ThinkingMode mode) -> ThinkingConfig {
             config.budget_tokens = 10000;
             config.include_in_response = true;
             break;
+        case ThinkingMode::Adaptive:
+            // v2026.3.2: Adaptive defaults
+            config.budget_tokens = 8000;
+            config.include_in_response = true;
+            break;
+        case ThinkingMode::Low:
+            // v2026.3.2: Low defaults
+            config.budget_tokens = 2000;
+            config.include_in_response = false;
+            break;
     }
 
     return config;
@@ -71,6 +95,8 @@ auto thinking_config_from_mode(ThinkingMode mode) -> ThinkingConfig {
 auto parse_thinking_mode(std::string_view mode_str) -> ThinkingMode {
     if (mode_str == "basic") return ThinkingMode::Basic;
     if (mode_str == "extended") return ThinkingMode::Extended;
+    if (mode_str == "adaptive") return ThinkingMode::Adaptive;
+    if (mode_str == "low") return ThinkingMode::Low;
     return ThinkingMode::None;
 }
 

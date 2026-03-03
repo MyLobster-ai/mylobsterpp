@@ -118,6 +118,11 @@ auto run_chat_completion(std::string run_id,
     auto timer = std::make_shared<boost::asio::steady_timer>(
         executor, boost::asio::steady_timer::time_point::max());
 
+    // v2026.3.2: NO_REPLY suppression buffer.
+    // Suppresses assistant lead-fragment deltas that are prefixes of "NO_REPLY"
+    // to prevent partial "NO" leaks on silent-response runs.
+    auto no_reply_buffer = std::make_shared<NoReplyBuffer>();
+
     // Spawn consumer coroutine that broadcasts chunks as they arrive.
     auto consumer = boost::asio::co_spawn(executor,
         consume_chunks(queue, timer, run_id, server),
@@ -151,10 +156,21 @@ auto run_chat_completion(std::string run_id,
 
         // StreamCallback: pushes each chunk to the queue and notifies
         // the consumer. Runs on the background thread (from post_stream).
-        auto stream_cb = [queue, timer](const providers::CompletionChunk& chunk) {
+        // v2026.3.2: Text chunks are filtered through NO_REPLY suppression.
+        auto stream_cb = [queue, timer, no_reply_buffer](const providers::CompletionChunk& chunk) {
+            providers::CompletionChunk filtered_chunk = chunk;
+
+            if (chunk.type == "text") {
+                auto emitted = no_reply_buffer->feed(chunk.text);
+                if (emitted.empty()) {
+                    return;  // Still buffering, don't emit
+                }
+                filtered_chunk.text = std::move(emitted);
+            }
+
             {
                 std::lock_guard lock(queue->mtx);
-                queue->chunks.push_back(chunk);
+                queue->chunks.push_back(std::move(filtered_chunk));
             }
             // Post cancel to the timer's executor for thread safety.
             boost::asio::post(timer->get_executor(),
@@ -181,17 +197,56 @@ auto run_chat_completion(std::string run_id,
                     final_text += block.text;
                 }
             }
-            LOG_INFO("chat.send run={} completed: {} chars, model={}",
-                     run_id, final_text.size(), resp.model);
-            co_await server.broadcast(make_event("chat", json{
-                {"runId", run_id},
-                {"state", "final"},
-                {"text", final_text},
-                {"model", resp.model},
-                {"inputTokens", resp.input_tokens},
-                {"outputTokens", resp.output_tokens},
-                {"stopReason", resp.stop_reason},
-            }));
+
+            // v2026.3.2: Flush NO_REPLY buffer and check for suppression.
+            auto buffered_remainder = no_reply_buffer->flush_final();
+            if (!buffered_remainder.empty()) {
+                // There was buffered text that wasn't NO_REPLY — emit it
+                co_await server.broadcast(make_event("chat", json{
+                    {"runId", run_id},
+                    {"state", "delta"},
+                    {"stream", "assistant"},
+                    {"text", buffered_remainder},
+                }));
+            }
+
+            // v2026.3.2: Suppress exact NO_REPLY final replies.
+            // Strip NO_REPLY token from mixed-content messages.
+            static constexpr std::string_view NO_REPLY_TOKEN = "NO_REPLY";
+            if (final_text == NO_REPLY_TOKEN) {
+                LOG_DEBUG("chat.send run={}: suppressing NO_REPLY final response", run_id);
+                co_await server.broadcast(make_event("chat", json{
+                    {"runId", run_id},
+                    {"state", "final"},
+                    {"text", ""},
+                    {"model", resp.model},
+                    {"inputTokens", resp.input_tokens},
+                    {"outputTokens", resp.output_tokens},
+                    {"stopReason", resp.stop_reason},
+                    {"suppressed", true},
+                }));
+            } else {
+                // Strip NO_REPLY from mixed-content
+                auto pos = final_text.find(NO_REPLY_TOKEN);
+                if (pos != std::string::npos) {
+                    final_text.erase(pos, NO_REPLY_TOKEN.size());
+                    // Trim leading/trailing whitespace after removal
+                    while (!final_text.empty() && final_text.front() == ' ') final_text.erase(0, 1);
+                    while (!final_text.empty() && final_text.back() == ' ') final_text.pop_back();
+                }
+
+                LOG_INFO("chat.send run={} completed: {} chars, model={}",
+                         run_id, final_text.size(), resp.model);
+                co_await server.broadcast(make_event("chat", json{
+                    {"runId", run_id},
+                    {"state", "final"},
+                    {"text", final_text},
+                    {"model", resp.model},
+                    {"inputTokens", resp.input_tokens},
+                    {"outputTokens", resp.output_tokens},
+                    {"stopReason", resp.stop_reason},
+                }));
+            }
         } else {
             LOG_ERROR("chat.send run={} provider error: {}",
                       run_id, result.error().what());

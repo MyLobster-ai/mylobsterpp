@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
 project(mylobsterpp
-    VERSION 2026.2.26
+    VERSION 2026.3.2
     DESCRIPTION "MyLobster++ C++23 AI Assistant Platform"
     LANGUAGES CXX
 )

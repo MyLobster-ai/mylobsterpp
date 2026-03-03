@@ -32,6 +32,7 @@ OllamaProvider::OllamaProvider(boost::asio::io_context& ioc,
     : base_url_(config.base_url.value_or(kDefaultBaseUrl))
     , default_model_(config.model.value_or(kDefaultModel))
     , http_(ioc, infra::HttpClientConfig{
+          // v2026.3.2: Prioritize configured baseUrl over model defaults
           .base_url = config.base_url.value_or(kDefaultBaseUrl),
           .timeout_seconds = 300,  // Ollama can be slow for large models
           .verify_ssl = false,     // Local server
@@ -42,6 +43,20 @@ OllamaProvider::OllamaProvider(boost::asio::io_context& ioc,
 {
     LOG_INFO("Ollama provider initialized (model: {}, base: {})",
              default_model_, base_url_);
+}
+
+void OllamaProvider::set_explicit_models(std::vector<std::string> models) {
+    explicit_models_ = std::move(models);
+    skip_discovery_ = !explicit_models_.empty();
+    if (skip_discovery_) {
+        LOG_INFO("Ollama: using {} explicit models, discovery skipped",
+                 explicit_models_.size());
+    }
+}
+
+void OllamaProvider::set_context_window(int size) {
+    context_window_ = size;
+    LOG_INFO("Ollama: context window set to {}", size);
 }
 
 OllamaProvider::~OllamaProvider() = default;
@@ -138,6 +153,11 @@ auto OllamaProvider::build_request_body(const CompletionRequest& req,
     if (req.temperature.has_value()) {
         options["temperature"] = *req.temperature;
     }
+    // v2026.3.2: Unified context window handling
+    if (context_window_ > 0) {
+        options["num_ctx"] = context_window_;
+    }
+
     if (!options.empty()) {
         body["options"] = options;
     }
@@ -197,11 +217,12 @@ auto OllamaProvider::parse_response(const std::string& body) const
     response.stop_reason = j.value("done_reason", "stop");
 
     // Ollama usage
+    // v2026.3.2: Clamp negative token values to zero
     if (j.contains("prompt_eval_count")) {
-        response.input_tokens = j.value("prompt_eval_count", 0);
+        response.input_tokens = clamp_token_count(j.value("prompt_eval_count", 0));
     }
     if (j.contains("eval_count")) {
-        response.output_tokens = j.value("eval_count", 0);
+        response.output_tokens = clamp_token_count(j.value("eval_count", 0));
     }
 
     response.message.id = utils::generate_id();
@@ -427,6 +448,13 @@ auto OllamaProvider::stream(CompletionRequest req, StreamCallback cb)
 
 auto OllamaProvider::discover_models()
     -> boost::asio::awaitable<Result<std::vector<std::string>>> {
+    // v2026.3.2: Skip discovery when explicit models are configured
+    if (skip_discovery_) {
+        LOG_DEBUG("Ollama: skipping discovery, {} explicit models configured",
+                  explicit_models_.size());
+        co_return explicit_models_;
+    }
+
     auto result = co_await http_.get(kTagsPath);
 
     if (!result.has_value()) {
@@ -469,6 +497,10 @@ auto OllamaProvider::name() const -> std::string_view {
 }
 
 auto OllamaProvider::models() const -> std::vector<std::string> {
+    // v2026.3.2: Explicit models take priority
+    if (!explicit_models_.empty()) {
+        return explicit_models_;
+    }
     if (!discovered_models_.empty()) {
         return discovered_models_;
     }

@@ -227,8 +227,25 @@ auto OpenAIProvider::build_request_body(const CompletionRequest& req,
 
     // Apply thinking if requested
     if (req.thinking != ThinkingMode::None) {
-        auto thinking_config = agent::thinking_config_from_mode(req.thinking);
-        agent::apply_thinking_openai(body, thinking_config);
+        auto model_str = req.model.empty() ? default_model_ : req.model;
+        // v2026.3.2: Skip reasoning.effort for x-ai/* models (OpenRouter compat)
+        bool is_xai_model = std::string_view(model_str).starts_with("x-ai/");
+        if (!is_xai_model) {
+            auto thinking_config = agent::thinking_config_from_mode(req.thinking);
+            agent::apply_thinking_openai(body, thinking_config);
+        }
+    }
+
+    // v2026.3.2: Force supportsDeveloperRole=false for non-native endpoints
+    auto base_url = http_.base_url();
+    if (!base_url.empty() &&
+        base_url.find("api.openai.com") == std::string::npos) {
+        // Non-native endpoint — don't use developer role
+        for (auto& msg : body["messages"]) {
+            if (msg.contains("role") && msg["role"] == "developer") {
+                msg["role"] = "system";
+            }
+        }
     }
 
     return body;
@@ -259,9 +276,10 @@ auto OpenAIProvider::parse_response(const std::string& body) const
     response.model = j.value("model", "");
 
     // Parse usage
+    // v2026.3.2: Clamp negative token values to zero
     if (j.contains("usage")) {
-        response.input_tokens = j["usage"].value("prompt_tokens", 0);
-        response.output_tokens = j["usage"].value("completion_tokens", 0);
+        response.input_tokens = clamp_token_count(j["usage"].value("prompt_tokens", 0));
+        response.output_tokens = clamp_token_count(j["usage"].value("completion_tokens", 0));
     }
 
     // Parse the first choice
@@ -314,9 +332,10 @@ auto OpenAIProvider::parse_sse_chunk(const json& chunk,
                                       CompletionResponse& response,
                                       StreamCallback& cb) const -> void {
     // Parse usage from stream (when stream_options.include_usage is true)
+    // v2026.3.2: Clamp negative token values to zero
     if (chunk.contains("usage") && !chunk["usage"].is_null()) {
-        response.input_tokens = chunk["usage"].value("prompt_tokens", 0);
-        response.output_tokens = chunk["usage"].value("completion_tokens", 0);
+        response.input_tokens = clamp_token_count(chunk["usage"].value("prompt_tokens", 0));
+        response.output_tokens = clamp_token_count(chunk["usage"].value("completion_tokens", 0));
     }
 
     if (!chunk.contains("choices") || chunk["choices"].empty()) return;
@@ -400,7 +419,20 @@ auto OpenAIProvider::parse_sse_chunk(const json& chunk,
             auto& block = response.message.content[block_idx];
 
             if (tc_delta.contains("id")) {
-                block.tool_use_id = tc_delta["id"].get<std::string>();
+                auto id_str = tc_delta["id"].get<std::string>();
+                // v2026.3.2: Normalize blank/whitespace streamed tool-call ids
+                bool all_whitespace = true;
+                for (char c : id_str) {
+                    if (!std::isspace(static_cast<unsigned char>(c))) {
+                        all_whitespace = false;
+                        break;
+                    }
+                }
+                if (id_str.empty() || all_whitespace) {
+                    id_str = utils::generate_id(12);
+                    LOG_DEBUG("OpenAI: normalized blank tool-call id to {}", id_str);
+                }
+                block.tool_use_id = std::move(id_str);
             }
 
             if (tc_delta.contains("function")) {
@@ -531,6 +563,7 @@ auto OpenAIProvider::models() const -> std::vector<std::string> {
     return {
         "gpt-4o",
         "gpt-4o-mini",
+        "gpt-4o-audio-preview",  // v2026.3.2: audio capability
         "gpt-4-turbo",
         "gpt-4",
         "gpt-3.5-turbo",
@@ -539,6 +572,7 @@ auto OpenAIProvider::models() const -> std::vector<std::string> {
         "o1-mini",
         "o1-preview",
         "o3-mini",
+        "o3",
     };
 }
 

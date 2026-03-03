@@ -109,12 +109,16 @@ enum class ThinkingMode {
     None,
     Basic,
     Extended,
+    Adaptive,  // v2026.3.2: Adaptive thinking (default for Claude 4.6)
+    Low,       // v2026.3.2: Low thinking level for reasoning-capable models
 };
 
 NLOHMANN_JSON_SERIALIZE_ENUM(ThinkingMode, {
     {ThinkingMode::None, "none"},
     {ThinkingMode::Basic, "basic"},
     {ThinkingMode::Extended, "extended"},
+    {ThinkingMode::Adaptive, "adaptive"},
+    {ThinkingMode::Low, "low"},
 })
 
 } // namespace openclaw

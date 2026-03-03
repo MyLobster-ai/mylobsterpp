@@ -256,4 +256,105 @@ auto PluginLoader::size() const noexcept -> size_t {
     return loaded_.size();
 }
 
+// ---------------------------------------------------------------------------
+// v2026.3.2: Ordered loading — bundled plugins before auto-discovered
+// ---------------------------------------------------------------------------
+
+auto PluginLoader::load_all_ordered(const fs::path& bundled_dir,
+                                     const fs::path& auto_dir)
+    -> Result<std::vector<Plugin*>>
+{
+    std::vector<Plugin*> all_plugins;
+
+    // Phase 1: Load bundled plugins first (these take priority)
+    if (fs::is_directory(bundled_dir)) {
+        auto bundled_result = load_all(bundled_dir);
+        if (bundled_result) {
+            LOG_INFO("Loaded {} bundled plugin(s)", bundled_result->size());
+            all_plugins.insert(all_plugins.end(),
+                               bundled_result->begin(), bundled_result->end());
+        } else {
+            // v2026.3.2: Unknown plugin entries as warnings, not hard failures
+            LOG_WARN("Failed to load bundled plugins from {}: {}",
+                     bundled_dir.string(), bundled_result.error().what());
+        }
+    }
+
+    // Phase 2: Load auto-discovered plugins (skip if already loaded by name)
+    if (fs::is_directory(auto_dir)) {
+        std::vector<fs::path> candidates;
+        for (const auto& entry : fs::directory_iterator(auto_dir)) {
+            if (entry.is_regular_file() && is_shared_library(entry.path())) {
+                candidates.push_back(entry.path());
+            }
+        }
+        std::sort(candidates.begin(), candidates.end());
+
+        for (const auto& path : candidates) {
+            auto result = load(path);
+            if (result.has_value()) {
+                all_plugins.push_back(result.value());
+            } else {
+                // v2026.3.2: Unknown/failed plugin entries as warnings
+                LOG_WARN("Failed to auto-load plugin '{}': {}",
+                         path.filename().string(), result.error().what());
+            }
+        }
+    }
+
+    LOG_INFO("Total loaded: {} plugin(s) (bundled + auto-discovered)",
+             all_plugins.size());
+    return all_plugins;
+}
+
+// ---------------------------------------------------------------------------
+// v2026.3.2: Command name/description validation
+// ---------------------------------------------------------------------------
+
+auto PluginLoader::validate_command(std::string_view name,
+                                     std::string_view description)
+    -> Result<void>
+{
+    if (name.empty()) {
+        return std::unexpected(make_error(
+            ErrorCode::InvalidArgument,
+            "Plugin command name must not be empty"));
+    }
+
+    // Command name must be alphanumeric + underscores/hyphens, 1-64 chars
+    if (name.size() > 64) {
+        return std::unexpected(make_error(
+            ErrorCode::InvalidArgument,
+            "Plugin command name too long (max 64 characters)",
+            std::string(name)));
+    }
+
+    for (char c : name) {
+        if (!std::isalnum(static_cast<unsigned char>(c)) &&
+            c != '_' && c != '-' && c != '.') {
+            return std::unexpected(make_error(
+                ErrorCode::InvalidArgument,
+                "Plugin command name contains invalid character",
+                std::string(1, c) + " in " + std::string(name)));
+        }
+    }
+
+    // Description validation
+    if (description.empty()) {
+        return std::unexpected(make_error(
+            ErrorCode::InvalidArgument,
+            "Plugin command description must not be empty",
+            std::string(name)));
+    }
+
+    if (description.size() > 256) {
+        return std::unexpected(make_error(
+            ErrorCode::InvalidArgument,
+            "Plugin command description too long (max 256 characters)",
+            std::string(name)));
+    }
+
+    return {};
+}
+
 } // namespace openclaw::plugins

@@ -19,6 +19,9 @@ SqliteVecStore::SqliteVecStore(const std::string& db_path, size_t dimensions)
         std::filesystem::create_directories(parent);
     }
 
+    // v2026.3.2: Store path for auto-reopen on stale handles
+    db_path_ = db_path;
+
     try {
         db_ = std::make_unique<SQLite::Database>(
             db_path, SQLite::OPEN_READWRITE | SQLite::OPEN_CREATE);
@@ -26,6 +29,7 @@ SqliteVecStore::SqliteVecStore(const std::string& db_path, size_t dimensions)
         db_->exec("PRAGMA synchronous=NORMAL");
         db_->exec("PRAGMA foreign_keys=ON");
         init_schema();
+        initialized_ = true;
         LOG_INFO("SqliteVecStore opened: {} ({}D)", db_path, dimensions_);
     } catch (const SQLite::Exception& e) {
         LOG_ERROR("Failed to open SqliteVecStore: {}", e.what());

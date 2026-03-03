@@ -391,6 +391,125 @@ auto MistralEmbeddings::dimensions() const -> size_t {
 }
 
 // ---------------------------------------------------------------------------
+// OllamaEmbeddings::Impl  (v2026.3.2)
+// ---------------------------------------------------------------------------
+
+struct OllamaEmbeddings::Impl {
+    infra::HttpClient http;
+    std::string model;
+    size_t dims;
+
+    Impl(boost::asio::io_context& ioc, std::string mdl, std::string base_url,
+         size_t dimensions)
+        : http(ioc, infra::HttpClientConfig{
+                         .base_url = std::move(base_url),
+                         .timeout_seconds = 120,
+                         .default_headers = {
+                             {"Content-Type", "application/json"},
+                         },
+                     }),
+          model(std::move(mdl)),
+          dims(dimensions) {}
+};
+
+// ---------------------------------------------------------------------------
+// OllamaEmbeddings  (v2026.3.2)
+// ---------------------------------------------------------------------------
+
+OllamaEmbeddings::OllamaEmbeddings(boost::asio::io_context& ioc,
+                                     std::string model,
+                                     std::string base_url,
+                                     size_t dimensions)
+    : impl_(std::make_unique<Impl>(ioc, std::move(model),
+                                   std::move(base_url), dimensions)) {}
+
+OllamaEmbeddings::~OllamaEmbeddings() = default;
+OllamaEmbeddings::OllamaEmbeddings(OllamaEmbeddings&&) noexcept = default;
+OllamaEmbeddings& OllamaEmbeddings::operator=(OllamaEmbeddings&&) noexcept = default;
+
+auto OllamaEmbeddings::embed(std::string_view text)
+    -> awaitable<Result<std::vector<float>>> {
+    constexpr size_t kMaxEmbedChars = 32000;
+    std::string input_text(text.substr(0, std::min(text.size(), kMaxEmbedChars)));
+
+    json request_body = {
+        {"model", impl_->model},
+        {"prompt", input_text},
+    };
+
+    auto response = co_await impl_->http.post(
+        "/api/embeddings", request_body.dump());
+
+    if (!response) {
+        co_return make_fail(
+            make_error(ErrorCode::ProviderError,
+                       "Ollama embedding request failed",
+                       response.error().what()));
+    }
+
+    if (!response->is_success()) {
+        LOG_ERROR("Ollama embeddings API returned status {}: {}",
+                  response->status, response->body);
+        co_return make_fail(
+            make_error(ErrorCode::ProviderError,
+                       "Ollama embedding API error",
+                       "HTTP " + std::to_string(response->status) + ": " +
+                           response->body));
+    }
+
+    try {
+        auto body = json::parse(response->body);
+
+        if (!body.contains("embedding") || !body["embedding"].is_array()) {
+            co_return make_fail(
+                make_error(ErrorCode::ProviderError,
+                           "Ollama embedding response missing 'embedding' array"));
+        }
+
+        auto& embedding_data = body["embedding"];
+        std::vector<float> embedding;
+        embedding.reserve(embedding_data.size());
+        for (const auto& val : embedding_data) {
+            embedding.push_back(val.get<float>());
+        }
+
+        LOG_DEBUG("Generated Ollama embedding with {} dimensions", embedding.size());
+        co_return embedding;
+    } catch (const json::exception& e) {
+        co_return make_fail(
+            make_error(ErrorCode::SerializationError,
+                       "Failed to parse Ollama embedding response",
+                       e.what()));
+    }
+}
+
+auto OllamaEmbeddings::embed_batch(std::vector<std::string> texts)
+    -> awaitable<Result<std::vector<std::vector<float>>>> {
+    if (texts.empty()) {
+        co_return std::vector<std::vector<float>>{};
+    }
+
+    // Ollama doesn't support batch embedding natively; process sequentially
+    std::vector<std::vector<float>> results;
+    results.reserve(texts.size());
+
+    for (const auto& text : texts) {
+        auto result = co_await embed(text);
+        if (!result) {
+            co_return make_fail(result.error());
+        }
+        results.push_back(std::move(*result));
+    }
+
+    LOG_DEBUG("Generated {} Ollama embeddings in batch", results.size());
+    co_return results;
+}
+
+auto OllamaEmbeddings::dimensions() const -> size_t {
+    return impl_->dims;
+}
+
+// ---------------------------------------------------------------------------
 // EmbeddingProviderChain
 // ---------------------------------------------------------------------------
 

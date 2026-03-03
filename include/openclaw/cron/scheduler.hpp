@@ -84,11 +84,31 @@ public:
 
     // v2026.2.24: Paging and filtering for cron list/runs
 
+    // v2026.3.2: Failure alerting configuration per job
+    struct FailureAlertConfig {
+        std::string mode = "default";    // "default", "none", "channel"
+        std::optional<std::string> account_id;
+        std::optional<std::string> channel;
+        int max_consecutive_failures = 3;
+    };
+
+    // v2026.3.2: Delivery status for task runs
+    enum class DeliveryStatus {
+        Pending,
+        Ok,
+        Failed,
+        Skipped,
+    };
+
     /// A run-log entry tracking task execution.
     struct RunEntry {
         std::string name;
         std::chrono::steady_clock::time_point started_at;
         bool completed = false;
+        // v2026.3.2: Delivery status tracking
+        DeliveryStatus delivery_status = DeliveryStatus::Pending;
+        std::string error_message;
+        int retry_attempt = 0;
     };
 
     /// Parameters for listing cron jobs with paging/filtering.
@@ -127,6 +147,14 @@ private:
         bool delete_after_run = false;  // Auto-cancel after successful execution
         int stagger_ms = 0;             // Delay before execution (jitter)
         std::optional<std::string> session_key;  // v2026.2.26: session key for task context
+        // v2026.3.2: Failure alerting per job
+        FailureAlertConfig failure_alert;
+        int consecutive_failures = 0;
+        // v2026.3.2: One-shot retry with bounded backoff
+        int max_retries = 0;            // 0 = no retry (default for recurring)
+        int retry_backoff_ms = 1000;    // Initial backoff (doubles each attempt)
+        // v2026.3.2: Session target guardrail
+        std::optional<std::string> agent_id;
     };
 
     boost::asio::io_context& ioc_;
@@ -137,6 +165,13 @@ private:
     std::unordered_map<std::string, RunEntry> run_log_;
 
     int startup_timeout_ms_ = 60000;  // 60s default
+
+    // v2026.3.2: Timer hot-loop guard — minimum re-arm delay
+    static constexpr int kMinRearmDelayMs = 500;
+    std::chrono::steady_clock::time_point last_tick_time_{};
+
+    // v2026.3.2: Lane draining — track active spawned tasks
+    std::atomic<int> active_task_count_{0};
 };
 
 } // namespace openclaw::cron

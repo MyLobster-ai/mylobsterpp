@@ -29,6 +29,15 @@ struct SlackConfig {
     // v2026.2.25: Separate channel allowlist from DM controls
     std::vector<std::string> channel_allowlist;  // Allowlist for channel IDs (empty = all)
     bool case_insensitive_allowlist = true;       // Case-insensitive allowlist matching
+
+    // v2026.3.2: Streaming mode ("off", "partial", "full")
+    std::optional<std::string> streaming_mode;
+
+    // v2026.3.2: Thread session isolation
+    bool thread_session_isolation = false;
+
+    // v2026.3.2: Monitor socket enabled flag
+    bool monitor_enabled = true;
 };
 
 /// Slack channel implementation.
@@ -101,6 +110,9 @@ private:
     // Socket Mode state
     std::string socket_url_;
     // WebSocket managed internally during socket_mode_loop
+
+    // v2026.3.2: Reconnect backoff state
+    int reconnect_backoff_seconds_ = 5;
 
     /// Thread session tracking: maps thread_ts to whether we initiated it
     std::unordered_map<std::string, bool> thread_sessions_;

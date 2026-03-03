@@ -36,6 +36,19 @@ struct TelegramConfig {
     // v2026.2.25: Webhook callback mode (upfront JSON body parsing)
     enum class WebhookMode { Polling, WebhookCallback };
     WebhookMode webhook_mode = WebhookMode::Polling;
+
+    // v2026.3.2: Streaming mode ("off", "partial", "full")
+    std::optional<std::string> streaming_mode;
+
+    // v2026.3.2: Reply-to mode ("all", "first", "off")
+    std::string reply_to_mode = "all";
+
+    // v2026.3.2: Per-DM/topic configuration
+    bool require_topic = false;
+    bool disable_audio_preflight = false;
+
+    // v2026.3.2: Webhook port 0 for ephemeral binding
+    int webhook_port = 0;
 };
 
 /// Telegram channel implementation using the Bot API.

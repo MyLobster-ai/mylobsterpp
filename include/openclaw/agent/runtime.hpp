@@ -76,6 +76,13 @@ public:
     /// v2026.2.24: Best-effort delivery mode parameter.
     std::optional<bool> best_effort_deliver;
 
+    /// v2026.3.2: Clear pending tool-call state on interruptions.
+    /// Prevents orphaned tool-use transcripts from causing follow-up failures.
+    void clear_pending_tool_state();
+
+    /// v2026.3.2: Track if there's a pending tool call awaiting result.
+    [[nodiscard]] auto has_pending_tool_call() const -> bool;
+
 private:
     /// Extract tool call content blocks from a message.
     auto extract_tool_calls(const Message& msg) const
@@ -90,6 +97,9 @@ private:
     std::shared_ptr<Provider> provider_;
     std::vector<std::shared_ptr<Provider>> fallback_providers_;
     ToolRegistry tools_;
+
+    // v2026.3.2: Pending tool-call tracking for interruption cleanup
+    bool pending_tool_call_ = false;
 };
 
 } // namespace openclaw::agent

@@ -64,4 +64,13 @@ auto should_block_heartbeat_delivery(
     DirectPolicy policy = DirectPolicy::Allow,
     std::optional<DirectPolicy> agent_override = std::nullopt) -> bool;
 
+/// v2026.3.2: Check if a message is a heartbeat ack summary.
+/// Used to suppress fallback main-session enqueue for heartbeat ack summaries.
+/// Returns true if the message text matches known heartbeat ack patterns.
+auto is_heartbeat_ack_summary(std::string_view text) -> bool;
+
+/// v2026.3.2: Heartbeat model reload trigger check.
+/// Returns true if the given config key should trigger a heartbeat hot-reload.
+auto is_heartbeat_reload_trigger(std::string_view config_key) -> bool;
+
 } // namespace openclaw::infra

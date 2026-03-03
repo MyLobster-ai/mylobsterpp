@@ -1,15 +1,46 @@
 #include "openclaw/sessions/store.hpp"
 
 #include <chrono>
+#include <thread>
 
 #include "openclaw/core/logger.hpp"
 #include "openclaw/core/utils.hpp"
 
 namespace openclaw::sessions {
 
+// v2026.3.2: EBUSY retry helper for SQLite operations.
+// Retries the operation up to max_retries times with exponential backoff
+// when SQLite returns SQLITE_BUSY (EBUSY).
+static constexpr int kMaxBusyRetries = 5;
+static constexpr int kInitialBusyBackoffMs = 50;
+
+template <typename Func>
+static auto with_busy_retry(Func&& func, const char* operation) {
+    int backoff_ms = kInitialBusyBackoffMs;
+    for (int attempt = 0; attempt <= kMaxBusyRetries; ++attempt) {
+        try {
+            return func();
+        } catch (const SQLite::Exception& e) {
+            // SQLITE_BUSY = 5
+            if (e.getErrorCode() == 5 && attempt < kMaxBusyRetries) {
+                LOG_WARN("SQLite EBUSY on {}, retry {}/{} in {}ms",
+                         operation, attempt + 1, kMaxBusyRetries, backoff_ms);
+                std::this_thread::sleep_for(std::chrono::milliseconds(backoff_ms));
+                backoff_ms = std::min(backoff_ms * 2, 5000);
+                continue;
+            }
+            throw;
+        }
+    }
+    // Unreachable, but satisfies compiler
+    return func();
+}
+
 SqliteSessionStore::SqliteSessionStore(const std::string& db_path)
     : db_(std::make_unique<SQLite::Database>(
           db_path, SQLite::OPEN_READWRITE | SQLite::OPEN_CREATE)) {
+    // v2026.3.2: Set busy timeout at connection level as well
+    db_->setBusyTimeout(5000);
     init_schema();
     LOG_INFO("SQLite session store opened at {}", db_path);
 }
@@ -76,32 +107,35 @@ auto SqliteSessionStore::ms_to_timestamp(int64_t ms) const -> Timestamp {
 
 auto SqliteSessionStore::create(const SessionData& data) -> awaitable<Result<void>> {
     try {
-        SQLite::Statement stmt(*db_,
-            "INSERT INTO sessions (id, user_id, device_id, channel, agent_id, state, metadata, "
-            "created_at, last_active) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
+        // v2026.3.2: EBUSY retry for SQLite operations
+        with_busy_retry([&]() {
+            SQLite::Statement stmt(*db_,
+                "INSERT INTO sessions (id, user_id, device_id, channel, agent_id, state, metadata, "
+                "created_at, last_active) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
-        stmt.bind(1, data.session.id);
-        stmt.bind(2, data.session.user_id);
-        stmt.bind(3, data.session.device_id);
+            stmt.bind(1, data.session.id);
+            stmt.bind(2, data.session.user_id);
+            stmt.bind(3, data.session.device_id);
 
-        if (data.session.channel) {
-            stmt.bind(4, *data.session.channel);
-        } else {
-            stmt.bind(4);  // bind NULL
-        }
+            if (data.session.channel) {
+                stmt.bind(4, *data.session.channel);
+            } else {
+                stmt.bind(4);  // bind NULL
+            }
 
-        if (data.session.agent_id) {
-            stmt.bind(5, *data.session.agent_id);
-        } else {
-            stmt.bind(5);  // bind NULL
-        }
+            if (data.session.agent_id) {
+                stmt.bind(5, *data.session.agent_id);
+            } else {
+                stmt.bind(5);  // bind NULL
+            }
 
-        stmt.bind(6, state_to_string(data.state));
-        stmt.bind(7, data.metadata.dump());
-        stmt.bind(8, timestamp_to_ms(data.session.created_at));
-        stmt.bind(9, timestamp_to_ms(data.session.last_active));
+            stmt.bind(6, state_to_string(data.state));
+            stmt.bind(7, data.metadata.dump());
+            stmt.bind(8, timestamp_to_ms(data.session.created_at));
+            stmt.bind(9, timestamp_to_ms(data.session.last_active));
 
-        stmt.exec();
+            stmt.exec();
+        }, "session.create");
 
         LOG_DEBUG("Created session {}", data.session.id);
         co_return ok_result();
@@ -153,23 +187,27 @@ auto SqliteSessionStore::get(std::string_view id) -> awaitable<Result<SessionDat
 
 auto SqliteSessionStore::update(const SessionData& data) -> awaitable<Result<void>> {
     try {
-        SQLite::Statement stmt(*db_,
-            "UPDATE sessions SET state = ?, metadata = ?, last_active = ?, "
-            "channel = ? WHERE id = ?");
+        // v2026.3.2: EBUSY retry for SQLite operations
+        int rows = with_busy_retry([&]() -> int {
+            SQLite::Statement stmt(*db_,
+                "UPDATE sessions SET state = ?, metadata = ?, last_active = ?, "
+                "channel = ? WHERE id = ?");
 
-        stmt.bind(1, state_to_string(data.state));
-        stmt.bind(2, data.metadata.dump());
-        stmt.bind(3, timestamp_to_ms(data.session.last_active));
+            stmt.bind(1, state_to_string(data.state));
+            stmt.bind(2, data.metadata.dump());
+            stmt.bind(3, timestamp_to_ms(data.session.last_active));
 
-        if (data.session.channel) {
-            stmt.bind(4, *data.session.channel);
-        } else {
-            stmt.bind(4);  // bind NULL
-        }
+            if (data.session.channel) {
+                stmt.bind(4, *data.session.channel);
+            } else {
+                stmt.bind(4);  // bind NULL
+            }
 
-        stmt.bind(5, data.session.id);
+            stmt.bind(5, data.session.id);
 
-        auto rows = stmt.exec();
+            return stmt.exec();
+        }, "session.update");
+
         if (rows == 0) {
             co_return make_fail(
                 make_error(ErrorCode::NotFound, "Session not found",
@@ -252,12 +290,13 @@ auto SqliteSessionStore::remove_expired(int ttl_seconds)
         auto cutoff_ms = utils::timestamp_ms() -
             static_cast<int64_t>(ttl_seconds) * 1000;
 
-        SQLite::Statement stmt(*db_,
-            "DELETE FROM sessions WHERE last_active < ?");
-
-        stmt.bind(1, cutoff_ms);
-
-        auto rows = static_cast<size_t>(stmt.exec());
+        // v2026.3.2: EBUSY retry for SQLite operations
+        auto rows = static_cast<size_t>(with_busy_retry([&]() -> int {
+            SQLite::Statement stmt(*db_,
+                "DELETE FROM sessions WHERE last_active < ?");
+            stmt.bind(1, cutoff_ms);
+            return stmt.exec();
+        }, "session.remove_expired"));
 
         if (rows > 0) {
             LOG_INFO("Cleaned up {} expired sessions (ttl={}s)", rows, ttl_seconds);

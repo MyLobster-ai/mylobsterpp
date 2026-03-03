@@ -3,6 +3,7 @@
 #include <map>
 #include <string>
 #include <string_view>
+#include <unordered_map>
 #include <vector>
 
 #include <boost/asio.hpp>
@@ -63,6 +64,24 @@ public:
     /// Returns true if private IP access is currently allowed (trusted-network mode).
     [[nodiscard]] auto allows_private() const noexcept -> bool { return allow_private_; }
 
+    /// v2026.3.2: Get pinned addresses for a hostname (from last validation).
+    [[nodiscard]] auto pinned_addresses(std::string_view hostname) const
+        -> std::vector<std::string> {
+        auto it = pinned_addresses_.find(std::string(hostname));
+        if (it != pinned_addresses_.end()) return it->second;
+        return {};
+    }
+
+    /// v2026.3.2: Validate a citation redirect URL with strict SSRF defaults.
+    /// Used for Gemini and web search citation redirect resolution.
+    auto validate_citation_redirect(std::string_view url,
+                                     boost::asio::io_context& ioc)
+        -> boost::asio::awaitable<openclaw::Result<void>> {
+        // Citation redirects always enforce SSRF regardless of allow_private_ setting
+        FetchGuard strict_guard(/*allow_private=*/false);
+        co_return co_await strict_guard.validate_url(url, ioc);
+    }
+
 private:
     /// Extracts hostname from a URL string.
     [[nodiscard]] static auto extract_hostname(std::string_view url) -> std::string;
@@ -72,6 +91,9 @@ private:
                                                 uint8_t c, uint8_t d) -> bool;
 
     bool allow_private_ = true;  // v2026.2.23+: default trusted-network mode
+
+    /// v2026.3.2: DNS-pinned addresses per hostname for connection verification.
+    mutable std::unordered_map<std::string, std::vector<std::string>> pinned_addresses_;
 };
 
 } // namespace openclaw::infra

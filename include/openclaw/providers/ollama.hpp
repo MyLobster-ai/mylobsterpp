@@ -55,6 +55,20 @@ private:
     std::string default_model_;
     infra::HttpClient http_;
     std::vector<std::string> discovered_models_;
+
+    // v2026.3.2: Skip discovery when explicit models are configured
+    bool skip_discovery_ = false;
+    std::vector<std::string> explicit_models_;
+
+    // v2026.3.2: Unified context window size (0 = use model default)
+    int context_window_ = 0;
+
+public:
+    /// v2026.3.2: Set explicit model list (skips discovery).
+    void set_explicit_models(std::vector<std::string> models);
+
+    /// v2026.3.2: Set context window size for all requests.
+    void set_context_window(int size);
 };
 
 } // namespace openclaw::providers

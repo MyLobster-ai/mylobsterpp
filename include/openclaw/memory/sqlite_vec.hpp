@@ -40,6 +40,8 @@ private:
 
     std::unique_ptr<SQLite::Database> db_;
     size_t dimensions_;
+    std::string db_path_;           // v2026.3.2: stored for auto-reopen
+    bool initialized_ = false;     // v2026.3.2: deduplicate concurrent init
 };
 
 } // namespace openclaw::memory

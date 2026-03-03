@@ -100,4 +100,39 @@ auto should_block_heartbeat_delivery(
     return effective_policy == DirectPolicy::Block;
 }
 
+// ---------------------------------------------------------------------------
+// v2026.3.2: Heartbeat ack summary suppression
+// ---------------------------------------------------------------------------
+
+auto is_heartbeat_ack_summary(std::string_view text) -> bool {
+    if (text.empty()) return false;
+
+    // Match known heartbeat ack patterns:
+    // "HEARTBEAT_OK", "[HEARTBEAT_OK]", "heartbeat_ok"
+    // Also match summaries that start with these markers
+    auto lower = std::string(text);
+    std::transform(lower.begin(), lower.end(), lower.begin(),
+                   [](unsigned char c) { return std::tolower(c); });
+
+    if (lower.starts_with("heartbeat_ok")) return true;
+    if (lower.starts_with("[heartbeat_ok]")) return true;
+    if (lower.find("heartbeat ack") != std::string::npos) return true;
+
+    return false;
+}
+
+// ---------------------------------------------------------------------------
+// v2026.3.2: Heartbeat model reload trigger
+// ---------------------------------------------------------------------------
+
+auto is_heartbeat_reload_trigger(std::string_view config_key) -> bool {
+    // Config keys that should trigger heartbeat hot-reload
+    if (config_key.starts_with("models.")) return true;
+    if (config_key == "agents.defaults.model") return true;
+    if (config_key.starts_with("agents.") && config_key.find(".model") != std::string_view::npos) {
+        return true;
+    }
+    return false;
+}
+
 } // namespace openclaw::infra

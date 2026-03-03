@@ -27,6 +27,10 @@ TelegramChannel::TelegramChannel(TelegramConfig config, boost::asio::io_context&
           .group_allowlist = config_.group_allowlist,
       }
 {
+    // v2026.3.2: Default streaming to "partial" (from "off")
+    if (!config_.streaming_mode.has_value()) {
+        config_.streaming_mode = "partial";
+    }
 }
 
 // ---------------------------------------------------------------------------
@@ -67,12 +71,28 @@ auto TelegramChannel::send(OutgoingMessage msg)
             make_error(ErrorCode::ChannelError, "Telegram channel is not running"));
     }
 
-    // Send text first
+    // v2026.3.2: Oversize splitting through shared outbound pipeline
+    // Telegram has a 4096 character limit for messages
+    static constexpr size_t kMaxMessageLength = 4096;
+
+    // Send text first (with oversize splitting)
     if (!msg.text.empty()) {
-        auto result = co_await send_text(msg.recipient_id, msg.text,
-            msg.reply_to ? std::optional<std::string_view>{*msg.reply_to} : std::nullopt);
-        if (!result) {
-            co_return make_fail(result.error());
+        auto text = msg.text;
+        bool first_chunk = true;
+        while (!text.empty()) {
+            auto chunk_text = text.substr(0, kMaxMessageLength);
+            text = text.size() > kMaxMessageLength ? text.substr(kMaxMessageLength) : "";
+
+            // v2026.3.2: replyToMode "first" — only reply to first chunk
+            auto reply_to = (first_chunk && msg.reply_to)
+                ? std::optional<std::string_view>{*msg.reply_to}
+                : std::nullopt;
+
+            auto result = co_await send_text(msg.recipient_id, chunk_text, reply_to);
+            if (!result) {
+                co_return make_fail(result.error());
+            }
+            first_chunk = false;
         }
     }
 
@@ -216,7 +236,7 @@ auto TelegramChannel::process_update(const json& update) -> void {
             }
         }
 
-        // v2026.2.25: Enforce group allowlist for group/supergroup chats
+        // v2026.3.2: Group allowlist before sender allowlist ordering
         if (chat_type == "group" || chat_type == "supergroup") {
             if (!is_group_authorized(chat_id)) {
                 LOG_DEBUG("[telegram] Message in group {} blocked by group_allowlist", chat_id);
@@ -224,7 +244,22 @@ auto TelegramChannel::process_update(const json& update) -> void {
             }
         }
 
+        // v2026.3.2: Forum system service message exclusion from reply-chain detection
+        if (msg.contains("forum_topic_created") || msg.contains("forum_topic_closed") ||
+            msg.contains("forum_topic_reopened") || msg.contains("forum_topic_edited") ||
+            msg.contains("general_forum_topic_hidden") || msg.contains("general_forum_topic_unhidden")) {
+            LOG_TRACE("[telegram] Skipping forum system service message");
+            return;
+        }
+
         auto incoming = parse_message(msg);
+
+        // v2026.3.2: Skip empty final replies
+        if (incoming.text.empty() && incoming.attachments.empty()) {
+            LOG_TRACE("[telegram] Skipping empty message from {}", incoming.sender_id);
+            return;
+        }
+
         dispatch(std::move(incoming));
     } else if (update.contains("edited_message")) {
         auto incoming = parse_message(update["edited_message"]);
@@ -304,8 +339,14 @@ auto TelegramChannel::parse_message(const json& msg) -> IncomingMessage {
     }
 
     // Thread (forum topic)
+    // v2026.3.2: DM topic session isolation (<chatId>:<threadId>)
     if (msg.contains("message_thread_id")) {
-        incoming.thread_id = std::to_string(msg.value("message_thread_id", 0));
+        auto thread_id_str = std::to_string(msg.value("message_thread_id", 0));
+        std::string chat_id;
+        if (msg.contains("chat")) {
+            chat_id = std::to_string(msg["chat"].value("id", int64_t{0}));
+        }
+        incoming.thread_id = chat_id.empty() ? thread_id_str : (chat_id + ":" + thread_id_str);
     }
 
     // Attachments
@@ -701,6 +742,20 @@ auto make_telegram_channel(const json& settings, boost::asio::io_context& ioc)
     if (settings.contains("webhook_secret")) {
         config.webhook_secret = settings.at("webhook_secret").get<std::string>();
     }
+    // v2026.3.2: Parse new config fields
+    if (settings.contains("streaming")) {
+        auto streaming = settings["streaming"];
+        if (streaming.is_boolean()) {
+            // v2026.3.2: Boolean streaming=false maps to "off"
+            config.streaming_mode = streaming.get<bool>() ? "partial" : "off";
+        } else if (streaming.is_string()) {
+            config.streaming_mode = streaming.get<std::string>();
+        }
+    }
+    config.reply_to_mode = settings.value("replyToMode", "all");
+    config.require_topic = settings.value("requireTopic", false);
+    config.disable_audio_preflight = settings.value("disableAudioPreflight", false);
+    config.webhook_port = settings.value("webhookPort", 0);
 
     if (config.bot_token.empty()) {
         LOG_ERROR("[telegram] bot_token is required in channel settings");

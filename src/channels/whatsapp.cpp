@@ -224,6 +224,19 @@ auto WhatsAppChannel::parse_message(const json& message, const json& metadata)
     incoming.raw = message;
     incoming.raw["_metadata"] = metadata;
 
+    // v2026.3.2: Inbound fromMe propagation and self-message annotation
+    // WhatsApp Cloud API doesn't include fromMe directly, but we can infer
+    // from the phone_number_id match in metadata
+    bool from_me = false;
+    if (metadata.contains("phone_number_id") &&
+        metadata["phone_number_id"].get<std::string>() == incoming.sender_id) {
+        from_me = true;
+    }
+    incoming.raw["_from_me"] = from_me;
+    if (from_me) {
+        incoming.raw["_self_message"] = true;
+    }
+
     // Context (reply-to)
     if (message.contains("context")) {
         incoming.reply_to = message["context"].value("id", "");

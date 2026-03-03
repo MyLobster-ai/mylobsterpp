@@ -23,6 +23,10 @@
 #include <boost/asio/use_awaitable.hpp>
 #include <boost/beast/core/buffers_to_string.hpp>
 #include <boost/beast/core/flat_buffer.hpp>
+#include <boost/beast/http/read.hpp>
+#include <boost/beast/http/write.hpp>
+#include <boost/beast/http/message.hpp>
+#include <boost/beast/http/string_body.hpp>
 
 namespace openclaw::gateway {
 
@@ -213,7 +217,72 @@ auto Connection::handle_request(const RequestFrame& req) -> awaitable<void> {
 GatewayServer::GatewayServer(net::io_context& ioc)
     : ioc_(ioc)
     , protocol_(std::make_shared<Protocol>())
-    , hooks_(std::make_shared<HookRegistry>()) {}
+    , hooks_(std::make_shared<HookRegistry>()) {
+    // v2026.3.2: Check env var for insecure WS private network opt-in
+    if (auto* val = std::getenv("OPENCLAW_ALLOW_INSECURE_PRIVATE_WS")) {
+        if (std::string(val) == "1") {
+            enforce_ws_loopback_ = false;
+            LOG_WARN("OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1: insecure WebSocket on private network allowed");
+        }
+    }
+}
+
+// ===========================================================================
+// v2026.3.2: HTTP health/readiness endpoints
+// ===========================================================================
+
+auto GatewayServer::handle_http_request(tcp::socket& socket) -> awaitable<bool> {
+    namespace http = boost::beast::http;
+
+    beast::flat_buffer buffer;
+    http::request<http::string_body> req;
+
+    try {
+        co_await http::async_read(
+            socket, buffer, req, net::use_awaitable);
+    } catch (const boost::system::system_error&) {
+        co_return false;
+    }
+
+    auto target = std::string(req.target());
+
+    // v2026.3.2: Health/readiness endpoints
+    bool is_health = (target == "/health" || target == "/healthz" ||
+                      target == "/ready" || target == "/readyz");
+
+    if (is_health) {
+        http::response<http::string_body> res{http::status::ok, req.version()};
+        res.set(http::field::content_type, "application/json");
+        res.set(http::field::server, "openclaw-gateway/2026.3.2");
+        if (!config_.http_security_hsts.empty()) {
+            res.set("Strict-Transport-Security", config_.http_security_hsts);
+        }
+
+        bool is_ready = running_ && (target == "/ready" || target == "/readyz");
+        bool is_live = running_;
+
+        json body;
+        if (target == "/ready" || target == "/readyz") {
+            body = json{
+                {"status", is_ready ? "ready" : "not_ready"},
+                {"connections", connection_count()},
+            };
+        } else {
+            body = json{
+                {"status", is_live ? "ok" : "error"},
+                {"version", "2026.3.2"},
+            };
+        }
+
+        res.body() = body.dump();
+        res.prepare_payload();
+
+        co_await http::async_write(socket, res, net::use_awaitable);
+        co_return true;  // handled as HTTP, not WebSocket
+    }
+
+    co_return false;  // not a health endpoint, proceed with WebSocket
+}
 
 auto GatewayServer::start(const GatewayConfig& config) -> awaitable<void> {
     config_ = config;
@@ -224,10 +293,19 @@ auto GatewayServer::start(const GatewayConfig& config) -> awaitable<void> {
         authenticator_.configure(*config.auth);
     }
 
-    // Determine bind address.
-    auto address = (config.bind == BindMode::All)
-        ? net::ip::make_address("0.0.0.0")
-        : net::ip::make_address("127.0.0.1");
+    // v2026.3.2: Enforce loopback-only for insecure ws:// unless opted out.
+    // If no TLS is configured and bind is All, enforce loopback unless
+    // OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1 is set.
+    auto address = net::ip::make_address("127.0.0.1");
+    if (config.bind == BindMode::All) {
+        if (!config.tls.has_value() && enforce_ws_loopback_) {
+            LOG_WARN("v2026.3.2: bind=all without TLS, enforcing loopback-only. "
+                     "Set OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1 to allow private network access.");
+            address = net::ip::make_address("127.0.0.1");
+        } else {
+            address = net::ip::make_address("0.0.0.0");
+        }
+    }
 
     auto endpoint = tcp::endpoint{address, config.port};
 
@@ -606,9 +684,19 @@ auto GatewayServer::handle_connection(tcp::socket socket) -> awaitable<void> {
             }
         }
     } else if (!authenticator_.is_open()) {
-        // Step 7: No device identity and auth is required → clear scopes
-        LOG_DEBUG("Connection {}: no device identity, clearing scopes", conn_id);
-        granted_scopes.clear();
+        // v2026.3.2: Preserve requested operator scopes for shared-token clients
+        // when device identity is unavailable. This supports bridge connections
+        // that use token auth without device identity.
+        bool is_shared_token = (auth_info.method == AuthMethod::Token);
+        if (is_shared_token && !requested_scopes.empty()) {
+            LOG_DEBUG("Connection {}: shared-token client, preserving {} requested scopes",
+                      conn_id, requested_scopes.size());
+            // Keep granted_scopes as-is (they're already set from requested_scopes)
+        } else {
+            // Step 7: No device identity and auth is required → clear scopes
+            LOG_DEBUG("Connection {}: no device identity, clearing scopes", conn_id);
+            granted_scopes.clear();
+        }
     }
 
     // v2026.2.25: Trusted proxy control-UI bypass requires operator role.
@@ -621,10 +709,21 @@ auto GatewayServer::handle_connection(tcp::socket socket) -> awaitable<void> {
         granted_scopes.clear();
     }
 
+    // v2026.3.2: Allow authenticated local gateway-client backend self-connections
+    // to skip device pairing. This enables bridge-rs to connect without pairing.
+    bool is_local_connection = remote_ep.address().is_loopback();
+    std::string client_mode = params.value("clientMode", "");
+    bool is_gateway_client = (client_mode == "gateway-client");
+
+    if (is_local_connection && is_gateway_client && !authenticator_.is_open() &&
+        auth_info.method != AuthMethod::None) {
+        // Authenticated local gateway-client — skip pairing requirement
+        LOG_DEBUG("Connection {}: local gateway-client with valid auth, skipping pairing", conn_id);
+    }
     // v2026.2.25: Require pairing for unpaired operator device auth.
     // If auth is required, device is not validated, and it's not a trusted proxy,
     // clear scopes to force pairing flow.
-    if (!authenticator_.is_open() && !has_valid_device &&
+    else if (!authenticator_.is_open() && !has_valid_device &&
         !auth_info.trusted_proxy_auth_ok && role == "operator") {
         LOG_DEBUG("Connection {}: unpaired operator device, clearing scopes for pairing", conn_id);
         granted_scopes.clear();

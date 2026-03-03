@@ -162,6 +162,23 @@ struct ImageConfig {
 };
 NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ImageConfig, max_dimension_px, max_bytes)
 
+// v2026.3.2: Tools configuration with default profile
+struct ToolsConfig {
+    std::string profile = "messaging";  // v2026.3.2: Default tools.profile to "messaging"
+    std::optional<std::string> fs_policy;  // v2026.3.2: fsPolicy propagation
+    bool workspace_only = true;            // v2026.3.2: host write/edit workspace boundary
+    bool tilde_expansion = true;           // v2026.3.2: Tilde path expansion (~/)
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ToolsConfig, profile, fs_policy, workspace_only, tilde_expansion)
+
+// v2026.3.2: ACP (Agent Compute Platform) dispatch configuration
+struct AcpConfig {
+    bool dispatch_enabled = true;  // v2026.3.2: ACP dispatch defaults to enabled
+    std::optional<std::string> runtime;
+    bool require_system_run_plan = true;  // v2026.3.2: Node exec approvals require systemRunPlan
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(AcpConfig, dispatch_enabled, runtime, require_system_run_plan)
+
 struct Config {
     GatewayConfig gateway;
     std::vector<ProviderConfig> providers;
@@ -180,8 +197,11 @@ struct Config {
     SandboxConfig sandbox;
     HttpSecurityHeaders http_security;
     std::optional<SecretsConfig> secrets;  // v2026.2.26: external secrets management
+    // v2026.3.2: New config sections
+    ToolsConfig tools;
+    AcpConfig acp;
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image, model_by_channel, heartbeat, sandbox, http_security, secrets)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image, model_by_channel, heartbeat, sandbox, http_security, secrets, tools, acp)
 
 /// v2026.2.26: Resolve thread binding policy with cascade:
 /// session config > channel config > global default.
@@ -203,5 +223,34 @@ auto default_data_dir() -> std::filesystem::path;
 /// Resolves `${VAR}` environment variable references in a string.
 /// Supports `$${VAR}` escape (literal `${VAR}`).
 auto resolve_env_refs(std::string_view input) -> std::string;
+
+/// v2026.3.2: Validate config patch safety constraints.
+auto validate_config_patch(const json& patch_value, std::string_view patch_path) -> bool;
+
+/// v2026.3.2: Check if a config update touches model-related paths
+/// that should trigger heartbeat hot-reload.
+auto is_model_config_update(std::string_view path) -> bool;
+
+/// v2026.3.2: Validate allowFrom list — rejects empty entries.
+inline auto validate_allow_from(const std::vector<std::string>& allow_from) -> bool {
+    for (const auto& entry : allow_from) {
+        if (entry.empty()) {
+            return false;
+        }
+    }
+    return true;
+}
+
+/// v2026.3.2: Normalize legacy gateway.bind values.
+/// Converts string representations to BindMode enum.
+inline auto normalize_bind_mode(std::string_view value) -> BindMode {
+    if (value == "all" || value == "0.0.0.0" || value == "::") {
+        return BindMode::All;
+    }
+    return BindMode::Loopback;
+}
+
+/// v2026.3.2: Expand tilde in file paths.
+auto expand_tilde(std::string_view path) -> std::string;
 
 } // namespace openclaw

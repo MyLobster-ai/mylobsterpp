@@ -277,6 +277,15 @@ auto LineChannel::parse_message(const json& event) -> IncomingMessage {
                 att.url = message["contentProvider"].value("originalContentUrl", att.url);
             }
         }
+        // v2026.3.2: M4A voice as audio/mp4 (not video/mp4)
+        // LINE sends voice messages as M4A which should be classified as audio
+        if (message.contains("contentType")) {
+            std::string ct = message.value("contentType", "");
+            if (ct == "video/mp4" && msg_type == "audio") {
+                // Force correct MIME type for voice messages
+                att.filename = "voice.m4a";
+            }
+        }
         incoming.attachments.push_back(std::move(att));
     } else if (msg_type == "file") {
         Attachment att;

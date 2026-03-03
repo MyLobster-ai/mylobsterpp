@@ -42,6 +42,10 @@ struct DiscordConfig {
 
     // v2026.2.25: Separate group/guild allowlist from DM sender controls
     std::vector<std::string> guild_allowlist;       // Allowlist for guild IDs (empty = all)
+
+    // v2026.3.2: Inactivity-based thread bindings
+    std::optional<int> idle_hours;                   // Idle hours before thread binding expires
+    std::optional<int> max_age_hours;                // Max age before thread binding expires
 };
 
 /// Discord channel implementation.
@@ -131,6 +135,9 @@ private:
     std::optional<int> last_sequence_;
     std::string bot_user_id_;
     boost::asio::steady_timer heartbeat_timer_;
+
+    // v2026.3.2: Reconnect backoff state
+    int reconnect_backoff_seconds_ = 5;
 
     // WebSocket state managed internally during gateway_loop
 };

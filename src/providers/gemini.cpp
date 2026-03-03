@@ -61,6 +61,7 @@ auto parse_sse_lines(const std::string& body) -> std::vector<std::string> {
 }
 
 /// v2026.2.26: Normalize model name shortcuts to full model identifiers.
+/// v2026.3.2: Normalize bare `gemini-3-pro` etc. to `-low` thinking tier.
 auto normalize_gemini_model(std::string_view model) -> std::string {
     auto m = std::string(model);
     // Normalize common abbreviations
@@ -70,7 +71,45 @@ auto normalize_gemini_model(std::string_view model) -> std::string {
     if (m == "gemini-3-flash" || m == "gemini3-flash") {
         return "gemini-3.1-flash-preview";
     }
+    // v2026.3.2: Normalize bare gemini-3-pro to -low thinking tier
+    if (m == "gemini-3-pro") {
+        return "gemini-3.1-pro-preview-antigravity-low";
+    }
+    if (m == "gemini-3-pro-high") {
+        return "gemini-3.1-pro-preview-antigravity-high";
+    }
     return m;
+}
+
+/// v2026.3.2: Check if a Gemini model supports reasoning/thinking tags.
+auto is_gemini_reasoning_model(std::string_view model) -> bool {
+    return model.find("antigravity") != std::string_view::npos ||
+           model.find("gemini-3") != std::string_view::npos;
+}
+
+/// v2026.3.2: Sanitize JSON Schema properties field.
+/// Coerce malformed `properties` (null, arrays, primitives) to empty object.
+auto sanitize_schema_properties(json& schema) -> void {
+    if (!schema.is_object()) return;
+
+    if (schema.contains("properties")) {
+        auto& props = schema["properties"];
+        if (!props.is_object()) {
+            LOG_DEBUG("[gemini] Coercing malformed schema properties ({}) to {{}}",
+                      props.type_name());
+            props = json::object();
+        }
+    }
+
+    // Recursively sanitize nested schemas
+    if (schema.contains("properties") && schema["properties"].is_object()) {
+        for (auto& [key, value] : schema["properties"].items()) {
+            sanitize_schema_properties(value);
+        }
+    }
+    if (schema.contains("items") && schema["items"].is_object()) {
+        sanitize_schema_properties(schema["items"]);
+    }
 }
 
 } // anonymous namespace
@@ -153,6 +192,11 @@ auto GeminiProvider::convert_tools(const std::vector<json>& tools) const -> json
             fd["parameters"]["properties"] = json::object();
         }
 
+        // v2026.3.2: Sanitize schema properties (coerce null/array/primitive to {})
+        if (fd.contains("parameters")) {
+            sanitize_schema_properties(fd["parameters"]);
+        }
+
         function_declarations.push_back(fd);
     }
 
@@ -191,12 +235,19 @@ auto GeminiProvider::build_request_body(const CompletionRequest& req) const -> j
         gen_config["temperature"] = *req.temperature;
     }
     // v2026.2.25: Thinking budget sanitization and effort-to-thinkingLevel mapping
+    // v2026.3.2: Added Adaptive and Low thinking levels, google as reasoning-tag provider
     // Drop negative thinkingBudget values, map ThinkingMode to thinkingLevel
     if (req.thinking != ThinkingMode::None) {
         if (req.thinking == ThinkingMode::Extended) {
             gen_config["thinkingLevel"] = "HIGH";
+        } else if (req.thinking == ThinkingMode::Adaptive) {
+            // v2026.3.2: Adaptive maps to MEDIUM for Gemini
+            gen_config["thinkingLevel"] = "MEDIUM";
         } else if (req.thinking == ThinkingMode::Basic) {
             gen_config["thinkingLevel"] = "MEDIUM";
+        } else if (req.thinking == ThinkingMode::Low) {
+            // v2026.3.2: Low maps to LOW for Gemini
+            gen_config["thinkingLevel"] = "LOW";
         }
         // v2026.2.25: Support LOW effort level via custom params
         if (req.custom_params.contains("thinking_effort")) {
@@ -216,6 +267,12 @@ auto GeminiProvider::build_request_body(const CompletionRequest& req) const -> j
                 LOG_DEBUG("[gemini] Dropping negative thinkingBudget ({})", budget);
                 gen_config.erase("thinkingBudget");
             }
+        }
+    } else {
+        // v2026.3.2: For reasoning-capable Gemini models, default to LOW thinking
+        auto model_str = req.model.empty() ? default_model_ : req.model;
+        if (is_gemini_reasoning_model(model_str)) {
+            gen_config["thinkingLevel"] = "LOW";
         }
     }
 
@@ -258,9 +315,10 @@ auto GeminiProvider::parse_response(const std::string& body,
     response.model = model;
 
     // Parse usage metadata
+    // v2026.3.2: Clamp negative token values to zero
     if (j.contains("usageMetadata")) {
-        response.input_tokens = j["usageMetadata"].value("promptTokenCount", 0);
-        response.output_tokens = j["usageMetadata"].value("candidatesTokenCount", 0);
+        response.input_tokens = clamp_token_count(j["usageMetadata"].value("promptTokenCount", 0));
+        response.output_tokens = clamp_token_count(j["usageMetadata"].value("candidatesTokenCount", 0));
     }
 
     // Parse candidates
@@ -306,9 +364,10 @@ auto GeminiProvider::parse_stream_chunk(const json& chunk,
                                          CompletionResponse& response,
                                          StreamCallback& cb) const -> void {
     // Parse usage metadata from any chunk
+    // v2026.3.2: Clamp negative token values to zero
     if (chunk.contains("usageMetadata")) {
-        response.input_tokens = chunk["usageMetadata"].value("promptTokenCount", 0);
-        response.output_tokens = chunk["usageMetadata"].value("candidatesTokenCount", 0);
+        response.input_tokens = clamp_token_count(chunk["usageMetadata"].value("promptTokenCount", 0));
+        response.output_tokens = clamp_token_count(chunk["usageMetadata"].value("candidatesTokenCount", 0));
     }
 
     if (!chunk.contains("candidates") || chunk["candidates"].empty()) return;
@@ -489,12 +548,14 @@ auto GeminiProvider::models() const -> std::vector<std::string> {
         "gemini-3.1-pro-preview",
         "gemini-3.1-pro-preview-antigravity-high",
         "gemini-3.1-pro-preview-antigravity-low",
+        "gemini-3-pro",      // v2026.3.2: Normalized to -low tier
+        "gemini-2.5-pro",
+        "gemini-2.5-flash",
         "gemini-2.0-flash",
         "gemini-2.0-flash-lite",
         "gemini-1.5-pro",
         "gemini-1.5-flash",
         "gemini-1.5-flash-8b",
-        "gemini-1.0-pro",
     };
 }
 

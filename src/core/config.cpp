@@ -58,6 +58,44 @@ auto load_config(const std::filesystem::path& path) -> Config {
     }
 }
 
+// v2026.3.2: Validate config patch safety constraints.
+// Rejects patches that set non-loopback gateway.bind while tailscale serve/funnel is active.
+auto validate_config_patch(const json& patch_value, std::string_view patch_path) -> bool {
+    if (patch_path == "gateway.bind" || patch_path == "gateway") {
+        // Check if tailscale serve or funnel is active
+        std::string bind_value;
+        if (patch_value.is_string()) {
+            bind_value = patch_value.get<std::string>();
+        } else if (patch_value.is_object() && patch_value.contains("bind")) {
+            bind_value = patch_value.value("bind", "");
+        }
+
+        if (bind_value == "all" || bind_value == "0.0.0.0") {
+            // Check for active tailscale serve/funnel by looking at env vars
+            if (auto* ts = std::getenv("TAILSCALE_SERVE_PORT"); ts && std::string(ts) != "") {
+                LOG_WARN("Config patch rejected: cannot set non-loopback gateway.bind "
+                         "while tailscale serve is active (TAILSCALE_SERVE_PORT={})", ts);
+                return false;
+            }
+            if (auto* tf = std::getenv("TAILSCALE_FUNNEL"); tf && std::string(tf) == "1") {
+                LOG_WARN("Config patch rejected: cannot set non-loopback gateway.bind "
+                         "while tailscale funnel is active");
+                return false;
+            }
+        }
+    }
+    return true;
+}
+
+// v2026.3.2: Check if a config update touches model-related paths that
+// should trigger heartbeat hot-reload.
+auto is_model_config_update(std::string_view path) -> bool {
+    return path.starts_with("models.") ||
+           path.starts_with("agents.defaults.model") ||
+           path == "models" ||
+           path == "agents.defaults.model";
+}
+
 auto load_config_from_env() -> Config {
     Config config;
 
@@ -180,6 +218,35 @@ auto resolve_env_refs(std::string_view input) -> std::string {
     }
 
     return result;
+}
+
+// ---------------------------------------------------------------------------
+// v2026.3.2: Tilde path expansion
+// ---------------------------------------------------------------------------
+
+auto expand_tilde(std::string_view path) -> std::string {
+    if (path.empty() || path[0] != '~') {
+        return std::string(path);
+    }
+
+    // ~/... → $HOME/...
+    if (path.size() == 1 || path[1] == '/') {
+        const char* home = std::getenv("HOME");
+        if (!home) {
+#ifdef _WIN32
+            home = std::getenv("USERPROFILE");
+#endif
+        }
+        if (home) {
+            std::string result(home);
+            if (path.size() > 1) {
+                result += path.substr(1);
+            }
+            return result;
+        }
+    }
+
+    return std::string(path);
 }
 
 } // namespace openclaw

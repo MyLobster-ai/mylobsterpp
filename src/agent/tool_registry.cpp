@@ -82,10 +82,74 @@ auto ToolRegistry::to_openai_json() const -> std::vector<json> {
     return result;
 }
 
+/// v2026.3.2: Normalize streamed alias/case tool names against allowed set.
+/// Preserves whitespace-only streamed placeholders.
+auto ToolRegistry::normalize_tool_name(std::string_view raw_name) const -> std::string {
+    auto name = std::string(raw_name);
+
+    // Preserve whitespace-only placeholders
+    bool all_whitespace = true;
+    for (char c : name) {
+        if (!std::isspace(static_cast<unsigned char>(c))) {
+            all_whitespace = false;
+            break;
+        }
+    }
+    if (all_whitespace && !name.empty()) {
+        return name;
+    }
+
+    // Exact match
+    if (tools_.contains(name)) {
+        return name;
+    }
+
+    // Case-insensitive search
+    std::string lower_name;
+    lower_name.reserve(name.size());
+    for (unsigned char c : name) {
+        lower_name += static_cast<char>(std::tolower(c));
+    }
+
+    for (const auto& [registered_name, _] : tools_) {
+        std::string lower_reg;
+        lower_reg.reserve(registered_name.size());
+        for (unsigned char c : registered_name) {
+            lower_reg += static_cast<char>(std::tolower(c));
+        }
+        if (lower_name == lower_reg) {
+            LOG_DEBUG("Tool name normalized: '{}' -> '{}'", raw_name, registered_name);
+            return registered_name;
+        }
+    }
+
+    // Underscore/hyphen normalization
+    auto normalize_separators = [](const std::string& s) {
+        std::string result;
+        result.reserve(s.size());
+        for (char c : s) {
+            result += (c == '-') ? '_' : static_cast<char>(std::tolower(static_cast<unsigned char>(c)));
+        }
+        return result;
+    };
+
+    auto normalized = normalize_separators(name);
+    for (const auto& [registered_name, _] : tools_) {
+        if (normalize_separators(registered_name) == normalized) {
+            LOG_DEBUG("Tool name normalized (separators): '{}' -> '{}'", raw_name, registered_name);
+            return registered_name;
+        }
+    }
+
+    return name;  // Return as-is if no match found
+}
+
 auto ToolRegistry::execute(std::string_view name, json params)
     -> boost::asio::awaitable<Result<json>> {
 
-    auto* tool = get(name);
+    // v2026.3.2: Normalize tool name before lookup
+    auto normalized_name = normalize_tool_name(name);
+    auto* tool = get(normalized_name);
     if (!tool) {
         co_return make_fail(make_error(
             ErrorCode::NotFound,

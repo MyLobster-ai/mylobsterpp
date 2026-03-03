@@ -103,9 +103,22 @@ auto CronScheduler::start() -> awaitable<void> {
     while (running_.load(std::memory_order_acquire)) {
         abort_requested_.store(false, std::memory_order_release);
 
+        // v2026.3.2: Timer hot-loop guard — enforce minimum re-arm delay
+        auto now_steady = std::chrono::steady_clock::now();
+        if (last_tick_time_ != std::chrono::steady_clock::time_point{}) {
+            auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(
+                now_steady - last_tick_time_);
+            if (elapsed.count() < kMinRearmDelayMs) {
+                boost::asio::steady_timer guard_timer(ioc_,
+                    std::chrono::milliseconds(kMinRearmDelayMs - elapsed.count()));
+                auto [guard_ec] = co_await guard_timer.async_wait(
+                    boost::asio::as_tuple(use_awaitable));
+                if (guard_ec == boost::asio::error::operation_aborted) break;
+            }
+        }
+
         // Compute time until the next minute boundary.
         auto now = Clock::now();
-        auto now_seconds = std::chrono::time_point_cast<std::chrono::seconds>(now);
         auto current_minute = std::chrono::time_point_cast<std::chrono::minutes>(now);
 
         // If we are past the start of the current minute, wait until the next.
@@ -133,6 +146,8 @@ auto CronScheduler::start() -> awaitable<void> {
             break;
         }
 
+        last_tick_time_ = std::chrono::steady_clock::now();
+
         // Check which tasks match the current time.
         auto tick_time = Clock::now();
 
@@ -154,12 +169,24 @@ auto CronScheduler::start() -> awaitable<void> {
             auto task_name = entry.name;
             bool one_shot = entry.delete_after_run;
             int stagger = entry.stagger_ms;
+            int max_retries = entry.max_retries;
+            int retry_backoff = entry.retry_backoff_ms;
+
+            // v2026.3.2: Lane draining — track active tasks
+            active_task_count_.fetch_add(1, std::memory_order_relaxed);
 
             boost::asio::co_spawn(
                 ioc_,
                 [this, &ioc = ioc_, task_copy = std::move(task_copy),
-                 task_name = std::move(task_name), stagger]()
+                 task_name = std::move(task_name), stagger,
+                 max_retries, retry_backoff]()
                     -> awaitable<void> {
+                    // v2026.3.2: Session reaper — ensure cleanup runs in finally block
+                    struct TaskGuard {
+                        std::atomic<int>& counter;
+                        ~TaskGuard() { counter.fetch_sub(1, std::memory_order_relaxed); }
+                    } guard{active_task_count_};
+
                     try {
                         // Apply stagger delay before execution
                         if (stagger > 0) {
@@ -170,9 +197,79 @@ auto CronScheduler::start() -> awaitable<void> {
                         // Check abort flag before execution
                         if (abort_requested_.load(std::memory_order_acquire)) {
                             LOG_INFO("Cron task '{}' skipped due to abort request", task_name);
+                            // v2026.3.2: Record skipped delivery status
+                            {
+                                std::lock_guard lock(mutex_);
+                                if (auto it = run_log_.find(task_name); it != run_log_.end()) {
+                                    it->second.delivery_status = DeliveryStatus::Skipped;
+                                }
+                            }
                             co_return;
                         }
-                        co_await task_copy();
+
+                        // v2026.3.2: One-shot retry with bounded backoff
+                        // Use flag-based loop to avoid co_await in catch blocks
+                        int attempt = 0;
+                        int current_backoff = retry_backoff;
+                        bool succeeded = false;
+                        std::string last_error;
+
+                        while (!succeeded) {
+                            bool need_retry = false;
+                            try {
+                                co_await task_copy();
+                                succeeded = true;
+                            } catch (const std::exception& e) {
+                                last_error = e.what();
+                                attempt++;
+                                if (attempt > max_retries) {
+                                    // Record failure and check alerting threshold
+                                    {
+                                        std::lock_guard lock(mutex_);
+                                        if (auto it = run_log_.find(task_name); it != run_log_.end()) {
+                                            it->second.delivery_status = DeliveryStatus::Failed;
+                                            it->second.error_message = last_error;
+                                            it->second.retry_attempt = attempt - 1;
+                                        }
+                                        if (auto it = tasks_.find(task_name); it != tasks_.end()) {
+                                            it->second.consecutive_failures++;
+                                            if (it->second.consecutive_failures >=
+                                                it->second.failure_alert.max_consecutive_failures &&
+                                                it->second.failure_alert.mode != "none") {
+                                                LOG_WARN("Cron task '{}' has failed {} consecutive times",
+                                                         task_name, it->second.consecutive_failures);
+                                            }
+                                        }
+                                    }
+                                    throw;  // Re-throw after max retries
+                                }
+                                need_retry = true;
+                            }
+
+                            if (need_retry) {
+                                LOG_WARN("Cron task '{}' attempt {}/{} failed: {}, retrying in {}ms",
+                                         task_name, attempt, max_retries + 1, last_error, current_backoff);
+                                boost::asio::steady_timer retry_timer(ioc,
+                                    std::chrono::milliseconds(current_backoff));
+                                co_await retry_timer.async_wait(use_awaitable);
+                                // Bounded exponential backoff (cap at 60s)
+                                current_backoff = std::min(current_backoff * 2, 60000);
+                            }
+                        }
+
+                        if (succeeded) {
+                            // v2026.3.2: Mark delivery status as Ok
+                            std::lock_guard lock(mutex_);
+                            if (auto it = run_log_.find(task_name); it != run_log_.end()) {
+                                it->second.completed = true;
+                                it->second.delivery_status = DeliveryStatus::Ok;
+                                it->second.retry_attempt = attempt;
+                            }
+                            // Reset consecutive failures on success
+                            if (auto it = tasks_.find(task_name); it != tasks_.end()) {
+                                it->second.consecutive_failures = 0;
+                            }
+                        }
                     } catch (const std::exception& e) {
                         LOG_ERROR("Cron task '{}' failed: {}", task_name, e.what());
                     }
@@ -191,6 +288,24 @@ auto CronScheduler::start() -> awaitable<void> {
                 tasks_.erase(name);
                 LOG_INFO("Auto-deleted one-shot cron task '{}' after execution", name);
             }
+        }
+    }
+
+    // v2026.3.2: Lane draining — wait for active tasks to complete (30s hard timeout)
+    if (active_task_count_.load(std::memory_order_relaxed) > 0) {
+        LOG_INFO("Cron scheduler draining {} active tasks...",
+                 active_task_count_.load(std::memory_order_relaxed));
+        boost::asio::steady_timer drain_timer(ioc_);
+        for (int i = 0; i < 60; ++i) {
+            if (active_task_count_.load(std::memory_order_relaxed) == 0) break;
+            drain_timer.expires_after(std::chrono::milliseconds(500));
+            auto [drain_ec] = co_await drain_timer.async_wait(
+                boost::asio::as_tuple(use_awaitable));
+            if (drain_ec) break;
+        }
+        if (active_task_count_.load(std::memory_order_relaxed) > 0) {
+            LOG_WARN("Cron scheduler stopped with {} tasks still running",
+                     active_task_count_.load(std::memory_order_relaxed));
         }
     }
 
@@ -248,6 +363,11 @@ auto CronScheduler::manual_run(std::string_view name) -> Result<void> {
                 // Check abort flag before execution
                 if (abort_requested_.load(std::memory_order_acquire)) {
                     LOG_INFO("Manual run of '{}' aborted before execution", task_name);
+                    // v2026.3.2: Record skipped delivery status
+                    std::lock_guard lock(mutex_);
+                    if (auto it = run_log_.find(task_name); it != run_log_.end()) {
+                        it->second.delivery_status = DeliveryStatus::Skipped;
+                    }
                     co_return;
                 }
                 co_await task_copy();
@@ -255,9 +375,16 @@ auto CronScheduler::manual_run(std::string_view name) -> Result<void> {
                 std::lock_guard lock(mutex_);
                 if (auto it = run_log_.find(task_name); it != run_log_.end()) {
                     it->second.completed = true;
+                    it->second.delivery_status = DeliveryStatus::Ok;
                 }
             } catch (const std::exception& e) {
                 LOG_ERROR("Manual run of '{}' failed: {}", task_name, e.what());
+                // v2026.3.2: Record failure delivery status
+                std::lock_guard lock(mutex_);
+                if (auto it = run_log_.find(task_name); it != run_log_.end()) {
+                    it->second.delivery_status = DeliveryStatus::Failed;
+                    it->second.error_message = e.what();
+                }
             }
         },
         boost::asio::detached);
@@ -338,6 +465,24 @@ auto CronScheduler::list_runs(const CronRunsParams& params) const -> std::vector
             bool found = false;
             for (const auto& s : *params.statuses) {
                 if (s == status) { found = true; break; }
+            }
+            if (!found) continue;
+        }
+        // v2026.3.2: Apply delivery status filter
+        if (params.delivery_statuses) {
+            auto ds_str = [](DeliveryStatus ds) -> std::string {
+                switch (ds) {
+                    case DeliveryStatus::Pending: return "pending";
+                    case DeliveryStatus::Ok: return "ok";
+                    case DeliveryStatus::Failed: return "failed";
+                    case DeliveryStatus::Skipped: return "skipped";
+                }
+                return "pending";
+            };
+            std::string ds = ds_str(entry.delivery_status);
+            bool found = false;
+            for (const auto& s : *params.delivery_statuses) {
+                if (s == ds) { found = true; break; }
             }
             if (!found) continue;
         }

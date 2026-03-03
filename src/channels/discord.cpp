@@ -62,6 +62,9 @@ auto DiscordChannel::start() -> boost::asio::awaitable<void> {
     LOG_INFO("[discord] Starting channel '{}'", config_.channel_name);
     running_.store(true);
 
+    // v2026.3.2: Immediate "connected" status push at lifecycle start
+    LOG_INFO("[discord] Channel '{}' status: connected", config_.channel_name);
+
     // Spawn the gateway loop as a detached coroutine
     boost::asio::co_spawn(ioc_, gateway_loop(), boost::asio::detached);
     co_return;
@@ -341,10 +344,13 @@ auto DiscordChannel::gateway_loop() -> boost::asio::awaitable<void> {
             heartbeat_timer_.cancel();
         }
 
-        // Backoff before reconnecting (moved outside catch - co_await not allowed in catch blocks)
+        // v2026.3.2: Reconnect with bounded exponential backoff
         if (running_.load()) {
-            boost::asio::steady_timer timer(ioc_, std::chrono::seconds(5));
+            auto backoff = std::min(reconnect_backoff_seconds_, 120);
+            LOG_INFO("[discord] Reconnecting in {}s...", backoff);
+            boost::asio::steady_timer timer(ioc_, std::chrono::seconds(backoff));
             co_await timer.async_wait(net::use_awaitable);
+            reconnect_backoff_seconds_ = std::min(reconnect_backoff_seconds_ * 2, 120);
         }
     }
 
@@ -361,6 +367,8 @@ auto DiscordChannel::handle_dispatch(const json& payload) -> void {
 
     if (event_name == "READY") {
         session_id_ = data.value("session_id", "");
+        // v2026.3.2: Reset reconnect backoff on successful ready
+        reconnect_backoff_seconds_ = 5;
         if (data.contains("user")) {
             bot_user_id_ = data["user"].value("id", "");
             LOG_INFO("[discord] Ready, session={}, bot_user_id={}",
@@ -740,6 +748,14 @@ auto make_discord_channel(const json& settings, boost::asio::io_context& ioc)
     // AutoThread configuration
     config.auto_thread = settings.value("auto_thread", false);
     config.auto_thread_ttl_minutes = settings.value("auto_thread_ttl_minutes", 5);
+
+    // v2026.3.2: Inactivity-based thread bindings
+    if (settings.contains("idleHours")) {
+        config.idle_hours = settings["idleHours"].get<int>();
+    }
+    if (settings.contains("maxAgeHours")) {
+        config.max_age_hours = settings["maxAgeHours"].get<int>();
+    }
 
     // v2026.2.24: DAVE voice encryption configuration
     config.dave_encryption = settings.value("dave_encryption", false);

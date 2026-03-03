@@ -196,6 +196,34 @@ auto CdpClient::connect(std::string_view ws_url) -> awaitable<Result<void>> {
         impl_->connected = true;
         LOG_INFO("CDP connected to {}", url_str);
 
+        // v2026.3.2: CDP startup readiness check via Browser.getVersion
+        {
+            int readiness_id = impl_->allocate_id();
+            json version_msg = {
+                {"id", readiness_id},
+                {"method", "Browser.getVersion"},
+            };
+            auto version_str = version_msg.dump();
+            co_await impl_->ws->async_write(
+                net::buffer(version_str), net::use_awaitable);
+
+            // Read response synchronously before starting the background loop
+            beast::flat_buffer version_buf;
+            co_await impl_->ws->async_read(version_buf, net::use_awaitable);
+            auto version_resp = beast::buffers_to_string(version_buf.data());
+            try {
+                auto vj = json::parse(version_resp);
+                if (vj.contains("result")) {
+                    LOG_INFO("CDP browser: product={}, protocol={}, userAgent={}",
+                             vj["result"].value("product", "unknown"),
+                             vj["result"].value("protocolVersion", "unknown"),
+                             vj["result"].value("userAgent", "unknown"));
+                }
+            } catch (const json::exception&) {
+                LOG_WARN("CDP Browser.getVersion response not parseable");
+            }
+        }
+
         // Start the read loop in the background
         net::co_spawn(impl_->ioc,
             [this]() -> awaitable<void> {

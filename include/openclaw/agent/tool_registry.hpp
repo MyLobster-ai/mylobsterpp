@@ -66,6 +66,11 @@ public:
     /// Remove all registered tools.
     void clear();
 
+    /// v2026.3.2: Normalize streamed alias/case tool names against allowed set.
+    /// Performs case-insensitive and separator-normalized matching.
+    /// Preserves whitespace-only streamed placeholders.
+    [[nodiscard]] auto normalize_tool_name(std::string_view raw_name) const -> std::string;
+
 private:
     std::unordered_map<std::string, std::unique_ptr<Tool>> tools_;
 };

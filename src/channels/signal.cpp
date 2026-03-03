@@ -180,6 +180,31 @@ auto SignalChannel::parse_message(const json& envelope)
     // { "source": "+1234567890", "sourceNumber": "...", "sourceName": "...",
     //   "timestamp": 1234567890, "dataMessage": { "message": "hello", ... } }
 
+    // v2026.3.2: Handle syncMessage as sync envelope traffic
+    if (envelope.contains("syncMessage")) {
+        const auto& sync_msg = envelope["syncMessage"];
+        // v2026.3.2: Own-account detection before sync-message filtering
+        // Skip sync messages from ourselves (the registered number)
+        std::string source = envelope.value("sourceNumber",
+                                             envelope.value("source", ""));
+        if (source == config_.phone_number) {
+            LOG_TRACE("[signal] Skipping own sync message");
+            return std::nullopt;
+        }
+        // If the sync message contains a sent message, process its dataMessage
+        if (sync_msg.contains("sentMessage") &&
+            sync_msg["sentMessage"].contains("dataMessage")) {
+            // Reconstruct as a regular dataMessage for processing
+            json reconstructed = envelope;
+            reconstructed["dataMessage"] = sync_msg["sentMessage"]["dataMessage"];
+            reconstructed.erase("syncMessage");
+            // Mark as sync-delivered
+            reconstructed["_sync_envelope"] = true;
+            return parse_message(reconstructed);
+        }
+        return std::nullopt;
+    }
+
     if (!envelope.contains("dataMessage")) {
         // Not a data message (could be receipt, typing indicator, etc.)
         return std::nullopt;
@@ -332,6 +357,13 @@ auto SignalChannel::send_reaction(std::string_view recipient,
                                    std::string_view emoji)
     -> boost::asio::awaitable<openclaw::Result<json>>
 {
+    // v2026.3.2: react fallback to toolContext.currentMessageId
+    // If target_timestamp is 0, the caller should have already resolved
+    // it from toolContext.currentMessageId as a fallback
+    if (target_timestamp == 0) {
+        LOG_WARN("[signal] React with zero timestamp — likely missing toolContext.currentMessageId fallback");
+    }
+
     json payload = {
         {"recipient", std::string(recipient)},
         {"reaction", {

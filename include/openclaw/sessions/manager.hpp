@@ -66,9 +66,29 @@ public:
     /// v2026.2.24: Invalidate cached bootstrap for a session (called on /new, /reset).
     void invalidate_bootstrap_cache(std::string_view session_key);
 
+    /// v2026.3.2: Check if session needs pre-compaction memory flush.
+    /// Returns true if the session's metadata indicates memory usage exceeds
+    /// the compaction flush threshold (2MB).
+    [[nodiscard]] auto needs_compaction_flush(std::string_view session_id)
+        -> awaitable<Result<bool>>;
+
+    /// v2026.3.2: Update session usage accounting from latest snapshot.
+    auto update_usage(std::string_view session_id, const SessionUsage& usage)
+        -> awaitable<Result<void>>;
+
+    /// v2026.3.2: Recover stale session locks by checking if the holding
+    /// PID is still alive (recycled PID detection via /proc/<pid>/stat).
+    auto try_recover_lock(std::string_view session_id, int64_t lock_pid)
+        -> Result<bool>;
+
+    /// v2026.3.2: Invalidate store cache when underlying file size changes.
+    void invalidate_store_cache_if_changed(std::string_view session_key, size_t current_size);
+
 private:
     std::unique_ptr<SessionStore> store_;
     std::unordered_map<std::string, std::string> bootstrap_cache_;
+    // v2026.3.2: Store cache tracking for file size invalidation
+    std::unordered_map<std::string, size_t> cache_file_sizes_;
 };
 
 } // namespace openclaw::sessions

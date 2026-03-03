@@ -45,6 +45,16 @@ auto SlackChannel::start() -> boost::asio::awaitable<void> {
 
     auto info = co_await fetch_bot_info();
     if (!info) {
+        // v2026.3.2: Fail fast on non-recoverable auth errors
+        auto err_msg = std::string(info.error().what());
+        bool is_auth_error = (info.error().code() == ErrorCode::Unauthorized) ||
+            err_msg.find("invalid_auth") != std::string::npos ||
+            err_msg.find("account_inactive") != std::string::npos ||
+            err_msg.find("token_revoked") != std::string::npos;
+        if (is_auth_error) {
+            LOG_ERROR("[slack] Non-recoverable auth error, not starting: {}", err_msg);
+            co_return;
+        }
         LOG_ERROR("[slack] Failed to fetch bot info: {}", info.error().what());
         co_return;
     }
@@ -232,6 +242,8 @@ auto SlackChannel::socket_mode_loop() -> boost::asio::awaitable<void> {
 
                     if (envelope_type == "hello") {
                         LOG_DEBUG("[slack] Received Socket Mode hello");
+                        // v2026.3.2: Reset reconnect backoff on successful connection
+                        reconnect_backoff_seconds_ = 5;
                         continue;
                     }
 
@@ -266,10 +278,13 @@ auto SlackChannel::socket_mode_loop() -> boost::asio::awaitable<void> {
             LOG_ERROR("[slack] Socket Mode error: {}", e.what());
         }
 
-        // Backoff before reconnecting (moved outside catch - co_await not allowed in catch blocks)
+        // v2026.3.2: Reconnect with bounded exponential backoff
         if (running_.load()) {
-            boost::asio::steady_timer timer(ioc_, std::chrono::seconds(5));
+            auto backoff = std::min(reconnect_backoff_seconds_, 120);
+            LOG_INFO("[slack] Reconnecting in {}s...", backoff);
+            boost::asio::steady_timer timer(ioc_, std::chrono::seconds(backoff));
             co_await timer.async_wait(net::use_awaitable);
+            reconnect_backoff_seconds_ = std::min(reconnect_backoff_seconds_ * 2, 120);
         }
     }
 
@@ -597,6 +612,23 @@ auto make_slack_channel(const json& settings, boost::asio::io_context& ioc)
     }
     if (settings.contains("reply_to_mode")) {
         config.reply_to_mode = settings.at("reply_to_mode").get<std::string>();
+    }
+
+    // v2026.3.2: Boolean streaming=false → mode "off" mapping
+    if (settings.contains("streaming")) {
+        if (settings["streaming"].is_boolean()) {
+            config.streaming_mode = settings["streaming"].get<bool>() ? "partial" : "off";
+        } else if (settings["streaming"].is_string()) {
+            config.streaming_mode = settings["streaming"].get<std::string>();
+        }
+    }
+
+    // v2026.3.2: Thread session isolation
+    config.thread_session_isolation = settings.value("threadSessionIsolation", false);
+
+    // v2026.3.2: Skip monitor socket when enabled=false
+    if (settings.contains("monitor") && settings["monitor"].is_object()) {
+        config.monitor_enabled = settings["monitor"].value("enabled", true);
     }
 
     if (config.bot_token.empty()) {

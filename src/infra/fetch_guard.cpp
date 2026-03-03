@@ -209,6 +209,12 @@ auto FetchGuard::validate_url(std::string_view url, boost::asio::io_context& ioc
         co_return ok_result();
     }
 
+    // v2026.3.2: DNS pinning for SSRF protection.
+    // When proxy env vars are set, we still validate the hostname resolves
+    // to non-private IPs to prevent SSRF through the proxy.
+    bool has_proxy = std::getenv("HTTP_PROXY") || std::getenv("HTTPS_PROXY") ||
+                     std::getenv("http_proxy") || std::getenv("https_proxy");
+
     // Resolve hostname to IP addresses
     net::ip::tcp::resolver resolver(ioc);
     try {
@@ -230,12 +236,22 @@ auto FetchGuard::validate_url(std::string_view url, boost::asio::io_context& ioc
 
         for (const auto& addr : addresses) {
             if (is_private_ip(addr)) {
+                // v2026.3.2: Enhanced SSRF logging with proxy context
+                if (has_proxy) {
+                    LOG_WARN("FetchGuard: SSRF blocked via DNS pinning (proxy env set): "
+                             "{} -> {}", hostname, addr);
+                }
                 co_return make_fail(
                     make_error(ErrorCode::Forbidden,
                                "SSRF blocked: URL resolves to private IP",
                                hostname + " -> " + addr));
             }
         }
+
+        // v2026.3.2: Store pinned addresses for connection verification
+        // (callers can check that the actual connection IP matches a pinned address)
+        pinned_addresses_[hostname] = addresses;
+
     } catch (const boost::system::system_error& e) {
         co_return make_fail(
             make_error(ErrorCode::ConnectionFailed,

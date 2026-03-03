@@ -162,4 +162,162 @@ auto harden_approved_execution_paths(const std::filesystem::path& cwd,
     return true;
 }
 
+// ---------------------------------------------------------------------------
+// v2026.3.2: Escape metacharacters in path-pattern literals for exec approvals
+// ---------------------------------------------------------------------------
+
+auto escape_regex_metacharacters(std::string_view input) -> std::string {
+    std::string result;
+    result.reserve(input.size() * 2);
+    for (char c : input) {
+        switch (c) {
+            case '.': case '+': case '*': case '?':
+            case '(': case ')': case '[': case ']':
+            case '{': case '}': case '\\': case '^':
+            case '$': case '|':
+                result += '\\';
+                result += c;
+                break;
+            default:
+                result += c;
+                break;
+        }
+    }
+    return result;
+}
+
+// ---------------------------------------------------------------------------
+// v2026.3.2: Revalidate approval-bound cwd identity before execution
+// ---------------------------------------------------------------------------
+
+auto revalidate_approval_cwd_identity(
+    const std::filesystem::path& original_cwd,
+    const std::filesystem::path& current_cwd) -> bool
+{
+    namespace fs = std::filesystem;
+    std::error_code ec;
+
+    // Canonicalize both paths
+    auto canonical_original = fs::canonical(original_cwd, ec);
+    if (ec) {
+        LOG_WARN("Exec revalidation: cannot canonicalize original cwd: {} ({})",
+                 original_cwd.string(), ec.message());
+        return false;
+    }
+
+    auto canonical_current = fs::canonical(current_cwd, ec);
+    if (ec) {
+        LOG_WARN("Exec revalidation: cannot canonicalize current cwd: {} ({})",
+                 current_cwd.string(), ec.message());
+        return false;
+    }
+
+    if (canonical_original != canonical_current) {
+        LOG_WARN("Exec revalidation: cwd changed between approval and execution: {} vs {}",
+                 canonical_original.string(), canonical_current.string());
+        return false;
+    }
+
+#ifndef _WIN32
+    // Verify inode identity of cwd hasn't changed (TOCTOU protection)
+    struct stat original_stat{}, current_stat{};
+    if (::stat(canonical_original.c_str(), &original_stat) != 0 ||
+        ::stat(canonical_current.c_str(), &current_stat) != 0) {
+        LOG_WARN("Exec revalidation: stat failed on cwd");
+        return false;
+    }
+
+    if (original_stat.st_ino != current_stat.st_ino ||
+        original_stat.st_dev != current_stat.st_dev) {
+        LOG_WARN("Exec revalidation: cwd inode changed between approval and execution");
+        return false;
+    }
+#endif
+
+    return true;
+}
+
+// ---------------------------------------------------------------------------
+// v2026.3.2: Preserve shell/dispatch-wrapper argv during approval validation
+// ---------------------------------------------------------------------------
+
+auto validate_with_preserved_argv(
+    const std::vector<std::string>& argv,
+    std::string_view declared_command,
+    bool preserve_wrappers) -> bool
+{
+    if (!preserve_wrappers) {
+        return validate_system_run_consistency(argv, declared_command);
+    }
+
+    // When preserving wrappers, validate the full argv chain
+    // instead of unwrapping to the inner command
+    if (argv.empty()) return false;
+
+    // The first element should be the declared command (or a known wrapper)
+    auto first_binary = std::filesystem::path(argv[0]).filename().string();
+    auto declared_binary = std::filesystem::path(std::string(declared_command)).filename().string();
+
+    if (first_binary == declared_binary) return true;
+
+    // Check if it's a known wrapper followed by the declared command
+    if (is_shell_wrapper(first_binary)) {
+        return validate_system_run_consistency(argv, declared_command);
+    }
+
+    return false;
+}
+
+#ifdef _WIN32
+// ---------------------------------------------------------------------------
+// v2026.3.2: Windows ACPX spawn - resolve .cmd/.bat wrappers via PATH/PATHEXT
+// ---------------------------------------------------------------------------
+
+auto resolve_windows_cmd_wrapper(std::string_view command)
+    -> std::optional<std::filesystem::path>
+{
+    namespace fs = std::filesystem;
+
+    // Get PATHEXT extensions
+    std::vector<std::string> pathext_list;
+    if (auto* pathext = std::getenv("PATHEXT")) {
+        std::string pe(pathext);
+        size_t pos = 0;
+        while (pos < pe.size()) {
+            auto semi = pe.find(';', pos);
+            auto ext = pe.substr(pos, semi - pos);
+            if (!ext.empty()) pathext_list.push_back(ext);
+            pos = (semi == std::string::npos) ? pe.size() : semi + 1;
+        }
+    } else {
+        pathext_list = {".COM", ".EXE", ".BAT", ".CMD"};
+    }
+
+    // Get PATH directories
+    std::vector<std::string> path_dirs;
+    if (auto* path = std::getenv("PATH")) {
+        std::string p(path);
+        size_t pos = 0;
+        while (pos < p.size()) {
+            auto semi = p.find(';', pos);
+            auto dir = p.substr(pos, semi - pos);
+            if (!dir.empty()) path_dirs.push_back(dir);
+            pos = (semi == std::string::npos) ? p.size() : semi + 1;
+        }
+    }
+
+    std::string cmd_str(command);
+    for (const auto& dir : path_dirs) {
+        for (const auto& ext : pathext_list) {
+            auto candidate = fs::path(dir) / (cmd_str + ext);
+            if (fs::exists(candidate)) {
+                return candidate;
+            }
+        }
+    }
+
+    return std::nullopt;
+}
+#endif
+
 } // namespace openclaw::infra

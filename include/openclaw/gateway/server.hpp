@@ -94,9 +94,57 @@ private:
 /// Callback type for new connection events.
 using ConnectionCallback = std::function<void(std::shared_ptr<Connection>)>;
 
-/// v2026.2.26: Protected route prefixes requiring gateway authentication.
+/// v2026.3.2: Protected route prefixes requiring gateway authentication.
 inline constexpr std::array<std::string_view, 1> PROTECTED_ROUTE_PREFIXES = {
     "/api/channels"
+};
+
+/// v2026.3.2: NO_REPLY streaming suppression buffer.
+/// Holds assistant lead-fragment deltas to prevent partial "NO" leaks
+/// on silent-response runs. Flushes when content diverges from NO_REPLY prefix.
+struct NoReplyBuffer {
+    static constexpr std::string_view NO_REPLY_TOKEN = "NO_REPLY";
+
+    std::string accumulated;
+    bool suppressing = true;
+
+    /// Feed a text delta. Returns text to emit (may be empty if still buffering).
+    auto feed(std::string_view delta) -> std::string {
+        if (!suppressing) {
+            return std::string(delta);
+        }
+
+        accumulated += delta;
+
+        // If accumulated text IS NO_REPLY exactly, suppress entirely
+        if (accumulated == NO_REPLY_TOKEN) {
+            return {};
+        }
+
+        // If accumulated is still a prefix of NO_REPLY, keep buffering
+        if (NO_REPLY_TOKEN.starts_with(accumulated)) {
+            return {};
+        }
+
+        // Accumulated text diverges from NO_REPLY — flush everything
+        suppressing = false;
+        return accumulated;
+    }
+
+    /// Call at end of stream. Returns any remaining buffered text that
+    /// should be emitted (empty if the entire response was NO_REPLY).
+    auto flush_final() -> std::string {
+        if (!suppressing) return {};
+        // If accumulated is exactly NO_REPLY, suppress it
+        if (accumulated == NO_REPLY_TOKEN) return {};
+        // Otherwise flush the buffer
+        return accumulated;
+    }
+
+    void reset() {
+        accumulated.clear();
+        suppressing = true;
+    }
 };
 
 /// v2026.2.26: Sliding-window rate limiter for auth failures per IP.
@@ -245,6 +293,55 @@ private:
 
     /// v2026.2.26: Rate limiter for plugin route auth failures.
     AuthRateLimiter auth_rate_limiter_;
+
+    // --- v2026.3.2 additions ---
+
+    /// v2026.3.2: HTTP health/readiness endpoint handler.
+    /// Handles GET requests for /health, /healthz, /ready, /readyz
+    /// before WebSocket upgrade. Returns 200 OK with JSON body.
+    auto handle_http_request(tcp::socket& socket) -> awaitable<bool>;
+
+    /// v2026.3.2: Track WS flood counts per connection for post-handshake
+    /// unauthorized role:* request floods.
+    struct WsFloodTracker {
+        static constexpr int kMaxUnauthorizedRequests = 20;
+        static constexpr int kSampleLogInterval = 5;
+
+        std::unordered_map<std::string, int> unauthorized_counts;
+
+        /// Returns true if the connection should be closed due to flood.
+        auto record_unauthorized(const std::string& conn_id) -> bool {
+            auto& count = unauthorized_counts[conn_id];
+            ++count;
+            if (count % kSampleLogInterval == 0) {
+                // Caller should log sampled rejection
+            }
+            return count >= kMaxUnauthorizedRequests;
+        }
+
+        void remove(const std::string& conn_id) {
+            unauthorized_counts.erase(conn_id);
+        }
+    };
+    WsFloodTracker ws_flood_tracker_;
+
+    /// v2026.3.2: Config load retry state for exponential backoff.
+    struct ConfigRetryState {
+        int attempt = 0;
+        static constexpr int kMaxBackoffSeconds = 60;
+
+        auto next_delay_seconds() -> int {
+            int delay = std::min(1 << attempt, kMaxBackoffSeconds);
+            ++attempt;
+            return delay;
+        }
+
+        void reset() { attempt = 0; }
+    };
+
+    /// v2026.3.2: Whether to enforce loopback-only for insecure WebSocket.
+    /// Set to true by default; can be disabled via OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1.
+    bool enforce_ws_loopback_ = true;
 };
 
 } // namespace openclaw::gateway

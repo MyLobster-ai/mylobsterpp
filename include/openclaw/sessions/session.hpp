@@ -23,11 +23,23 @@ NLOHMANN_JSON_SERIALIZE_ENUM(SessionState, {
     {SessionState::Closed, "closed"},
 })
 
+// v2026.3.2: Usage accounting for cache token tracking
+struct SessionUsage {
+    int64_t cache_read_tokens = 0;
+    int64_t cache_write_tokens = 0;
+    int64_t input_tokens = 0;
+    int64_t output_tokens = 0;
+};
+
 struct SessionData {
     Session session;
     SessionState state = SessionState::Active;
     json metadata;
     int auto_compaction_count = 0;  // Only incremented on completed compactions
+    // v2026.3.2: Usage accounting from latest snapshot
+    SessionUsage usage;
+    // v2026.3.2: Compaction safety — pre-compaction memory size threshold (bytes)
+    static constexpr size_t kCompactionFlushThreshold = 2 * 1024 * 1024;  // 2MB
 };
 
 /// v2026.2.25: Model identity reference for session model resolution.
