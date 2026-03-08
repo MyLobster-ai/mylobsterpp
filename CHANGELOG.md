@@ -2,6 +2,64 @@
 
 All notable changes to MyLobster++ are documented in this file.
 
+## v2026.3.2
+
+Full OpenClaw v2026.3.2 method parity release.
+
+### RPC Method Parity
+
+Comprehensive parity with OpenClaw v2026.3.2 gateway API surface. Total RPC methods increased from 116 to ~160+.
+
+#### Browser Handlers (11 methods wired to CDP)
+
+All 11 previously-stubbed browser methods now wire through `BrowserAction` to real Chrome DevTools Protocol commands:
+- `browser.navigate` — CDP `Page.navigate` + `wait_for_navigation`
+- `browser.screenshot` — CDP `Page.captureScreenshot` with full-page and clip support
+- `browser.content` — `page_source()` (HTML) or `get_text()` (text mode)
+- `browser.click` — element resolution + box model + `Input.dispatchMouseEvent`
+- `browser.type` — focus + per-character `Input.dispatchKeyEvent` with clear-first option
+- `browser.fill` — form field fill with checkbox/radio/text type support
+- `browser.evaluate` — CDP `Runtime.evaluate` with return-by-value and promise await
+- `browser.wait` — selector polling or fixed-duration wait
+- `browser.scroll` — CDP `Input.dispatchMouseEvent` mouseWheel
+- `browser.pdf` — CDP `Page.printToPDF` with landscape/background options
+- `browser.cookies.get/set` — CDP `Network.getCookies` / `Network.setCookie`
+
+#### New Handler Groups (9 groups, ~70 methods)
+
+- **Nodes** (12 methods): `node.list`, `node.describe`, `node.invoke`, `node.invoke.result`, `node.event`, `node.rename`, `node.pair.request/list/approve/reject/verify`, `node.canvas.capability.refresh`
+- **TTS** (6 methods): `tts.status`, `tts.enable`, `tts.disable`, `tts.convert`, `tts.setProvider`, `tts.providers`
+- **Exec Approvals** (7 methods): `exec.approval.request/resolve/waitDecision`, `exec.approvals.get/set`, `exec.approvals.node.get/set`
+- **Skills** (4 methods): `skills.status`, `skills.bins`, `skills.install`, `skills.update`
+- **Agents CRUD** (9 methods): `agents.list/create/update/delete`, `agents.files.list/get/set`, `agent.identity.get`, `agent.wait`
+- **Devices** (6 methods): `device.pair.list/approve/reject/remove`, `device.token.rotate/revoke`
+- **Wizard** (4 methods): `wizard.start/next/cancel/status`
+- **Usage** (6 methods): `usage.status/cost`, `sessions.usage/usage.logs/usage.timeseries`, `models.list`
+- **System** (20+ methods): `health`, `last-heartbeat`, `set-heartbeats`, `system-presence`, `system-event`, `send`, `update.run`, `secrets.reload/resolve`, `doctor.memory.status`, `logs.tail`, `push.test`, `talk.config/mode`, `tools.catalog`, `web.login.start/wait`, `voicewake.get/set`, `chat.history/inject/abort`, `channels.status/logout`, `agent.poll/timestamp`, `config.apply/schema`, `cron.add/update/remove/run/runs`, `browser.request`, `provider.usage`, `sessions.list/resolve/preview/patch/reset/delete/compact`
+
+#### Agent Runtime Enhancements
+
+- `cancel_run(run_id)` — cancellation token tracking for in-flight completions
+- `system_prompt()` / `set_system_prompt()` — runtime system prompt management
+- `thinking_mode()` / `set_thinking_mode()` — runtime thinking mode switching
+- `model_override()` / `set_model()` — runtime model override support
+
+#### Session Handler Wiring
+
+- `session.update` — merges metadata, model, thinkingLevel into session data
+- `session.context.set/get/clear` — full context variable storage in session metadata
+- `session.history` — returns messages tracked in session metadata
+- `agent.conversation.rename` — updates session metadata name field
+
+#### Channel Handler Improvements
+
+- `channel.configure` — validates channel exists, logs configuration updates
+- `channel.telegram.webhook` — accepts and validates webhook URL
+- `channel.discord/slack/whatsapp.setup` — accept credentials with validation
+- `channel.sms.send` — validates parameters, requires Twilio credentials
+
+---
+
 ## v2026.2.25
 
 Port of [OpenClaw v2026.2.25](https://github.com/openclaw/openclaw) changes to C++23.

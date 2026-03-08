@@ -26,6 +26,16 @@
 #include "openclaw/gateway/channel_handler.hpp"
 #include "openclaw/gateway/plugin_handler.hpp"
 #include "openclaw/gateway/cron_handler.hpp"
+// v2026.3.2: New handler groups for OpenClaw parity.
+#include "openclaw/gateway/nodes_handler.hpp"
+#include "openclaw/gateway/tts_handler.hpp"
+#include "openclaw/gateway/exec_approval_handler.hpp"
+#include "openclaw/gateway/skills_handler.hpp"
+#include "openclaw/gateway/agents_handler.hpp"
+#include "openclaw/gateway/devices_handler.hpp"
+#include "openclaw/gateway/wizard_handler.hpp"
+#include "openclaw/gateway/usage_handler.hpp"
+#include "openclaw/gateway/system_handler.hpp"
 
 // Subsystem headers.
 #include "openclaw/sessions/manager.hpp"
@@ -42,7 +52,7 @@
 
 // Version string; typically injected by CMake via -D, fallback to a default.
 #ifndef OPENCLAW_VERSION_STRING
-#define OPENCLAW_VERSION_STRING "2026.2.26"
+#define OPENCLAW_VERSION_STRING "2026.3.2"
 #endif
 
 namespace openclaw::cli {
@@ -215,8 +225,19 @@ void register_gateway_command(CLI::App& app, Config& config) {
         gateway::register_channel_handlers(protocol, channel_registry);
         gateway::register_plugin_handlers(protocol, plugin_loader);
         gateway::register_cron_handlers(protocol, cron_scheduler);
+        // v2026.3.2: New handler groups for OpenClaw parity.
+        gateway::register_nodes_handlers(protocol, server);
+        gateway::register_tts_handlers(protocol);
+        gateway::register_exec_approval_handlers(protocol);
+        gateway::register_skills_handlers(protocol);
+        gateway::register_agents_handlers(protocol, server);
+        gateway::register_devices_handlers(protocol);
+        gateway::register_wizard_handlers(protocol);
+        gateway::register_usage_handlers(protocol, session_mgr);
+        gateway::register_system_handlers(protocol, server);
 
-        LOG_INFO("All {} RPC handlers registered", protocol.methods().size());
+        LOG_INFO("All {} RPC handlers registered (OpenClaw v2026.3.2 parity)",
+                 protocol.methods().size());
 
         // --- Start the gateway ---
         boost::asio::co_spawn(ioc,

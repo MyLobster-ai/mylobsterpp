@@ -2,6 +2,7 @@
 
 #include <memory>
 #include <string>
+#include <unordered_set>
 #include <vector>
 
 #include <boost/asio.hpp>
@@ -83,6 +84,21 @@ public:
     /// v2026.3.2: Track if there's a pending tool call awaiting result.
     [[nodiscard]] auto has_pending_tool_call() const -> bool;
 
+    /// v2026.3.2: Cancel a running completion by run ID.
+    void cancel_run(const std::string& run_id);
+
+    /// v2026.3.2: System prompt management.
+    void set_system_prompt(const std::string& prompt);
+    [[nodiscard]] auto system_prompt() const -> const std::string&;
+
+    /// v2026.3.2: Thinking mode management ("none", "basic", "extended").
+    void set_thinking_mode(const std::string& mode);
+    [[nodiscard]] auto thinking_mode() const -> const std::string&;
+
+    /// v2026.3.2: Model override (applies to next completion).
+    void set_model(const std::string& model);
+    [[nodiscard]] auto model_override() const -> const std::string&;
+
 private:
     /// Extract tool call content blocks from a message.
     auto extract_tool_calls(const Message& msg) const
@@ -100,6 +116,14 @@ private:
 
     // v2026.3.2: Pending tool-call tracking for interruption cleanup
     bool pending_tool_call_ = false;
+
+    // v2026.3.2: Run cancellation tracking
+    std::unordered_set<std::string> cancelled_runs_;
+
+    // v2026.3.2: Runtime state
+    std::string system_prompt_;
+    std::string thinking_mode_{"none"};
+    std::string model_override_;
 };
 
 } // namespace openclaw::agent

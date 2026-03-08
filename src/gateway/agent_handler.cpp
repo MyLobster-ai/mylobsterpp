@@ -16,12 +16,12 @@ void register_agent_handlers(Protocol& protocol,
     // agent.chat and agent.chat.stream are registered by register_chat_handlers().
     // agent.chat.cancel — cancel an in-flight run.
     protocol.register_method("agent.chat.cancel",
-        []([[maybe_unused]] json params) -> awaitable<json> {
+        [&runtime]([[maybe_unused]] json params) -> awaitable<json> {
             auto run_id = params.value("runId", "");
             if (run_id.empty()) {
                 co_return json{{"ok", false}, {"error", "runId is required"}};
             }
-            // TODO: wire cancellation token to running completions.
+            runtime.cancel_run(run_id);
             LOG_INFO("Cancel requested for run {}", run_id);
             co_return json{{"ok", true}, {"runId", run_id}};
         },
@@ -30,35 +30,31 @@ void register_agent_handlers(Protocol& protocol,
     // agent.system_prompt.get
     protocol.register_method("agent.system_prompt.get",
         [&runtime]([[maybe_unused]] json params) -> awaitable<json> {
-            (void)runtime;
-            std::string prompt;
-            co_return json{{"system_prompt", prompt}};
+            co_return json{{"system_prompt", runtime.system_prompt()}};
         },
         "Get the current system prompt", "agent");
 
     // agent.system_prompt.set
     protocol.register_method("agent.system_prompt.set",
-        []([[maybe_unused]] json params) -> awaitable<json> {
+        [&runtime]([[maybe_unused]] json params) -> awaitable<json> {
             auto prompt = params.value("system_prompt", "");
-            // Store in runtime config for use by chat handlers.
-            // TODO: persist to RuntimeConfig.
+            runtime.set_system_prompt(prompt);
             co_return json{{"ok", true}};
         },
         "Set the system prompt", "agent");
 
     // agent.thinking.get
     protocol.register_method("agent.thinking.get",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            // Default thinking mode.
-            co_return json{{"mode", "none"}};
+        [&runtime]([[maybe_unused]] json params) -> awaitable<json> {
+            co_return json{{"mode", runtime.thinking_mode()}};
         },
         "Get current thinking mode", "agent");
 
     // agent.thinking.set
     protocol.register_method("agent.thinking.set",
-        []([[maybe_unused]] json params) -> awaitable<json> {
+        [&runtime]([[maybe_unused]] json params) -> awaitable<json> {
             auto mode = params.value("mode", "none");
-            // TODO: store thinking mode in AgentRuntime.
+            runtime.set_thinking_mode(mode);
             co_return json{{"ok", true}, {"mode", mode}};
         },
         "Set thinking mode", "agent");
@@ -79,12 +75,12 @@ void register_agent_handlers(Protocol& protocol,
 
     // agent.model.set
     protocol.register_method("agent.model.set",
-        []([[maybe_unused]] json params) -> awaitable<json> {
+        [&runtime]([[maybe_unused]] json params) -> awaitable<json> {
             auto model = params.value("model", "");
             if (model.empty()) {
                 co_return json{{"ok", false}, {"error", "model is required"}};
             }
-            // TODO: switch provider model at runtime.
+            runtime.set_model(model);
             co_return json{{"ok", true}, {"model", model}};
         },
         "Set the active model", "agent");
@@ -166,13 +162,18 @@ void register_agent_handlers(Protocol& protocol,
 
     // agent.conversation.rename
     protocol.register_method("agent.conversation.rename",
-        []([[maybe_unused]] json params) -> awaitable<json> {
+        [&sessions]([[maybe_unused]] json params) -> awaitable<json> {
             auto id = params.value("id", "");
             auto name = params.value("name", "");
             if (id.empty()) {
                 co_return json{{"ok", false}, {"error", "id is required"}};
             }
-            // TODO: update session metadata with new name.
+            auto result = co_await sessions.get_session(id);
+            if (!result.has_value()) {
+                co_return json{{"ok", false}, {"error", result.error().what()}};
+            }
+            auto& session_data = result.value();
+            session_data.metadata["name"] = name;
             co_return json{{"ok", true}, {"id", id}, {"name", name}};
         },
         "Rename a conversation", "agent");

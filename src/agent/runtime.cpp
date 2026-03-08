@@ -353,6 +353,42 @@ auto AgentRuntime::has_pending_tool_call() const -> bool {
     return pending_tool_call_;
 }
 
+// v2026.3.2: Cancel a running completion by run ID
+void AgentRuntime::cancel_run(const std::string& run_id) {
+    cancelled_runs_.insert(run_id);
+    LOG_INFO("Run {} marked for cancellation", run_id);
+}
+
+// v2026.3.2: System prompt management
+void AgentRuntime::set_system_prompt(const std::string& prompt) {
+    system_prompt_ = prompt;
+    LOG_INFO("System prompt updated ({} chars)", prompt.size());
+}
+
+auto AgentRuntime::system_prompt() const -> const std::string& {
+    return system_prompt_;
+}
+
+// v2026.3.2: Thinking mode management
+void AgentRuntime::set_thinking_mode(const std::string& mode) {
+    thinking_mode_ = mode;
+    LOG_INFO("Thinking mode set to: {}", mode);
+}
+
+auto AgentRuntime::thinking_mode() const -> const std::string& {
+    return thinking_mode_;
+}
+
+// v2026.3.2: Model override
+void AgentRuntime::set_model(const std::string& model) {
+    model_override_ = model;
+    LOG_INFO("Model override set to: {}", model);
+}
+
+auto AgentRuntime::model_override() const -> const std::string& {
+    return model_override_;
+}
+
 auto AgentRuntime::is_stop_phrase(std::string_view text) -> bool {
     // v2026.2.24: Multilingual stop phrase matching
     // Trim trailing punctuation for comparison

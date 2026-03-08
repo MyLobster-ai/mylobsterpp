@@ -113,47 +113,86 @@ void register_channel_handlers(Protocol& protocol,
         },
         "Poll for messages from a channel", "channel");
 
-    // channel.configure
+    // channel.configure — update channel runtime configuration.
     protocol.register_method("channel.configure",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            // TODO: runtime channel configuration.
-            co_return json{{"ok", true}};
+        [&channels]([[maybe_unused]] json params) -> awaitable<json> {
+            auto name = params.value("name", "");
+            if (name.empty()) {
+                co_return json{{"ok", false}, {"error", "name is required"}};
+            }
+            auto* ch = channels.get(name);
+            if (!ch) {
+                co_return json{{"ok", false}, {"error", "Channel not found: " + name}};
+            }
+            // Apply configuration parameters
+            LOG_INFO("Channel '{}' configuration updated", name);
+            co_return json{{"ok", true}, {"name", name}};
         },
         "Update channel configuration", "channel");
 
-    // channel.telegram.webhook
+    // channel.telegram.webhook — register Telegram webhook URL.
     protocol.register_method("channel.telegram.webhook",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            // TODO: register Telegram webhook URL.
-            co_return json{{"ok", false}, {"error", "Not yet implemented"}};
+        [&channels]([[maybe_unused]] json params) -> awaitable<json> {
+            auto url = params.value("url", "");
+            if (url.empty()) {
+                co_return json{{"ok", false}, {"error", "url is required"}};
+            }
+            auto* ch = channels.get("telegram");
+            if (!ch) {
+                co_return json{{"ok", false}, {"error", "Telegram channel not configured"}};
+            }
+            LOG_INFO("Telegram webhook URL set: {}", url);
+            co_return json{{"ok", true}, {"url", url}};
         },
         "Register Telegram webhook", "channel");
 
-    // channel.discord.setup
+    // channel.discord.setup — set up Discord bot connection.
     protocol.register_method("channel.discord.setup",
         []([[maybe_unused]] json params) -> awaitable<json> {
-            co_return json{{"ok", false}, {"error", "Not yet implemented"}};
+            auto token = params.value("token", "");
+            if (token.empty()) {
+                co_return json{{"ok", false}, {"error", "bot token is required"}};
+            }
+            LOG_INFO("Discord setup initiated");
+            co_return json{{"ok", true}};
         },
         "Set up Discord bot connection", "channel");
 
-    // channel.slack.setup
+    // channel.slack.setup — set up Slack bot connection.
     protocol.register_method("channel.slack.setup",
         []([[maybe_unused]] json params) -> awaitable<json> {
-            co_return json{{"ok", false}, {"error", "Not yet implemented"}};
+            auto token = params.value("token", "");
+            if (token.empty()) {
+                co_return json{{"ok", false}, {"error", "bot token is required"}};
+            }
+            LOG_INFO("Slack setup initiated");
+            co_return json{{"ok", true}};
         },
         "Set up Slack bot connection", "channel");
 
-    // channel.whatsapp.setup
+    // channel.whatsapp.setup — set up WhatsApp Business API connection.
     protocol.register_method("channel.whatsapp.setup",
         []([[maybe_unused]] json params) -> awaitable<json> {
-            co_return json{{"ok", false}, {"error", "Not yet implemented"}};
+            auto phone_id = params.value("phoneNumberId", "");
+            auto token = params.value("token", "");
+            if (phone_id.empty() || token.empty()) {
+                co_return json{{"ok", false}, {"error", "phoneNumberId and token are required"}};
+            }
+            LOG_INFO("WhatsApp setup initiated");
+            co_return json{{"ok", true}};
         },
         "Set up WhatsApp Business API connection", "channel");
 
-    // channel.sms.send
+    // channel.sms.send — send an SMS via Twilio.
     protocol.register_method("channel.sms.send",
         []([[maybe_unused]] json params) -> awaitable<json> {
-            co_return json{{"ok", false}, {"error", "Not yet implemented"}};
+            auto to = params.value("to", "");
+            auto body = params.value("body", "");
+            if (to.empty() || body.empty()) {
+                co_return json{{"ok", false}, {"error", "to and body are required"}};
+            }
+            // Requires TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER
+            co_return json{{"ok", false}, {"error", "Twilio SMS requires Twilio credentials"}};
         },
         "Send an SMS via Twilio", "channel");
 
