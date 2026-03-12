@@ -46,6 +46,9 @@ public:
     [[nodiscard]] auto type() const -> std::string_view override { return "feishu"; }
     [[nodiscard]] auto is_running() const noexcept -> bool override { return running_.load(); }
 
+    /// v2026.3.8: Convert markdown to Feishu card format.
+    [[nodiscard]] static auto markdown_to_card(std::string_view markdown) -> json;
+
 private:
     /// Fetches tenant access token for API authentication.
     auto fetch_tenant_token() -> boost::asio::awaitable<openclaw::Result<std::string>>;
@@ -54,9 +57,6 @@ private:
     auto send_message(std::string_view chat_id, std::string_view content,
                       std::string_view msg_type = "text")
         -> boost::asio::awaitable<openclaw::Result<json>>;
-
-    /// v2026.3.8: Convert markdown to Feishu card format.
-    [[nodiscard]] static auto markdown_to_card(std::string_view markdown) -> json;
 
     FeishuConfig config_;
     boost::asio::io_context& ioc_;
