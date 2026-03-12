@@ -45,7 +45,10 @@ FetchContent_Declare(
     GIT_SHALLOW TRUE
 )
 set(SQLITECPP_RUN_CPPLINT OFF CACHE BOOL "" FORCE)
+set(SQLITECPP_INTERNAL_SQLITE ON CACHE BOOL "Use bundled SQLite with FTS5 support" FORCE)
 FetchContent_MakeAvailable(SQLiteCpp)
+# The bundled sqlite3/CMakeLists.txt doesn't handle FTS5 — add the define directly
+target_compile_definitions(sqlite3 PUBLIC SQLITE_ENABLE_FTS5)
 
 # jwt-cpp
 FetchContent_Declare(
