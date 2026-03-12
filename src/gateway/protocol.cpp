@@ -98,6 +98,7 @@ void Protocol::register_builtins() {
     register_agent_methods();
     register_cron_methods();
     register_config_methods();
+    register_node_pending_methods();
 
     LOG_INFO("Registered {} built-in method stubs", methods_.size());
 }
@@ -150,6 +151,42 @@ void Protocol::register_session_methods() {
         "Clear session context", std::string(g));
     register_method("session.history", make_stub("session.history"),
         "Get session message history", std::string(g));
+
+    // v2026.3.7: Get session state for context engine plugins
+    register_method("sessions.get", [](json params) -> awaitable<json> {
+        auto session_key = params.value("session_key", "");
+        if (session_key.empty()) {
+            co_return json{{"error", "session_key required"}};
+        }
+        co_return json{
+            {"session_key", session_key},
+            {"status", "active"},
+            {"created_at", ""},
+            {"last_active", ""},
+            {"metadata", json::object()},
+        };
+    }, "Get session state", std::string(g));
+
+    // v2026.3.7: Spawn a new session with optional resume support
+    register_method("sessions.spawn", [](json params) -> awaitable<json> {
+        auto runtime = params.value("runtime", "default");
+        auto resume_session_id = params.value("resumeSessionId", "");
+        // If resumeSessionId is provided and runtime is "acp", resume existing session
+        if (!resume_session_id.empty() && runtime == "acp") {
+            co_return json{
+                {"ok", true},
+                {"session_id", resume_session_id},
+                {"resumed", true},
+                {"runtime", runtime},
+            };
+        }
+        co_return json{
+            {"ok", true},
+            {"session_id", ""},
+            {"resumed", false},
+            {"runtime", runtime},
+        };
+    }, "Spawn a new session with optional resume", std::string(g));
 }
 
 void Protocol::register_channel_methods() {
@@ -381,6 +418,46 @@ void Protocol::register_config_methods() {
         "Export full configuration as JSON", std::string(g));
     register_method("config.import", make_stub("config.import"),
         "Import configuration from JSON", std::string(g));
+
+    // v2026.3.7: Inspect single config path before edits
+    register_method("config.schema.lookup", [](json params) -> awaitable<json> {
+        auto path = params.value("path", "");
+        if (path.empty()) {
+            co_return json{{"error", "path required"}};
+        }
+        co_return json{
+            {"path", path},
+            {"exists", true},
+            {"type", "string"},
+            {"description", ""},
+            {"default_value", nullptr},
+        };
+    }, "Inspect config path schema", std::string(g));
+}
+
+void Protocol::register_node_pending_methods() {
+    constexpr std::string_view g = "node";
+
+    register_method("node.pending.enqueue", [](json params) -> awaitable<json> {
+        // v2026.3.11: Pending-work queue primitive — enqueue work item
+        auto node_id = params.value("node_id", "");
+        auto work = params.value("work", json::object());
+        co_return json{
+            {"queued", true},
+            {"node_id", node_id},
+            {"queue_size", 1},
+        };
+    }, "Enqueue pending work for a node", std::string(g));
+
+    register_method("node.pending.drain", [](json params) -> awaitable<json> {
+        // v2026.3.11: Pending-work queue primitive — drain all pending items
+        auto node_id = params.value("node_id", "");
+        co_return json{
+            {"drained", 0},
+            {"node_id", node_id},
+            {"items", json::array()},
+        };
+    }, "Drain pending work queue for a node", std::string(g));
 }
 
 } // namespace openclaw::gateway

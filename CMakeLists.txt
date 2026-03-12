@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
 project(mylobsterpp
-    VERSION 2026.3.2
+    VERSION 2026.3.11
     DESCRIPTION "MyLobster++ C++23 AI Assistant Platform"
     LANGUAGES CXX
 )
@@ -54,6 +54,7 @@ file(GLOB_RECURSE LIB_SOURCES
     src/routing/*.cpp
     src/cron/*.cpp
     src/infra/*.cpp
+    src/context_engine/*.cpp
 )
 
 # Library target

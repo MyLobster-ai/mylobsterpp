@@ -84,6 +84,19 @@ public:
     /// v2026.3.2: Invalidate store cache when underlying file size changes.
     void invalidate_store_cache_if_changed(std::string_view session_key, size_t current_size);
 
+    /// v2026.3.7: Scope-based reindexing support.
+    /// Triggers memory reindex when embedding dimensions change.
+    auto reindex_scope(std::string_view scope, std::string_view reason)
+        -> boost::asio::awaitable<Result<void>>;
+
+    /// v2026.3.7: Daily transcript archival for stale sessions.
+    auto archive_stale_transcripts(int stale_days = 7)
+        -> boost::asio::awaitable<Result<int>>;
+
+    /// v2026.3.7: Session isolation for /new with unique session keys.
+    auto create_isolated_session(std::string_view prefix = "tui")
+        -> boost::asio::awaitable<Result<Session>>;
+
 private:
     std::unique_ptr<SessionStore> store_;
     std::unordered_map<std::string, std::string> bootstrap_cache_;

@@ -389,6 +389,28 @@ auto AgentRuntime::model_override() const -> const std::string& {
     return model_override_;
 }
 
+// v2026.3.7: Plugin system context injections
+void AgentRuntime::prepend_system_context(const std::string& context) {
+    prepended_context_.push_back(context);
+}
+
+void AgentRuntime::append_system_context(const std::string& context) {
+    appended_context_.push_back(context);
+}
+
+auto AgentRuntime::prepended_system_context() const -> const std::vector<std::string>& {
+    return prepended_context_;
+}
+
+auto AgentRuntime::appended_system_context() const -> const std::vector<std::string>& {
+    return appended_context_;
+}
+
+void AgentRuntime::clear_system_context_injections() {
+    prepended_context_.clear();
+    appended_context_.clear();
+}
+
 auto AgentRuntime::is_stop_phrase(std::string_view text) -> bool {
     // v2026.2.24: Multilingual stop phrase matching
     // Trim trailing punctuation for comparison

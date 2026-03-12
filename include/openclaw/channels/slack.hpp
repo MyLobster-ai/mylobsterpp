@@ -38,6 +38,12 @@ struct SlackConfig {
 
     // v2026.3.2: Monitor socket enabled flag
     bool monitor_enabled = true;
+
+    // v2026.3.7: DM typing feedback via reactions
+    std::optional<std::string> typing_reaction;  // Emoji name for typing indicator
+
+    // v2026.3.7: Media local roots for file upload allowlist
+    std::optional<std::vector<std::string>> media_local_roots;
 };
 
 /// Slack channel implementation.
@@ -95,6 +101,18 @@ private:
 
     /// Sends an acknowledgment for a Socket Mode envelope.
     auto send_socket_ack(std::string_view envelope_id) -> void;
+
+    /// v2026.3.7: Add a reaction to a message (for typing feedback).
+    auto add_reaction(std::string_view channel_id,
+                      std::string_view timestamp,
+                      std::string_view emoji)
+        -> boost::asio::awaitable<openclaw::Result<void>>;
+
+    /// v2026.3.7: Remove a reaction from a message.
+    auto remove_reaction(std::string_view channel_id,
+                         std::string_view timestamp,
+                         std::string_view emoji)
+        -> boost::asio::awaitable<openclaw::Result<void>>;
 
     /// Fetches bot identity via auth.test.
     auto fetch_bot_info() -> boost::asio::awaitable<openclaw::Result<void>>;

@@ -548,6 +548,7 @@ auto GeminiProvider::models() const -> std::vector<std::string> {
         "gemini-3.1-pro-preview",
         "gemini-3.1-pro-preview-antigravity-high",
         "gemini-3.1-pro-preview-antigravity-low",
+        "gemini-3.1-flash-lite-preview",  // v2026.3.11: Flash-Lite model
         "gemini-3-pro",      // v2026.3.2: Normalized to -low tier
         "gemini-2.5-pro",
         "gemini-2.5-flash",

@@ -564,6 +564,98 @@ auto SlackChannel::upload_file(std::string_view channel_id,
     }
 }
 
+// ---------------------------------------------------------------------------
+// v2026.3.7: Reaction-based typing feedback
+// ---------------------------------------------------------------------------
+
+auto SlackChannel::add_reaction(std::string_view channel_id,
+                                 std::string_view timestamp,
+                                 std::string_view emoji)
+    -> boost::asio::awaitable<openclaw::Result<void>>
+{
+    json payload = {
+        {"channel", std::string(channel_id)},
+        {"timestamp", std::string(timestamp)},
+        {"name", std::string(emoji)},
+    };
+
+    auto response = co_await http_.post("/reactions.add", payload.dump());
+    if (!response) {
+        co_return make_fail(response.error());
+    }
+    if (!response->is_success()) {
+        co_return make_fail(
+            make_error(ErrorCode::ChannelError,
+                       "reactions.add failed",
+                       "status=" + std::to_string(response->status)));
+    }
+
+    try {
+        auto body = json::parse(response->body);
+        if (!body.value("ok", false)) {
+            // already_reacted is not a real error
+            std::string err = body.value("error", "unknown");
+            if (err != "already_reacted") {
+                co_return make_fail(
+                    make_error(ErrorCode::ChannelError,
+                               "reactions.add returned ok=false", err));
+            }
+        }
+    } catch (const json::exception& e) {
+        co_return make_fail(
+            make_error(ErrorCode::SerializationError,
+                       "Failed to parse reactions.add response", e.what()));
+    }
+
+    co_return ok_result();
+}
+
+auto SlackChannel::remove_reaction(std::string_view channel_id,
+                                    std::string_view timestamp,
+                                    std::string_view emoji)
+    -> boost::asio::awaitable<openclaw::Result<void>>
+{
+    json payload = {
+        {"channel", std::string(channel_id)},
+        {"timestamp", std::string(timestamp)},
+        {"name", std::string(emoji)},
+    };
+
+    auto response = co_await http_.post("/reactions.remove", payload.dump());
+    if (!response) {
+        co_return make_fail(response.error());
+    }
+    if (!response->is_success()) {
+        co_return make_fail(
+            make_error(ErrorCode::ChannelError,
+                       "reactions.remove failed",
+                       "status=" + std::to_string(response->status)));
+    }
+
+    try {
+        auto body = json::parse(response->body);
+        if (!body.value("ok", false)) {
+            // no_reaction is not a real error
+            std::string err = body.value("error", "unknown");
+            if (err != "no_reaction") {
+                co_return make_fail(
+                    make_error(ErrorCode::ChannelError,
+                               "reactions.remove returned ok=false", err));
+            }
+        }
+    } catch (const json::exception& e) {
+        co_return make_fail(
+            make_error(ErrorCode::SerializationError,
+                       "Failed to parse reactions.remove response", e.what()));
+    }
+
+    co_return ok_result();
+}
+
+// ---------------------------------------------------------------------------
+// Bot info
+// ---------------------------------------------------------------------------
+
 auto SlackChannel::fetch_bot_info() -> boost::asio::awaitable<openclaw::Result<void>> {
     auto response = co_await http_.post("/auth.test", "");
     if (!response) {

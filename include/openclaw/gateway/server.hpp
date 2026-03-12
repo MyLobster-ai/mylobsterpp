@@ -237,6 +237,13 @@ public:
     /// Return true if the server is running.
     [[nodiscard]] auto is_running() const noexcept -> bool;
 
+    /// v2026.3.11: WebSocket origin validation (GHSA-5wcw-8jjv-m286).
+    /// Enforces browser origin validation regardless of proxy headers.
+    [[nodiscard]] static auto validate_ws_origin(
+        std::string_view origin,
+        std::string_view host,
+        bool trusted_proxy = false) -> bool;
+
     /// Validates an avatar file path: checks canonical containment, symlink
     /// rejection, and 2MB size limit.
     [[nodiscard]] static auto validate_avatar_path(
@@ -342,6 +349,9 @@ private:
     /// v2026.3.2: Whether to enforce loopback-only for insecure WebSocket.
     /// Set to true by default; can be disabled via OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1.
     bool enforce_ws_loopback_ = true;
+
+    /// v2026.3.7: Control UI fallback for origin validation.
+    bool dangerously_allow_host_header_origin_fallback_ = false;
 };
 
 } // namespace openclaw::gateway

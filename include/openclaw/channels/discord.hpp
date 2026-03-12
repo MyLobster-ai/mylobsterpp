@@ -46,6 +46,15 @@ struct DiscordConfig {
     // v2026.3.2: Inactivity-based thread bindings
     std::optional<int> idle_hours;                   // Idle hours before thread binding expires
     std::optional<int> max_age_hours;                // Max age before thread binding expires
+
+    // v2026.3.7: Auto-archive duration for threads
+    std::optional<int> auto_archive_duration;  // 60 (1h), 1440 (1d), 4320 (3d), 10080 (1w)
+
+    // v2026.3.7: Bot message acceptance mode
+    std::optional<std::string> allow_bots;  // "none" (default), "mentions", "all"
+
+    // v2026.3.7: Users/roles allowlist for reaction ingress
+    std::optional<std::vector<std::string>> reaction_allowlist;
 };
 
 /// Discord channel implementation.

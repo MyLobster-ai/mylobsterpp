@@ -779,6 +779,56 @@ void GatewayServer::remove_connection(const std::string& id) {
 }
 
 // ===========================================================================
+// v2026.3.11: WebSocket origin validation (GHSA-5wcw-8jjv-m286)
+// ===========================================================================
+
+auto GatewayServer::validate_ws_origin(
+    std::string_view origin,
+    std::string_view host,
+    bool /*trusted_proxy*/) -> bool {
+    // v2026.3.11: GHSA-5wcw-8jjv-m286 fix — always validate origin
+    // regardless of trusted_proxy status
+    if (origin.empty()) {
+        // Non-browser clients (curl, SDKs) don't send Origin
+        return true;
+    }
+
+    // Extract host from origin URL
+    auto scheme_end = origin.find("://");
+    if (scheme_end == std::string_view::npos) return false;
+    auto origin_host = origin.substr(scheme_end + 3);
+
+    // Handle IPv6 bracket notation: [::1]:port
+    if (origin_host.starts_with('[')) {
+        auto bracket_end = origin_host.find(']');
+        if (bracket_end != std::string_view::npos) {
+            // Extract the IP inside brackets (without brackets)
+            origin_host = origin_host.substr(1, bracket_end - 1);
+        }
+    } else {
+        // Strip port from origin host for comparison
+        auto port_pos = origin_host.find(':');
+        if (port_pos != std::string_view::npos) {
+            origin_host = origin_host.substr(0, port_pos);
+        }
+    }
+
+    // Strip port from host header
+    auto host_no_port = host;
+    auto hp = host_no_port.find(':');
+    if (hp != std::string_view::npos) {
+        host_no_port = host_no_port.substr(0, hp);
+    }
+
+    // Allow localhost variants
+    if (origin_host == "localhost" || origin_host == "127.0.0.1" || origin_host == "::1") {
+        return true;
+    }
+
+    return origin_host == host_no_port;
+}
+
+// ===========================================================================
 // Avatar path validation
 // ===========================================================================
 

@@ -120,6 +120,40 @@ private:
     std::unique_ptr<Impl> impl_;
 };
 
+/// v2026.3.11: Gemini embedding provider.
+/// Uses gemini-embedding-2-preview with configurable output dimensions.
+/// Supports normalized embeddings across direct query, batch, and async batch.
+class GeminiEmbeddings : public EmbeddingProvider {
+public:
+    GeminiEmbeddings(boost::asio::io_context& ioc,
+                     std::string api_key,
+                     std::string model = "gemini-embedding-2-preview",
+                     std::string base_url = "https://generativelanguage.googleapis.com",
+                     size_t dimensions = 768);
+
+    ~GeminiEmbeddings() override;
+
+    GeminiEmbeddings(const GeminiEmbeddings&) = delete;
+    GeminiEmbeddings& operator=(const GeminiEmbeddings&) = delete;
+    GeminiEmbeddings(GeminiEmbeddings&&) noexcept;
+    GeminiEmbeddings& operator=(GeminiEmbeddings&&) noexcept;
+
+    auto embed(std::string_view text)
+        -> awaitable<Result<std::vector<float>>> override;
+
+    auto embed_batch(std::vector<std::string> texts)
+        -> awaitable<Result<std::vector<std::vector<float>>>> override;
+
+    [[nodiscard]] auto dimensions() const -> size_t override;
+
+    /// v2026.3.11: Normalize embedding vector to unit length.
+    static void normalize(std::vector<float>& vec);
+
+private:
+    struct Impl;
+    std::unique_ptr<Impl> impl_;
+};
+
 /// Embedding provider chain that tries multiple providers in order.
 /// Falls back to the next provider if the current one fails.
 class EmbeddingProviderChain : public EmbeddingProvider {

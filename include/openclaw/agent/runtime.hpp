@@ -99,6 +99,24 @@ public:
     void set_model(const std::string& model);
     [[nodiscard]] auto model_override() const -> const std::string&;
 
+    /// v2026.3.7: Prepend system context from plugins.
+    void prepend_system_context(const std::string& context);
+
+    /// v2026.3.7: Append system context from plugins.
+    void append_system_context(const std::string& context);
+
+    /// v2026.3.7: Get accumulated prepended system context.
+    [[nodiscard]] auto prepended_system_context() const -> const std::vector<std::string>&;
+
+    /// v2026.3.7: Get accumulated appended system context.
+    [[nodiscard]] auto appended_system_context() const -> const std::vector<std::string>&;
+
+    /// v2026.3.7: Clear accumulated system context injections.
+    void clear_system_context_injections();
+
+    /// v2026.3.11: Cooldown window classification (defaults to "unknown").
+    std::string cooldown_window = "unknown";
+
 private:
     /// Extract tool call content blocks from a message.
     auto extract_tool_calls(const Message& msg) const
@@ -124,6 +142,10 @@ private:
     std::string system_prompt_;
     std::string thinking_mode_{"none"};
     std::string model_override_;
+
+    // v2026.3.7: Plugin system context injections
+    std::vector<std::string> prepended_context_;
+    std::vector<std::string> appended_context_;
 };
 
 } // namespace openclaw::agent

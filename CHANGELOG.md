@@ -2,6 +2,126 @@
 
 All notable changes to MyLobster++ are documented in this file.
 
+## v2026.3.11
+
+Full OpenClaw v2026.3.11 parity release. Spans v2026.3.3 through v2026.3.11 (~1,388 upstream commits).
+
+### Context Engine Plugin System (v2026.3.7)
+
+New `context_engine` module with slot-based plugin registry:
+- `ContextEngine` abstract base class with 7 lifecycle hooks: `bootstrap`, `ingest`, `assemble`, `compact`, `after_turn`, `prepare_subagent_spawn`, `on_subagent_ended`
+- `LegacyContextEngine` wraps existing compaction behavior (zero breaking change when no plugin configured)
+- `SlotRegistry` for config-driven plugin resolution with thread-safe access
+- `ContextEngineSlotConfig` with JSON serialization
+
+### New RPC Methods
+
+- `sessions.get` — access session state for context engine plugins (v2026.3.7)
+- `sessions.spawn` — enhanced with `resumeSessionId` for ACP runtime resume (v2026.3.11)
+- `config.schema.lookup` — inspect single config path before edits (v2026.3.7)
+- `node.pending.enqueue` / `node.pending.drain` — pending-work queue primitives (v2026.3.11)
+
+### Security
+
+- **GHSA-5wcw-8jjv-m286**: WebSocket origin validation enforced regardless of proxy headers. `GatewayServer::validate_ws_origin()` prevents cross-site WebSocket hijacking in trusted-proxy mode.
+- **Config fail-closed**: Invalid config loads now throw instead of silently falling back to defaults (#9040).
+- **Gateway auth mode**: Explicit `gateway.auth.mode` required when both token & password configured (BREAKING).
+
+### Provider & Model Updates
+
+- **Gemini 3.1 Flash-Lite**: `gemini-3.1-flash-lite-preview` added to model catalog (v2026.3.11)
+- **Alibaba Cloud Model Studio**: Environment auth via `MODELSTUDIO_API_KEY` (v2026.3.7)
+- **Gemini Embeddings**: New `GeminiEmbeddings` provider with `gemini-embedding-2-preview`, configurable output dimensions, L2 normalization across direct/batch paths (v2026.3.11)
+- **Control token stripping**: `strip_control_tokens()` removes `<|...|>` (GPT/DeepSeek) and `<｜...｜>` (fullwidth, GLM-5) delimiters (v2026.3.11)
+- **Tool-result truncation**: `truncate_tool_result()` with head+tail strategy (70/30 split) for oversized results (v2026.3.7)
+- **Billing error classification**: Venice/Poe 402 as rate limit, HTTP 499 as transient error (v2026.3.7)
+- **HTML entity decoding**: `decode_html_entities()` for XAI/Grok tool-call responses (v2026.3.7)
+- **Gemini retryable errors**: `MALFORMED_RESPONSE` treated as retryable timeout (v2026.3.8)
+- **Bedrock quota errors**: `ThrottlingException` and `ServiceQuotaExceededException` detection (v2026.3.8)
+
+### Memory & Embeddings
+
+- **Multimodal indexing**: Opt-in `multimodal_image_indexing` and `multimodal_audio_indexing` in `MemoryConfig` (v2026.3.11)
+- **Gemini embedding provider**: Full `GeminiEmbeddings` class with `/v1beta/models/:embedContent` and `:batchEmbedContents` API (v2026.3.11)
+- **Configurable embedding dimensions**: `MemoryConfig::embedding_dimensions` for Gemini output control
+- **Extra paths**: `MemoryConfig::extra_paths` for scope-based reindexing
+- **Scope-based reindexing**: `SessionManager::reindex_scope()` triggers reindex when dimensions change
+
+### Configuration
+
+New config sections and fields:
+- `CompactionConfig` — model override, `recent_turns_preserve`, `post_compaction_sections`, `quality_audit_enabled` (default false), `pre_check_skip_idle` (v2026.3.7)
+- `WebSearchConfig` — provider, `brave_mode` ("standard"/"llm-context"), language, region (v2026.3.7–3.8)
+- `TalkConfig` — `silence_timeout_ms`, `tts_provider`, `tts_base_url` for OpenAI-compatible TTS (v2026.3.11)
+- `AudioConfig` — `echo_transcript`, `echo_format` for audio transcript echo (v2026.3.11)
+- `CliBannerConfig` — `tagline_mode` ("random"/"default"/"off") (v2026.3.7)
+- `ContextEngineConfig` — `plugin_id`, `plugin_config` for context engine slot (v2026.3.7)
+- `GatewayConfig::auth_mode` — required when both token & password set (BREAKING, v2026.3.7)
+- `SessionConfig::compaction` — optional `CompactionConfig` (v2026.3.7)
+- `validate_gateway_auth_mode()` and `validate_brave_language_code()` validation functions
+
+### Channels
+
+#### New Channels
+- **Feishu (Lark)** — `FeishuChannel` with group broadcast, observer-session isolation, multi-app mention routing, native markdown table rendering (v2026.3.7–3.8)
+- **Matrix** — `MatrixChannel` with safer `m.direct` fallback detection, explicit room bindings honored over DM classification, room-bound agent selection (v2026.3.7)
+
+#### Telegram Enhancements
+- Forum topic bindings with per-topic `agentId` overrides
+- DM streaming via `sendMessageDraft` with `edit_message_text` for streaming updates
+- Network proxy support via `proxy_url`
+- Default streaming mode changed to `"partial"` (v2026.3.7)
+
+#### Discord Enhancements
+- `auto_archive_duration` for threads: 60 (1h), 1440 (1d), 4320 (3d), 10080 (1w) (v2026.3.7)
+- `allow_bots` mode: "none" (default), "mentions", "all" (v2026.3.7)
+- Users/roles allowlist for reaction ingress (v2026.3.7)
+
+#### Slack Enhancements
+- DM typing feedback via reactions (`typing_reaction` config) (v2026.3.7)
+- `add_reaction()` / `remove_reaction()` methods
+- `media_local_roots` for file upload allowlist parity (v2026.3.7)
+
+### Agent Runtime
+
+- `prepend_system_context()` / `append_system_context()` for plugin system-prompt injection (v2026.3.7)
+- `clear_system_context_injections()` for cleanup between turns
+- `cooldown_window` defaults to `"unknown"` (v2026.3.11)
+
+### Sessions
+
+- `reindex_scope()` for scope-based memory reindexing (v2026.3.7)
+- `archive_stale_transcripts()` for daily transcript archival (v2026.3.7)
+- `create_isolated_session()` with unique `tui-<uuid>` keys for `/new` isolation (v2026.3.7)
+
+### CLI
+
+- **Backup commands**: `openclaw backup create` (with `--only-config`, `--no-include-workspace`) and `openclaw backup verify` for local state archives (v2026.3.8)
+- Version string updated to `2026.3.11`
+
+### Build & Packaging
+
+- CMake project version bumped to `2026.3.11`
+- Conan package version updated to `2026.3.11`
+- Conan remote configured: `https://conan.gpuhashcracker.wtf` (admin/admin)
+- `remotes.json` added for project-level Conan remote configuration
+- `context_engine` source directory added to CMake GLOB_RECURSE
+
+### Tests
+
+Added test files:
+| File | Coverage |
+|------|----------|
+| `tests/context_engine/test_context_engine.cpp` | LegacyContextEngine identity, hooks, SlotRegistry resolution, config JSON round-trip |
+| `tests/providers/test_control_tokens.cpp` | Control token stripping, tool-result truncation, billing error classification, HTML entity decoding, Gemini/Bedrock error detection |
+| `tests/core/test_config_v3_11.cpp` | CompactionConfig, WebSearchConfig, TalkConfig, MemoryConfig multimodal fields, AudioConfig/CliBannerConfig defaults |
+| `tests/gateway/test_ws_origin.cpp` | GHSA-5wcw-8jjv-m286 WebSocket origin validation |
+| `tests/gateway/test_new_rpc_methods.cpp` | sessions.get, config.schema.lookup, node.pending.enqueue/drain registration |
+| `tests/channels/test_feishu.cpp` | FeishuConfig defaults, markdown_to_card |
+| `tests/channels/test_matrix.cpp` | MatrixConfig defaults |
+
+---
+
 ## v2026.3.2
 
 Full OpenClaw v2026.3.2 method parity release.

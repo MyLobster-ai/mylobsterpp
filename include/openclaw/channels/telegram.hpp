@@ -49,6 +49,19 @@ struct TelegramConfig {
 
     // v2026.3.2: Webhook port 0 for ephemeral binding
     int webhook_port = 0;
+
+    // v2026.3.7: Default streaming mode changed to "partial"
+    // (streaming_mode already exists, just update the default behavior)
+
+    // v2026.3.7: Forum topic bindings
+    bool enable_topic_bindings = false;
+    std::optional<std::string> topic_agent_id;  // Per-topic agentId override
+
+    // v2026.3.7: DM streaming via sendMessageDraft
+    bool dm_streaming_draft = false;
+
+    // v2026.3.8: Network proxy support
+    std::optional<std::string> proxy_url;
 };
 
 /// Telegram channel implementation using the Bot API.
@@ -132,6 +145,18 @@ private:
     /// Processes a webhook update JSON object. Validates the webhook secret first.
     /// Returns false if the secret validation fails.
     auto process_webhook_update(const json& update, std::string_view secret_header) -> bool;
+
+    /// v2026.3.7: Send a message draft for DM streaming.
+    auto send_message_draft(std::string_view chat_id,
+                            std::string_view text,
+                            std::optional<std::string_view> reply_to = std::nullopt)
+        -> boost::asio::awaitable<openclaw::Result<json>>;
+
+    /// v2026.3.7: Edit a message (for streaming updates).
+    auto edit_message_text(std::string_view chat_id,
+                           std::string_view message_id,
+                           std::string_view text)
+        -> boost::asio::awaitable<openclaw::Result<json>>;
 
 public:
     /// Checks if an audio file is voice-compatible for sendVoice routing.

@@ -6,7 +6,7 @@ import os
 
 class MyLobsterPPConan(ConanFile):
     name = "mylobsterpp"
-    version = "2026.2.25"
+    version = "2026.3.11"
     description = "MyLobster++ C++23 AI Assistant Platform"
     license = "Proprietary"
     url = "https://github.com/mylobster-ai/personal-assistant"
@@ -29,6 +29,18 @@ class MyLobsterPPConan(ConanFile):
 
     # Dependencies are fetched via CMake FetchContent — no Conan requires needed.
     # This conanfile packages the built output for distribution.
+    #
+    # Conan remote setup (run once):
+    #   conan remote add gpuhashcracker https://conan.gpuhashcracker.wtf true
+    #   conan user admin -r gpuhashcracker -p admin
+    #
+    # Upload:
+    #   conan create .
+    #   conan upload mylobsterpp/2026.3.11 -r gpuhashcracker --all
+
+    def configure(self):
+        # Ensure remote is available for dependency resolution
+        self.output.info("Conan remote: https://conan.gpuhashcracker.wtf (admin/admin)")
 
     def layout(self):
         cmake_layout(self)

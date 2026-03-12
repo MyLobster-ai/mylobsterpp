@@ -22,4 +22,8 @@ void register_version_command(CLI::App& app);
 /// Connects to a running gateway and prints its status.
 void register_status_command(CLI::App& app, Config& config);
 
+/// v2026.3.8: Register the `backup` subcommand.
+/// Creates and verifies local state archives.
+void register_backup_command(CLI::App& app, Config& config);
+
 } // namespace openclaw::cli

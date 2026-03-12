@@ -725,6 +725,74 @@ auto TelegramChannel::set_bot_commands(
 }
 
 // ---------------------------------------------------------------------------
+// v2026.3.7: Message draft and edit for DM streaming
+// ---------------------------------------------------------------------------
+
+auto TelegramChannel::send_message_draft(std::string_view chat_id,
+                                          std::string_view text,
+                                          std::optional<std::string_view> reply_to)
+    -> boost::asio::awaitable<openclaw::Result<json>>
+{
+    // sendMessageDraft is not a standard Telegram API method; we implement it
+    // as a regular sendMessage that can be subsequently edited for streaming.
+    co_return co_await send_text(chat_id, text, reply_to);
+}
+
+auto TelegramChannel::edit_message_text(std::string_view chat_id,
+                                         std::string_view message_id,
+                                         std::string_view text)
+    -> boost::asio::awaitable<openclaw::Result<json>>
+{
+    json payload = {
+        {"chat_id", std::string(chat_id)},
+        {"message_id", std::stoll(std::string(message_id))},
+        {"text", std::string(text)},
+        {"parse_mode", "Markdown"},
+    };
+
+    auto response = co_await http_.post("/editMessageText", payload.dump());
+    if (!response) {
+        co_return make_fail(response.error());
+    }
+    if (!response->is_success()) {
+        // Retry without Markdown on parse failure
+        if (response->status == 400 && payload.contains("parse_mode")) {
+            LOG_DEBUG("[telegram] editMessageText Markdown failed, retrying plain text");
+            payload.erase("parse_mode");
+            auto retry = co_await http_.post("/editMessageText", payload.dump());
+            if (!retry) {
+                co_return make_fail(retry.error());
+            }
+            if (!retry->is_success()) {
+                co_return make_fail(
+                    make_error(ErrorCode::ChannelError,
+                               "editMessageText failed (plain text retry)",
+                               "status=" + std::to_string(retry->status)));
+            }
+            try {
+                co_return json::parse(retry->body);
+            } catch (const json::exception& e) {
+                co_return make_fail(
+                    make_error(ErrorCode::SerializationError,
+                               "Failed to parse editMessageText response", e.what()));
+            }
+        }
+        co_return make_fail(
+            make_error(ErrorCode::ChannelError,
+                       "editMessageText failed",
+                       "status=" + std::to_string(response->status)));
+    }
+
+    try {
+        co_return json::parse(response->body);
+    } catch (const json::exception& e) {
+        co_return make_fail(
+            make_error(ErrorCode::SerializationError,
+                       "Failed to parse editMessageText response", e.what()));
+    }
+}
+
+// ---------------------------------------------------------------------------
 // Factory
 // ---------------------------------------------------------------------------
 

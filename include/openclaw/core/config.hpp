@@ -37,8 +37,9 @@ struct GatewayConfig {
     std::optional<TlsConfig> tls;
     size_t max_connections = 100;
     std::string http_security_hsts;  // v2026.2.24: HSTS header value (empty = disabled)
+    std::optional<std::string> auth_mode;  // v2026.3.7: Required when both token & password configured. Values: "token", "password"
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(GatewayConfig, port, bind, max_connections, http_security_hsts)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(GatewayConfig, port, bind, max_connections, http_security_hsts, auth_mode)
 
 struct ProviderConfig {
     std::string name;
@@ -60,7 +61,7 @@ NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ThreadBindingConfig, enabled, sp
 struct ChannelConfig {
     std::string type;
     bool enabled = false;
-    json settings;
+    json settings;  // Note: Discord settings JSON supports `autoArchiveDuration` for thread auto-archive
     std::optional<int> history_limit;  // Per-channel DM history compaction limit
     std::optional<ThreadBindingConfig> thread_binding;  // v2026.2.26
 };
@@ -72,8 +73,14 @@ struct MemoryConfig {
     std::optional<std::string> db_path;
     size_t max_results = 10;
     double similarity_threshold = 0.7;
+    // v2026.3.11: Multimodal indexing
+    bool multimodal_image_indexing = false;   // Opt-in image indexing
+    bool multimodal_audio_indexing = false;   // Opt-in audio indexing
+    std::optional<std::string> embedding_provider;  // "openai", "ollama", "gemini"
+    std::optional<int> embedding_dimensions;  // Configurable output dimensions (Gemini)
+    std::optional<std::vector<std::string>> extra_paths;  // Additional paths to index
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(MemoryConfig, enabled, store, db_path, max_results, similarity_threshold)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(MemoryConfig, enabled, store, db_path, max_results, similarity_threshold, multimodal_image_indexing, multimodal_audio_indexing, embedding_provider, embedding_dimensions, extra_paths)
 
 struct SsrfPolicyConfig {
     std::optional<bool> allow_private_network;               // legacy key
@@ -102,14 +109,25 @@ struct BrowserConfig {
 };
 NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(BrowserConfig, enabled, pool_size, chrome_path, timeout_ms, ssrf_policy)
 
+// v2026.3.7: Compaction configuration
+struct CompactionConfig {
+    std::optional<std::string> model;                        // Route compaction through different model
+    std::optional<int> recent_turns_preserve;                // Quality-guard safeguard
+    std::optional<std::vector<std::string>> post_compaction_sections;  // Re-injection sections
+    bool quality_audit_enabled = false;                      // v2026.3.7: disabled by default
+    bool pre_check_skip_idle = true;                         // v2026.3.7: skip compaction on idle sessions
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(CompactionConfig, model, recent_turns_preserve, post_compaction_sections, quality_audit_enabled, pre_check_skip_idle)
+
 struct SessionConfig {
     std::string store = "sqlite";
     std::optional<std::string> db_path;
     int ttl_seconds = 86400;
     int compaction_floor_tokens = 0;  // Minimum tokens to keep after compaction (0 = no floor)
     std::optional<ThreadBindingConfig> thread_binding;  // v2026.2.26
+    std::optional<CompactionConfig> compaction;  // v2026.3.7
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(SessionConfig, store, db_path, ttl_seconds, compaction_floor_tokens, thread_binding)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(SessionConfig, store, db_path, ttl_seconds, compaction_floor_tokens, thread_binding, compaction)
 
 struct PluginConfig {
     std::string name;
@@ -179,6 +197,43 @@ struct AcpConfig {
 };
 NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(AcpConfig, dispatch_enabled, runtime, require_system_run_plan)
 
+// v2026.3.7: Web search provider configuration
+struct WebSearchConfig {
+    std::optional<std::string> provider;   // "brave", "perplexity", "google", etc.
+    std::optional<std::string> brave_mode; // "standard" or "llm-context" (v2026.3.8)
+    std::optional<std::string> language;   // Language code for search results
+    std::optional<std::string> region;     // Region for search results
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(WebSearchConfig, provider, brave_mode, language, region)
+
+// v2026.3.11: Talk mode configuration
+struct TalkConfig {
+    std::optional<int> silence_timeout_ms;  // Configurable silence timeout
+    std::optional<std::string> tts_provider; // TTS provider override
+    std::optional<std::string> tts_base_url; // OpenAI-compatible TTS endpoints
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(TalkConfig, silence_timeout_ms, tts_provider, tts_base_url)
+
+// v2026.3.11: Audio transcript echo configuration
+struct AudioConfig {
+    bool echo_transcript = false;      // Echo transcribed audio text
+    std::string echo_format = "text";  // "text" or "markdown"
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(AudioConfig, echo_transcript, echo_format)
+
+// v2026.3.7: CLI banner configuration
+struct CliBannerConfig {
+    std::string tagline_mode = "random"; // "random", "default", "off"
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(CliBannerConfig, tagline_mode)
+
+// v2026.3.7: Context engine slot configuration (import from context_engine module)
+struct ContextEngineConfig {
+    std::optional<std::string> plugin_id;
+    json plugin_config;
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ContextEngineConfig, plugin_id, plugin_config)
+
 struct Config {
     GatewayConfig gateway;
     std::vector<ProviderConfig> providers;
@@ -200,8 +255,14 @@ struct Config {
     // v2026.3.2: New config sections
     ToolsConfig tools;
     AcpConfig acp;
+    // v2026.3.7+: New config sections
+    std::optional<WebSearchConfig> web_search;         // v2026.3.7
+    std::optional<TalkConfig> talk;                     // v2026.3.11
+    std::optional<AudioConfig> audio;                   // v2026.3.11
+    std::optional<CliBannerConfig> cli_banner;          // v2026.3.7
+    std::optional<ContextEngineConfig> context_engine;  // v2026.3.7
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image, model_by_channel, heartbeat, sandbox, http_security, secrets, tools, acp)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image, model_by_channel, heartbeat, sandbox, http_security, secrets, tools, acp, web_search, talk, audio, cli_banner, context_engine)
 
 /// v2026.2.26: Resolve thread binding policy with cascade:
 /// session config > channel config > global default.
@@ -252,5 +313,13 @@ inline auto normalize_bind_mode(std::string_view value) -> BindMode {
 
 /// v2026.3.2: Expand tilde in file paths.
 auto expand_tilde(std::string_view path) -> std::string;
+
+/// v2026.3.7: Validate gateway auth mode configuration.
+/// Returns false if both token and password are set but mode is missing.
+auto validate_gateway_auth_mode(const GatewayConfig& config) -> bool;
+
+/// v2026.3.8: Validate Brave search language code.
+/// Supports: standard 2-letter codes, zh-hans, zh-hant, en-gb, pt-br.
+auto validate_brave_language_code(std::string_view code) -> bool;
 
 } // namespace openclaw

@@ -51,10 +51,19 @@ auto load_config(const std::filesystem::path& path) -> Config {
             }
         }
 
-        return j.get<Config>();
+        auto cfg = j.get<Config>();
+
+        // v2026.3.7: Validate gateway auth mode when both token & password exist
+        if (!validate_gateway_auth_mode(cfg.gateway)) {
+            LOG_ERROR("Config: gateway.auth.mode required when both token and password are set");
+            throw std::runtime_error("invalid config: gateway.auth.mode required");
+        }
+
+        return cfg;
     } catch (const json::exception& e) {
+        // v2026.3.2: Fail-closed on invalid config loads (#9040)
         LOG_ERROR("Failed to parse config: {}", e.what());
-        return default_config();
+        throw std::runtime_error(std::string("Config load failed (fail-closed): ") + e.what());
     }
 }
 
@@ -164,6 +173,20 @@ auto load_config_from_env() -> Config {
         volcengine.api_key = val;
         config.providers.push_back(std::move(volcengine));
     }
+    // v2026.3.7: Alibaba Cloud Model Studio (renamed from Bailian)
+    if (auto* val = std::getenv("MODELSTUDIO_API_KEY")) {
+        ProviderConfig modelstudio;
+        modelstudio.name = "modelstudio";
+        modelstudio.api_key = val;
+        config.providers.push_back(std::move(modelstudio));
+    }
+    // v2026.3.11: Gemini API key for embeddings
+    if (auto* val = std::getenv("GEMINI_API_KEY")) {
+        ProviderConfig gemini;
+        gemini.name = "gemini";
+        gemini.api_key = val;
+        config.providers.push_back(std::move(gemini));
+    }
 
     return config;
 }
@@ -247,6 +270,44 @@ auto expand_tilde(std::string_view path) -> std::string {
     }
 
     return std::string(path);
+}
+
+// ---------------------------------------------------------------------------
+// v2026.3.7: Gateway auth mode validation
+// ---------------------------------------------------------------------------
+
+auto validate_gateway_auth_mode(const GatewayConfig& config) -> bool {
+    if (!config.auth) return true;
+    const auto& auth = *config.auth;
+
+    bool has_token = auth.token.has_value() && !auth.token->empty();
+    bool has_password = auth.tailscale_authkey.has_value() && !auth.tailscale_authkey->empty();
+
+    // If both credentials exist, auth_mode must be explicitly set
+    if (has_token && has_password) {
+        return config.auth_mode.has_value() && !config.auth_mode->empty();
+    }
+    return true;
+}
+
+// ---------------------------------------------------------------------------
+// v2026.3.8: Brave search language code validation
+// ---------------------------------------------------------------------------
+
+auto validate_brave_language_code(std::string_view code) -> bool {
+    static const std::vector<std::string_view> valid_codes = {
+        "ar", "bg", "bn", "ca", "cs", "da", "de", "el", "en", "es",
+        "et", "fa", "fi", "fr", "gu", "he", "hi", "hr", "hu", "id",
+        "it", "ja", "kn", "ko", "lt", "lv", "ml", "mr", "ms", "nb",
+        "nl", "pa", "pl", "pt", "ro", "ru", "sk", "sl", "sr", "sv",
+        "sw", "ta", "te", "th", "tr", "uk", "ur", "vi", "zh",
+        // Extended codes
+        "zh-hans", "zh-hant", "en-gb", "pt-br",
+    };
+    for (auto v : valid_codes) {
+        if (v == code) return true;
+    }
+    return false;
 }
 
 } // namespace openclaw

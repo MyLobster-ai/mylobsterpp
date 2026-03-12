@@ -79,6 +79,7 @@ private:
     void register_agent_methods();
     void register_cron_methods();
     void register_config_methods();
+    void register_node_pending_methods();  // v2026.3.11: node.pending.enqueue / drain
 };
 
 } // namespace openclaw::gateway
