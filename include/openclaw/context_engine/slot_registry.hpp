@@ -20,7 +20,18 @@ struct ContextEngineSlotConfig {
     std::optional<std::string> plugin_id;  // Plugin to use (nullopt = legacy)
     json plugin_config;                     // Plugin-specific configuration
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ContextEngineSlotConfig, plugin_id, plugin_config)
+
+inline void to_json(json& j, const ContextEngineSlotConfig& c) {
+    j = json{{"plugin_config", c.plugin_config}};
+    if (c.plugin_id) j["plugin_id"] = *c.plugin_id;
+}
+
+inline void from_json(const json& j, ContextEngineSlotConfig& c) {
+    if (j.contains("plugin_id") && !j["plugin_id"].is_null())
+        c.plugin_id = j["plugin_id"].get<std::string>();
+    if (j.contains("plugin_config"))
+        c.plugin_config = j["plugin_config"];
+}
 
 /// v2026.3.7: Slot-based registry for context engine plugins.
 /// Maintains the active context engine and handles resolution.

@@ -4,6 +4,7 @@
 #include <spdlog/spdlog.h>
 #include <nlohmann/json.hpp>
 
+#include "openclaw/core/error.hpp"
 #include "openclaw/infra/http_client.hpp"
 
 namespace openclaw::memory {
@@ -21,7 +22,8 @@ struct GeminiEmbeddings::Impl {
     Impl(boost::asio::io_context& ioc_, std::string key, std::string mdl,
          std::string url, size_t d)
         : ioc(ioc_), api_key(std::move(key)), model(std::move(mdl)),
-          base_url(std::move(url)), dims(d), http(ioc_) {}
+          base_url(std::move(url)), dims(d),
+          http(ioc_, infra::HttpClientConfig{.base_url = base_url}) {}
 };
 
 GeminiEmbeddings::GeminiEmbeddings(boost::asio::io_context& ioc,
@@ -58,20 +60,21 @@ auto GeminiEmbeddings::embed(std::string_view text)
         body["outputDimensionality"] = impl_->dims;
     }
 
-    auto url = impl_->base_url + "/v1beta/models/" + impl_->model +
-               ":embedContent?key=" + impl_->api_key;
+    auto path = "/v1beta/models/" + impl_->model +
+                ":embedContent?key=" + impl_->api_key;
 
-    auto response = co_await impl_->http.post_json(url, body);
-    if (!response) {
-        co_return make_error("Gemini embedding request failed");
+    auto response = co_await impl_->http.post(path, body.dump());
+    if (!response || !response->is_success()) {
+        co_return make_fail(make_error(ErrorCode::ProviderError, "Gemini embedding request failed"));
     }
 
     try {
-        auto embedding = response->at("embedding").at("values").get<std::vector<float>>();
+        auto resp_json = json::parse(response->body);
+        auto embedding = resp_json.at("embedding").at("values").get<std::vector<float>>();
         normalize(embedding);
         co_return embedding;
     } catch (const std::exception& e) {
-        co_return make_error(std::string("Failed to parse Gemini embedding: ") + e.what());
+        co_return make_fail(make_error(ErrorCode::ProviderError, std::string("Failed to parse Gemini embedding: ") + e.what()));
     }
 }
 
@@ -91,24 +94,25 @@ auto GeminiEmbeddings::embed_batch(std::vector<std::string> texts)
     }
 
     json body = {{"requests", requests}};
-    auto url = impl_->base_url + "/v1beta/models/" + impl_->model +
-               ":batchEmbedContents?key=" + impl_->api_key;
+    auto path = "/v1beta/models/" + impl_->model +
+                ":batchEmbedContents?key=" + impl_->api_key;
 
-    auto response = co_await impl_->http.post_json(url, body);
-    if (!response) {
-        co_return make_error("Gemini batch embedding request failed");
+    auto response = co_await impl_->http.post(path, body.dump());
+    if (!response || !response->is_success()) {
+        co_return make_fail(make_error(ErrorCode::ProviderError, "Gemini batch embedding request failed"));
     }
 
     try {
+        auto resp_json = json::parse(response->body);
         std::vector<std::vector<float>> results;
-        for (const auto& emb : response->at("embeddings")) {
+        for (const auto& emb : resp_json.at("embeddings")) {
             auto vec = emb.at("values").get<std::vector<float>>();
             normalize(vec);
             results.push_back(std::move(vec));
         }
         co_return results;
     } catch (const std::exception& e) {
-        co_return make_error(std::string("Failed to parse Gemini batch embeddings: ") + e.what());
+        co_return make_fail(make_error(ErrorCode::ProviderError, std::string("Failed to parse Gemini batch embeddings: ") + e.what()));
     }
 }
 
