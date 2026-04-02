@@ -6,7 +6,7 @@ import os
 
 class MyLobsterPPConan(ConanFile):
     name = "mylobsterpp"
-    version = "2026.3.11"
+    version = "2026.4.1"
     description = "MyLobster++ C++23 AI Assistant Platform"
     license = "Proprietary"
     url = "https://github.com/mylobster-ai/personal-assistant"
@@ -36,7 +36,7 @@ class MyLobsterPPConan(ConanFile):
     #
     # Upload:
     #   conan create .
-    #   conan upload mylobsterpp/2026.3.11 -r gpuhashcracker --all
+    #   conan upload mylobsterpp/2026.4.1 -r gpuhashcracker --all
 
     def configure(self):
         # Ensure remote is available for dependency resolution

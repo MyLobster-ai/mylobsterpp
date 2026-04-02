@@ -53,7 +53,7 @@
 
 // Version string; typically injected by CMake via -D, fallback to a default.
 #ifndef OPENCLAW_VERSION_STRING
-#define OPENCLAW_VERSION_STRING "2026.3.11"
+#define OPENCLAW_VERSION_STRING "2026.4.1"
 #endif
 
 namespace openclaw::cli {
@@ -237,7 +237,7 @@ void register_gateway_command(CLI::App& app, Config& config) {
         gateway::register_usage_handlers(protocol, session_mgr);
         gateway::register_system_handlers(protocol, server);
 
-        LOG_INFO("All {} RPC handlers registered (OpenClaw v2026.3.11 parity)",
+        LOG_INFO("All {} RPC handlers registered (OpenClaw v2026.4.1 parity)",
                  protocol.methods().size());
 
         // --- Start the gateway ---
