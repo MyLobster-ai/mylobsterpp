@@ -143,6 +143,12 @@ struct CronConfig {
 };
 NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(CronConfig, enabled, default_stagger_ms)
 
+// v2026.4.1: Cron job tool allowlist
+struct CronJobToolsConfig {
+    std::optional<std::vector<std::string>> allowed_tools;  // Per-job tool allowlist
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(CronJobToolsConfig, allowed_tools)
+
 struct HeartbeatConfig {
     std::string target = "none";  // v2026.2.24: default "none" (was "last")
     std::optional<std::string> cron_expression;
@@ -234,6 +240,54 @@ struct ContextEngineConfig {
 };
 NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(ContextEngineConfig, plugin_id, plugin_config)
 
+// v2026.4.1: Agent defaults configuration
+struct AgentDefaultParams {
+    json params;  // Global default provider parameters (e.g., temperature, top_p)
+    std::optional<CompactionConfig> compaction;  // Default compaction config
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(AgentDefaultParams, params, compaction)
+
+// v2026.4.1: Auth cooldown configuration
+struct AuthCooldownConfig {
+    int rate_limited_profile_rotations = 3;  // Max same-provider auth-profile retries before cross-provider fallback
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(AuthCooldownConfig, rate_limited_profile_rotations)
+
+// v2026.4.1: Webchat configuration
+struct WebchatConfig {
+    std::optional<int> chat_history_max_chars;  // Configurable text truncation for chat history
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(WebchatConfig, chat_history_max_chars)
+
+// v2026.3.31: Web search SearXNG provider configuration
+struct SearxngConfig {
+    std::optional<std::string> host;  // SearXNG instance URL
+    bool enabled = false;
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(SearxngConfig, host, enabled)
+
+// v2026.3.31: TTS provider diagnostics
+struct TtsDiagnostics {
+    bool enabled = false;
+    std::string provider = "system";  // "system", "elevenlabs"
+    std::optional<std::string> voice_wake;  // v2026.4.1: Voice Wake trigger option
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(TtsDiagnostics, enabled, provider, voice_wake)
+
+// v2026.3.31: Memory QMD extra collections
+struct MemoryQmdConfig {
+    std::optional<std::vector<std::string>> extra_collections;  // Per-agent cross-agent search
+    std::string match_mode = "mask";  // v2026.4.1: "mask" (default) or "glob"
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(MemoryQmdConfig, extra_collections, match_mode)
+
+// v2026.3.31: Node command security config
+struct NodeCommandConfig {
+    bool require_pairing_approval = true;  // v2026.3.31: Disabled until pairing approval
+    bool reduced_trusted_surface = true;   // v2026.3.31: Node-originated runs on reduced surface
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(NodeCommandConfig, require_pairing_approval, reduced_trusted_surface)
+
 struct Config {
     GatewayConfig gateway;
     std::vector<ProviderConfig> providers;
@@ -261,8 +315,17 @@ struct Config {
     std::optional<AudioConfig> audio;                   // v2026.3.11
     std::optional<CliBannerConfig> cli_banner;          // v2026.3.7
     std::optional<ContextEngineConfig> context_engine;  // v2026.3.7
+
+    // v2026.3.31/v2026.4.1: New config sections
+    std::optional<AgentDefaultParams> agent_defaults;   // v2026.4.1: Global agent defaults
+    std::optional<AuthCooldownConfig> auth_cooldowns;   // v2026.4.1: Auth cooldown config
+    std::optional<WebchatConfig> webchat;               // v2026.4.1: Webchat config
+    std::optional<SearxngConfig> searxng;               // v2026.3.31: SearXNG web search
+    std::optional<TtsDiagnostics> tts;                  // v2026.3.31: TTS diagnostics
+    std::optional<MemoryQmdConfig> memory_qmd;          // v2026.3.31: Memory QMD config
+    std::optional<NodeCommandConfig> node_commands;     // v2026.3.31: Node command security
 };
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image, model_by_channel, heartbeat, sandbox, http_security, secrets, tools, acp, web_search, talk, audio, cli_banner, context_engine)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Config, gateway, providers, channels, memory, browser, sessions, plugins, cron, log_level, data_dir, subagents, image, model_by_channel, heartbeat, sandbox, http_security, secrets, tools, acp, web_search, talk, audio, cli_banner, context_engine, agent_defaults, auth_cooldowns, webchat, searxng, tts, memory_qmd, node_commands)
 
 /// v2026.2.26: Resolve thread binding policy with cascade:
 /// session config > channel config > global default.

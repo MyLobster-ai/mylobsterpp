@@ -47,6 +47,19 @@ public:
     /// Maps "bedrock", "aws-bedrock", "aws_bedrock", "amazon bedrock" → "amazon-bedrock".
     [[nodiscard]] static auto normalize_provider_alias(std::string_view alias) -> std::string;
 
+    /// v2026.4.1: Guardrails configuration for content filtering.
+    struct GuardrailsConfig {
+        std::string guardrail_identifier;   // Guardrail ID
+        std::string guardrail_version = "DRAFT"; // Version: "DRAFT" or numeric
+        bool trace_enabled = false;          // Include trace in response
+    };
+
+    /// v2026.4.1: Set Guardrails configuration for content filtering.
+    void set_guardrails(const GuardrailsConfig& config);
+
+    /// v2026.4.1: Check if Guardrails is configured.
+    [[nodiscard]] auto has_guardrails() const -> bool;
+
 private:
     /// Build the JSON request body for the Bedrock Converse API.
     auto build_request_body(const CompletionRequest& req) const -> json;
@@ -79,6 +92,7 @@ private:
     std::string region_;
     std::string default_model_;
     infra::HttpClient http_;
+    std::optional<GuardrailsConfig> guardrails_;  // v2026.4.1
 };
 
 } // namespace openclaw::providers

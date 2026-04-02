@@ -29,6 +29,16 @@ struct FeishuConfig {
 
     // v2026.3.8: Markdown table rendering
     bool native_markdown_tables = true;
+
+    // v2026.4.1: Drive comment-event flow
+    bool enable_drive_comments = false;  // Dedicated Drive comment-event flow
+    bool drive_comment_in_thread = true; // Reply within comment thread context
+
+    // v2026.3.31: Streaming support
+    bool enable_reasoning_stream = false; // onReasoningStream/onReasoningEnd support
+
+    // v2026.3.31: Identity-aware card headers
+    bool identity_card_headers = false;
 };
 
 /// v2026.3.7: Feishu (Lark) channel implementation.

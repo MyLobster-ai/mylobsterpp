@@ -368,6 +368,17 @@ auto BedrockProvider::build_request_body(const CompletionRequest& req) const -> 
         body["toolConfig"] = tool_config;
     }
 
+    // v2026.4.1: Guardrails configuration for content filtering
+    if (guardrails_.has_value()) {
+        json guardrail_config;
+        guardrail_config["guardrailIdentifier"] = guardrails_->guardrail_identifier;
+        guardrail_config["guardrailVersion"] = guardrails_->guardrail_version;
+        if (guardrails_->trace_enabled) {
+            guardrail_config["trace"] = "enabled";
+        }
+        body["guardrailConfig"] = guardrail_config;
+    }
+
     return body;
 }
 
@@ -668,6 +679,17 @@ auto BedrockProvider::normalize_provider_alias(std::string_view alias) -> std::s
     }
 
     return std::string(alias);
+}
+
+// v2026.4.1: Guardrails configuration
+void BedrockProvider::set_guardrails(const GuardrailsConfig& config) {
+    guardrails_ = config;
+    LOG_INFO("[bedrock] Guardrails configured: id={}, version={}",
+             config.guardrail_identifier, config.guardrail_version);
+}
+
+auto BedrockProvider::has_guardrails() const -> bool {
+    return guardrails_.has_value();
 }
 
 } // namespace openclaw::providers

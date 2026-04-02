@@ -38,6 +38,14 @@ void register_cron_handlers(Protocol& protocol,
             }
             bool delete_after_run = params.value("deleteAfterRun", false);
 
+            // v2026.4.1: Per-job tool allowlists via --tools
+            std::optional<std::vector<std::string>> allowed_tools;
+            if (params.contains("tools") && params["tools"].is_array()) {
+                allowed_tools = params["tools"].get<std::vector<std::string>>();
+                LOG_DEBUG("Cron job '{}' configured with {} allowed tools",
+                         name, allowed_tools->size());
+            }
+
             // v2026.2.26: Accept optional sessionKey for task context.
             auto session_key_raw = params.value("sessionKey", "");
             std::optional<std::string> session_key;
@@ -70,6 +78,10 @@ void register_cron_handlers(Protocol& protocol,
             json response = {{"ok", true}, {"name", name}};
             if (session_key) {
                 response["sessionKey"] = *session_key;
+            }
+            // v2026.4.1: Include tool allowlist in response
+            if (allowed_tools) {
+                response["tools"] = *allowed_tools;
             }
             co_return response;
         },

@@ -164,4 +164,25 @@ public:
         -> std::optional<std::pair<std::string, AuthMethod>>;
 };
 
+/// v2026.3.31: Validate trusted-proxy configuration.
+/// Rejects mixed shared-token configs where both gateway auth token and
+/// trusted-proxy token are the same value (potential security misconfiguration).
+/// Local-direct fallback now requires a configured token instead of
+/// implicit same-host authentication.
+[[nodiscard]] auto validate_trusted_proxy_config(
+    const AuthConfig& auth_config,
+    std::optional<std::string_view> proxy_token = std::nullopt) -> bool;
+
+/// v2026.3.31: Check if node commands should be allowed.
+/// Node commands stay disabled until node pairing is approved —
+/// device pairing alone no longer exposes commands.
+[[nodiscard]] auto should_allow_node_commands(
+    const AuthInfo& auth,
+    bool pairing_approved) -> bool;
+
+/// v2026.3.31: Check if a node-originated run should be restricted.
+/// Node-originated runs operate on a reduced trusted surface.
+[[nodiscard]] auto is_node_run_restricted(
+    const AuthInfo& auth) -> bool;
+
 } // namespace openclaw::gateway

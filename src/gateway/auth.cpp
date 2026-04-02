@@ -297,4 +297,61 @@ auto CredentialResolver::resolve(std::string_view auth_header,
     return std::nullopt;
 }
 
+// -- v2026.3.31: Trusted-proxy hardening --
+
+auto validate_trusted_proxy_config(
+    const AuthConfig& auth_config,
+    std::optional<std::string_view> proxy_token) -> bool
+{
+    // v2026.3.31: Reject mixed shared-token configs where both gateway auth
+    // token and trusted-proxy token are the same value.
+    if (auth_config.token && proxy_token) {
+        if (*auth_config.token == *proxy_token) {
+            LOG_ERROR("Security: gateway auth token and trusted-proxy token "
+                     "must not be the same value (mixed shared-token rejected)");
+            return false;
+        }
+    }
+
+    // v2026.3.31: Local-direct fallback requires configured token instead of
+    // implicit same-host authentication.
+    if (auth_config.method == "token" && (!auth_config.token || auth_config.token->empty())) {
+        LOG_ERROR("Security: trusted-proxy mode requires explicit token configuration; "
+                 "implicit same-host fallback is no longer supported");
+        return false;
+    }
+
+    return true;
+}
+
+auto should_allow_node_commands(
+    const AuthInfo& auth,
+    bool pairing_approved) -> bool
+{
+    // v2026.3.31: Node commands stay disabled until node pairing is approved.
+    // Device pairing alone no longer exposes commands.
+    if (!pairing_approved) {
+        LOG_DEBUG("Node commands blocked: pairing not yet approved");
+        return false;
+    }
+
+    // Must have valid authentication
+    if (auth.method == AuthMethod::None) {
+        LOG_DEBUG("Node commands blocked: no authentication");
+        return false;
+    }
+
+    return true;
+}
+
+auto is_node_run_restricted(const AuthInfo& auth) -> bool {
+    // v2026.3.31: Node-originated runs operate on reduced trusted surface.
+    // Returns true if the run should be restricted.
+    if (auth.metadata.contains("node_origin") &&
+        auth.metadata["node_origin"].get<bool>()) {
+        return true;
+    }
+    return false;
+}
+
 } // namespace openclaw::gateway

@@ -77,8 +77,28 @@ auto LineChannel::send(OutgoingMessage msg)
 
     // Attachment messages
     for (const auto& attachment : msg.attachments) {
-        if (attachment.type == "image") {
+        if (attachment.type == "image" && config_.enable_image_send) {
             messages.push_back(make_image_message(attachment.url, attachment.url));
+        } else if (attachment.type == "video" && config_.enable_video_send) {
+            // v2026.3.31: LINE outbound video with preview/tracking
+            std::string preview = attachment.url;
+            if (attachment.extra.contains("preview_url")) {
+                preview = attachment.extra["preview_url"].get<std::string>();
+            }
+            std::optional<std::string_view> tracking;
+            std::string tracking_str;
+            if (attachment.extra.contains("tracking_id")) {
+                tracking_str = attachment.extra["tracking_id"].get<std::string>();
+                tracking = tracking_str;
+            }
+            messages.push_back(make_video_message(attachment.url, preview, tracking));
+        } else if (attachment.type == "audio" && config_.enable_audio_send) {
+            // v2026.3.31: LINE outbound audio
+            int duration = 0;
+            if (attachment.extra.contains("duration_ms")) {
+                duration = attachment.extra["duration_ms"].get<int>();
+            }
+            messages.push_back(make_audio_message(attachment.url, duration));
         } else {
             std::string fname = attachment.filename.value_or("file");
             messages.push_back(make_file_message(attachment.url, fname));
@@ -423,6 +443,34 @@ auto LineChannel::make_file_message(std::string_view url,
     };
 }
 
+// v2026.3.31: Video message with explicit preview and tracking URLs
+auto LineChannel::make_video_message(std::string_view original_url,
+                                      std::string_view preview_url,
+                                      std::optional<std::string_view> tracking_id) -> json
+{
+    json msg = {
+        {"type", "video"},
+        {"originalContentUrl", std::string(original_url)},
+        {"previewImageUrl", std::string(preview_url)},
+    };
+    if (tracking_id) {
+        msg["trackingId"] = std::string(*tracking_id);
+    }
+    return msg;
+}
+
+// v2026.3.31: Audio message with duration
+auto LineChannel::make_audio_message(std::string_view original_url,
+                                      int duration_ms) -> json
+{
+    json msg = {
+        {"type", "audio"},
+        {"originalContentUrl", std::string(original_url)},
+        {"duration", duration_ms > 0 ? duration_ms : 60000},  // Default 60s if unknown
+    };
+    return msg;
+}
+
 auto LineChannel::get_message_content(std::string_view message_id)
     -> boost::asio::awaitable<openclaw::Result<std::string>>
 {
@@ -477,6 +525,11 @@ auto make_line_channel(const json& settings, boost::asio::io_context& ioc)
     config.channel_secret = settings.value("channel_secret", "");
     config.channel_name = settings.value("channel_name", "line");
     config.webhook_port = settings.value("webhook_port", static_cast<uint16_t>(0));
+
+    // v2026.3.31: Outbound media flags
+    config.enable_image_send = settings.value("enable_image_send", true);
+    config.enable_video_send = settings.value("enable_video_send", true);
+    config.enable_audio_send = settings.value("enable_audio_send", true);
 
     if (config.channel_access_token.empty()) {
         LOG_ERROR("[line] channel_access_token is required in channel settings");

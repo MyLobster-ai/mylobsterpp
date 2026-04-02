@@ -55,6 +55,7 @@ file(GLOB_RECURSE LIB_SOURCES
     src/cron/*.cpp
     src/infra/*.cpp
     src/context_engine/*.cpp
+    src/tasks/*.cpp
 )
 
 # Library target

@@ -209,6 +209,14 @@ auto make_feishu_channel(const json& settings, boost::asio::io_context& ioc)
     config.observer_session_isolation = settings.value("observer_session_isolation", true);
     config.native_markdown_tables = settings.value("native_markdown_tables", true);
 
+    // v2026.4.1: Drive comment-event flow
+    config.enable_drive_comments = settings.value("enable_drive_comments", false);
+    config.drive_comment_in_thread = settings.value("drive_comment_in_thread", true);
+
+    // v2026.3.31: Streaming and identity card headers
+    config.enable_reasoning_stream = settings.value("enable_reasoning_stream", false);
+    config.identity_card_headers = settings.value("identity_card_headers", false);
+
     if (config.app_id.empty() || config.app_secret.empty()) {
         LOG_ERROR("[feishu] app_id and app_secret are required in channel settings");
         return nullptr;

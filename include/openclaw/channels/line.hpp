@@ -21,6 +21,11 @@ struct LineConfig {
     std::string channel_secret;
     std::string channel_name = "line";
     uint16_t webhook_port = 0;  // 0 = no local webhook server
+
+    // v2026.3.31: Outbound media support
+    bool enable_image_send = true;   // Send images via LINE image message
+    bool enable_video_send = true;   // Send videos with preview/tracking URLs
+    bool enable_audio_send = true;   // Send audio via LINE audio message
 };
 
 /// LINE Messaging API channel implementation.
@@ -73,6 +78,15 @@ private:
     /// Builds a file/document message object for the LINE API (via Flex Message).
     static auto make_file_message(std::string_view url,
                                    std::string_view filename) -> json;
+
+    /// v2026.3.31: Builds a video message object with preview and tracking URLs.
+    static auto make_video_message(std::string_view original_url,
+                                    std::string_view preview_url,
+                                    std::optional<std::string_view> tracking_id = std::nullopt) -> json;
+
+    /// v2026.3.31: Builds an audio message object for the LINE API.
+    static auto make_audio_message(std::string_view original_url,
+                                    int duration_ms = 0) -> json;
 
     /// Fetches the content of a message (for retrieving images, files, etc.).
     auto get_message_content(std::string_view message_id)

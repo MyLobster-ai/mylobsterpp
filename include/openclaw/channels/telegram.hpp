@@ -62,6 +62,10 @@ struct TelegramConfig {
 
     // v2026.3.8: Network proxy support
     std::optional<std::string> proxy_url;
+
+    // v2026.4.1: Configurable error policy and cooldown
+    std::string error_policy = "default";  // "default", "suppress", "log-only"
+    int error_cooldown_ms = 60000;         // Per-account/chat/topic error suppression cooldown
 };
 
 /// Telegram channel implementation using the Bot API.

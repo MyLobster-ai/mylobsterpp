@@ -20,6 +20,8 @@ MatrixChannel::MatrixChannel(MatrixConfig config, boost::asio::io_context& ioc)
               {"Authorization", "Bearer " + config_.access_token},
               {"Content-Type", "application/json"},
           },
+          // v2026.3.31: HTTP(S) proxy support
+          .proxy_url = config_.proxy.value_or(""),
       })
 {
 }
@@ -194,6 +196,120 @@ auto MatrixChannel::sync_loop() -> boost::asio::awaitable<void> {
 }
 
 // ---------------------------------------------------------------------------
+// v2026.3.31: Draft streaming — send and edit messages in place
+// ---------------------------------------------------------------------------
+
+auto MatrixChannel::send_draft(std::string_view room_id, std::string_view text)
+    -> boost::asio::awaitable<openclaw::Result<std::string>>
+{
+    auto txn_id = utils::generate_id(16);
+    std::string path = "/_matrix/client/v3/rooms/" +
+                       std::string(room_id) +
+                       "/send/m.room.message/" + txn_id;
+
+    json payload = {
+        {"msgtype", "m.text"},
+        {"body", std::string(text)},
+    };
+
+    auto response = co_await http_.put(path, payload.dump());
+    if (!response) {
+        co_return make_fail(response.error());
+    }
+    if (!response->is_success()) {
+        co_return make_fail(
+            make_error(ErrorCode::ChannelError,
+                       "Matrix send_draft failed",
+                       "status=" + std::to_string(response->status)));
+    }
+
+    try {
+        auto body = json::parse(response->body);
+        co_return body.value("event_id", "");
+    } catch (const json::exception& e) {
+        co_return make_fail(
+            make_error(ErrorCode::SerializationError,
+                       "Failed to parse Matrix send response", e.what()));
+    }
+}
+
+auto MatrixChannel::edit_message(std::string_view room_id,
+                                  std::string_view event_id,
+                                  std::string_view new_text)
+    -> boost::asio::awaitable<openclaw::Result<void>>
+{
+    auto txn_id = utils::generate_id(16);
+    std::string path = "/_matrix/client/v3/rooms/" +
+                       std::string(room_id) +
+                       "/send/m.room.message/" + txn_id;
+
+    json payload = {
+        {"msgtype", "m.text"},
+        {"body", "* " + std::string(new_text)},
+        {"m.new_content", {
+            {"msgtype", "m.text"},
+            {"body", std::string(new_text)},
+        }},
+        {"m.relates_to", {
+            {"rel_type", "m.replace"},
+            {"event_id", std::string(event_id)},
+        }},
+    };
+
+    auto response = co_await http_.put(path, payload.dump());
+    if (!response) {
+        co_return make_fail(response.error());
+    }
+    if (!response->is_success()) {
+        co_return make_fail(
+            make_error(ErrorCode::ChannelError,
+                       "Matrix edit_message failed",
+                       "status=" + std::to_string(response->status)));
+    }
+
+    co_return ok_result();
+}
+
+auto MatrixChannel::fetch_room_history(std::string_view room_id, int limit)
+    -> boost::asio::awaitable<openclaw::Result<json>>
+{
+    std::string path = "/_matrix/client/v3/rooms/" +
+                       std::string(room_id) +
+                       "/messages?dir=b&limit=" + std::to_string(limit);
+
+    // v2026.3.31: Per-room watermarks for retry-safe snapshots
+    auto it = room_history_watermarks_.find(std::string(room_id));
+    if (it != room_history_watermarks_.end()) {
+        path += "&from=" + it->second;
+    }
+
+    auto response = co_await http_.get(path);
+    if (!response) {
+        co_return make_fail(response.error());
+    }
+    if (!response->is_success()) {
+        co_return make_fail(
+            make_error(ErrorCode::ChannelError,
+                       "Matrix fetch_room_history failed",
+                       "status=" + std::to_string(response->status)));
+    }
+
+    try {
+        auto body = json::parse(response->body);
+        // Update watermark for next fetch
+        if (body.contains("end")) {
+            room_history_watermarks_[std::string(room_id)] =
+                body["end"].get<std::string>();
+        }
+        co_return body;
+    } catch (const json::exception& e) {
+        co_return make_fail(
+            make_error(ErrorCode::SerializationError,
+                       "Failed to parse Matrix messages response", e.what()));
+    }
+}
+
+// ---------------------------------------------------------------------------
 // Factory
 // ---------------------------------------------------------------------------
 
@@ -211,6 +327,24 @@ auto make_matrix_channel(const json& settings, boost::asio::io_context& ioc)
     if (settings.contains("room_bindings")) {
         config.room_bindings = settings["room_bindings"];
     }
+
+    // v2026.3.31: History limit, proxy, draft streaming, thread replies
+    if (settings.contains("history_limit")) {
+        config.history_limit = settings.at("history_limit").get<int>();
+    }
+    if (settings.contains("proxy")) {
+        config.proxy = settings.at("proxy").get<std::string>();
+    }
+    config.draft_streaming = settings.value("draft_streaming", false);
+    if (settings.contains("thread_replies")) {
+        config.thread_replies = settings["thread_replies"];
+    }
+
+    // v2026.4.1: Bot and private network settings
+    if (settings.contains("allow_bots")) {
+        config.allow_bots = settings.at("allow_bots").get<std::string>();
+    }
+    config.allow_private_network = settings.value("allow_private_network", false);
 
     if (config.homeserver_url.empty() || config.access_token.empty()) {
         LOG_ERROR("[matrix] homeserver_url and access_token are required in channel settings");

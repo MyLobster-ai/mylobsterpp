@@ -2,6 +2,114 @@
 
 All notable changes to MyLobster++ are documented in this file.
 
+## v2026.4.1
+
+Full OpenClaw v2026.4.1 parity release. Spans v2026.3.31 through v2026.4.1 upstream changes.
+
+### Background Tasks System (v2026.3.31/v2026.4.1)
+
+New `tasks` module with SQLite-backed background task registry:
+- `TaskRegistry` — unified task lifecycle for ACP, subagent, cron, and background CLI execution
+- `TaskRecord` with status (Pending/Running/Completed/Failed/Cancelled/Blocked/Lost), origin tracking, agent/session/flow linkage
+- `TaskFlow` — groups related tasks with aggregate status tracking
+- `TaskListParams` with filtering (status, agent, flow, origin), paging, sorting
+- `maintenance_sweep()` marks stale running tasks as lost, prunes old completed tasks
+- `recheck_before_mark()` (v2026.4.1) — re-check task state before marking as lost or pruning
+- Gateway RPC: `tasks.list`, `tasks.show`, `tasks.cancel`, `tasks.create`, `tasks.flows.list`, `tasks.flows.show`
+- v2026.4.1: `/tasks` chat-native background task board with recent task details and agent-local fallback counts
+- v2026.4.1: Hide stale completed background tasks by default; prefer live task context
+
+### Breaking Changes (v2026.3.31)
+
+- **Gateway/auth**: `trusted-proxy` now rejects mixed shared-token configs; local-direct fallback requires configured token instead of implicit same-host authentication
+- **Gateway/node commands**: Node commands stay disabled until node pairing is approved (device pairing alone no longer exposes commands)
+- **Gateway/node events**: Node-originated runs on reduced trusted surface
+
+### Channel Enhancements
+
+#### LINE (v2026.3.31)
+- **Outbound media**: Full image, video, and audio outbound send support
+- `make_video_message()` with explicit `previewImageUrl` and optional `trackingId`
+- `make_audio_message()` with duration (defaults to 60s if unknown)
+- `LineConfig` gains `enable_image_send`, `enable_video_send`, `enable_audio_send` flags
+
+#### Matrix (v2026.3.31/v2026.4.1)
+- **History context**: Optional `history_limit` for room context with per-room watermarks and retry-safe snapshots
+- **Proxy support**: `proxy` config field for HTTP(S) proxy routing to homeserver
+- **Draft streaming**: `draft_streaming` mode updates same message in place via `m.replace` relation
+- **Thread replies**: Per-DM `thread_replies` overrides with aligned thread session isolation
+- `send_draft()` and `edit_message()` methods for in-place message updates
+- `fetch_room_history()` with per-room watermark tracking
+- v2026.4.1: `allow_bots` room policy ("none"/"mentions"/"all")
+- v2026.4.1: Per-account `allow_private_network` opt-in
+
+#### Telegram (v2026.4.1)
+- **Error policy**: Configurable `error_policy` ("default"/"suppress"/"log-only") for controlling delivery error visibility
+- **Error cooldown**: `error_cooldown_ms` (default 60000) for per-account/chat/topic error suppression
+
+#### WhatsApp (v2026.3.31)
+- **Reactions**: `reaction_level` config ("none"/"auto"/"guided") for agent emoji reaction guidance
+
+#### Feishu (v2026.4.1)
+- **Drive comments**: Dedicated Drive comment-event flow with `enable_drive_comments` and `drive_comment_in_thread` config
+- **Streaming**: `enable_reasoning_stream` for `onReasoningStream`/`onReasoningEnd` support
+- **Card headers**: `identity_card_headers` for identity-aware structured card headers and note footers
+
+### Provider Updates
+
+#### Amazon Bedrock (v2026.4.1)
+- **Guardrails support**: `GuardrailsConfig` struct with `guardrail_identifier`, `guardrail_version`, and `trace_enabled`
+- `set_guardrails()` and `has_guardrails()` methods
+- Guardrails config included in Converse API `guardrailConfig` field
+
+### Configuration (v2026.3.31/v2026.4.1)
+
+New config sections and fields:
+- `AgentDefaultParams` — `agents.defaults.params` for global default provider parameters (v2026.4.1)
+- `AuthCooldownConfig` — `auth.cooldowns.rateLimitedProfileRotations` for rate-limit failover capping (v2026.4.1)
+- `WebchatConfig` — `gateway.webchat.chatHistoryMaxChars` for configurable text truncation (v2026.4.1)
+- `SearxngConfig` — bundled SearXNG provider plugin for `web_search` with configurable host (v2026.3.31)
+- `TtsDiagnostics` — structured provider diagnostics and fallback attempt analytics (v2026.3.31); `voice_wake` option (v2026.4.1)
+- `MemoryQmdConfig` — per-agent `extraCollections` for cross-agent session search; `match_mode` prefers "mask" over "glob" (v2026.4.1)
+- `NodeCommandConfig` — `require_pairing_approval` and `reduced_trusted_surface` security controls (v2026.3.31)
+- `CronJobToolsConfig` — `allowed_tools` for per-job tool allowlists via `openclaw cron --tools` (v2026.4.1)
+
+### Cron Enhancements (v2026.4.1)
+
+- **Per-job tool allowlists**: `cron.create` RPC accepts `tools` parameter for restricting available tools per scheduled job
+
+### Security Hardening (v2026.3.31/v2026.4.1)
+
+- **Trusted-proxy validation**: `validate_trusted_proxy_config()` rejects mixed shared-token configs; requires configured token for local-direct fallback
+- **Node command gating**: `should_allow_node_commands()` requires both valid authentication AND approved node pairing
+- **Node run restriction**: `is_node_run_restricted()` detects node-originated runs for reduced trusted surface enforcement
+- **Agents/compaction**: Consistent `agents.defaults.compaction.model` resolution for manual `/compact` and context-engine paths (v2026.4.1)
+- **Agents/failover**: Cap same-provider auth-profile retries for rate-limit failures before cross-provider model fallback (v2026.4.1)
+
+### Build & Packaging
+
+- CMake `src/tasks/*.cpp` added to GLOB_RECURSE sources
+- New header: `include/openclaw/tasks/task_registry.hpp`
+- New header: `include/openclaw/gateway/tasks_handler.hpp`
+
+### Tests
+
+Added 10 Catch2 test files covering v2026.3.31/v2026.4.1 features:
+
+| File | Coverage |
+|------|----------|
+| `tests/tasks/test_task_registry.cpp` | TaskStatus/TaskOrigin enums, TaskRecord/TaskFlow JSON, TaskListParams defaults |
+| `tests/channels/test_line_v4_1.cpp` | LineConfig media flags, make_video_message, make_audio_message, factory |
+| `tests/channels/test_matrix_v4_1.cpp` | MatrixConfig enhancements, history_limit, proxy, draft_streaming, factory |
+| `tests/channels/test_telegram_v4_1.cpp` | TelegramConfig error policy and cooldown |
+| `tests/channels/test_whatsapp_v4_1.cpp` | WhatsAppConfig reaction_level |
+| `tests/channels/test_feishu_v4_1.cpp` | FeishuConfig Drive comments, streaming, card headers, factory |
+| `tests/providers/test_bedrock_v4_1.cpp` | BedrockProvider GuardrailsConfig defaults and values |
+| `tests/core/test_config_v4_1.cpp` | AgentDefaultParams, AuthCooldownConfig, WebchatConfig, SearxngConfig, TtsDiagnostics, MemoryQmdConfig, NodeCommandConfig, CronJobToolsConfig, Config JSON round-trip |
+| `tests/gateway/test_security_v4_1.cpp` | validate_trusted_proxy_config, should_allow_node_commands, is_node_run_restricted |
+
+---
+
 ## v2026.3.11
 
 Full OpenClaw v2026.3.11 parity release. Spans v2026.3.3 through v2026.3.11 (~1,388 upstream commits).
