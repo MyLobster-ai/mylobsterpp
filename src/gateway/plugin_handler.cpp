@@ -1,6 +1,7 @@
 #include "openclaw/gateway/plugin_handler.hpp"
 
 #include <boost/asio/use_awaitable.hpp>
+#include <chrono>
 
 #include "openclaw/core/logger.hpp"
 
@@ -116,6 +117,42 @@ void register_plugin_handlers(Protocol& protocol,
             };
         },
         "Get plugin runtime status", "plugin");
+
+    // plugin.approval.request — request approval for a plugin action.
+    protocol.register_method("plugin.approval.request",
+        []([[maybe_unused]] json params) -> awaitable<json> {
+            auto plugin_name = params.value("pluginName", "");
+            auto action = params.value("action", "");
+            auto two_phase = params.value("twoPhase", false);
+            auto id = "appr-" + std::to_string(
+                std::chrono::system_clock::now().time_since_epoch().count());
+            co_return json{
+                {"ok", true},
+                {"payload", {
+                    {"id", id},
+                    {"pluginName", plugin_name},
+                    {"action", action},
+                    {"status", "pending"},
+                }},
+            };
+        },
+        "Request plugin action approval", "plugin");
+
+    // plugin.approval.resolve — resolve a pending approval.
+    protocol.register_method("plugin.approval.resolve",
+        []([[maybe_unused]] json params) -> awaitable<json> {
+            auto id = params.value("id", "");
+            auto decision = params.value("decision", "deny");
+            co_return json{
+                {"ok", true},
+                {"payload", {
+                    {"id", id},
+                    {"decision", decision},
+                    {"status", "resolved"},
+                }},
+            };
+        },
+        "Resolve plugin approval", "plugin");
 
     LOG_INFO("Registered plugin handlers");
 }

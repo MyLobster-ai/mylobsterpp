@@ -269,6 +269,52 @@ void register_system_handlers(Protocol& protocol,
         },
         "Compact session transcript", "sessions");
 
+    // sessions.create — create a new session.
+    protocol.register_method("sessions.create",
+        []([[maybe_unused]] json params) -> awaitable<json> {
+            auto key = params.value("key", "");
+            auto name = params.value("name", "New Session");
+            co_return json{
+                {"ok", true},
+                {"session", {
+                    {"key", key.empty() ? "sess-default" : key},
+                    {"name", name},
+                    {"status", "active"},
+                }},
+            };
+        },
+        "Create session (OpenClaw format)", "sessions");
+
+    // sessions.send — send a message to a session.
+    protocol.register_method("sessions.send",
+        []([[maybe_unused]] json params) -> awaitable<json> {
+            auto key = params.value("key", "");
+            co_return json{{"ok", true}, {"key", key}, {"queued", true}};
+        },
+        "Send message to session", "sessions");
+
+    // sessions.abort — abort an active session run.
+    protocol.register_method("sessions.abort",
+        []([[maybe_unused]] json params) -> awaitable<json> {
+            auto key = params.value("key", "");
+            co_return json{{"ok", true}, {"key", key}, {"aborted", true}};
+        },
+        "Abort active session run", "sessions");
+
+    // tools.effective — list effective tools for a session.
+    protocol.register_method("tools.effective",
+        []([[maybe_unused]] json params) -> awaitable<json> {
+            auto session_key = params.value("sessionKey", "");
+            auto profile = params.value("profile", "full");
+            co_return json{
+                {"ok", true},
+                {"agentId", "mylobsterpp"},
+                {"profile", profile},
+                {"groups", json::array()},
+            };
+        },
+        "List effective tools for session", "system");
+
     // chat.history — retrieve conversation history.
     protocol.register_method("chat.history",
         []([[maybe_unused]] json params) -> awaitable<json> {

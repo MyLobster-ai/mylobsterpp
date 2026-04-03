@@ -675,7 +675,13 @@ auto GatewayServer::handle_connection(tcp::socket socket) -> awaitable<void> {
             if (!infra::verify_device_signature(dev_pub_key, payload, dev_signature)) {
                 LOG_WARN("Connection {}: device signature verification failed (v{})",
                          conn_id, payload_version);
-                granted_scopes.clear();
+                json error_resp = {
+                    {"type", "handshake"},
+                    {"ok", false},
+                    {"error", {{"code", "UNAUTHORIZED"}, {"message", "Device signature verification failed"}}},
+                };
+                co_await ws.async_write(boost::asio::buffer(error_resp.dump()), boost::asio::use_awaitable);
+                co_return;
             } else {
                 has_valid_device = true;
                 device_pub_key = dev_pub_key;
