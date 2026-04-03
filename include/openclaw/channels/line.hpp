@@ -51,6 +51,15 @@ public:
     [[nodiscard]] auto verify_signature(std::string_view body,
                                          std::string_view signature) const -> bool;
 
+    /// v2026.3.31: Builds a video message object with preview and tracking URLs.
+    static auto make_video_message(std::string_view original_url,
+                                    std::string_view preview_url,
+                                    std::optional<std::string_view> tracking_id = std::nullopt) -> json;
+
+    /// v2026.3.31: Builds an audio message object for the LINE API.
+    static auto make_audio_message(std::string_view original_url,
+                                    int duration_ms = 0) -> json;
+
 private:
     /// Processes a single LINE webhook event.
     auto process_event(const json& event) -> void;
@@ -78,15 +87,6 @@ private:
     /// Builds a file/document message object for the LINE API (via Flex Message).
     static auto make_file_message(std::string_view url,
                                    std::string_view filename) -> json;
-
-    /// v2026.3.31: Builds a video message object with preview and tracking URLs.
-    static auto make_video_message(std::string_view original_url,
-                                    std::string_view preview_url,
-                                    std::optional<std::string_view> tracking_id = std::nullopt) -> json;
-
-    /// v2026.3.31: Builds an audio message object for the LINE API.
-    static auto make_audio_message(std::string_view original_url,
-                                    int duration_ms = 0) -> json;
 
     /// Fetches the content of a message (for retrieving images, files, etc.).
     auto get_message_content(std::string_view message_id)
