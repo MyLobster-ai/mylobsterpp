@@ -82,21 +82,21 @@ auto LineChannel::send(OutgoingMessage msg)
         } else if (attachment.type == "video" && config_.enable_video_send) {
             // v2026.3.31: LINE outbound video with preview/tracking
             std::string preview = attachment.url;
-            if (attachment.extra.contains("preview_url")) {
-                preview = attachment.extra["preview_url"].get<std::string>();
+            if (msg.extra.contains("preview_url")) {
+                preview = msg.extra["preview_url"].get<std::string>();
             }
             std::optional<std::string_view> tracking;
             std::string tracking_str;
-            if (attachment.extra.contains("tracking_id")) {
-                tracking_str = attachment.extra["tracking_id"].get<std::string>();
+            if (msg.extra.contains("tracking_id")) {
+                tracking_str = msg.extra["tracking_id"].get<std::string>();
                 tracking = tracking_str;
             }
             messages.push_back(make_video_message(attachment.url, preview, tracking));
         } else if (attachment.type == "audio" && config_.enable_audio_send) {
             // v2026.3.31: LINE outbound audio
             int duration = 0;
-            if (attachment.extra.contains("duration_ms")) {
-                duration = attachment.extra["duration_ms"].get<int>();
+            if (msg.extra.contains("duration_ms")) {
+                duration = msg.extra["duration_ms"].get<int>();
             }
             messages.push_back(make_audio_message(attachment.url, duration));
         } else {

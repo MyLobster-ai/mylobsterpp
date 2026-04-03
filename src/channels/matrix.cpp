@@ -20,8 +20,6 @@ MatrixChannel::MatrixChannel(MatrixConfig config, boost::asio::io_context& ioc)
               {"Authorization", "Bearer " + config_.access_token},
               {"Content-Type", "application/json"},
           },
-          // v2026.3.31: HTTP(S) proxy support
-          .proxy_url = config_.proxy.value_or(""),
       })
 {
 }
