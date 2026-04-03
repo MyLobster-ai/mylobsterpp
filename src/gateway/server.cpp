@@ -675,16 +675,7 @@ auto GatewayServer::handle_connection(tcp::socket socket) -> awaitable<void> {
             if (!infra::verify_device_signature(dev_pub_key, payload, dev_signature)) {
                 LOG_WARN("Connection {}: device signature verification failed (v{})",
                          conn_id, payload_version);
-                auto err_resp = make_response(connect_req.id, json{
-                    {"type", "hello-error"},
-                    {"ok", false},
-                    {"error", {{"code", "UNAUTHORIZED"}, {"message", "Device signature verification failed"}}},
-                });
-                ws.text(true);
-                co_await ws.async_write(
-                    net::buffer(serialize_frame(Frame{err_resp})),
-                    net::use_awaitable);
-                co_return;
+                granted_scopes.clear();
             } else {
                 has_valid_device = true;
                 device_pub_key = dev_pub_key;
