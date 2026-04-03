@@ -274,7 +274,7 @@ auto TaskRegistry::get_task(std::string_view task_id) -> Result<TaskRecord> {
         stmt.bind(1, std::string(task_id));
 
         if (!stmt.executeStep()) {
-            return make_error("task not found: " + std::string(task_id));
+            return std::unexpected(make_error(ErrorCode::NotFound, "task not found: " + std::string(task_id)));
         }
 
         TaskRecord r;
@@ -326,7 +326,7 @@ auto TaskRegistry::update_status(std::string_view task_id, TaskStatus status,
         auto changed = stmt.exec();
 
         if (changed == 0) {
-            return make_error("task not found: " + std::string(task_id));
+            return std::unexpected(make_error(ErrorCode::NotFound, "task not found: " + std::string(task_id)));
         }
 
         // Sync parent flow if linked
@@ -359,12 +359,12 @@ auto TaskRegistry::update_status(std::string_view task_id, TaskStatus status,
 
 auto TaskRegistry::cancel_task(std::string_view task_id) -> Result<void> {
     auto result = get_task(task_id);
-    if (!result) return make_error(result.error().what());
+    if (!result) return std::unexpected(make_error(ErrorCode::InternalError, result.error().what()));
 
     auto& task = *result;
     if (task.status == TaskStatus::Completed ||
         task.status == TaskStatus::Cancelled) {
-        return make_error("task already finished: " + std::string(task_id));
+        return std::unexpected(make_error(ErrorCode::InvalidArgument, "task already finished: " + std::string(task_id)));
     }
 
     return update_status(task_id, TaskStatus::Cancelled, "cancelled by user");
@@ -413,7 +413,7 @@ auto TaskRegistry::list_tasks(const TaskListParams& params) -> std::vector<TaskR
             // Numeric bind for the cutoff timestamp
             if (idx == static_cast<int>(binds.size()) && !params.include_completed
                 && !params.status_filter && !params.origin_filter) {
-                stmt.bind(idx++, std::stoll(b));
+                stmt.bind(idx++, static_cast<int64_t>(std::stoll(b)));
             } else {
                 stmt.bind(idx++, b);
             }
@@ -513,7 +513,7 @@ auto TaskRegistry::get_flow(std::string_view flow_id) -> Result<TaskFlow> {
         stmt.bind(1, std::string(flow_id));
 
         if (!stmt.executeStep()) {
-            return make_error("flow not found: " + std::string(flow_id));
+            return std::unexpected(make_error(ErrorCode::NotFound, "flow not found: " + std::string(flow_id)));
         }
 
         TaskFlow f;
@@ -542,7 +542,7 @@ auto TaskRegistry::link_task_to_flow(std::string_view task_id,
         stmt.bind(3, std::string(task_id));
         auto changed = stmt.exec();
         if (changed == 0) {
-            return make_error("task not found");
+            return std::unexpected(make_error(ErrorCode::NotFound, "task not found"));
         }
 
         SQLite::Statement fs(*impl_->db,
