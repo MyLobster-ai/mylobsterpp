@@ -429,4 +429,49 @@ auto MemoryManager::is_ready() const -> bool {
     return impl_ && impl_->ready;
 }
 
+auto MemoryManager::embed(std::string_view text)
+    -> awaitable<Result<std::vector<float>>> {
+    if (!impl_ || !impl_->ready || !impl_->embeddings) {
+        co_return make_fail(
+            make_error(ErrorCode::MemoryError, "Memory system not initialized"));
+    }
+    co_return co_await impl_->embeddings->embed(text);
+}
+
+auto MemoryManager::reindex_all() -> awaitable<Result<size_t>> {
+    if (!impl_ || !impl_->ready) {
+        co_return make_fail(
+            make_error(ErrorCode::MemoryError, "Memory system not initialized"));
+    }
+
+    std::vector<std::pair<std::string, std::string>> rows;  // id, content
+    try {
+        SQLite::Statement stmt(*impl_->meta_db,
+            "SELECT id, content FROM memories");
+        while (stmt.executeStep()) {
+            rows.emplace_back(stmt.getColumn(0).getString(),
+                              stmt.getColumn(1).getString());
+        }
+    } catch (const SQLite::Exception& e) {
+        co_return make_fail(
+            make_error(ErrorCode::DatabaseError,
+                       "Failed to enumerate memories",
+                       e.what()));
+    }
+
+    size_t reindexed = 0;
+    for (const auto& [id, content] : rows) {
+        // Force reindex by clearing the source-hash cache.
+        impl_->source_hashes.erase(id);
+        auto result = co_await reindex(id, content);
+        if (!result) {
+            LOG_WARN("Failed to reindex memory {}: {}", id, result.error().what());
+            continue;
+        }
+        ++reindexed;
+    }
+    LOG_INFO("Reindexed {} memory entries", reindexed);
+    co_return reindexed;
+}
+
 } // namespace openclaw::memory

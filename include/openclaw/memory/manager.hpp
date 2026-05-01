@@ -96,6 +96,14 @@ public:
     auto reindex(std::string_view id, std::string_view new_content)
         -> awaitable<Result<void>>;
 
+    /// Recompute embeddings and rebuild vector index entries for every
+    /// stored memory. Returns the number of entries reindexed.
+    auto reindex_all() -> awaitable<Result<size_t>>;
+
+    /// Generate an embedding for arbitrary text using the configured provider.
+    /// Useful for ad-hoc similarity computations and debug tooling.
+    auto embed(std::string_view text) -> awaitable<Result<std::vector<float>>>;
+
     /// Returns true if the memory system is properly initialized.
     [[nodiscard]] auto is_ready() const -> bool;
 

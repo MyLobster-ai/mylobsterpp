@@ -50,6 +50,15 @@
 
 // Provider factory.
 #include "openclaw/providers/anthropic.hpp"
+#include "openclaw/providers/bedrock.hpp"
+#include "openclaw/providers/gemini.hpp"
+#include "openclaw/providers/huggingface.hpp"
+#include "openclaw/providers/kilocode.hpp"
+#include "openclaw/providers/mistral.hpp"
+#include "openclaw/providers/ollama.hpp"
+#include "openclaw/providers/openai.hpp"
+#include "openclaw/providers/synthetic.hpp"
+#include "openclaw/providers/volcengine.hpp"
 
 // Version string; typically injected by CMake via -D, fallback to a default.
 #ifndef OPENCLAW_VERSION_STRING
@@ -170,16 +179,46 @@ void register_gateway_command(CLI::App& app, Config& config) {
         // Agent runtime with config.
         agent::AgentRuntime runtime(ioc, config);
 
-        // Set up the primary AI provider from config.
+        // Set up the AI providers from config. The first provider with a
+        // non-empty api_key is treated as primary (which is what set_provider()
+        // wires into the agent runtime). Local providers (Ollama) don't need
+        // an API key.
         gateway::ProviderRegistry provider_registry;
+        std::shared_ptr<providers::Provider> primary;
         for (const auto& pc : config.providers) {
+            std::shared_ptr<providers::Provider> provider;
             if (pc.name == "anthropic" && !pc.api_key.empty()) {
-                auto provider = std::make_shared<providers::AnthropicProvider>(
-                    ioc, pc);
-                runtime.set_provider(provider);
-                provider_registry.add(pc.name, provider);
+                provider = std::make_shared<providers::AnthropicProvider>(ioc, pc);
+            } else if (pc.name == "openai" && !pc.api_key.empty()) {
+                provider = std::make_shared<providers::OpenAIProvider>(ioc, pc);
+            } else if (pc.name == "gemini" && !pc.api_key.empty()) {
+                provider = std::make_shared<providers::GeminiProvider>(ioc, pc);
+            } else if (pc.name == "bedrock" && !pc.api_key.empty()) {
+                provider = std::make_shared<providers::BedrockProvider>(ioc, pc);
+            } else if (pc.name == "mistral" && !pc.api_key.empty()) {
+                provider = std::make_shared<providers::MistralProvider>(ioc, pc);
+            } else if (pc.name == "huggingface" && !pc.api_key.empty()) {
+                provider = std::make_shared<providers::HuggingFaceProvider>(ioc, pc);
+            } else if (pc.name == "kilocode" && !pc.api_key.empty()) {
+                provider = std::make_shared<providers::KilocodeProvider>(ioc, pc);
+            } else if (pc.name == "volcengine" && !pc.api_key.empty()) {
+                provider = std::make_shared<providers::VolcEngineProvider>(ioc, pc);
+            } else if (pc.name == "synthetic" && !pc.api_key.empty()) {
+                provider = std::make_shared<providers::SyntheticProvider>(ioc, pc);
+            } else if (pc.name == "ollama") {
+                // Ollama runs locally; no api_key required.
+                provider = std::make_shared<providers::OllamaProvider>(ioc, pc);
+            } else {
+                LOG_WARN("Skipping provider '{}' — unknown name or missing api_key",
+                         pc.name);
+                continue;
             }
-            // TODO: initialize other provider types (openai, gemini, etc.)
+            provider_registry.add(pc.name, provider);
+            if (!primary) {
+                primary = provider;
+                runtime.set_provider(provider);
+                provider_registry.set_primary(pc.name);
+            }
         }
         LOG_INFO("Providers configured: {}", provider_registry.list().size());
 

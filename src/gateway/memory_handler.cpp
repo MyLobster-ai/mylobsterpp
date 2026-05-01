@@ -155,17 +155,35 @@ void register_memory_handlers(Protocol& protocol,
 
     // memory.embed
     protocol.register_method("memory.embed",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            // TODO: expose EmbeddingProvider::embed() when available.
-            co_return json{{"ok", false}, {"error", "Not yet implemented"}};
+        [&memory]([[maybe_unused]] json params) -> awaitable<json> {
+            auto text = params.value("text", "");
+            if (text.empty()) {
+                co_return json{{"ok", false}, {"error", "text is required"}};
+            }
+            auto result = co_await memory.embed(text);
+            if (!result.has_value()) {
+                co_return json{{"ok", false}, {"error", result.error().what()}};
+            }
+            co_return json{
+                {"ok", true},
+                {"embedding", result.value()},
+                {"dimensions", result.value().size()},
+            };
         },
         "Generate embedding for text", "memory");
 
     // memory.index.rebuild
     protocol.register_method("memory.index.rebuild",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            // TODO: trigger full reindex of vector store.
-            co_return json{{"ok", true}, {"message", "Index rebuild started"}};
+        [&memory]([[maybe_unused]] json params) -> awaitable<json> {
+            auto result = co_await memory.reindex_all();
+            if (!result.has_value()) {
+                co_return json{{"ok", false}, {"error", result.error().what()}};
+            }
+            co_return json{
+                {"ok", true},
+                {"reindexed", result.value()},
+                {"message", "Index rebuild complete"},
+            };
         },
         "Rebuild the vector index", "memory");
 
